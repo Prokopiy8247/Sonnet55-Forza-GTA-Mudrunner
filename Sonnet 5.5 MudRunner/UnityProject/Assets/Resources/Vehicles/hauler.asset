@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c3cb317592d2446b21b10b9dad07fc, type: 3}
+  m_Name: Hauler
+  m_EditorClassIdentifier: MudRunner.Runtime::MudRunner.Vehicles.VehicleDefinition
+  displayName: Mammoth 6x6 Hauler
+  description: Heavy 6x6 cargo hauler on huge tyres with high ground clearance. Floats over soft ground and pulls a trailer.
+  mass: 9000
+  centerOfMass: {x: 0, y: 1.05, z: -0.1}
+  bodySize: {x: 2.48, y: 2.45, z: 7.5}
+  bodyCenter: {x: 0, y: 1.775, z: 0.049999952}
+  dragCdA: 3.8
+  groundClearance: 0.55
+  bodyPoints:
+  - {x: -1.24, y: 0.54999995, z: -3.7, w: 0.12}
+  - {x: -1.24, y: 3, z: -3.7, w: 0.12}
+  - {x: -1.24, y: 0.54999995, z: 3.8, w: 0.12}
+  - {x: -1.24, y: 3, z: 3.8, w: 0.12}
+  - {x: 1.24, y: 0.54999995, z: -3.7, w: 0.12}
+  - {x: 1.24, y: 3, z: -3.7, w: 0.12}
+  - {x: 1.24, y: 0.54999995, z: 3.8, w: 0.12}
+  - {x: 1.24, y: 3, z: 3.8, w: 0.12}
+  - {x: 0, y: 0.54999995, z: 0.049999952, w: 0.12}
+  - {x: 0, y: 0.54999995, z: 1.925, w: 0.12}
+  - {x: 0, y: 0.54999995, z: -1.825, w: 0.12}
+  torqueCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 700
+      value: 900
+      inSlope: 1.5
+      outSlope: 1.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1100
+      value: 1500
+      inSlope: 1.3249999
+      outSlope: 1.3249999
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1500
+      value: 1900
+      inSlope: 0.61499995
+      outSlope: 0.61499995
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2000
+      value: 1850
+      inSlope: -0.29833335
+      outSlope: -0.29833335
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2600
+      value: 1450
+      inSlope: -0.82708335
+      outSlope: -0.82708335
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3000
+      value: 1000
+      inSlope: -1.125
+      outSlope: -1.125
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  idleRpm: 650
+  stallRpm: 300
+  redlineRpm: 2800
+  engineInertia: 2.2
+  engineFriction: 60
+  engineBrakingPerKrpm: 20
+  gearbox:
+    forwardRatios:
+    - 6.4
+    - 3.7
+    - 2.2
+    - 1.45
+    - 1
+    - 0.78
+    reverseRatio: 6
+    finalDrive: 5.4
+    lowRangeRatio: 2.4
+    efficiency: 0.88
+    shiftTime: 0.6
+    upshiftRpm: 2300
+    downshiftRpm: 1000
+  frontTorqueShare: 0.34
+  hasLowRange: 1
+  hasAwdSwitch: 1
+  hasCentreDiffLock: 1
+  axles:
+  - name: Front
+    z: 2.4
+    track: 2
+    hubY: 0.76
+    tire:
+      radius: 0.7479677
+      width: 0.584002
+      radialStiffness: 260000
+      lugDepth: 0.034
+      tread: 3
+      inertia: 28
+      rollingResistance: 0.026
+    steerFactor: 1
+    drive: 0
+    canLockDiff: 1
+    brakeTorque: 9000
+    handbrakeTorque: 0
+    springRate: 190000
+    bumpDamping: 16000
+    reboundDamping: 24000
+    travelUp: 0.26
+    travelDown: 0.34
+    restLength: 0.66
+    antiRoll: 70000
+    unsprungMass: 260
+    solidAxle: 1
+  - name: Mid
+    z: -0.5
+    track: 2
+    hubY: 0.76
+    tire:
+      radius: 0.7479677
+      width: 0.584002
+      radialStiffness: 260000
+      lugDepth: 0.034
+      tread: 3
+      inertia: 28
+      rollingResistance: 0.026
+    steerFactor: 0
+    drive: 0
+    canLockDiff: 1
+    brakeTorque: 9000
+    handbrakeTorque: 7000
+    springRate: 190000
+    bumpDamping: 16000
+    reboundDamping: 24000
+    travelUp: 0.26
+    travelDown: 0.34
+    restLength: 0.66
+    antiRoll: 70000
+    unsprungMass: 260
+    solidAxle: 1
+  - name: Rear
+    z: -2
+    track: 2
+    hubY: 0.76
+    tire:
+      radius: 0.7479677
+      width: 0.584002
+      radialStiffness: 260000
+      lugDepth: 0.034
+      tread: 3
+      inertia: 28
+      rollingResistance: 0.026
+    steerFactor: 0
+    drive: 0
+    canLockDiff: 1
+    brakeTorque: 9000
+    handbrakeTorque: 7000
+    springRate: 190000
+    bumpDamping: 16000
+    reboundDamping: 24000
+    travelUp: 0.26
+    travelDown: 0.34
+    restLength: 0.66
+    antiRoll: 70000
+    unsprungMass: 260
+    solidAxle: 1
+  fuelCapacity: 260
+  idleFuelRate: 2.8
+  fullLoadFuelRate: 55
+  hasWinch: 1
+  winchForce: 70000
+  winchLength: 35
+  fordingDepth: 2.580874
+  intakeLocal: {x: 0, y: 2.9, z: 0.72}
+  waterDragArea: 6.5
+  displacedVolume: 9
+  isTrailer: 0
+  hitchLocal: {x: 0, y: 1.08, z: -3.74}
+  drawbarLocal: {x: 0, y: 0.6, z: 3.7}
+  maxTowMass: 16000
+  resilience: 1

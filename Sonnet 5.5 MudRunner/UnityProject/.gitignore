@@ -1,0 +1,46 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emory[Cc]aptures/
+/[Rr]ecordings/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+crashlytics-build.properties
+# IDE
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+# Blender backups (master .blend IS tracked; autosave/backups are not)
+*.blend1
+*.blend2
+*.blend@
+/Backups/
+/BlenderExports/_scratch/
+# OS
+.DS_Store
+Thumbs.db
+# Test/capture scratch
+/Captures/_scratch/
+.worktrees/
+
+# generated captures (screenshots/audio renders); curated shots are copied to Docs/screenshots
+/Captures/
+/BlenderExports/

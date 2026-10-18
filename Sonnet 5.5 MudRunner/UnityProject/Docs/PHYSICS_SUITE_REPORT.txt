@@ -1,0 +1,27 @@
+SUITE == MudRunner automated physics suite (2026-10-17T04:07:06, timescale x3) ==
+SUITE scout static sinkage (z) / net thrust margin: | FirmSoil 0,01m +15,4kN | ShallowMud 0,12m +4,6kN | DeepMud 0,26m +0,8kN | Bog 0,48m -5,6kN
+SUITE utility static sinkage (z) / net thrust margin: | FirmSoil 0,01m +39,3kN | ShallowMud 0,14m +13,9kN | DeepMud 0,30m +6,1kN | Bog 0,63m -13,3kN
+SUITE hauler static sinkage (z) / net thrust margin: | FirmSoil 0,00m +89,0kN | ShallowMud 0,10m +32,0kN | DeepMud 0,23m +18,5kN | Bog 0,43m -7,7kN
+SUITE crossing scout / ShallowMud: open=PASS t=12s sink=0,07m slip=0,12 locked+low=PASS t=17s sink=0,15m slip=0,18  [expected]
+SUITE crossing scout / DeepMud: open=STUCK@5 t=8s sink=0,43m slip=1,00 locked+low=STUCK@6 t=57s sink=0,31m slip=1,00  [expected]
+SUITE crossing scout / Bog: open=STUCK@3 t=8s sink=0,59m slip=1,00 locked+low=STUCK@3 t=57s sink=0,49m slip=1,00  [expected]
+SUITE crossing utility / ShallowMud: open=PASS t=11s sink=0,04m slip=0,11 locked+low=PASS t=16s sink=0,05m slip=0,15  [expected]
+SUITE crossing utility / DeepMud: open=STUCK@12 t=10s sink=0,64m slip=0,92 locked+low=PASS t=28s sink=0,34m slip=0,74  [expected]
+SUITE crossing utility / Bog: open=STUCK@4 t=8s sink=0,61m slip=1,00 locked+low=STUCK@4 t=58s sink=0,40m slip=1,00  [expected]
+SUITE crossing hauler / ShallowMud: open=PASS t=10s sink=0,03m slip=0,08 locked+low=PASS t=19s sink=0,03m slip=0,13  [expected]
+SUITE crossing hauler / DeepMud: open=PASS t=11s sink=0,30m slip=0,27 locked+low=PASS t=21s sink=0,31m slip=0,34  [expected]
+SUITE crossing hauler / Bog: open=STUCK@5 t=8s sink=0,82m slip=0,98 locked+low=STUCK@9 t=56s sink=0,66m slip=0,98  [expected]
+SUITE spin vs controlled throttle (utility from standstill, deep mud, 18 s): spinning: moved 19,6 m, sinkage 0,28 m | controlled: moved 26,4 m, sinkage 0,29 m  [spinning digs deeper / progresses less]
+SUITE hill 18deg mud utility: 2wd=stalled open=stalled locked+low=TOP(34s)  [4x4/locks/low range >= 2WD]
+SUITE hill 18deg mud hauler: 2wd=stalled open=stalled locked+low=TOP(42s)  [4x4/locks/low range >= 2WD]
+SUITE winch recovery (utility, bog): stuck at z=16,3 attached=True recovered=True in 41s peak tension 17,4 kN
+SUITE ford scout (current 1.5 m/s): 0,4m=OK 0,8m=OK 1,2m=OK 1,6m=FAIL 2,0m=FAIL 2,4m=FAIL(stall)  (rated 1,66 m = min(intake height, float depth))  [passes below rating, fails/floats above]
+SUITE ford utility (current 1.5 m/s): 0,4m=OK 0,8m=OK 1,2m=OK 1,6m=OK 2,0m=FAIL 2,4m=FAIL  (rated 1,72 m = min(intake height, float depth))  [passes below rating, fails/floats above]
+SUITE ford hauler (current 1.5 m/s): 0,4m=OK 0,8m=OK 1,2m=OK 1,6m=OK 2,0m=OK 2,4m=OK  (rated 2,58 m = min(intake height, float depth))  [passes below rating; deeper than tested range to fail]
+SUITE rock course scout: completed=True max angular vel 1,12 rad/s, tilt 7 deg, vertical speed 0,7 m/s, axle articulation (L-R strut length diff) 0,17 m
+SUITE rock course utility: completed=True max angular vel 0,61 rad/s, tilt 6 deg, vertical speed 0,8 m/s, axle articulation (L-R strut length diff) 0,25 m
+SUITE rock course hauler: completed=True max angular vel 0,30 rad/s, tilt 4 deg, vertical speed 0,8 m/s, axle articulation (L-R strut length diff) 0,31 m
+SUITE trailer + 2900 kg logs through shallow mud (utility): crossed=True cargo 5/5 max hitch angle 1 deg
+SUITE performance (4 vehicles churning mud, timescale x3): average frame 7,2 ms (139 fps incl. timescale catch-up), worst 16,5 ms, vehicle physics 0,716 ms per fixed step for 4 vehicles, field uploads/frame 0
+SUITE == suite finished: 21 checks passed, 0 unexpected ==
+SUITE_SUMMARY passed=21 failed=0

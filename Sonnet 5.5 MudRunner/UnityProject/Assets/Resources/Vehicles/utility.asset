@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c3cb317592d2446b21b10b9dad07fc, type: 3}
+  m_Name: Utility
+  m_EditorClassIdentifier: MudRunner.Runtime::MudRunner.Vehicles.VehicleDefinition
+  displayName: Bruiser 4x4 Utility Truck
+  description: Balanced 4x4 utility truck with a front winch. Wider mud tyres and low range for slogging.
+  mass: 4200
+  centerOfMass: {x: 0, y: 0.85, z: 0.2}
+  bodySize: {x: 1.99, y: 1.7799997, z: 5.295}
+  bodyCenter: {x: 0, y: 1.23, z: -0.0024998188}
+  dragCdA: 2.2
+  groundClearance: 0.34
+  bodyPoints:
+  - {x: -0.995, y: 0.34000015, z: -2.6499999, w: 0.12}
+  - {x: -0.995, y: 2.12, z: -2.6499999, w: 0.12}
+  - {x: -0.995, y: 0.34000015, z: 2.6450002, w: 0.12}
+  - {x: -0.995, y: 2.12, z: 2.6450002, w: 0.12}
+  - {x: 0.995, y: 0.34000015, z: -2.6499999, w: 0.12}
+  - {x: 0.995, y: 2.12, z: -2.6499999, w: 0.12}
+  - {x: 0.995, y: 0.34000015, z: 2.6450002, w: 0.12}
+  - {x: 0.995, y: 2.12, z: 2.6450002, w: 0.12}
+  - {x: 0, y: 0.34000015, z: -0.0024998188, w: 0.12}
+  - {x: 0, y: 0.34000015, z: 1.3212502, w: 0.12}
+  - {x: 0, y: 0.34000015, z: -1.3262498, w: 0.12}
+  torqueCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 800
+      value: 380
+      inSlope: 0.45
+      outSlope: 0.45
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1200
+      value: 560
+      inSlope: 0.37416667
+      outSlope: 0.37416667
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1800
+      value: 700
+      inSlope: 0.12541665
+      outSlope: 0.12541665
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2600
+      value: 640
+      inSlope: -0.10125001
+      outSlope: -0.10125001
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3400
+      value: 520
+      inSlope: -0.1675
+      outSlope: -0.1675
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 4000
+      value: 400
+      inSlope: -0.2
+      outSlope: -0.2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  idleRpm: 750
+  stallRpm: 350
+  redlineRpm: 4000
+  engineInertia: 0.9
+  engineFriction: 30
+  engineBrakingPerKrpm: 9
+  gearbox:
+    forwardRatios:
+    - 4.6
+    - 2.6
+    - 1.6
+    - 1
+    - 0.75
+    reverseRatio: 4.2
+    finalDrive: 4.9
+    lowRangeRatio: 2.7
+    efficiency: 0.9
+    shiftTime: 0.45
+    upshiftRpm: 3000
+    downshiftRpm: 1100
+  frontTorqueShare: 0.45
+  hasLowRange: 1
+  hasAwdSwitch: 1
+  hasCentreDiffLock: 1
+  axles:
+  - name: Front
+    z: 1.6
+    track: 1.85
+    hubY: 0.54
+    tire:
+      radius: 0.53943014
+      width: 0.36731207
+      radialStiffness: 320000
+      lugDepth: 0.026
+      tread: 2
+      inertia: 11
+      rollingResistance: 0.022
+    steerFactor: 1
+    drive: 1
+    canLockDiff: 1
+    brakeTorque: 5200
+    handbrakeTorque: 0
+    springRate: 95000
+    bumpDamping: 8500
+    reboundDamping: 12500
+    travelUp: 0.22
+    travelDown: 0.28
+    restLength: 0.5
+    antiRoll: 40000
+    unsprungMass: 140
+    solidAxle: 1
+  - name: Rear
+    z: -1.5
+    track: 1.85
+    hubY: 0.54
+    tire:
+      radius: 0.53943014
+      width: 0.36731207
+      radialStiffness: 320000
+      lugDepth: 0.026
+      tread: 2
+      inertia: 11
+      rollingResistance: 0.022
+    steerFactor: 0
+    drive: 0
+    canLockDiff: 1
+    brakeTorque: 4200
+    handbrakeTorque: 4200
+    springRate: 105000
+    bumpDamping: 9000
+    reboundDamping: 13500
+    travelUp: 0.22
+    travelDown: 0.3
+    restLength: 0.5
+    antiRoll: 34000
+    unsprungMass: 150
+    solidAxle: 1
+  fuelCapacity: 110
+  idleFuelRate: 1.4
+  fullLoadFuelRate: 28
+  hasWinch: 1
+  winchForce: 45000
+  winchLength: 30
+  fordingDepth: 1.7156621
+  intakeLocal: {x: -1.045, y: 2.282, z: 0.56}
+  waterDragArea: 4.2
+  displacedVolume: 5
+  isTrailer: 0
+  hitchLocal: {x: 0, y: 0.892, z: -2.62}
+  drawbarLocal: {x: 0, y: 0.6, z: 3.7}
+  maxTowMass: 7000
+  resilience: 1

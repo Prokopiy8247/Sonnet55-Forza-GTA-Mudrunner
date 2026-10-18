@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c3cb317592d2446b21b10b9dad07fc, type: 3}
+  m_Name: Scout
+  m_EditorClassIdentifier: MudRunner.Runtime::MudRunner.Vehicles.VehicleDefinition
+  displayName: Pathfinder 4x4 Scout
+  description: Light 4x4 scout. Nimble and quick on firm ground, but narrow tyres bog down in deep mud.
+  mass: 2000
+  centerOfMass: {x: 0, y: 0.62, z: 0.12}
+  bodySize: {x: 1.32, y: 1.6400001, z: 3.46}
+  bodyCenter: {x: 0, y: 1.0799999, z: 0.029999971}
+  dragCdA: 1.1
+  groundClearance: 0.26
+  bodyPoints:
+  - {x: -0.66, y: 0.25999987, z: -1.7, w: 0.12}
+  - {x: -0.66, y: 1.9, z: -1.7, w: 0.12}
+  - {x: -0.66, y: 0.25999987, z: 1.76, w: 0.12}
+  - {x: -0.66, y: 1.9, z: 1.76, w: 0.12}
+  - {x: 0.66, y: 0.25999987, z: -1.7, w: 0.12}
+  - {x: 0.66, y: 1.9, z: -1.7, w: 0.12}
+  - {x: 0.66, y: 0.25999987, z: 1.76, w: 0.12}
+  - {x: 0.66, y: 1.9, z: 1.76, w: 0.12}
+  - {x: 0, y: 0.25999987, z: 0.029999971, w: 0.12}
+  - {x: 0, y: 0.25999987, z: 0.895, w: 0.12}
+  - {x: 0, y: 0.25999987, z: -0.83500004, w: 0.12}
+  torqueCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 800
+      value: 150
+      inSlope: 0.092857145
+      outSlope: 0.092857145
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1500
+      value: 215
+      inSlope: 0.074357145
+      outSlope: 0.074357145
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2500
+      value: 255
+      inSlope: 0.024249999
+      outSlope: 0.024249999
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3500
+      value: 250
+      inSlope: -0.0155
+      outSlope: -0.0155
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 4500
+      value: 215
+      inSlope: -0.04525
+      outSlope: -0.04525
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 5200
+      value: 170
+      inSlope: -0.06428572
+      outSlope: -0.06428572
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  idleRpm: 850
+  stallRpm: 400
+  redlineRpm: 5200
+  engineInertia: 0.32
+  engineFriction: 18
+  engineBrakingPerKrpm: 9
+  gearbox:
+    forwardRatios:
+    - 3.9
+    - 2.3
+    - 1.5
+    - 1
+    - 0.78
+    reverseRatio: 3.7
+    finalDrive: 4.3
+    lowRangeRatio: 2.5
+    efficiency: 0.9
+    shiftTime: 0.3
+    upshiftRpm: 4200
+    downshiftRpm: 1500
+  frontTorqueShare: 0.4
+  hasLowRange: 1
+  hasAwdSwitch: 1
+  hasCentreDiffLock: 1
+  axles:
+  - name: Front
+    z: 1.25
+    track: 1.5
+    hubY: 0.4
+    tire:
+      radius: 0.3995779
+      width: 0.2321248
+      radialStiffness: 230000
+      lugDepth: 0.014
+      tread: 1
+      inertia: 4.5
+      rollingResistance: 0.02
+    steerFactor: 1
+    drive: 1
+    canLockDiff: 1
+    brakeTorque: 2200
+    handbrakeTorque: 0
+    springRate: 36000
+    bumpDamping: 3600
+    reboundDamping: 5200
+    travelUp: 0.18
+    travelDown: 0.22
+    restLength: 0.4
+    antiRoll: 14000
+    unsprungMass: 70
+    solidAxle: 1
+  - name: Rear
+    z: -1.25
+    track: 1.5
+    hubY: 0.4
+    tire:
+      radius: 0.3995779
+      width: 0.2321248
+      radialStiffness: 230000
+      lugDepth: 0.014
+      tread: 1
+      inertia: 4.5
+      rollingResistance: 0.02
+    steerFactor: 0
+    drive: 0
+    canLockDiff: 1
+    brakeTorque: 1800
+    handbrakeTorque: 2600
+    springRate: 40000
+    bumpDamping: 3800
+    reboundDamping: 5600
+    travelUp: 0.18
+    travelDown: 0.24
+    restLength: 0.4
+    antiRoll: 12000
+    unsprungMass: 70
+    solidAxle: 1
+  fuelCapacity: 55
+  idleFuelRate: 0.7
+  fullLoadFuelRate: 16
+  hasWinch: 0
+  winchForce: 0
+  winchLength: 25
+  fordingDepth: 1.6641139
+  intakeLocal: {x: 0.8, y: 1.835, z: 0.6}
+  waterDragArea: 2.2
+  displacedVolume: 2.2
+  isTrailer: 0
+  hitchLocal: {x: 0, y: 0.397, z: -1.82}
+  drawbarLocal: {x: 0, y: 0.6, z: 3.7}
+  maxTowMass: 6000
+  resilience: 1

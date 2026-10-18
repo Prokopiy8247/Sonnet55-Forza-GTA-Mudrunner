@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GroundMaterial
+  m_Shader: {fileID: 4800000, guid: d3d96b9c129a24f4eb58cfb7f32cdb79, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GR_Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GR_Control0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GR_Control1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GR_Detail:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GR_Height:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GR_Macro:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GR_Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GR_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GR_Params:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors:
+    - _GR_LayerScale0: {r: 0.8, g: 1, b: 1.1, a: 1.3}
+    - _GR_LayerScale1: {r: 0.9, g: 0.7, b: 0.8, a: 1}
+    - _GR_Map: {r: 0, g: 0, b: 1, a: 0.001}
+    - _GR_MapRange: {r: 0, g: 0, b: 1000, a: 1000}
+    - _GR_Misc: {r: 2.5, g: 1, b: 1.6, a: 0}
+    - _GR_Misc2: {r: 1, g: 0.18, b: 1, a: 0}
+    - _GR_Tiling: {r: 0.3125, g: 0.0518, b: 0.0189, a: 0.0885}
+    - _GR_WetSens0: {r: 0.15, g: 0.55, b: 0.8, a: 0.35}
+    - _GR_WetSens1: {r: 1, g: 1, b: 1, a: 0.35}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

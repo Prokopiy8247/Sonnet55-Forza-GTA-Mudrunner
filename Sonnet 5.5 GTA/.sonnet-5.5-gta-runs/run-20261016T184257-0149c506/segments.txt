@@ -1,0 +1,6 @@
+﻿# Segments and known pauses (appended by the Claude Sonnet 5.5 lead session 9630d360-dbea-4514-865b-fe30e8b74a28)
+# The original start_time.txt is unchanged; wall-clock is measured from its first_observed_os_timestamp.
+segment 1: 2026-10-16T18:42:57+02:00 (official start per start_time.txt; Sonnet lead session first tool call 18:46:33) -> ~2026-10-16T23:43:10+02:00 (last agent activity before the account usage limit stopped all agents)
+pause 1  : ~2026-10-16T23:43:10+02:00 -> 2026-10-17T01:02:14+02:00 (~01:19 h) - Claude usage limit reached (agents failed with 'session limit, resets 1am'); user returned and asked to continue
+segment 2: 2026-10-17T01:02:14+02:00 -> (open)
+segment 2 end: 2026-10-17T05:54:59.542+02:00

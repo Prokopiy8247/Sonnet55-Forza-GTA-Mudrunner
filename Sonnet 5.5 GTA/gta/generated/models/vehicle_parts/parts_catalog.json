@@ -1,0 +1,4751 @@
+{
+ "version": 1,
+ "units": "metres",
+ "frame_blender": "+X right, +Y forward, +Z up (origin = ground at wheelbase centre)",
+ "frame_godot": "X right, Y up, -Z forward: pos = (x, z, -y), pitch about X unchanged, scale = (sx, sz, sy)",
+ "glb_dir": "res://gta/generated/models/vehicle_parts/",
+ "parts": {
+  "spoiler_lip": {
+   "group": "spoiler",
+   "origin": "centre of the footprint on the trunk lid; z=0 = lid top (ends droop 5 cm onto the crowned lid)",
+   "use": "small blade on the rear edge of the boot lid",
+   "tris": 80,
+   "size_blender": [
+    1.36,
+    0.194,
+    0.145
+   ],
+   "min_blender": [
+    -0.68,
+    -0.094,
+    -0.07
+   ],
+   "max_blender": [
+    0.68,
+    0.1,
+    0.075
+   ],
+   "materials": [
+    "Paint",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     -2.13,
+     0.962
+    ],
+    "pos_godot": [
+     0.0,
+     0.962,
+     2.13
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "trunk lid rear edge"
+   }
+  },
+  "spoiler_ducktail": {
+   "group": "spoiler",
+   "origin": "centre of the footprint on the trunk lid; z=0 = lid top",
+   "use": "kicked-up duck tail, wider at the tail than at the base, Paint2 insert",
+   "tris": 148,
+   "size_blender": [
+    1.52,
+    0.38,
+    0.236
+   ],
+   "min_blender": [
+    -0.76,
+    -0.229,
+    -0.071
+   ],
+   "max_blender": [
+    0.76,
+    0.15,
+    0.165
+   ],
+   "materials": [
+    "Paint",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     -2.0,
+     0.968
+    ],
+    "pos_godot": [
+     0.0,
+     0.968,
+     2.0
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "trunk lid rear edge"
+   }
+  },
+  "spoiler_wing_low": {
+   "group": "spoiler",
+   "origin": "centre of the footprint on the deck; z=0 = deck top (feet sink 2 cm)",
+   "use": "GT wing on two struts (blade z 0.17..0.23); Paint2 blade, Paint end plates; extra empty `Wing` at the blade centre",
+   "tris": 160,
+   "size_blender": [
+    1.528,
+    0.38,
+    0.307
+   ],
+   "min_blender": [
+    -0.764,
+    -0.19,
+    -0.022
+   ],
+   "max_blender": [
+    0.764,
+    0.19,
+    0.285
+   ],
+   "materials": [
+    "MetalDark",
+    "Paint",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount",
+    "Wing"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     -1.98,
+     0.968
+    ],
+    "pos_godot": [
+     0.0,
+     0.968,
+     1.98
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "trunk lid, rear third"
+   }
+  },
+  "spoiler_wing_high": {
+   "group": "spoiler",
+   "origin": "centre of the footprint on the deck; z=0 = deck top",
+   "use": "two-element wing on swan-neck struts (blade z 0.34..0.46), tall Paint end plates; extra empty `Wing`",
+   "tris": 240,
+   "size_blender": [
+    1.76,
+    0.48,
+    0.572
+   ],
+   "min_blender": [
+    -0.88,
+    -0.255,
+    -0.022
+   ],
+   "max_blender": [
+    0.88,
+    0.225,
+    0.55
+   ],
+   "materials": [
+    "MetalDark",
+    "Paint",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount",
+    "Wing"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     -2.0,
+     0.968
+    ],
+    "pos_godot": [
+     0.0,
+     0.968,
+     2.0
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "trunk lid, rear third"
+   }
+  },
+  "splitter_front": {
+   "group": "aero",
+   "origin": "centre of the plate top at the nose bottom; plate spans y -0.20..+0.13 (rear part hides under the bumper)",
+   "use": "front lip with Paint2 edge and canards",
+   "tris": 96,
+   "size_blender": [
+    1.64,
+    0.33,
+    0.104
+   ],
+   "min_blender": [
+    -0.82,
+    -0.2,
+    -0.032
+   ],
+   "max_blender": [
+    0.82,
+    0.13,
+    0.072
+   ],
+   "materials": [
+    "MetalDark",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     2.3,
+     0.285
+    ],
+    "pos_godot": [
+     0.0,
+     0.285,
+     -2.3
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "under the nose, plate top flush with the bumper underside"
+   }
+  },
+  "bumper_front_sport": {
+   "group": "aero",
+   "origin": "front face centre at the shell bottom (y=0 is the FRONT face, the shell extends 0.15..0.4 behind it, z 0..0.275)",
+   "use": "shell ON the nose: slatted central intake, side intakes, fog lamps (LightHead), black chin lip",
+   "tris": 260,
+   "size_blender": [
+    1.72,
+    0.417,
+    0.275
+   ],
+   "min_blender": [
+    -0.86,
+    -0.397,
+    0.0
+   ],
+   "max_blender": [
+    0.86,
+    0.02,
+    0.275
+   ],
+   "materials": [
+    "LightHead",
+    "Metal",
+    "Paint",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     2.385,
+     0.27
+    ],
+    "pos_godot": [
+     0.0,
+     0.27,
+     -2.385
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "shell sits ON the nose, covers bumper bar + lower valance"
+   }
+  },
+  "bumper_rear_diffuser": {
+   "group": "aero",
+   "origin": "rear face of the valance at the bumper bottom (y=0; the valance is body coloured, the plate runs 0.20 behind it)",
+   "use": "central 5-fin diffuser, Paint2 end strakes, red fog bar (LightTail); exhaust tips stay outboard",
+   "tris": 136,
+   "size_blender": [
+    1.44,
+    0.35,
+    0.21
+   ],
+   "min_blender": [
+    -0.72,
+    -0.21,
+    -0.045
+   ],
+   "max_blender": [
+    0.72,
+    0.14,
+    0.165
+   ],
+   "materials": [
+    "LightTail",
+    "MetalDark",
+    "Paint",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     -2.31,
+     0.27
+    ],
+    "pos_godot": [
+     0.0,
+     0.27,
+     2.31
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "under / on the rear bumper"
+   }
+  },
+  "hood_scoop_a": {
+   "group": "hood",
+   "origin": "centre of the footprint on the hood; z=0 = hood surface (base sinks 4 cm)",
+   "use": "ramp scoop, black intake + 2 vanes on the front face, Paint2 stripe; pitch it to the hood slope",
+   "tris": 108,
+   "size_blender": [
+    0.56,
+    0.628,
+    0.162
+   ],
+   "min_blender": [
+    -0.28,
+    -0.31,
+    -0.04
+   ],
+   "max_blender": [
+    0.28,
+    0.318,
+    0.122
+   ],
+   "materials": [
+    "Metal",
+    "Paint",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     1.35,
+     0.912
+    ],
+    "pos_godot": [
+     0.0,
+     0.912,
+     -1.35
+    ],
+    "pitch_deg": -5.1,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "hood centre, pitched to the hood slope"
+   }
+  },
+  "hood_vents_b": {
+   "group": "hood",
+   "origin": "centre between the two louvre banks (x = +-0.10..0.50); z=0 = hood surface",
+   "use": "two banks of 5 louvres over a black recess",
+   "tris": 144,
+   "size_blender": [
+    1.0,
+    0.5,
+    0.048
+   ],
+   "min_blender": [
+    -0.5,
+    -0.26,
+    -0.012
+   ],
+   "max_blender": [
+    0.5,
+    0.24,
+    0.036
+   ],
+   "materials": [
+    "Paint",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     1.55,
+     0.892
+    ],
+    "pos_godot": [
+     0.0,
+     0.892,
+     -1.55
+    ],
+    "pitch_deg": -5.1,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "hood centre, pitched to the hood slope"
+   }
+  },
+  "roof_scoop": {
+   "group": "roof",
+   "origin": "centre of the footprint on the roof; z=0 = roof top",
+   "use": "Paint2 air box with twin vaned intakes on the front face",
+   "tris": 120,
+   "size_blender": [
+    0.46,
+    0.598,
+    0.189
+   ],
+   "min_blender": [
+    -0.23,
+    -0.3,
+    -0.04
+   ],
+   "max_blender": [
+    0.23,
+    0.298,
+    0.149
+   ],
+   "materials": [
+    "Chrome",
+    "Paint",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     -0.3,
+     1.45
+    ],
+    "pos_godot": [
+     0.0,
+     1.45,
+     0.3
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "flat roof centre"
+   }
+  },
+  "roof_rack": {
+   "group": "roof",
+   "origin": "centre of the rack footprint on the roof; z=0 = roof top (rails z 0.05..0.075, cross bars at 0.077)",
+   "use": "2 rails, 3 cross bars, 4 feet (Metal / MetalDark / Trim)",
+   "tris": 204,
+   "size_blender": [
+    1.154,
+    1.04,
+    0.1
+   ],
+   "min_blender": [
+    -0.577,
+    -0.52,
+    -0.008
+   ],
+   "max_blender": [
+    0.577,
+    0.52,
+    0.092
+   ],
+   "materials": [
+    "Metal",
+    "MetalDark",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     -0.3,
+     1.45
+    ],
+    "pos_godot": [
+     0.0,
+     1.45,
+     0.3
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "flat roof centre"
+   }
+  },
+  "roof_light_bar": {
+   "group": "roof",
+   "origin": "centre of the base on the roof; lamps face +Y",
+   "use": "off-road bar: 6 lamps + 2 side lamps in LampGlow (emissive), Paint2 cap",
+   "tris": 144,
+   "size_blender": [
+    1.024,
+    0.108,
+    0.122
+   ],
+   "min_blender": [
+    -0.512,
+    -0.05,
+    -0.006
+   ],
+   "max_blender": [
+    0.512,
+    0.057,
+    0.116
+   ],
+   "materials": [
+    "LampGlow",
+    "MetalDark",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     0.1,
+     1.45
+    ],
+    "pos_godot": [
+     0.0,
+     1.45,
+     -0.1
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "front edge of the flat roof"
+   }
+  },
+  "skirt_side_sport": {
+   "group": "aero",
+   "origin": "x=0 centre line, y=0 mid-sill, z=0 = bottom of the sill; BOTH skirts in one mesh (x +-0.84..0.97, y +-1.0)",
+   "use": "blades with black lip and Paint2 stripe, tapered ends",
+   "tris": 200,
+   "size_blender": [
+    1.944,
+    2.0,
+    0.193
+   ],
+   "min_blender": [
+    -0.972,
+    -1.0,
+    -0.058
+   ],
+   "max_blender": [
+    0.972,
+    1.0,
+    0.135
+   ],
+   "materials": [
+    "Paint",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     0.0,
+     0.2
+    ],
+    "pos_godot": [
+     0.0,
+     0.2,
+     -0.0
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "between the wheel arches, bottom of the sill"
+   }
+  },
+  "exhaust_tip_single": {
+   "group": "exhaust",
+   "origin": "centre of the OUTLET opening; the pipe runs towards +Y (into the car) for 0.29 m",
+   "use": "chrome flared tip, slash cut, dark inner disc, clamp + stub",
+   "tris": 110,
+   "size_blender": [
+    0.112,
+    0.304,
+    0.112
+   ],
+   "min_blender": [
+    -0.056,
+    -0.014,
+    -0.056
+   ],
+   "max_blender": [
+    0.056,
+    0.29,
+    0.056
+   ],
+   "materials": [
+    "Chrome",
+    "Metal",
+    "MetalDark",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.56,
+     -2.36,
+     0.262
+    ],
+    "pos_godot": [
+     0.56,
+     0.262,
+     2.36
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "at the sedan's Exhaust empty (right side)"
+   }
+  },
+  "exhaust_tip_dual": {
+   "group": "exhaust",
+   "origin": "centre line at the outlet plane; tips at x = +-0.54, pipes towards +Y",
+   "use": "two single tips + hidden cross pipe",
+   "tris": 196,
+   "size_blender": [
+    1.183,
+    0.3,
+    0.101
+   ],
+   "min_blender": [
+    -0.592,
+    -0.01,
+    -0.051
+   ],
+   "max_blender": [
+    0.592,
+    0.29,
+    0.051
+   ],
+   "materials": [
+    "Chrome",
+    "Metal",
+    "MetalDark",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     -2.36,
+     0.262
+    ],
+    "pos_godot": [
+     0.0,
+     0.262,
+     2.36
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "one tip each side (x = +-0.54)"
+   }
+  },
+  "exhaust_tip_quad": {
+   "group": "exhaust",
+   "origin": "centre line at the outlet plane; tips at x = +-0.47 and +-0.60, pipes towards +Y",
+   "use": "two pairs of smaller tips with brackets",
+   "tris": 256,
+   "size_blender": [
+    1.3,
+    0.267,
+    0.076
+   ],
+   "min_blender": [
+    -0.65,
+    -0.007,
+    -0.038
+   ],
+   "max_blender": [
+    0.65,
+    0.26,
+    0.038
+   ],
+   "materials": [
+    "Chrome",
+    "Metal",
+    "MetalDark",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     -2.36,
+     0.262
+    ],
+    "pos_godot": [
+     0.0,
+     0.262,
+     2.36
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "two tips each side (x = +-0.47, +-0.60)"
+   }
+  },
+  "underglow_strip": {
+   "group": "lights",
+   "origin": "centre of the ring on the centre line; z=0 = tube axis; ring 1.48 x 3.80 m",
+   "use": "NeonCyan emissive hex-tube loop (+4 black clips); change the NeonCyan emission colour for other glow colours",
+   "tris": 144,
+   "size_blender": [
+    1.52,
+    3.838,
+    0.097
+   ],
+   "min_blender": [
+    -0.76,
+    -1.919,
+    -0.022
+   ],
+   "max_blender": [
+    0.76,
+    1.919,
+    0.075
+   ],
+   "materials": [
+    "NeonCyan",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     0.0,
+     0.175
+    ],
+    "pos_godot": [
+     0.0,
+     0.175,
+     -0.0
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "under the body, centred on the wheelbase"
+   }
+  },
+  "grille_mesh": {
+   "group": "front",
+   "origin": "centre of the grille opening, faces +Y (y=0 = back plate, the frame protrudes 0.026)",
+   "use": "chrome frame + diamond lattice, drops in front of the stock grille (0.68 x 0.16)",
+   "tris": 204,
+   "size_blender": [
+    0.68,
+    0.038,
+    0.164
+   ],
+   "min_blender": [
+    -0.34,
+    -0.012,
+    -0.082
+   ],
+   "max_blender": [
+    0.34,
+    0.026,
+    0.082
+   ],
+   "materials": [
+    "Chrome",
+    "Metal",
+    "MetalDark",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     2.345,
+     0.632
+    ],
+    "pos_godot": [
+     0.0,
+     0.632,
+     -2.345
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "in front of the stock grille"
+   }
+  },
+  "mirror_sport": {
+   "group": "mirrors",
+   "origin": "centre line at the mirror height; mirrors at x = +-(0.86..1.12), glass faces -Y",
+   "use": "PAIR in one mesh: stalk, Paint housing, Chrome glass, Paint2 fin",
+   "tris": 160,
+   "size_blender": [
+    2.24,
+    0.097,
+    0.113
+   ],
+   "min_blender": [
+    -1.12,
+    -0.045,
+    -0.055
+   ],
+   "max_blender": [
+    1.12,
+    0.052,
+    0.058
+   ],
+   "materials": [
+    "Chrome",
+    "Paint",
+    "Paint2",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.0,
+     0.62,
+     0.99
+    ],
+    "pos_godot": [
+     0.0,
+     0.99,
+     -0.62
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "replaces the door mirrors (x = +-0.86..1.12)"
+   }
+  },
+  "antenna": {
+   "group": "roof",
+   "origin": "centre of the base on the surface; the mast leans 11 deg backwards, 0.65 m tall",
+   "use": "whip antenna: base, spring, 3 telescopic sections, tip",
+   "tris": 140,
+   "size_blender": [
+    0.052,
+    0.142,
+    0.646
+   ],
+   "min_blender": [
+    -0.026,
+    -0.116,
+    0.0
+   ],
+   "max_blender": [
+    0.026,
+    0.026,
+    0.646
+   ],
+   "materials": [
+    "Chrome",
+    "Metal",
+    "MetalDark",
+    "Trim"
+   ],
+   "nodes": [
+    "Body",
+    "Mount"
+   ],
+   "sedan": {
+    "pos_blender": [
+     0.47,
+     -0.65,
+     1.45
+    ],
+    "pos_godot": [
+     0.47,
+     1.45,
+     0.65
+    ],
+    "pitch_deg": 0.0,
+    "scale_blender": [
+     1,
+     1,
+     1
+    ],
+    "scale_godot": [
+     1,
+     1,
+     1
+    ],
+    "note": "roof, rear right"
+   }
+  }
+ },
+ "wheels": {
+  "wheel_stock": {
+   "use": "dished plain cover, 5 black slots, chrome centre cap (OEM look)",
+   "tris": 324,
+   "size_blender": [
+    0.24,
+    0.663,
+    0.68
+   ],
+   "materials": [
+    "Chrome",
+    "Rim",
+    "Tire",
+    "Trim"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.34,
+   "width": 0.24
+  },
+  "wheel_five_spoke": {
+   "use": "classic 5-spoke alloy with chrome hub",
+   "tris": 424,
+   "size_blender": [
+    0.24,
+    0.663,
+    0.68
+   ],
+   "materials": [
+    "Chrome",
+    "MetalDark",
+    "Rim",
+    "Tire"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.34,
+   "width": 0.24
+  },
+  "wheel_split_six": {
+   "use": "6 split (Y) spokes = 12 thin spokes",
+   "tris": 480,
+   "size_blender": [
+    0.24,
+    0.663,
+    0.68
+   ],
+   "materials": [
+    "Chrome",
+    "MetalDark",
+    "Rim",
+    "Tire"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.34,
+   "width": 0.24
+  },
+  "wheel_mesh": {
+   "use": "chrome lip + 6-point lattice (mesh) face",
+   "tris": 480,
+   "size_blender": [
+    0.24,
+    0.663,
+    0.68
+   ],
+   "materials": [
+    "Chrome",
+    "MetalDark",
+    "Rim",
+    "Tire"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.34,
+   "width": 0.24
+  },
+  "wheel_dish": {
+   "use": "deep dish with chrome lip and 5 bolts",
+   "tris": 384,
+   "size_blender": [
+    0.24,
+    0.663,
+    0.68
+   ],
+   "materials": [
+    "Chrome",
+    "Rim",
+    "Tire"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.34,
+   "width": 0.24
+  },
+  "wheel_turbine": {
+   "use": "9 swept turbine blades",
+   "tris": 448,
+   "size_blender": [
+    0.24,
+    0.663,
+    0.68
+   ],
+   "materials": [
+    "Chrome",
+    "Rim",
+    "Tire",
+    "Trim"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.34,
+   "width": 0.24
+  },
+  "wheel_steel_basic": {
+   "use": "pressed steel wheel, 6 holes, hub cap",
+   "tris": 328,
+   "size_blender": [
+    0.24,
+    0.663,
+    0.68
+   ],
+   "materials": [
+    "Metal",
+    "Rim",
+    "Tire",
+    "Trim"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.34,
+   "width": 0.24
+  },
+  "wheel_offroad": {
+   "use": "chunky staggered tread, tall sidewall (rim r 0.205), 5 fat spokes, beadlock bolts",
+   "tris": 476,
+   "size_blender": [
+    0.24,
+    0.663,
+    0.68
+   ],
+   "materials": [
+    "Chrome",
+    "MetalDark",
+    "Rim",
+    "Tire",
+    "Trim"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.34,
+   "width": 0.24
+  },
+  "wheel_lowprofile": {
+   "use": "10 thin spokes, chrome lip, very thin sidewall (rim r 0.285)",
+   "tris": 448,
+   "size_blender": [
+    0.24,
+    0.663,
+    0.68
+   ],
+   "materials": [
+    "Chrome",
+    "MetalDark",
+    "Rim",
+    "Tire"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.34,
+   "width": 0.24
+  },
+  "wheel_mc_sport": {
+   "use": "motorcycle: r 0.31, width 0.17, round-section tyre, 5 spokes + brake disc on both faces",
+   "tris": 452,
+   "size_blender": [
+    0.17,
+    0.604,
+    0.62
+   ],
+   "materials": [
+    "Chrome",
+    "Metal",
+    "MetalDark",
+    "Rim",
+    "Tire"
+   ],
+   "nodes": [
+    "Mount",
+    "Rim",
+    "Tire"
+   ],
+   "radius": 0.31,
+   "width": 0.17
+  }
+ },
+ "vehicles": {
+  "compact": {
+   "anchors": {
+    "half_w": 0.84,
+    "nose": 1.84,
+    "tail": -1.876,
+    "bump_z": 0.29,
+    "roof_z": 1.5,
+    "roof_y": [
+     -1.3,
+     0.0
+    ],
+    "deck": [
+     -1.66,
+     0.953
+    ],
+    "hood": [
+     0.9,
+     0.87,
+     -7.0
+    ],
+    "wb": 2.4,
+    "wr": 0.3
+   },
+   "note": "short rear deck + steep hatch glass: lip / ducktail only; short hood (scoop OR vents)",
+   "width_scale": 0.949,
+   "wheel_scale": 0.882,
+   "fit": {
+    "spoiler_lip": {
+     "pos_blender": [
+      0,
+      -1.79,
+      0.947
+     ],
+     "pos_godot": [
+      0,
+      0.947,
+      1.79
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "spoiler_ducktail": {
+     "pos_blender": [
+      0,
+      -1.66,
+      0.953
+     ],
+     "pos_godot": [
+      0,
+      0.953,
+      1.66
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_low": {
+     "pos_blender": [
+      0,
+      -1.64,
+      0.953
+     ],
+     "pos_godot": [
+      0,
+      0.953,
+      1.64
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_high": {
+     "pos_blender": [
+      0,
+      -1.66,
+      0.953
+     ],
+     "pos_godot": [
+      0,
+      0.953,
+      1.66
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "splitter_front": {
+     "pos_blender": [
+      0,
+      1.771,
+      0.305
+     ],
+     "pos_godot": [
+      0,
+      0.305,
+      -1.771
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "bumper_front_sport": {
+     "pos_blender": [
+      0,
+      1.856,
+      0.29
+     ],
+     "pos_godot": [
+      0,
+      0.29,
+      -1.856
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "bumper_rear_diffuser": {
+     "pos_blender": [
+      0,
+      -1.792,
+      0.29
+     ],
+     "pos_godot": [
+      0,
+      0.29,
+      1.792
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "hood_scoop_a": {
+     "pos_blender": [
+      0,
+      0.9,
+      0.87
+     ],
+     "pos_godot": [
+      0,
+      0.87,
+      -0.9
+     ],
+     "pitch_deg": -7.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "hood_vents_b": {
+     "pos_blender": [
+      0,
+      1.1,
+      0.85
+     ],
+     "pos_godot": [
+      0,
+      0.85,
+      -1.1
+     ],
+     "pitch_deg": -7.0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "roof_scoop": {
+     "pos_blender": [
+      0,
+      -0.6,
+      1.5
+     ],
+     "pos_godot": [
+      0,
+      1.5,
+      0.6
+     ],
+     "pitch_deg": 0.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "roof_rack": {
+     "pos_blender": [
+      0,
+      -0.6,
+      1.5
+     ],
+     "pos_godot": [
+      0,
+      1.5,
+      0.6
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1.106,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1.106
+     ]
+    },
+    "roof_light_bar": {
+     "pos_blender": [
+      0,
+      -0.15,
+      1.5
+     ],
+     "pos_godot": [
+      0,
+      1.5,
+      0.15
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "skirt_side_sport": {
+     "pos_blender": [
+      0,
+      0,
+      0.22
+     ],
+     "pos_godot": [
+      0,
+      0.22,
+      0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      0.837,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      0.837
+     ]
+    },
+    "exhaust_tip_single": {
+     "pos_blender": [
+      0.532,
+      -1.842,
+      0.282
+     ],
+     "pos_godot": [
+      0.532,
+      0.282,
+      1.842
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_dual": {
+     "pos_blender": [
+      0,
+      -1.842,
+      0.282
+     ],
+     "pos_godot": [
+      0,
+      0.282,
+      1.842
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_quad": {
+     "pos_blender": [
+      0,
+      -1.842,
+      0.282
+     ],
+     "pos_godot": [
+      0,
+      0.282,
+      1.842
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "underglow_strip": {
+     "pos_blender": [
+      0,
+      -0.018,
+      0.195
+     ],
+     "pos_godot": [
+      0,
+      0.195,
+      0.018
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      0.78,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      0.78
+     ]
+    },
+    "grille_mesh": {
+     "pos_blender": [
+      0,
+      1.816,
+      0.652
+     ],
+     "pos_godot": [
+      0,
+      0.652,
+      -1.816
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "mirror_sport": {
+     "pos_blender": [
+      0,
+      0.62,
+      0.99
+     ],
+     "pos_godot": [
+      0,
+      0.99,
+      -0.62
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      0.949,
+      1,
+      1
+     ],
+     "scale_godot": [
+      0.949,
+      1,
+      1
+     ]
+    },
+    "antenna": {
+     "pos_blender": [
+      0.446,
+      -1.0,
+      1.5
+     ],
+     "pos_godot": [
+      0.446,
+      1.5,
+      1.0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    }
+   }
+  },
+  "sedan": {
+   "anchors": {
+    "half_w": 0.885,
+    "nose": 2.369,
+    "tail": -2.394,
+    "bump_z": 0.27,
+    "roof_z": 1.45,
+    "roof_y": [
+     -0.95,
+     0.25
+    ],
+    "deck": [
+     -2.0,
+     0.968
+    ],
+    "hood": [
+     1.35,
+     0.912,
+     -5.1
+    ],
+    "wb": 2.83,
+    "wr": 0.33
+   },
+   "note": "reference body: every mount was checked visually on it (rear / underside close-ups incl. exhaust_tip_quad + diffuser)",
+   "width_scale": 1.0,
+   "wheel_scale": 0.971,
+   "fit": {
+    "spoiler_lip": {
+     "pos_blender": [
+      0,
+      -2.13,
+      0.962
+     ],
+     "pos_godot": [
+      0,
+      0.962,
+      2.13
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "spoiler_ducktail": {
+     "pos_blender": [
+      0,
+      -2.0,
+      0.968
+     ],
+     "pos_godot": [
+      0,
+      0.968,
+      2.0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_low": {
+     "pos_blender": [
+      0,
+      -1.98,
+      0.968
+     ],
+     "pos_godot": [
+      0,
+      0.968,
+      1.98
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_high": {
+     "pos_blender": [
+      0,
+      -2.0,
+      0.968
+     ],
+     "pos_godot": [
+      0,
+      0.968,
+      2.0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "splitter_front": {
+     "pos_blender": [
+      0,
+      2.3,
+      0.285
+     ],
+     "pos_godot": [
+      0,
+      0.285,
+      -2.3
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "bumper_front_sport": {
+     "pos_blender": [
+      0,
+      2.385,
+      0.27
+     ],
+     "pos_godot": [
+      0,
+      0.27,
+      -2.385
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "bumper_rear_diffuser": {
+     "pos_blender": [
+      0,
+      -2.31,
+      0.27
+     ],
+     "pos_godot": [
+      0,
+      0.27,
+      2.31
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "hood_scoop_a": {
+     "pos_blender": [
+      0,
+      1.35,
+      0.912
+     ],
+     "pos_godot": [
+      0,
+      0.912,
+      -1.35
+     ],
+     "pitch_deg": -5.1,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "hood_vents_b": {
+     "pos_blender": [
+      0,
+      1.55,
+      0.892
+     ],
+     "pos_godot": [
+      0,
+      0.892,
+      -1.55
+     ],
+     "pitch_deg": -5.1,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "roof_scoop": {
+     "pos_blender": [
+      0,
+      -0.3,
+      1.45
+     ],
+     "pos_godot": [
+      0,
+      1.45,
+      0.3
+     ],
+     "pitch_deg": 0.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "roof_rack": {
+     "pos_blender": [
+      0,
+      -0.3,
+      1.45
+     ],
+     "pos_godot": [
+      0,
+      1.45,
+      0.3
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1.01,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1.01
+     ]
+    },
+    "roof_light_bar": {
+     "pos_blender": [
+      0,
+      0.1,
+      1.45
+     ],
+     "pos_godot": [
+      0,
+      1.45,
+      -0.1
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "skirt_side_sport": {
+     "pos_blender": [
+      0,
+      0,
+      0.2
+     ],
+     "pos_godot": [
+      0,
+      0.2,
+      0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1.016,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1.016
+     ]
+    },
+    "exhaust_tip_single": {
+     "pos_blender": [
+      0.56,
+      -2.36,
+      0.262
+     ],
+     "pos_godot": [
+      0.56,
+      0.262,
+      2.36
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_dual": {
+     "pos_blender": [
+      0,
+      -2.36,
+      0.262
+     ],
+     "pos_godot": [
+      0,
+      0.262,
+      2.36
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_quad": {
+     "pos_blender": [
+      0,
+      -2.36,
+      0.262
+     ],
+     "pos_godot": [
+      0,
+      0.262,
+      2.36
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "underglow_strip": {
+     "pos_blender": [
+      0,
+      -0.012,
+      0.175
+     ],
+     "pos_godot": [
+      0,
+      0.175,
+      0.012
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1.0
+     ]
+    },
+    "grille_mesh": {
+     "pos_blender": [
+      0,
+      2.345,
+      0.632
+     ],
+     "pos_godot": [
+      0,
+      0.632,
+      -2.345
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "mirror_sport": {
+     "pos_blender": [
+      0,
+      0.62,
+      0.99
+     ],
+     "pos_godot": [
+      0,
+      0.99,
+      -0.62
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.0,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.0,
+      1,
+      1
+     ]
+    },
+    "antenna": {
+     "pos_blender": [
+      0.47,
+      -0.65,
+      1.45
+     ],
+     "pos_godot": [
+      0.47,
+      1.45,
+      0.65
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    }
+   }
+  },
+  "sports": {
+   "anchors": {
+    "half_w": 0.94,
+    "nose": 2.15,
+    "tail": -2.15,
+    "bump_z": 0.21,
+    "roof_z": 1.2,
+    "roof_y": [
+     -1.0,
+     -0.25
+    ],
+    "deck": [
+     -1.95,
+     1.12
+    ],
+    "hood": [
+     1.25,
+     0.83,
+     -1.5
+    ],
+    "wb": 2.6,
+    "wr": 0.345
+   },
+   "note": "integrated tail lip at y=-1.95 (z 1.12): prefer spoiler_wing_low/high anchored on it; low flat hood",
+   "width_scale": 1.062,
+   "wheel_scale": 1.015,
+   "fit": {
+    "spoiler_lip": {
+     "pos_blender": [
+      0,
+      -2.08,
+      1.114
+     ],
+     "pos_godot": [
+      0,
+      1.114,
+      2.08
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "spoiler_ducktail": {
+     "pos_blender": [
+      0,
+      -1.95,
+      1.12
+     ],
+     "pos_godot": [
+      0,
+      1.12,
+      1.95
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_low": {
+     "pos_blender": [
+      0,
+      -1.93,
+      1.12
+     ],
+     "pos_godot": [
+      0,
+      1.12,
+      1.93
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_high": {
+     "pos_blender": [
+      0,
+      -1.95,
+      1.12
+     ],
+     "pos_godot": [
+      0,
+      1.12,
+      1.95
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "splitter_front": {
+     "pos_blender": [
+      0,
+      2.081,
+      0.225
+     ],
+     "pos_godot": [
+      0,
+      0.225,
+      -2.081
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "bumper_front_sport": {
+     "pos_blender": [
+      0,
+      2.166,
+      0.21
+     ],
+     "pos_godot": [
+      0,
+      0.21,
+      -2.166
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "bumper_rear_diffuser": {
+     "pos_blender": [
+      0,
+      -2.066,
+      0.21
+     ],
+     "pos_godot": [
+      0,
+      0.21,
+      2.066
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "hood_scoop_a": {
+     "pos_blender": [
+      0,
+      1.25,
+      0.83
+     ],
+     "pos_godot": [
+      0,
+      0.83,
+      -1.25
+     ],
+     "pitch_deg": -1.5,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "hood_vents_b": {
+     "pos_blender": [
+      0,
+      1.45,
+      0.81
+     ],
+     "pos_godot": [
+      0,
+      0.81,
+      -1.45
+     ],
+     "pitch_deg": -1.5,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "roof_scoop": {
+     "pos_blender": [
+      0,
+      -0.575,
+      1.2
+     ],
+     "pos_godot": [
+      0,
+      1.2,
+      0.575
+     ],
+     "pitch_deg": 0.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "roof_rack": {
+     "pos_blender": [
+      0,
+      -0.575,
+      1.2
+     ],
+     "pos_godot": [
+      0,
+      1.2,
+      0.575
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      0.6,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      0.6
+     ]
+    },
+    "roof_light_bar": {
+     "pos_blender": [
+      0,
+      -0.4,
+      1.2
+     ],
+     "pos_godot": [
+      0,
+      1.2,
+      0.4
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "skirt_side_sport": {
+     "pos_blender": [
+      0,
+      0,
+      0.14
+     ],
+     "pos_godot": [
+      0,
+      0.14,
+      0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      0.883,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      0.883
+     ]
+    },
+    "exhaust_tip_single": {
+     "pos_blender": [
+      0.595,
+      -2.116,
+      0.202
+     ],
+     "pos_godot": [
+      0.595,
+      0.202,
+      2.116
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_dual": {
+     "pos_blender": [
+      0,
+      -2.116,
+      0.202
+     ],
+     "pos_godot": [
+      0,
+      0.202,
+      2.116
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_quad": {
+     "pos_blender": [
+      0,
+      -2.116,
+      0.202
+     ],
+     "pos_godot": [
+      0,
+      0.202,
+      2.116
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "underglow_strip": {
+     "pos_blender": [
+      0,
+      0.0,
+      0.115
+     ],
+     "pos_godot": [
+      0,
+      0.115,
+      -0.0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      0.903,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      0.903
+     ]
+    },
+    "grille_mesh": {
+     "pos_blender": [
+      0,
+      2.126,
+      0.572
+     ],
+     "pos_godot": [
+      0,
+      0.572,
+      -2.126
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "mirror_sport": {
+     "pos_blender": [
+      0,
+      0.62,
+      0.99
+     ],
+     "pos_godot": [
+      0,
+      0.99,
+      -0.62
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.062,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.062,
+      1,
+      1
+     ]
+    },
+    "antenna": {
+     "pos_blender": [
+      0.499,
+      -0.7,
+      1.2
+     ],
+     "pos_godot": [
+      0.499,
+      1.2,
+      0.7
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    }
+   }
+  },
+  "muscle": {
+   "anchors": {
+    "half_w": 0.937,
+    "nose": 2.46,
+    "tail": -2.44,
+    "bump_z": 0.26,
+    "roof_z": 1.38,
+    "roof_y": [
+     -1.0,
+     -0.15
+    ],
+    "deck": [
+     -2.05,
+     1.0
+    ],
+    "hood": [
+     1.9,
+     0.94,
+     -5.0
+    ],
+    "wb": 2.9,
+    "wr": 0.35
+   },
+   "note": "already has a hood bulge/scoop at y=1.26..1.56 (z up to 1.07): skip hood_scoop_a, hood_vents_b goes on the front hood",
+   "width_scale": 1.059,
+   "wheel_scale": 1.029,
+   "fit": {
+    "spoiler_lip": {
+     "pos_blender": [
+      0,
+      -2.18,
+      0.994
+     ],
+     "pos_godot": [
+      0,
+      0.994,
+      2.18
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "spoiler_ducktail": {
+     "pos_blender": [
+      0,
+      -2.05,
+      1.0
+     ],
+     "pos_godot": [
+      0,
+      1.0,
+      2.05
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_low": {
+     "pos_blender": [
+      0,
+      -2.03,
+      1.0
+     ],
+     "pos_godot": [
+      0,
+      1.0,
+      2.03
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_high": {
+     "pos_blender": [
+      0,
+      -2.05,
+      1.0
+     ],
+     "pos_godot": [
+      0,
+      1.0,
+      2.05
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "splitter_front": {
+     "pos_blender": [
+      0,
+      2.391,
+      0.275
+     ],
+     "pos_godot": [
+      0,
+      0.275,
+      -2.391
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "bumper_front_sport": {
+     "pos_blender": [
+      0,
+      2.476,
+      0.26
+     ],
+     "pos_godot": [
+      0,
+      0.26,
+      -2.476
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "bumper_rear_diffuser": {
+     "pos_blender": [
+      0,
+      -2.356,
+      0.26
+     ],
+     "pos_godot": [
+      0,
+      0.26,
+      2.356
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "hood_scoop_a": {
+     "pos_blender": [
+      0,
+      1.9,
+      0.94
+     ],
+     "pos_godot": [
+      0,
+      0.94,
+      -1.9
+     ],
+     "pitch_deg": -5.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "hood_vents_b": {
+     "pos_blender": [
+      0,
+      2.1,
+      0.92
+     ],
+     "pos_godot": [
+      0,
+      0.92,
+      -2.1
+     ],
+     "pitch_deg": -5.0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "roof_scoop": {
+     "pos_blender": [
+      0,
+      -0.525,
+      1.38
+     ],
+     "pos_godot": [
+      0,
+      1.38,
+      0.525
+     ],
+     "pitch_deg": 0.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "roof_rack": {
+     "pos_blender": [
+      0,
+      -0.525,
+      1.38
+     ],
+     "pos_godot": [
+      0,
+      1.38,
+      0.525
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      0.673,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      0.673
+     ]
+    },
+    "roof_light_bar": {
+     "pos_blender": [
+      0,
+      -0.3,
+      1.38
+     ],
+     "pos_godot": [
+      0,
+      1.38,
+      0.3
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "skirt_side_sport": {
+     "pos_blender": [
+      0,
+      0,
+      0.19
+     ],
+     "pos_godot": [
+      0,
+      0.19,
+      0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1.026,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1.026
+     ]
+    },
+    "exhaust_tip_single": {
+     "pos_blender": [
+      0.593,
+      -2.406,
+      0.252
+     ],
+     "pos_godot": [
+      0.593,
+      0.252,
+      2.406
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_dual": {
+     "pos_blender": [
+      0,
+      -2.406,
+      0.252
+     ],
+     "pos_godot": [
+      0,
+      0.252,
+      2.406
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_quad": {
+     "pos_blender": [
+      0,
+      -2.406,
+      0.252
+     ],
+     "pos_godot": [
+      0,
+      0.252,
+      2.406
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "underglow_strip": {
+     "pos_blender": [
+      0,
+      0.01,
+      0.165
+     ],
+     "pos_godot": [
+      0,
+      0.165,
+      -0.01
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1.029,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1.029
+     ]
+    },
+    "grille_mesh": {
+     "pos_blender": [
+      0,
+      2.436,
+      0.622
+     ],
+     "pos_godot": [
+      0,
+      0.622,
+      -2.436
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "mirror_sport": {
+     "pos_blender": [
+      0,
+      0.62,
+      0.99
+     ],
+     "pos_godot": [
+      0,
+      0.99,
+      -0.62
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.059,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.059,
+      1,
+      1
+     ]
+    },
+    "antenna": {
+     "pos_blender": [
+      0.498,
+      -0.7,
+      1.38
+     ],
+     "pos_godot": [
+      0.498,
+      1.38,
+      0.7
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    }
+   }
+  },
+  "suv": {
+   "anchors": {
+    "half_w": 0.957,
+    "nose": 2.4,
+    "tail": -2.349,
+    "bump_z": 0.29,
+    "roof_z": 1.765,
+    "roof_y": [
+     -2.0,
+     0.4
+    ],
+    "deck": [
+     -2.0,
+     1.765
+    ],
+    "hood": [
+     1.5,
+     1.134,
+     -5.1
+    ],
+    "wb": 2.9,
+    "wr": 0.38
+   },
+   "note": "no trunk deck: spoilers sit on the roof rear edge (y=-2.0); roof_rack scales to the long flat roof",
+   "width_scale": 1.081,
+   "wheel_scale": 1.118,
+   "fit": {
+    "spoiler_lip": {
+     "pos_blender": [
+      0,
+      -2.13,
+      1.759
+     ],
+     "pos_godot": [
+      0,
+      1.759,
+      2.13
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "spoiler_ducktail": {
+     "pos_blender": [
+      0,
+      -2.0,
+      1.765
+     ],
+     "pos_godot": [
+      0,
+      1.765,
+      2.0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_low": {
+     "pos_blender": [
+      0,
+      -1.98,
+      1.765
+     ],
+     "pos_godot": [
+      0,
+      1.765,
+      1.98
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_high": {
+     "pos_blender": [
+      0,
+      -2.0,
+      1.765
+     ],
+     "pos_godot": [
+      0,
+      1.765,
+      2.0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "splitter_front": {
+     "pos_blender": [
+      0,
+      2.331,
+      0.305
+     ],
+     "pos_godot": [
+      0,
+      0.305,
+      -2.331
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "bumper_front_sport": {
+     "pos_blender": [
+      0,
+      2.416,
+      0.29
+     ],
+     "pos_godot": [
+      0,
+      0.29,
+      -2.416
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "bumper_rear_diffuser": {
+     "pos_blender": [
+      0,
+      -2.265,
+      0.29
+     ],
+     "pos_godot": [
+      0,
+      0.29,
+      2.265
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "hood_scoop_a": {
+     "pos_blender": [
+      0,
+      1.5,
+      1.134
+     ],
+     "pos_godot": [
+      0,
+      1.134,
+      -1.5
+     ],
+     "pitch_deg": -5.1,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "hood_vents_b": {
+     "pos_blender": [
+      0,
+      1.7,
+      1.114
+     ],
+     "pos_godot": [
+      0,
+      1.114,
+      -1.7
+     ],
+     "pitch_deg": -5.1,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "roof_scoop": {
+     "pos_blender": [
+      0,
+      -0.75,
+      1.765
+     ],
+     "pos_godot": [
+      0,
+      1.765,
+      0.75
+     ],
+     "pitch_deg": 0.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "roof_rack": {
+     "pos_blender": [
+      0,
+      -0.75,
+      1.765
+     ],
+     "pos_godot": [
+      0,
+      1.765,
+      0.75
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      2.163,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      2.163
+     ]
+    },
+    "roof_light_bar": {
+     "pos_blender": [
+      0,
+      0.25,
+      1.765
+     ],
+     "pos_godot": [
+      0,
+      1.765,
+      -0.25
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "skirt_side_sport": {
+     "pos_blender": [
+      0,
+      0,
+      0.22
+     ],
+     "pos_godot": [
+      0,
+      0.22,
+      0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      0.99,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      0.99
+     ]
+    },
+    "exhaust_tip_single": {
+     "pos_blender": [
+      0.606,
+      -2.315,
+      0.282
+     ],
+     "pos_godot": [
+      0.606,
+      0.282,
+      2.315
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_dual": {
+     "pos_blender": [
+      0,
+      -2.315,
+      0.282
+     ],
+     "pos_godot": [
+      0,
+      0.282,
+      2.315
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_quad": {
+     "pos_blender": [
+      0,
+      -2.315,
+      0.282
+     ],
+     "pos_godot": [
+      0,
+      0.282,
+      2.315
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "underglow_strip": {
+     "pos_blender": [
+      0,
+      0.025,
+      0.195
+     ],
+     "pos_godot": [
+      0,
+      0.195,
+      -0.025
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      0.997,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      0.997
+     ]
+    },
+    "grille_mesh": {
+     "pos_blender": [
+      0,
+      2.376,
+      0.652
+     ],
+     "pos_godot": [
+      0,
+      0.652,
+      -2.376
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "mirror_sport": {
+     "pos_blender": [
+      0,
+      0.62,
+      0.99
+     ],
+     "pos_godot": [
+      0,
+      0.99,
+      -0.62
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.081,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.081,
+      1,
+      1
+     ]
+    },
+    "antenna": {
+     "pos_blender": [
+      0.508,
+      -1.7,
+      1.765
+     ],
+     "pos_godot": [
+      0.508,
+      1.765,
+      1.7
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    }
+   }
+  },
+  "pickup": {
+   "anchors": {
+    "half_w": 0.947,
+    "nose": 2.58,
+    "tail": -2.708,
+    "bump_z": 0.37,
+    "roof_z": 1.846,
+    "roof_y": [
+     -1.15,
+     0.45
+    ],
+    "deck": [
+     -2.5,
+     0.9
+    ],
+    "hood": [
+     1.7,
+     1.18,
+     -3.3
+    ],
+    "wb": 3.25,
+    "wr": 0.38
+   },
+   "note": "no trunk deck: only lip / ducktail on the tailgate top (z 0.90); high bumper (0.37)",
+   "width_scale": 1.07,
+   "wheel_scale": 1.118,
+   "fit": {
+    "spoiler_lip": {
+     "pos_blender": [
+      0,
+      -2.63,
+      0.894
+     ],
+     "pos_godot": [
+      0,
+      0.894,
+      2.63
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "spoiler_ducktail": {
+     "pos_blender": [
+      0,
+      -2.5,
+      0.9
+     ],
+     "pos_godot": [
+      0,
+      0.9,
+      2.5
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_low": {
+     "pos_blender": [
+      0,
+      -2.48,
+      0.9
+     ],
+     "pos_godot": [
+      0,
+      0.9,
+      2.48
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_high": {
+     "pos_blender": [
+      0,
+      -2.5,
+      0.9
+     ],
+     "pos_godot": [
+      0,
+      0.9,
+      2.5
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "splitter_front": {
+     "pos_blender": [
+      0,
+      2.511,
+      0.385
+     ],
+     "pos_godot": [
+      0,
+      0.385,
+      -2.511
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "bumper_front_sport": {
+     "pos_blender": [
+      0,
+      2.596,
+      0.37
+     ],
+     "pos_godot": [
+      0,
+      0.37,
+      -2.596
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "bumper_rear_diffuser": {
+     "pos_blender": [
+      0,
+      -2.624,
+      0.37
+     ],
+     "pos_godot": [
+      0,
+      0.37,
+      2.624
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "hood_scoop_a": {
+     "pos_blender": [
+      0,
+      1.7,
+      1.18
+     ],
+     "pos_godot": [
+      0,
+      1.18,
+      -1.7
+     ],
+     "pitch_deg": -3.3,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "hood_vents_b": {
+     "pos_blender": [
+      0,
+      1.9,
+      1.16
+     ],
+     "pos_godot": [
+      0,
+      1.16,
+      -1.9
+     ],
+     "pitch_deg": -3.3,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "roof_scoop": {
+     "pos_blender": [
+      0,
+      -0.3,
+      1.846
+     ],
+     "pos_godot": [
+      0,
+      1.846,
+      0.3
+     ],
+     "pitch_deg": 0.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "roof_rack": {
+     "pos_blender": [
+      0,
+      -0.3,
+      1.846
+     ],
+     "pos_godot": [
+      0,
+      1.846,
+      0.3
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1.394,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1.394
+     ]
+    },
+    "roof_light_bar": {
+     "pos_blender": [
+      0,
+      0.3,
+      1.846
+     ],
+     "pos_godot": [
+      0,
+      1.846,
+      -0.3
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "skirt_side_sport": {
+     "pos_blender": [
+      0,
+      0,
+      0.3
+     ],
+     "pos_godot": [
+      0,
+      0.3,
+      0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1.165,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1.165
+     ]
+    },
+    "exhaust_tip_single": {
+     "pos_blender": [
+      0.599,
+      -2.674,
+      0.362
+     ],
+     "pos_godot": [
+      0.599,
+      0.362,
+      2.674
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_dual": {
+     "pos_blender": [
+      0,
+      -2.674,
+      0.362
+     ],
+     "pos_godot": [
+      0,
+      0.362,
+      2.674
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_quad": {
+     "pos_blender": [
+      0,
+      -2.674,
+      0.362
+     ],
+     "pos_godot": [
+      0,
+      0.362,
+      2.674
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "underglow_strip": {
+     "pos_blender": [
+      0,
+      -0.064,
+      0.275
+     ],
+     "pos_godot": [
+      0,
+      0.275,
+      0.064
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1.11,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1.11
+     ]
+    },
+    "grille_mesh": {
+     "pos_blender": [
+      0,
+      2.556,
+      0.732
+     ],
+     "pos_godot": [
+      0,
+      0.732,
+      -2.556
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "mirror_sport": {
+     "pos_blender": [
+      0,
+      0.62,
+      0.99
+     ],
+     "pos_godot": [
+      0,
+      0.99,
+      -0.62
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.07,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.07,
+      1,
+      1
+     ]
+    },
+    "antenna": {
+     "pos_blender": [
+      0.503,
+      -0.85,
+      1.846
+     ],
+     "pos_godot": [
+      0.503,
+      1.846,
+      0.85
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    }
+   }
+  },
+  "van": {
+   "anchors": {
+    "half_w": 0.97,
+    "nose": 2.52,
+    "tail": -2.652,
+    "bump_z": 0.34,
+    "roof_z": 2.25,
+    "roof_y": [
+     -2.5,
+     0.3
+    ],
+    "deck": [
+     -2.45,
+     2.22
+    ],
+    "hood": [
+     2.1,
+     1.25,
+     0.0
+    ],
+    "wb": 3.3,
+    "wr": 0.34
+   },
+   "note": "no real hood (windscreen starts at y=1.6): no hood parts; spoilers on the roof rear edge; high bumper",
+   "width_scale": 1.096,
+   "wheel_scale": 1.0,
+   "fit": {
+    "spoiler_lip": {
+     "pos_blender": [
+      0,
+      -2.58,
+      2.214
+     ],
+     "pos_godot": [
+      0,
+      2.214,
+      2.58
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "spoiler_ducktail": {
+     "pos_blender": [
+      0,
+      -2.45,
+      2.22
+     ],
+     "pos_godot": [
+      0,
+      2.22,
+      2.45
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_low": {
+     "pos_blender": [
+      0,
+      -2.43,
+      2.22
+     ],
+     "pos_godot": [
+      0,
+      2.22,
+      2.43
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "spoiler_wing_high": {
+     "pos_blender": [
+      0,
+      -2.45,
+      2.22
+     ],
+     "pos_godot": [
+      0,
+      2.22,
+      2.45
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "splitter_front": {
+     "pos_blender": [
+      0,
+      2.451,
+      0.355
+     ],
+     "pos_godot": [
+      0,
+      0.355,
+      -2.451
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "bumper_front_sport": {
+     "pos_blender": [
+      0,
+      2.536,
+      0.34
+     ],
+     "pos_godot": [
+      0,
+      0.34,
+      -2.536
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "bumper_rear_diffuser": {
+     "pos_blender": [
+      0,
+      -2.568,
+      0.34
+     ],
+     "pos_godot": [
+      0,
+      0.34,
+      2.568
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "hood_scoop_a": {
+     "pos_blender": [
+      0,
+      2.1,
+      1.25
+     ],
+     "pos_godot": [
+      0,
+      1.25,
+      -2.1
+     ],
+     "pitch_deg": 0.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "hood_vents_b": {
+     "pos_blender": [
+      0,
+      2.3,
+      1.23
+     ],
+     "pos_godot": [
+      0,
+      1.23,
+      -2.3
+     ],
+     "pitch_deg": 0.0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "roof_scoop": {
+     "pos_blender": [
+      0,
+      -1.05,
+      2.25
+     ],
+     "pos_godot": [
+      0,
+      2.25,
+      1.05
+     ],
+     "pitch_deg": 0.0,
+     "scale_blender": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "scale_godot": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "roof_rack": {
+     "pos_blender": [
+      0,
+      -1.05,
+      2.25
+     ],
+     "pos_godot": [
+      0,
+      2.25,
+      1.05
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      2.4,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      2.4
+     ]
+    },
+    "roof_light_bar": {
+     "pos_blender": [
+      0,
+      0.15,
+      2.25
+     ],
+     "pos_godot": [
+      0,
+      2.25,
+      -0.15
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "skirt_side_sport": {
+     "pos_blender": [
+      0,
+      0,
+      0.27
+     ],
+     "pos_godot": [
+      0,
+      0.27,
+      0
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1.239,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1.239
+     ]
+    },
+    "exhaust_tip_single": {
+     "pos_blender": [
+      0.614,
+      -2.618,
+      0.332
+     ],
+     "pos_godot": [
+      0.614,
+      0.332,
+      2.618
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_dual": {
+     "pos_blender": [
+      0,
+      -2.618,
+      0.332
+     ],
+     "pos_godot": [
+      0,
+      0.332,
+      2.618
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "exhaust_tip_quad": {
+     "pos_blender": [
+      0,
+      -2.618,
+      0.332
+     ],
+     "pos_godot": [
+      0,
+      0.332,
+      2.618
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "underglow_strip": {
+     "pos_blender": [
+      0,
+      -0.066,
+      0.245
+     ],
+     "pos_godot": [
+      0,
+      0.245,
+      0.066
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1.086,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1.086
+     ]
+    },
+    "grille_mesh": {
+     "pos_blender": [
+      0,
+      2.496,
+      0.702
+     ],
+     "pos_godot": [
+      0,
+      0.702,
+      -2.496
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    },
+    "mirror_sport": {
+     "pos_blender": [
+      0,
+      0.62,
+      0.99
+     ],
+     "pos_godot": [
+      0,
+      0.99,
+      -0.62
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1.096,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1.096,
+      1,
+      1
+     ]
+    },
+    "antenna": {
+     "pos_blender": [
+      0.515,
+      -2.2,
+      2.25
+     ],
+     "pos_godot": [
+      0.515,
+      2.25,
+      2.2
+     ],
+     "pitch_deg": 0,
+     "scale_blender": [
+      1,
+      1,
+      1
+     ],
+     "scale_godot": [
+      1,
+      1,
+      1
+     ]
+    }
+   }
+  }
+ }
+}

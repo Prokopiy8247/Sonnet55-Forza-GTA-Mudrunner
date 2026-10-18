@@ -1,0 +1,847 @@
+{
+ "spoiler_lip": {
+  "tris": 80,
+  "size": [
+   1.36,
+   0.194,
+   0.145
+  ],
+  "min": [
+   -0.68,
+   -0.094,
+   -0.07
+  ],
+  "max": [
+   0.68,
+   0.1,
+   0.075
+  ],
+  "materials": [
+   "Paint",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "spoiler_ducktail": {
+  "tris": 148,
+  "size": [
+   1.52,
+   0.38,
+   0.236
+  ],
+  "min": [
+   -0.76,
+   -0.229,
+   -0.071
+  ],
+  "max": [
+   0.76,
+   0.15,
+   0.165
+  ],
+  "materials": [
+   "Paint",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "spoiler_wing_low": {
+  "tris": 160,
+  "size": [
+   1.528,
+   0.38,
+   0.307
+  ],
+  "min": [
+   -0.764,
+   -0.19,
+   -0.022
+  ],
+  "max": [
+   0.764,
+   0.19,
+   0.285
+  ],
+  "materials": [
+   "MetalDark",
+   "Paint",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount",
+   "Wing"
+  ]
+ },
+ "spoiler_wing_high": {
+  "tris": 240,
+  "size": [
+   1.76,
+   0.48,
+   0.572
+  ],
+  "min": [
+   -0.88,
+   -0.255,
+   -0.022
+  ],
+  "max": [
+   0.88,
+   0.225,
+   0.55
+  ],
+  "materials": [
+   "MetalDark",
+   "Paint",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount",
+   "Wing"
+  ]
+ },
+ "splitter_front": {
+  "tris": 96,
+  "size": [
+   1.64,
+   0.33,
+   0.104
+  ],
+  "min": [
+   -0.82,
+   -0.2,
+   -0.032
+  ],
+  "max": [
+   0.82,
+   0.13,
+   0.072
+  ],
+  "materials": [
+   "MetalDark",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "bumper_front_sport": {
+  "tris": 260,
+  "size": [
+   1.72,
+   0.417,
+   0.275
+  ],
+  "min": [
+   -0.86,
+   -0.397,
+   0.0
+  ],
+  "max": [
+   0.86,
+   0.02,
+   0.275
+  ],
+  "materials": [
+   "LightHead",
+   "Metal",
+   "Paint",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "bumper_rear_diffuser": {
+  "tris": 136,
+  "size": [
+   1.44,
+   0.35,
+   0.21
+  ],
+  "min": [
+   -0.72,
+   -0.21,
+   -0.045
+  ],
+  "max": [
+   0.72,
+   0.14,
+   0.165
+  ],
+  "materials": [
+   "LightTail",
+   "MetalDark",
+   "Paint",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "hood_scoop_a": {
+  "tris": 108,
+  "size": [
+   0.56,
+   0.628,
+   0.162
+  ],
+  "min": [
+   -0.28,
+   -0.31,
+   -0.04
+  ],
+  "max": [
+   0.28,
+   0.318,
+   0.122
+  ],
+  "materials": [
+   "Metal",
+   "Paint",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "hood_vents_b": {
+  "tris": 144,
+  "size": [
+   1.0,
+   0.5,
+   0.048
+  ],
+  "min": [
+   -0.5,
+   -0.26,
+   -0.012
+  ],
+  "max": [
+   0.5,
+   0.24,
+   0.036
+  ],
+  "materials": [
+   "Paint",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "roof_scoop": {
+  "tris": 120,
+  "size": [
+   0.46,
+   0.598,
+   0.189
+  ],
+  "min": [
+   -0.23,
+   -0.3,
+   -0.04
+  ],
+  "max": [
+   0.23,
+   0.298,
+   0.149
+  ],
+  "materials": [
+   "Chrome",
+   "Paint",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "roof_rack": {
+  "tris": 204,
+  "size": [
+   1.154,
+   1.04,
+   0.1
+  ],
+  "min": [
+   -0.577,
+   -0.52,
+   -0.008
+  ],
+  "max": [
+   0.577,
+   0.52,
+   0.092
+  ],
+  "materials": [
+   "Metal",
+   "MetalDark",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "roof_light_bar": {
+  "tris": 144,
+  "size": [
+   1.024,
+   0.108,
+   0.122
+  ],
+  "min": [
+   -0.512,
+   -0.05,
+   -0.006
+  ],
+  "max": [
+   0.512,
+   0.057,
+   0.116
+  ],
+  "materials": [
+   "LampGlow",
+   "MetalDark",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "skirt_side_sport": {
+  "tris": 200,
+  "size": [
+   1.944,
+   2.0,
+   0.193
+  ],
+  "min": [
+   -0.972,
+   -1.0,
+   -0.058
+  ],
+  "max": [
+   0.972,
+   1.0,
+   0.135
+  ],
+  "materials": [
+   "Paint",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "exhaust_tip_single": {
+  "tris": 110,
+  "size": [
+   0.112,
+   0.304,
+   0.112
+  ],
+  "min": [
+   -0.056,
+   -0.014,
+   -0.056
+  ],
+  "max": [
+   0.056,
+   0.29,
+   0.056
+  ],
+  "materials": [
+   "Chrome",
+   "Metal",
+   "MetalDark",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "exhaust_tip_dual": {
+  "tris": 196,
+  "size": [
+   1.183,
+   0.3,
+   0.101
+  ],
+  "min": [
+   -0.592,
+   -0.01,
+   -0.051
+  ],
+  "max": [
+   0.592,
+   0.29,
+   0.051
+  ],
+  "materials": [
+   "Chrome",
+   "Metal",
+   "MetalDark",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "exhaust_tip_quad": {
+  "tris": 256,
+  "size": [
+   1.3,
+   0.267,
+   0.076
+  ],
+  "min": [
+   -0.65,
+   -0.007,
+   -0.038
+  ],
+  "max": [
+   0.65,
+   0.26,
+   0.038
+  ],
+  "materials": [
+   "Chrome",
+   "Metal",
+   "MetalDark",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "underglow_strip": {
+  "tris": 144,
+  "size": [
+   1.52,
+   3.838,
+   0.097
+  ],
+  "min": [
+   -0.76,
+   -1.919,
+   -0.022
+  ],
+  "max": [
+   0.76,
+   1.919,
+   0.075
+  ],
+  "materials": [
+   "NeonCyan",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "grille_mesh": {
+  "tris": 204,
+  "size": [
+   0.68,
+   0.038,
+   0.164
+  ],
+  "min": [
+   -0.34,
+   -0.012,
+   -0.082
+  ],
+  "max": [
+   0.34,
+   0.026,
+   0.082
+  ],
+  "materials": [
+   "Chrome",
+   "Metal",
+   "MetalDark",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "mirror_sport": {
+  "tris": 160,
+  "size": [
+   2.24,
+   0.097,
+   0.113
+  ],
+  "min": [
+   -1.12,
+   -0.045,
+   -0.055
+  ],
+  "max": [
+   1.12,
+   0.052,
+   0.058
+  ],
+  "materials": [
+   "Chrome",
+   "Paint",
+   "Paint2",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "antenna": {
+  "tris": 140,
+  "size": [
+   0.052,
+   0.142,
+   0.646
+  ],
+  "min": [
+   -0.026,
+   -0.116,
+   0.0
+  ],
+  "max": [
+   0.026,
+   0.026,
+   0.646
+  ],
+  "materials": [
+   "Chrome",
+   "Metal",
+   "MetalDark",
+   "Trim"
+  ],
+  "nodes": [
+   "Body",
+   "Mount"
+  ]
+ },
+ "wheel_stock": {
+  "tris": 324,
+  "size": [
+   0.24,
+   0.663,
+   0.68
+  ],
+  "min": [
+   -0.12,
+   -0.331,
+   -0.34
+  ],
+  "max": [
+   0.12,
+   0.331,
+   0.34
+  ],
+  "materials": [
+   "Chrome",
+   "Rim",
+   "Tire",
+   "Trim"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ },
+ "wheel_five_spoke": {
+  "tris": 424,
+  "size": [
+   0.24,
+   0.663,
+   0.68
+  ],
+  "min": [
+   -0.12,
+   -0.331,
+   -0.34
+  ],
+  "max": [
+   0.12,
+   0.331,
+   0.34
+  ],
+  "materials": [
+   "Chrome",
+   "MetalDark",
+   "Rim",
+   "Tire"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ },
+ "wheel_split_six": {
+  "tris": 480,
+  "size": [
+   0.24,
+   0.663,
+   0.68
+  ],
+  "min": [
+   -0.12,
+   -0.331,
+   -0.34
+  ],
+  "max": [
+   0.12,
+   0.331,
+   0.34
+  ],
+  "materials": [
+   "Chrome",
+   "MetalDark",
+   "Rim",
+   "Tire"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ },
+ "wheel_mesh": {
+  "tris": 480,
+  "size": [
+   0.24,
+   0.663,
+   0.68
+  ],
+  "min": [
+   -0.12,
+   -0.331,
+   -0.34
+  ],
+  "max": [
+   0.12,
+   0.331,
+   0.34
+  ],
+  "materials": [
+   "Chrome",
+   "MetalDark",
+   "Rim",
+   "Tire"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ },
+ "wheel_dish": {
+  "tris": 384,
+  "size": [
+   0.24,
+   0.663,
+   0.68
+  ],
+  "min": [
+   -0.12,
+   -0.331,
+   -0.34
+  ],
+  "max": [
+   0.12,
+   0.331,
+   0.34
+  ],
+  "materials": [
+   "Chrome",
+   "Rim",
+   "Tire"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ },
+ "wheel_turbine": {
+  "tris": 448,
+  "size": [
+   0.24,
+   0.663,
+   0.68
+  ],
+  "min": [
+   -0.12,
+   -0.331,
+   -0.34
+  ],
+  "max": [
+   0.12,
+   0.331,
+   0.34
+  ],
+  "materials": [
+   "Chrome",
+   "Rim",
+   "Tire",
+   "Trim"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ },
+ "wheel_steel_basic": {
+  "tris": 328,
+  "size": [
+   0.24,
+   0.663,
+   0.68
+  ],
+  "min": [
+   -0.12,
+   -0.331,
+   -0.34
+  ],
+  "max": [
+   0.12,
+   0.331,
+   0.34
+  ],
+  "materials": [
+   "Metal",
+   "Rim",
+   "Tire",
+   "Trim"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ },
+ "wheel_offroad": {
+  "tris": 476,
+  "size": [
+   0.24,
+   0.663,
+   0.68
+  ],
+  "min": [
+   -0.12,
+   -0.331,
+   -0.34
+  ],
+  "max": [
+   0.12,
+   0.331,
+   0.34
+  ],
+  "materials": [
+   "Chrome",
+   "MetalDark",
+   "Rim",
+   "Tire",
+   "Trim"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ },
+ "wheel_lowprofile": {
+  "tris": 448,
+  "size": [
+   0.24,
+   0.663,
+   0.68
+  ],
+  "min": [
+   -0.12,
+   -0.331,
+   -0.34
+  ],
+  "max": [
+   0.12,
+   0.331,
+   0.34
+  ],
+  "materials": [
+   "Chrome",
+   "MetalDark",
+   "Rim",
+   "Tire"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ },
+ "wheel_mc_sport": {
+  "tris": 452,
+  "size": [
+   0.17,
+   0.604,
+   0.62
+  ],
+  "min": [
+   -0.085,
+   -0.302,
+   -0.31
+  ],
+  "max": [
+   0.085,
+   0.302,
+   0.31
+  ],
+  "materials": [
+   "Chrome",
+   "Metal",
+   "MetalDark",
+   "Rim",
+   "Tire"
+  ],
+  "nodes": [
+   "Mount",
+   "Rim",
+   "Tire"
+  ]
+ }
+}

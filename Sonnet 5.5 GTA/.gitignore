@@ -1,0 +1,27 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Blender automatic backups and technical copies (the master .blend stays tracked)
+*.blend1
+*.blend2
+backups/
+
+# Logs, screenshots from QA runs, scratch output
+logs/
+screenshots/
+*.log
+*.tmp
+
+# Export / build output
+/build/
+/export/
+*.exe
+*.pck
+!tools/*.exe
+
+# Editor/OS noise
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini

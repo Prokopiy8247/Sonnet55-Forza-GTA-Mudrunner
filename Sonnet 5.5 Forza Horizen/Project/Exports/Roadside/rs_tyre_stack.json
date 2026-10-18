@@ -1,0 +1,76 @@
+{
+ "id": "rs_tyre_stack",
+ "display_name": "Tyre barrier stack (4 tyres, strapped)",
+ "category": "Roadside",
+ "group": "trafficfurniture",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.6306,
+  "y": 0.629,
+  "z": 0.7984
+ },
+ "bounds_min": [
+  -0.3151,
+  -0.3144,
+  -0.0024
+ ],
+ "bounds_max": [
+  0.3156,
+  0.3146,
+  0.796
+ ],
+ "tri_counts": {
+  "lod0": 5064,
+  "collision": {
+   "UCX_rs_tyre_stack_01": 44
+  }
+ },
+ "material_slots": [
+  "M_RS_TyreRubber",
+  "M_RS_TyrePaint",
+  "M_RS_PlasticOrange",
+  "M_RS_GalvDark",
+  "M_RS_GalvSteel"
+ ],
+ "material_slot_tris": {
+  "M_RS_TyreRubber": 1622,
+  "M_RS_TyrePaint": 610,
+  "M_RS_PlasticOrange": 244,
+  "M_RS_GalvDark": 52,
+  "M_RS_GalvSteel": 12
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_rs_tyre_stack_01"
+  ]
+ },
+ "biome_tags": [
+  "race_event",
+  "all_biomes",
+  "track_side"
+ ],
+ "scale_range": [
+  0.9,
+  1.1
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Corner outsides / event tracks. Stack of 4 tyres (0.79 m, alternating white-painted / black, bottom tyre white), the top tyre carries the sidewall lettering ring, two ratchet straps in the tyre seams. Convex hull collision.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "tyres": 4,
+  "height": 0.795,
+  "outer_diameter": 0.62
+ },
+ "decal_faces": 0,
+ "fbx": "rs_tyre_stack.fbx"
+}

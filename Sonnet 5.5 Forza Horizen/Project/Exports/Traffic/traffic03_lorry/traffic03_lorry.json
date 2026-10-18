@@ -1,0 +1,483 @@
+{
+  "id": "traffic03_lorry",
+  "display_name": "Box Lorry",
+  "category": "traffic",
+  "units": "m",
+  "dimensions": {
+    "length": 8.528,
+    "width": 2.5,
+    "height": 3.61,
+    "width_with_mirrors": 3.09
+  },
+  "wheelbase": 5.2,
+  "track_front": 2.04,
+  "track_rear": 1.86,
+  "ride_height": 0.62,
+  "wheel_count": 10,
+  "wheels": [
+    {
+      "name": "traffic03_lorry_Wheel_1",
+      "key": "1",
+      "center": [
+        2.6,
+        1.02,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.3,
+      "axle": 0,
+      "side": "L",
+      "steering": true,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic03_lorry_Wheel_1.fbx"
+    },
+    {
+      "name": "traffic03_lorry_Wheel_2",
+      "key": "2",
+      "center": [
+        2.6,
+        -1.02,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.3,
+      "axle": 0,
+      "side": "R",
+      "steering": true,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic03_lorry_Wheel_2.fbx"
+    },
+    {
+      "name": "traffic03_lorry_Wheel_3",
+      "key": "3",
+      "center": [
+        -1.95,
+        1.08,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.28,
+      "axle": 1,
+      "side": "L",
+      "steering": false,
+      "driven": true,
+      "dual_with": "traffic03_lorry_Wheel_4",
+      "file": "traffic03_lorry_Wheel_3.fbx"
+    },
+    {
+      "name": "traffic03_lorry_Wheel_4",
+      "key": "4",
+      "center": [
+        -1.95,
+        0.78,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.28,
+      "axle": 1,
+      "side": "L",
+      "steering": false,
+      "driven": true,
+      "dual_with": "traffic03_lorry_Wheel_3",
+      "file": "traffic03_lorry_Wheel_4.fbx"
+    },
+    {
+      "name": "traffic03_lorry_Wheel_5",
+      "key": "5",
+      "center": [
+        -1.95,
+        -1.08,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.28,
+      "axle": 1,
+      "side": "R",
+      "steering": false,
+      "driven": true,
+      "dual_with": "traffic03_lorry_Wheel_6",
+      "file": "traffic03_lorry_Wheel_5.fbx"
+    },
+    {
+      "name": "traffic03_lorry_Wheel_6",
+      "key": "6",
+      "center": [
+        -1.95,
+        -0.78,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.28,
+      "axle": 1,
+      "side": "R",
+      "steering": false,
+      "driven": true,
+      "dual_with": "traffic03_lorry_Wheel_5",
+      "file": "traffic03_lorry_Wheel_6.fbx"
+    },
+    {
+      "name": "traffic03_lorry_Wheel_7",
+      "key": "7",
+      "center": [
+        -3.25,
+        1.08,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.28,
+      "axle": 2,
+      "side": "L",
+      "steering": false,
+      "driven": false,
+      "dual_with": "traffic03_lorry_Wheel_8",
+      "file": "traffic03_lorry_Wheel_7.fbx"
+    },
+    {
+      "name": "traffic03_lorry_Wheel_8",
+      "key": "8",
+      "center": [
+        -3.25,
+        0.78,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.28,
+      "axle": 2,
+      "side": "L",
+      "steering": false,
+      "driven": false,
+      "dual_with": "traffic03_lorry_Wheel_7",
+      "file": "traffic03_lorry_Wheel_8.fbx"
+    },
+    {
+      "name": "traffic03_lorry_Wheel_9",
+      "key": "9",
+      "center": [
+        -3.25,
+        -1.08,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.28,
+      "axle": 2,
+      "side": "R",
+      "steering": false,
+      "driven": false,
+      "dual_with": "traffic03_lorry_Wheel_10",
+      "file": "traffic03_lorry_Wheel_9.fbx"
+    },
+    {
+      "name": "traffic03_lorry_Wheel_10",
+      "key": "10",
+      "center": [
+        -3.25,
+        -0.78,
+        0.5
+      ],
+      "radius": 0.5,
+      "width": 0.28,
+      "axle": 2,
+      "side": "R",
+      "steering": false,
+      "driven": false,
+      "dual_with": "traffic03_lorry_Wheel_9",
+      "file": "traffic03_lorry_Wheel_10.fbx"
+    }
+  ],
+  "axles": [
+    {
+      "index": 0,
+      "x": 2.6,
+      "steering": true,
+      "driven": false,
+      "wheels": [
+        "traffic03_lorry_Wheel_1",
+        "traffic03_lorry_Wheel_2"
+      ]
+    },
+    {
+      "index": 1,
+      "x": -1.95,
+      "steering": false,
+      "driven": true,
+      "wheels": [
+        "traffic03_lorry_Wheel_3",
+        "traffic03_lorry_Wheel_4",
+        "traffic03_lorry_Wheel_5",
+        "traffic03_lorry_Wheel_6"
+      ]
+    },
+    {
+      "index": 2,
+      "x": -3.25,
+      "steering": false,
+      "driven": false,
+      "wheels": [
+        "traffic03_lorry_Wheel_7",
+        "traffic03_lorry_Wheel_8",
+        "traffic03_lorry_Wheel_9",
+        "traffic03_lorry_Wheel_10"
+      ]
+    }
+  ],
+  "cameras": {
+    "bumper": [
+      3.92,
+      0.0,
+      0.65
+    ],
+    "cockpit": [
+      2.8,
+      0.52,
+      2.15
+    ]
+  },
+  "lights": {
+    "head_l": [
+      3.8,
+      0.9,
+      1.18
+    ],
+    "head_r": [
+      3.8,
+      -0.9,
+      1.18
+    ],
+    "reverse": [
+      -4.49,
+      0.7,
+      1.31
+    ],
+    "tail_l": [
+      -4.49,
+      1.06,
+      1.58
+    ],
+    "tail_r": [
+      -4.49,
+      -1.06,
+      1.58
+    ]
+  },
+  "exhaust": [
+    [
+      1.5,
+      -1.18,
+      3.52
+    ]
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Indicator",
+      "M_Plate"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_TrimBlack",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim"
+    ],
+    "Wheel_1": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_2": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_3": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_4": [
+      "M_Tyre",
+      "M_Rim"
+    ],
+    "Wheel_5": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_6": [
+      "M_Tyre",
+      "M_Rim"
+    ],
+    "Wheel_7": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_8": [
+      "M_Tyre",
+      "M_Rim"
+    ],
+    "Wheel_9": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_10": [
+      "M_Tyre",
+      "M_Rim"
+    ]
+  },
+  "tri_counts": {
+    "Body": 15152,
+    "Glass": 48,
+    "Interior": 992,
+    "Wheel_1": 1790,
+    "Wheel_2": 1790,
+    "Wheel_3": 1790,
+    "Wheel_4": 1064,
+    "Wheel_5": 1790,
+    "Wheel_6": 1064,
+    "Wheel_7": 1790,
+    "Wheel_8": 1064,
+    "Wheel_9": 1790,
+    "Wheel_10": 1064,
+    "UCX": 56,
+    "total_visual": 31188
+  },
+  "ucx": [
+    "UCX_traffic03_lorry_Body_01",
+    "UCX_traffic03_lorry_Body_02",
+    "UCX_traffic03_lorry_Body_03",
+    "UCX_traffic03_lorry_Body_04"
+  ],
+  "files": {
+    "Body": "traffic03_lorry_Body.fbx",
+    "Glass": "traffic03_lorry_Glass.fbx",
+    "Interior": "traffic03_lorry_Interior.fbx",
+    "Wheel_1": "traffic03_lorry_Wheel_1.fbx",
+    "Wheel_2": "traffic03_lorry_Wheel_2.fbx",
+    "Wheel_3": "traffic03_lorry_Wheel_3.fbx",
+    "Wheel_4": "traffic03_lorry_Wheel_4.fbx",
+    "Wheel_5": "traffic03_lorry_Wheel_5.fbx",
+    "Wheel_6": "traffic03_lorry_Wheel_6.fbx",
+    "Wheel_7": "traffic03_lorry_Wheel_7.fbx",
+    "Wheel_8": "traffic03_lorry_Wheel_8.fbx",
+    "Wheel_9": "traffic03_lorry_Wheel_9.fbx",
+    "Wheel_10": "traffic03_lorry_Wheel_10.fbx"
+  },
+  "ue_import": {
+    "ue_x": "x*100",
+    "ue_y": "-y*100",
+    "ue_z": "z*100",
+    "forward": "+X",
+    "note": "one FBX per part, pivot = vehicle origin (Body/Glass/Interior) or axle centre (wheels)"
+  },
+  "paint_variants": [
+    {
+      "name": "Haulage white",
+      "M_Paint": {
+        "srgb": "#e9ebec",
+        "linear": [
+          0.8148,
+          0.8308,
+          0.8388
+        ],
+        "metallic": 0.0,
+        "roughness": 0.32
+      },
+      "M_Paint2": {
+        "srgb": "#1f4e8c",
+        "linear": [
+          0.0137,
+          0.0762,
+          0.2623
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Depot red",
+      "M_Paint": {
+        "srgb": "#b3212b",
+        "linear": [
+          0.4508,
+          0.0152,
+          0.0242
+        ],
+        "metallic": 0.15,
+        "roughness": 0.3
+      },
+      "M_Paint2": {
+        "srgb": "#e9ebec",
+        "linear": [
+          0.8148,
+          0.8308,
+          0.8388
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Fleet green",
+      "M_Paint": {
+        "srgb": "#2d6a3d",
+        "linear": [
+          0.0262,
+          0.1441,
+          0.0467
+        ],
+        "metallic": 0.1,
+        "roughness": 0.32
+      },
+      "M_Paint2": {
+        "srgb": "#e9ebec",
+        "linear": [
+          0.8148,
+          0.8308,
+          0.8388
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    }
+  ],
+  "paint_slots": {
+    "M_Paint": "cab + box panels, roof deflector",
+    "M_Paint2": "box side stripe, front bumper (accent)"
+  },
+  "traffic": {
+    "role": "rigid box lorry (6x2)",
+    "cruise_speed_kmh": [
+      30,
+      80
+    ],
+    "mass_kg_hint": 11000,
+    "drivetrain": "6x2: front axle steered, first rear axle (axle 1) driven, second rear axle (axle 2) is an undriven tag axle",
+    "dual_wheels": "rear axles carry outer+inner wheel meshes; JSON 'dual_with' links the pair - drive both from one physics wheel",
+    "wheel_layout": "JSON 'wheels' (10 entries, key 1..10) + 'axles' (3 entries) - no FL/FR wheel_map for 6+ wheel vehicles"
+  },
+  "collision": {
+    "recommended": "UCX hulls in the Body FBX (4 convex hulls: cab, box, chassis rails, tandem underside); wheels without collision",
+    "ucx_count": 4
+  },
+  "ue_scale_range": [
+    0.97,
+    1.03
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "nat_rock_mesa_a",
+  "display_name": "Sandstone mesa chunk - blocky",
+  "kit": "ground_cover",
+  "family": "rocks",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 5.839,
+    "y": 4.395,
+    "z": 3.687,
+    "height": 3.687
+  },
+  "bounds": {
+    "min": [
+      -3.13,
+      -2.081,
+      0.0
+    ],
+    "max": [
+      2.709,
+      2.314,
+      3.687
+    ]
+  },
+  "tri_counts": {
+    "mesh": 2448,
+    "ucx": [
+      40
+    ]
+  },
+  "material_slots": [
+    "M_Rock_Sandstone",
+    "M_Rock_SandstoneDark"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_rock_mesa_a_01"
+    ],
+    "notes": "UCX_* convex hulls (<=32 verts). UE: Collision Complexity = Use Simple As Complex"
+  },
+  "biome_tags": [
+    "desert",
+    "canyon",
+    "badlands"
+  ],
+  "scale_range": [
+    0.8,
+    1.5
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 1,
+    "open_pieces": 0,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_rock_mesa_a.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 1301)"
+}

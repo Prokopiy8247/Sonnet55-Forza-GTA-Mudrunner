@@ -1,0 +1,7 @@
+﻿run_id=run-20261016-184548-sonnet55
+start_local_iso=2026-10-16T18:45:48.9712110+02:00
+start_utc=2026-10-16T16:45:48.9712110Z
+timezone=Central European Standard Time ((UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb)
+utc_offset=02:00:00
+working_dir=W:\YouTube\Claude Sonnet 5.5\Forza Horizen\Sonnet55Forza\UnrealSonnet55Forza
+session_model=claude-sonnet-5-5

@@ -1,0 +1,82 @@
+{
+  "session": "6e2e1651-bde1-428b-acc7-9a6c04207475",
+  "generated_utc": "2026-10-17T09:38:43",
+  "transcript_lines": 37696,
+  "unique_messages": 7519,
+  "messages_without_usage": 0,
+  "by_model_and_kind": {
+    "<synthetic> | main": {
+      "messages": 1,
+      "input_uncached": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "cache_write_5m": 0,
+      "cache_write_1h": 0,
+      "output": 0,
+      "thinking_included_in_output": 0
+    },
+    "<synthetic> | subagent": {
+      "messages": 11,
+      "input_uncached": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "cache_write_5m": 0,
+      "cache_write_1h": 0,
+      "output": 0,
+      "thinking_included_in_output": 0
+    },
+    "claude-sonnet-5-5 | main": {
+      "messages": 260,
+      "input_uncached": 586,
+      "cache_read": 111071622,
+      "cache_write": 2792016,
+      "cache_write_5m": 0,
+      "cache_write_1h": 2792016,
+      "output": 347497,
+      "thinking_included_in_output": 139819
+    },
+    "claude-sonnet-5-5 | subagent": {
+      "messages": 7247,
+      "input_uncached": 14494,
+      "cache_read": 2592636673,
+      "cache_write": 75182129,
+      "cache_write_5m": 75182129,
+      "cache_write_1h": 0,
+      "output": 8766120,
+      "thinking_included_in_output": 4154787
+    }
+  },
+  "by_model": {
+    "<synthetic>": {
+      "messages": 12,
+      "input_uncached": 0,
+      "cache_read": 0,
+      "cache_write": 0,
+      "cache_write_5m": 0,
+      "cache_write_1h": 0,
+      "output": 0,
+      "thinking_included_in_output": 0
+    },
+    "claude-sonnet-5-5": {
+      "messages": 7507,
+      "input_uncached": 15080,
+      "cache_read": 2703708295,
+      "cache_write": 77974145,
+      "cache_write_5m": 75182129,
+      "cache_write_1h": 2792016,
+      "output": 9113617,
+      "thinking_included_in_output": 4294606
+    }
+  },
+  "grand_total": {
+    "messages": 7519,
+    "input_uncached": 15080,
+    "cache_read": 2703708295,
+    "cache_write": 77974145,
+    "cache_write_5m": 75182129,
+    "cache_write_1h": 2792016,
+    "output": 9113617,
+    "thinking_included_in_output": 4294606,
+    "deduplicated_total_tokens": 2790811137
+  }
+}

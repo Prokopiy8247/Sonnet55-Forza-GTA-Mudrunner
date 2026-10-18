@@ -1,0 +1,70 @@
+{
+ "id": "rs_bridge_rail_2m",
+ "display_name": "Bridge railing steel tubular 2.0 m",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 2.11,
+  "y": 0.22,
+  "z": 1.1148
+ },
+ "bounds_min": [
+  -0.11,
+  -0.11,
+  0.0
+ ],
+ "bounds_max": [
+  2.0,
+  0.11,
+  1.1148
+ ],
+ "tri_counts": {
+  "lod0": 666,
+  "collision": {
+   "UCX_rs_bridge_rail_2m_01": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvDark",
+  "M_RS_PaintGrey",
+  "M_RS_GalvSteel"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvDark": 124,
+  "M_RS_PaintGrey": 57,
+  "M_RS_GalvSteel": 92
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_bridge_rail_2m_01"
+  ]
+ },
+ "biome_tags": [
+  "bridge",
+  "all_biomes"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Bridge deck edge. Post on the origin, rails run +X to the next post at 2.0 m. Centreline y=0; traffic side +Y.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 2.0,
+  "height": 1.16
+ },
+ "decal_faces": 0,
+ "fbx": "rs_bridge_rail_2m.fbx"
+}

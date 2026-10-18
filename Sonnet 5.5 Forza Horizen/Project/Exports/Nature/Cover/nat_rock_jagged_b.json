@@ -1,0 +1,75 @@
+{
+  "id": "nat_rock_jagged_b",
+  "display_name": "Mountain rock - broad outcrop with satellites",
+  "kit": "ground_cover",
+  "family": "rocks",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 6.771,
+    "y": 4.477,
+    "z": 2.6,
+    "height": 2.55
+  },
+  "bounds": {
+    "min": [
+      -3.036,
+      -2.318,
+      -0.05
+    ],
+    "max": [
+      3.735,
+      2.159,
+      2.55
+    ]
+  },
+  "tri_counts": {
+    "mesh": 7680,
+    "ucx": [
+      42,
+      38,
+      36
+    ]
+  },
+  "material_slots": [
+    "M_Rock_Slate"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_rock_jagged_b_01",
+      "UCX_nat_rock_jagged_b_02",
+      "UCX_nat_rock_jagged_b_03"
+    ],
+    "notes": "UCX_* convex hulls (<=32 verts). UE: Collision Complexity = Use Simple As Complex"
+  },
+  "biome_tags": [
+    "alpine",
+    "highland",
+    "mountain"
+  ],
+  "scale_range": [
+    0.7,
+    1.4
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 3,
+    "open_pieces": 0,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_rock_jagged_b.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 1202)"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "rs_streetlamp_8m",
+ "display_name": "Street lamp 8 m curved arm LED",
+ "category": "Roadside",
+ "group": "lighting",
+ "units": "m",
+ "pivot": "ground_base",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.52,
+  "y": 2.7825,
+  "z": 8.1564
+ },
+ "bounds_min": [
+  -0.26,
+  -0.26,
+  0.0
+ ],
+ "bounds_max": [
+  0.26,
+  2.5225,
+  8.1564
+ ],
+ "tri_counts": {
+  "lod0": 1850,
+  "collision": {
+   "UCX_rs_streetlamp_8m_01": 28,
+   "UCX_rs_streetlamp_8m_02": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_Concrete",
+  "M_RS_GalvDark",
+  "M_RS_GalvSteel",
+  "M_RS_PaintBlack",
+  "M_RS_PaintGrey",
+  "M_RS_LampLens"
+ ],
+ "material_slot_tris": {
+  "M_RS_Concrete": 18,
+  "M_RS_GalvDark": 130,
+  "M_RS_GalvSteel": 519,
+  "M_RS_PaintBlack": 18,
+  "M_RS_PaintGrey": 149,
+  "M_RS_LampLens": 1
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_streetlamp_8m_01",
+   "UCX_rs_streetlamp_8m_02"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "road_verge",
+  "village",
+  "highway"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "light": [
+   0.0,
+   2.15,
+   7.88
+  ],
+  "arm_tip": [
+   0.0,
+   1.9,
+   7.95
+  ]
+ },
+ "usage": "Place on the verge every 30-45 m. Arm reaches 2.5 m towards +Y (the road). LED head lens faces down; emissive material M_RS_LampLens; light socket in JSON.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "height": 8.3,
+  "arm_reach": 2.55,
+  "light_height": 7.9,
+  "pole_height": 7.25
+ },
+ "decal_faces": 0,
+ "fbx": "rs_streetlamp_8m.fbx"
+}

@@ -1,0 +1,340 @@
+{
+ "version": 1,
+ "name": "Roamline: Open Roads - procedural world",
+ "coordinate_system": {
+  "axes": "UE metres: X north, Y east, Z up",
+  "origin": "map centre",
+  "extent_m": [
+   -2016.0,
+   2016.0
+  ]
+ },
+ "heightmap": {
+  "file": "heightmap_4033.r16",
+  "width": 4033,
+  "height": 4033,
+  "vertex_spacing_m": 1.0,
+  "encoding": "uint16 little endian",
+  "layout": "row-major; row j = +Y direction (vertex Y = j - 2016), column i = +X direction (vertex X = i - 2016)",
+  "z_scale_ue": 300.0,
+  "metres_per_unit": 0.0234375,
+  "zero_level": 32768,
+  "formula": "Z_m = (h16 - 32768) * 300 / 128 / 100",
+  "z_range_m": [
+   -768.0,
+   767.9765625
+  ],
+  "sea_level_m": 0.0
+ },
+ "landscape": {
+  "components": [
+   32,
+   32
+  ],
+  "quads_per_component": 127,
+  "sections_per_component": [
+   2,
+   2
+  ],
+  "quads_per_section": 63,
+  "scale_ue_units": [
+   100.0,
+   100.0,
+   300.0
+  ],
+  "location_ue_units": [
+   -201600.0,
+   -201600.0,
+   0.0
+  ],
+  "note": "Landscape actor at X=Y=-201600 cm so that vertex (2016,2016) is the world origin; Z origin 0"
+ },
+ "layers": {
+  "order": [
+   "Grass",
+   "ForestFloor",
+   "Farmland",
+   "Rock",
+   "Sand",
+   "RedClay",
+   "Snow",
+   "RoadVerge"
+  ],
+  "files": [
+   "layer_Grass.r8",
+   "layer_ForestFloor.r8",
+   "layer_Farmland.r8",
+   "layer_Rock.r8",
+   "layer_Sand.r8",
+   "layer_RedClay.r8",
+   "layer_Snow.r8",
+   "layer_RoadVerge.r8"
+  ],
+  "encoding": "uint8, 4033x4033, row-major like the heightmap, weights of the 8 layers sum to 255 per vertex"
+ },
+ "density_maps": {
+  "files": [
+   "density_forest.r8",
+   "density_scrub.r8",
+   "density_crops.r8"
+  ],
+  "encoding": "uint8 0..255 per vertex"
+ },
+ "other_maps": {
+  "slope": "slope.r8 (uint8, slope angle in degrees * 255/90)",
+  "region_id": "region_id.r8 (uint8 region index)"
+ },
+ "regions": [
+  {
+   "id": 0,
+   "key": "Greenvale",
+   "name": "Greenvale",
+   "color": [
+    92,
+    170,
+    70
+   ]
+  },
+  {
+   "id": 1,
+   "key": "Highcrest",
+   "name": "Highcrest",
+   "color": [
+    150,
+    150,
+    165
+   ]
+  },
+  {
+   "id": 2,
+   "key": "Plateau",
+   "name": "Sunbaked Plateau",
+   "color": [
+    214,
+    140,
+    70
+   ]
+  },
+  {
+   "id": 3,
+   "key": "Coast",
+   "name": "Saltcliff Coast",
+   "color": [
+    70,
+    150,
+    200
+   ]
+  },
+  {
+   "id": 4,
+   "key": "Basin",
+   "name": "Crossroads Basin",
+   "color": [
+    200,
+    190,
+    110
+   ]
+  }
+ ],
+ "sites": [
+  {
+   "name": "Crossroads",
+   "kind": "hub",
+   "x": 0.0,
+   "y": 0.0,
+   "z": 114.188
+  },
+  {
+   "name": "Crossroads Gas",
+   "kind": "gas",
+   "x": -70.0,
+   "y": 230.0,
+   "z": 104.344
+  },
+  {
+   "name": "Crossroads Diner",
+   "kind": "diner",
+   "x": 30.0,
+   "y": 330.0,
+   "z": 102.492
+  },
+  {
+   "name": "Millbrook",
+   "kind": "village",
+   "x": -900.0,
+   "y": -900.0,
+   "z": 100.852
+  },
+  {
+   "name": "Frostholm",
+   "kind": "hamlet",
+   "x": 900.0,
+   "y": -1020.0,
+   "z": 426.375
+  },
+  {
+   "name": "Tidewick",
+   "kind": "harbour",
+   "x": -1150.0,
+   "y": 1385.0,
+   "z": 2.836
+  },
+  {
+   "name": "Summit Viewpoint",
+   "kind": "viewpoint",
+   "x": 1380.0,
+   "y": -1180.0,
+   "z": 540.844
+  },
+  {
+   "name": "Lighthouse",
+   "kind": "lighthouse",
+   "x": -1700.0,
+   "y": 1830.0,
+   "z": 95.578
+  },
+  {
+   "name": "Great Bay Bridge",
+   "kind": "bridge",
+   "x": -350.0,
+   "y": 1300.0,
+   "z": -15.211
+  },
+  {
+   "name": "Highcrest Tunnel",
+   "kind": "tunnel",
+   "x": 639.27,
+   "y": -414.35,
+   "z": 293.151
+  },
+  {
+   "name": "Silverrun Stone Bridge",
+   "kind": "bridge",
+   "x": -320.0,
+   "y": -1450.0,
+   "z": 95.859
+  },
+  {
+   "name": "Greenvale Castle Ruin",
+   "kind": "castle",
+   "x": -300.0,
+   "y": -1000.0,
+   "z": 75.023
+  },
+  {
+   "name": "Farm A",
+   "kind": "farm",
+   "x": -1090.0,
+   "y": -1400.0,
+   "z": 104.555
+  },
+  {
+   "name": "Farm B",
+   "kind": "farm",
+   "x": -1340.0,
+   "y": 190.0,
+   "z": 117.234
+  },
+  {
+   "name": "Farm C",
+   "kind": "farm",
+   "x": -1470.0,
+   "y": -1290.0,
+   "z": 99.328
+  },
+  {
+   "name": "Farm D",
+   "kind": "farm",
+   "x": -700.0,
+   "y": -480.0,
+   "z": 67.922
+  },
+  {
+   "name": "Plateau Gas",
+   "kind": "gas",
+   "x": 790.0,
+   "y": 1085.0,
+   "z": 180.023
+  },
+  {
+   "name": "Plateau Diner",
+   "kind": "diner",
+   "x": 850.0,
+   "y": 1120.0,
+   "z": 179.414
+  },
+  {
+   "name": "Harbour Gas",
+   "kind": "gas",
+   "x": -710.0,
+   "y": 1420.0,
+   "z": 52.195
+  },
+  {
+   "name": "Windfarm",
+   "kind": "windfarm",
+   "x": 1450.0,
+   "y": 1250.0,
+   "z": 140.039
+  },
+  {
+   "name": "Sunset Beach",
+   "kind": "hamlet",
+   "x": -1530.0,
+   "y": 860.0,
+   "z": 18.914
+  },
+  {
+   "name": "Canyon Rim Viewpoint",
+   "kind": "viewpoint",
+   "x": 1010.0,
+   "y": 1330.0,
+   "z": 130.664
+  },
+  {
+   "name": "Cliff Viewpoint",
+   "kind": "viewpoint",
+   "x": -300.0,
+   "y": 1850.0,
+   "z": -35.32
+  },
+  {
+   "name": "Rest Area North",
+   "kind": "rest",
+   "x": 1540.0,
+   "y": 330.0,
+   "z": 195.375
+  },
+  {
+   "name": "Rest Area South",
+   "kind": "rest",
+   "x": -1000.0,
+   "y": 300.0,
+   "z": 73.172
+  }
+ ],
+ "files": {
+  "heightmap_4033.r16": 32530178,
+  "layer_Grass.r8": 16265089,
+  "layer_ForestFloor.r8": 16265089,
+  "layer_Farmland.r8": 16265089,
+  "layer_Rock.r8": 16265089,
+  "layer_Sand.r8": 16265089,
+  "layer_RedClay.r8": 16265089,
+  "layer_Snow.r8": 16265089,
+  "layer_RoadVerge.r8": 16265089,
+  "density_forest.r8": 16265089,
+  "density_scrub.r8": 16265089,
+  "density_crops.r8": 16265089,
+  "slope.r8": 16265089,
+  "region_id.r8": 16265089,
+  "roads.json": 1445953
+ },
+ "build": {
+  "macro_step_m": 2.0,
+  "detail_noise": true,
+  "seed": 20260516,
+  "numpy": "2.3.4",
+  "python": "3.13.13"
+ }
+}

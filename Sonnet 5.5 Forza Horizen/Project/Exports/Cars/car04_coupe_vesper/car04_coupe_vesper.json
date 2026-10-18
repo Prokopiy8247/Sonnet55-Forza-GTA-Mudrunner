@@ -1,0 +1,228 @@
+{
+  "id": "car04_coupe_vesper",
+  "display_name": "Vesper",
+  "units": "m",
+  "dimensions": {
+    "length": 4.4003,
+    "width": 1.8751,
+    "height": 1.2933,
+    "width_with_mirrors": 1.8918
+  },
+  "wheelbase": 2.58,
+  "track_front": 1.54,
+  "track_rear": 1.53,
+  "ride_height": 0.12,
+  "wheels": {
+    "FL": {
+      "center": [
+        1.29,
+        0.77,
+        0.34
+      ],
+      "radius": 0.34,
+      "width": 0.2397
+    },
+    "FR": {
+      "center": [
+        1.29,
+        -0.77,
+        0.34
+      ],
+      "radius": 0.34,
+      "width": 0.2397
+    },
+    "RL": {
+      "center": [
+        -1.29,
+        0.765,
+        0.35
+      ],
+      "radius": 0.35,
+      "width": 0.2805
+    },
+    "RR": {
+      "center": [
+        -1.29,
+        -0.765,
+        0.35
+      ],
+      "radius": 0.35,
+      "width": 0.2805
+    }
+  },
+  "steering_wheel": {
+    "center": [
+      0.15,
+      0.38,
+      0.89
+    ],
+    "axis": [
+      -0.95106,
+      0.0,
+      0.30902
+    ]
+  },
+  "cameras": {
+    "hood": [
+      0.75,
+      0.0,
+      1.02
+    ],
+    "cockpit": [
+      -0.3,
+      0.38,
+      1.08
+    ],
+    "bumper": [
+      2.22,
+      0.0,
+      0.42
+    ]
+  },
+  "lights": {
+    "head_l": [
+      2.12,
+      0.52,
+      0.675
+    ],
+    "head_r": [
+      2.12,
+      -0.52,
+      0.675
+    ],
+    "tail_l": [
+      -2.2,
+      0.5,
+      0.745
+    ],
+    "tail_r": [
+      -2.2,
+      -0.5,
+      0.745
+    ],
+    "reverse": [
+      -2.2,
+      0.67,
+      0.745
+    ]
+  },
+  "exhaust": [
+    [
+      -2.2,
+      0.24,
+      0.38
+    ],
+    [
+      -2.2,
+      -0.24,
+      0.38
+    ]
+  ],
+  "exhaust_l": [
+    -2.2,
+    0.24,
+    0.38
+  ],
+  "exhaust_r": [
+    -2.2,
+    -0.24,
+    0.38
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Reverse",
+      "M_Indicator",
+      "M_Plate",
+      "M_Underbody",
+      "M_Exhaust"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Underbody",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim",
+      "M_IntCarpet"
+    ],
+    "SteeringWheel": [
+      "M_TrimGrey",
+      "M_IntDash"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ]
+  },
+  "tri_counts": {
+    "Body": 56647,
+    "Glass": 2940,
+    "Interior": 12824,
+    "SteeringWheel": 1784,
+    "Wheel_FL": 13532,
+    "Wheel_FR": 13532,
+    "Wheel_RL": 13532,
+    "Wheel_RR": 13532,
+    "UCX": 180,
+    "total_visual": 128323
+  },
+  "ucx": [
+    "UCX_car04_coupe_vesper_Body_01",
+    "UCX_car04_coupe_vesper_Body_02",
+    "UCX_car04_coupe_vesper_Body_03",
+    "UCX_car04_coupe_vesper_Body_04"
+  ],
+  "files": {
+    "Body": "car04_coupe_vesper_Body.fbx",
+    "Glass": "car04_coupe_vesper_Glass.fbx",
+    "Interior": "car04_coupe_vesper_Interior.fbx",
+    "SteeringWheel": "car04_coupe_vesper_SteeringWheel.fbx",
+    "Wheel_FL": "car04_coupe_vesper_Wheel_FL.fbx",
+    "Wheel_FR": "car04_coupe_vesper_Wheel_FR.fbx",
+    "Wheel_RL": "car04_coupe_vesper_Wheel_RL.fbx",
+    "Wheel_RR": "car04_coupe_vesper_Wheel_RR.fbx"
+  }
+}

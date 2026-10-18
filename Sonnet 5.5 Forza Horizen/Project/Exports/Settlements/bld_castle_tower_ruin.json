@@ -1,0 +1,81 @@
+{
+ "id": "bld_castle_tower_ruin",
+ "display_name": "Castle corner tower ruin (round, 9.5 m, wall stubs)",
+ "category": "Settlements",
+ "group": "ruins",
+ "units": "m",
+ "pivot": "tower_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 10.2,
+  "y": 11.1618,
+  "z": 9.8886
+ },
+ "bounds_min": [
+  -6.95,
+  -6.15,
+  -0.0683
+ ],
+ "bounds_max": [
+  3.25,
+  5.0118,
+  9.8203
+ ],
+ "tri_counts": {
+  "lod0": 5188,
+  "collision": {
+   "UCX_bld_castle_tower_ruin_01": 16,
+   "UCX_bld_castle_tower_ruin_02": 16,
+   "UCX_bld_castle_tower_ruin_03": 16,
+   "UCX_bld_castle_tower_ruin_04": 16,
+   "UCX_bld_castle_tower_ruin_05": 16,
+   "UCX_bld_castle_tower_ruin_06": 16,
+   "UCX_bld_castle_tower_ruin_07": 12,
+   "UCX_bld_castle_tower_ruin_08": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_Stone"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Stone": 2599
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_bld_castle_tower_ruin_01",
+   "UCX_bld_castle_tower_ruin_02",
+   "UCX_bld_castle_tower_ruin_03",
+   "UCX_bld_castle_tower_ruin_04",
+   "UCX_bld_castle_tower_ruin_05",
+   "UCX_bld_castle_tower_ruin_06",
+   "UCX_bld_castle_tower_ruin_07",
+   "UCX_bld_castle_tower_ruin_08"
+  ]
+ },
+ "biome_tags": [
+  "ruin",
+  "castle",
+  "medieval"
+ ],
+ "scale_range": [
+  0.9,
+  1.25
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Round corner tower ruin with doorway facing +X and two wall stubs running to -X and -Y; origin = tower centre",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "radius": 3.0,
+  "height": 9.9
+ },
+ "decal_faces": 0,
+ "fbx": "bld_castle_tower_ruin.fbx"
+}

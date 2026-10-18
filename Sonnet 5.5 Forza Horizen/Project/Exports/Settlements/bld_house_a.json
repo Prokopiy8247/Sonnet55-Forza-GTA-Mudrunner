@@ -1,0 +1,82 @@
+{
+ "id": "bld_house_a",
+ "display_name": "Village house A (7x9 m, plaster, gabled)",
+ "category": "Settlements",
+ "group": "houses",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 8.3339,
+  "y": 9.6,
+  "z": 6.62
+ },
+ "bounds_min": [
+  -4.0839,
+  -4.8,
+  0.0
+ ],
+ "bounds_max": [
+  4.25,
+  4.8,
+  6.62
+ ],
+ "tri_counts": {
+  "lod0": 7132,
+  "collision": {
+   "UCX_bld_house_a_01": 12,
+   "UCX_bld_house_a_02": 8
+  }
+ },
+ "material_slots": [
+  "M_Bld_Plaster",
+  "M_Bld_Stone",
+  "M_Bld_Window",
+  "M_Bld_Wood",
+  "M_Bld_Metal",
+  "M_Bld_RoofTile"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Plaster": 190,
+  "M_Bld_Stone": 2202,
+  "M_Bld_Window": 48,
+  "M_Bld_Wood": 942,
+  "M_Bld_Metal": 22,
+  "M_Bld_RoofTile": 581
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_house_a_01",
+   "UCX_bld_house_a_02"
+  ]
+ },
+ "biome_tags": [
+  "village",
+  "temperate",
+  "greenvale"
+ ],
+ "scale_range": [
+  0.9,
+  1.15
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Village house, ridge along Y, door on +X eave side",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   7.0,
+   9.0
+  ],
+  "height": 6.78
+ },
+ "decal_faces": 0,
+ "fbx": "bld_house_a.fbx"
+}

@@ -1,0 +1,362 @@
+{
+  "id": "traffic06_pickup",
+  "display_name": "Work Pickup",
+  "category": "traffic",
+  "units": "m",
+  "dimensions": {
+    "length": 5.055,
+    "width": 1.86,
+    "height": 2.045,
+    "width_with_mirrors": 2.26
+  },
+  "wheelbase": 3.1,
+  "track_front": 1.52,
+  "track_rear": 1.5,
+  "ride_height": 0.3,
+  "wheel_count": 4,
+  "wheels": [
+    {
+      "name": "traffic06_pickup_Wheel_FL",
+      "key": "FL",
+      "center": [
+        1.55,
+        0.76,
+        0.37
+      ],
+      "radius": 0.37,
+      "width": 0.243,
+      "axle": 0,
+      "side": "L",
+      "steering": true,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic06_pickup_Wheel_FL.fbx"
+    },
+    {
+      "name": "traffic06_pickup_Wheel_FR",
+      "key": "FR",
+      "center": [
+        1.55,
+        -0.76,
+        0.37
+      ],
+      "radius": 0.37,
+      "width": 0.243,
+      "axle": 0,
+      "side": "R",
+      "steering": true,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic06_pickup_Wheel_FR.fbx"
+    },
+    {
+      "name": "traffic06_pickup_Wheel_RL",
+      "key": "RL",
+      "center": [
+        -1.55,
+        0.75,
+        0.37
+      ],
+      "radius": 0.37,
+      "width": 0.243,
+      "axle": 1,
+      "side": "L",
+      "steering": false,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic06_pickup_Wheel_RL.fbx"
+    },
+    {
+      "name": "traffic06_pickup_Wheel_RR",
+      "key": "RR",
+      "center": [
+        -1.55,
+        -0.75,
+        0.37
+      ],
+      "radius": 0.37,
+      "width": 0.243,
+      "axle": 1,
+      "side": "R",
+      "steering": false,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic06_pickup_Wheel_RR.fbx"
+    }
+  ],
+  "axles": [
+    {
+      "index": 0,
+      "x": 1.55,
+      "steering": true,
+      "driven": false,
+      "wheels": [
+        "traffic06_pickup_Wheel_FL",
+        "traffic06_pickup_Wheel_FR"
+      ]
+    },
+    {
+      "index": 1,
+      "x": -1.55,
+      "steering": false,
+      "driven": true,
+      "wheels": [
+        "traffic06_pickup_Wheel_RL",
+        "traffic06_pickup_Wheel_RR"
+      ]
+    }
+  ],
+  "cameras": {
+    "bumper": [
+      2.52,
+      0.0,
+      0.5
+    ],
+    "cockpit": [
+      -0.02,
+      0.4,
+      1.4
+    ]
+  },
+  "lights": {
+    "head_l": [
+      2.46,
+      0.7,
+      0.8
+    ],
+    "head_r": [
+      2.46,
+      -0.7,
+      0.8
+    ],
+    "reverse": [
+      -2.4,
+      0.62,
+      0.62
+    ],
+    "tail_l": [
+      -2.4,
+      0.9,
+      1.15
+    ],
+    "tail_r": [
+      -2.4,
+      -0.9,
+      1.15
+    ]
+  },
+  "exhaust": [
+    [
+      -2.44,
+      0.3,
+      0.46
+    ]
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Indicator",
+      "M_Plate",
+      "M_Traffic_Rust"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_TrimBlack",
+      "M_IntDash",
+      "M_IntSeat"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim"
+    ]
+  },
+  "tri_counts": {
+    "Body": 11082,
+    "Glass": 64,
+    "Interior": 768,
+    "Wheel_FL": 2190,
+    "Wheel_FR": 2190,
+    "Wheel_RL": 2190,
+    "Wheel_RR": 2190,
+    "UCX": 48,
+    "total_visual": 20674
+  },
+  "ucx": [
+    "UCX_traffic06_pickup_Body_01",
+    "UCX_traffic06_pickup_Body_02",
+    "UCX_traffic06_pickup_Body_03"
+  ],
+  "files": {
+    "Body": "traffic06_pickup_Body.fbx",
+    "Glass": "traffic06_pickup_Glass.fbx",
+    "Interior": "traffic06_pickup_Interior.fbx",
+    "Wheel_FL": "traffic06_pickup_Wheel_FL.fbx",
+    "Wheel_FR": "traffic06_pickup_Wheel_FR.fbx",
+    "Wheel_RL": "traffic06_pickup_Wheel_RL.fbx",
+    "Wheel_RR": "traffic06_pickup_Wheel_RR.fbx"
+  },
+  "ue_import": {
+    "ue_x": "x*100",
+    "ue_y": "-y*100",
+    "ue_z": "z*100",
+    "forward": "+X",
+    "note": "one FBX per part, pivot = vehicle origin (Body/Glass/Interior) or axle centre (wheels)"
+  },
+  "wheel_map": {
+    "FL": {
+      "center": [
+        1.55,
+        0.76,
+        0.37
+      ],
+      "radius": 0.37,
+      "width": 0.243
+    },
+    "FR": {
+      "center": [
+        1.55,
+        -0.76,
+        0.37
+      ],
+      "radius": 0.37,
+      "width": 0.243
+    },
+    "RL": {
+      "center": [
+        -1.55,
+        0.75,
+        0.37
+      ],
+      "radius": 0.37,
+      "width": 0.243
+    },
+    "RR": {
+      "center": [
+        -1.55,
+        -0.75,
+        0.37
+      ],
+      "radius": 0.37,
+      "width": 0.243
+    }
+  },
+  "paint_variants": [
+    {
+      "name": "Faded rust orange",
+      "M_Paint": {
+        "srgb": "#9a4a22",
+        "linear": [
+          0.3231,
+          0.0685,
+          0.016
+        ],
+        "metallic": 0.0,
+        "roughness": 0.62
+      },
+      "M_Paint2": {
+        "srgb": "#1d1d1b",
+        "linear": [
+          0.0123,
+          0.0123,
+          0.011
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Sun-bleached green",
+      "M_Paint": {
+        "srgb": "#6f7f52",
+        "linear": [
+          0.159,
+          0.2122,
+          0.0844
+        ],
+        "metallic": 0.0,
+        "roughness": 0.58
+      },
+      "M_Paint2": {
+        "srgb": "#cfc9b8",
+        "linear": [
+          0.624,
+          0.5841,
+          0.4793
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Old cream",
+      "M_Paint": {
+        "srgb": "#d6cfb4",
+        "linear": [
+          0.6724,
+          0.624,
+          0.4564
+        ],
+        "metallic": 0.0,
+        "roughness": 0.52
+      },
+      "M_Paint2": {
+        "srgb": "#6b3a22",
+        "linear": [
+          0.147,
+          0.0423,
+          0.016
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    }
+  ],
+  "paint_slots": {
+    "M_Paint": "cab, fenders, bed (weathered paint); rust / wood / chrome parts are separate slots"
+  },
+  "extra_materials": {
+    "M_Traffic_Rust": "rust patches / bed interior / bed floor planks / lower sills (one slot, so the Body stays at <= 8 slots)"
+  },
+  "dimensions_note": "dimensions.height (about 2.0 m) is the top of the headache rack; the cab roof is 1.62 m (ROOT height_cab_roof)",
+  "height_cab_roof": 1.62,
+  "traffic": {
+    "role": "old work pickup",
+    "cruise_speed_kmh": [
+      30,
+      85
+    ],
+    "mass_kg_hint": 1700,
+    "drivetrain": "RWD",
+    "open_bed": true
+  },
+  "collision": {
+    "recommended": "UCX hulls in the Body FBX (3 convex hulls: bonnet, cab, bed); wheels without collision",
+    "ucx_count": 3
+  },
+  "ue_scale_range": [
+    0.97,
+    1.03
+  ]
+}

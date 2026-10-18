@@ -1,0 +1,76 @@
+{
+  "id": "nat_rock_granite_b",
+  "display_name": "Granite boulder - cluster of three",
+  "kit": "ground_cover",
+  "family": "rocks",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 4.689,
+    "y": 3.186,
+    "z": 2.2,
+    "height": 2.16
+  },
+  "bounds": {
+    "min": [
+      -2.1,
+      -1.65,
+      -0.04
+    ],
+    "max": [
+      2.589,
+      1.536,
+      2.16
+    ]
+  },
+  "tri_counts": {
+    "mesh": 2880,
+    "ucx": [
+      44,
+      42,
+      40
+    ]
+  },
+  "material_slots": [
+    "M_Rock"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_rock_granite_b_01",
+      "UCX_nat_rock_granite_b_02",
+      "UCX_nat_rock_granite_b_03"
+    ],
+    "notes": "UCX_* convex hulls (<=32 verts). UE: Collision Complexity = Use Simple As Complex"
+  },
+  "biome_tags": [
+    "temperate",
+    "forest",
+    "highland",
+    "meadow"
+  ],
+  "scale_range": [
+    0.7,
+    1.4
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 3,
+    "open_pieces": 0,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_rock_granite_b.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 1102)"
+}

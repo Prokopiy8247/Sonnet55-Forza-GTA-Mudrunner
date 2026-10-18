@@ -1,0 +1,73 @@
+{
+  "id": "nat_rock_jagged_c",
+  "display_name": "Mountain rock - leaning wedge",
+  "kit": "ground_cover",
+  "family": "rocks",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 4.15,
+    "y": 2.841,
+    "z": 2.4,
+    "height": 2.35
+  },
+  "bounds": {
+    "min": [
+      -1.85,
+      -0.891,
+      -0.05
+    ],
+    "max": [
+      2.3,
+      1.95,
+      2.35
+    ]
+  },
+  "tri_counts": {
+    "mesh": 6400,
+    "ucx": [
+      42,
+      40
+    ]
+  },
+  "material_slots": [
+    "M_Rock_Slate"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_rock_jagged_c_01",
+      "UCX_nat_rock_jagged_c_02"
+    ],
+    "notes": "UCX_* convex hulls (<=32 verts). UE: Collision Complexity = Use Simple As Complex"
+  },
+  "biome_tags": [
+    "alpine",
+    "highland",
+    "mountain"
+  ],
+  "scale_range": [
+    0.7,
+    1.5
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 2,
+    "open_pieces": 0,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_rock_jagged_c.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 1203)"
+}

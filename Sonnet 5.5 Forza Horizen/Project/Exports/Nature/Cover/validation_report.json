@@ -1,0 +1,2405 @@
+{
+ "nat_rock_granite_a": {
+  "id": "nat_rock_granite_a",
+  "tris": 1280,
+  "verts": 642,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.129,
+   -1.023,
+   -0.04
+  ],
+  "bbox_max": [
+   1.263,
+   1.109,
+   1.66
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_granite_a_01": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 1,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.07
+ },
+ "nat_rock_granite_b": {
+  "id": "nat_rock_granite_b",
+  "tris": 2880,
+  "verts": 1446,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -2.1,
+   -1.65,
+   -0.04
+  ],
+  "bbox_max": [
+   2.589,
+   1.536,
+   2.16
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_granite_b_01": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_granite_b_02": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_granite_b_03": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 3,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.06
+ },
+ "nat_rock_granite_c": {
+  "id": "nat_rock_granite_c",
+  "tris": 1600,
+  "verts": 804,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.52,
+   -1.7,
+   -0.04
+  ],
+  "bbox_max": [
+   2.35,
+   1.164,
+   1.06
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_granite_c_01": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_granite_c_02": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 2,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.02
+ },
+ "nat_rock_jagged_a": {
+  "id": "nat_rock_jagged_a",
+  "tris": 5120,
+  "verts": 2562,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.008,
+   -0.989,
+   -0.05
+  ],
+  "bbox_max": [
+   1.403,
+   1.052,
+   3.75
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Slate"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_jagged_a_01": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 1,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.1
+ },
+ "nat_rock_jagged_b": {
+  "id": "nat_rock_jagged_b",
+  "tris": 7680,
+  "verts": 3846,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -3.036,
+   -2.318,
+   -0.05
+  ],
+  "bbox_max": [
+   3.735,
+   2.159,
+   2.55
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Slate"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_jagged_b_01": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_jagged_b_02": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_jagged_b_03": {
+    "verts": 20,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 3,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.11
+ },
+ "nat_rock_jagged_c": {
+  "id": "nat_rock_jagged_c",
+  "tris": 6400,
+  "verts": 3204,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.85,
+   -0.891,
+   -0.05
+  ],
+  "bbox_max": [
+   2.3,
+   1.95,
+   2.35
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Slate"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_jagged_c_01": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_jagged_c_02": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 2,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.1
+ },
+ "nat_rock_mesa_a": {
+  "id": "nat_rock_mesa_a",
+  "tris": 2448,
+  "verts": 1226,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -3.13,
+   -2.081,
+   0.0
+  ],
+  "bbox_max": [
+   2.709,
+   2.314,
+   3.687
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.4,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Sandstone",
+   "M_Rock_SandstoneDark"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_mesa_a_01": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 1,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.03
+ },
+ "nat_rock_mesa_b": {
+  "id": "nat_rock_mesa_b",
+  "tris": 2560,
+  "verts": 1282,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.741,
+   -1.505,
+   0.0
+  ],
+  "bbox_max": [
+   1.807,
+   1.445,
+   6.12
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.4,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Sandstone",
+   "M_Rock_SandstoneDark"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_mesa_b_01": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 1,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.03
+ },
+ "nat_rock_mesa_c": {
+  "id": "nat_rock_mesa_c",
+  "tris": 3944,
+  "verts": 1978,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -3.762,
+   -3.288,
+   0.0
+  ],
+  "bbox_max": [
+   3.73,
+   3.187,
+   3.496
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.4,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Sandstone",
+   "M_Rock_SandstoneDark"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_mesa_c_01": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_mesa_c_02": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_mesa_c_03": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 3,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.04
+ },
+ "nat_rock_coast_a": {
+  "id": "nat_rock_coast_a",
+  "tris": 1920,
+  "verts": 966,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.175,
+   -0.502,
+   -0.03
+  ],
+  "bbox_max": [
+   1.35,
+   1.025,
+   0.77
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Beach"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_coast_a_01": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_coast_a_02": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_coast_a_03": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 3,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.04
+ },
+ "nat_rock_coast_b": {
+  "id": "nat_rock_coast_b",
+  "tris": 1920,
+  "verts": 966,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.825,
+   -0.775,
+   -0.03
+  ],
+  "bbox_max": [
+   1.3,
+   1.05,
+   0.52
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Beach"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_coast_b_01": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_coast_b_02": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_coast_b_03": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 3,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.04
+ },
+ "nat_rock_coast_c": {
+  "id": "nat_rock_coast_c",
+  "tris": 2560,
+  "verts": 1290,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.1,
+   -1.025,
+   -0.03
+  ],
+  "bbox_max": [
+   1.258,
+   1.25,
+   0.67
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Beach"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_rock_coast_c_01": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_coast_c_02": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_coast_c_03": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_coast_c_04": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_rock_coast_c_05": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 5,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.05
+ },
+ "nat_cliff_canyon_a": {
+  "id": "nat_cliff_canyon_a",
+  "tris": 8376,
+  "verts": 4204,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -7.0,
+   -4.019,
+   -0.05
+  ],
+  "bbox_max": [
+   7.0,
+   2.993,
+   12.68
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.4,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock_Sandstone",
+   "M_Rock_SandstoneDark"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_cliff_canyon_a_01": {
+    "verts": 15,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_cliff_canyon_a_02": {
+    "verts": 14,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_cliff_canyon_a_03": {
+    "verts": 13,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_cliff_canyon_a_04": {
+    "verts": 15,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 8,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.11
+ },
+ "nat_cliff_coast_b": {
+  "id": "nat_cliff_coast_b",
+  "tris": 9624,
+  "verts": 4828,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -6.482,
+   -4.77,
+   -0.05
+  ],
+  "bbox_max": [
+   5.5,
+   2.813,
+   10.145
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.39,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Rock",
+   "M_Rock_Beach"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_cliff_coast_b_01": {
+    "verts": 13,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_cliff_coast_b_02": {
+    "verts": 13,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_cliff_coast_b_03": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_cliff_coast_b_04": {
+    "verts": 13,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_cliff_coast_b_05": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 8,
+  "open_pieces": 0,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.13
+ },
+ "nat_bush_leafy_a": {
+  "id": "nat_bush_leafy_a",
+  "tris": 5510,
+  "verts": 6562,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 5078,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.8,
+   -0.772,
+   -0.062
+  ],
+  "bbox_max": [
+   0.961,
+   0.833,
+   1.274
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.31,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Wood_Log",
+   "M_Bush_Leaf"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.09
+ },
+ "nat_bush_leafy_b": {
+  "id": "nat_bush_leafy_b",
+  "tris": 5625,
+  "verts": 6760,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 5265,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.606,
+   -0.634,
+   -0.054
+  ],
+  "bbox_max": [
+   0.589,
+   0.552,
+   1.821
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.09,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Wood_Log",
+   "M_Bush_Leaf"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.08
+ },
+ "nat_bush_leafy_c": {
+  "id": "nat_bush_leafy_c",
+  "tris": 5315,
+  "verts": 6056,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 4491,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.124,
+   -1.069,
+   -0.072
+  ],
+  "bbox_max": [
+   1.084,
+   1.023,
+   0.982
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.27,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Wood_Log",
+   "M_Bush_Leaf",
+   "M_Bush_Berry"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.06
+ },
+ "nat_shrub_evergreen_a": {
+  "id": "nat_shrub_evergreen_a",
+  "tris": 4340,
+  "verts": 8208,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 8052,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.623,
+   -0.801,
+   -0.058
+  ],
+  "bbox_max": [
+   0.845,
+   0.763,
+   1.059
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.45,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Wood_Log",
+   "M_Bush_Leaf_Evergreen"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.08
+ },
+ "nat_shrub_evergreen_b": {
+  "id": "nat_shrub_evergreen_b",
+  "tris": 2946,
+  "verts": 3637,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 2886,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.743,
+   -0.727,
+   -0.051
+  ],
+  "bbox_max": [
+   0.772,
+   0.694,
+   1.764
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.98
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.41,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Wood_Log",
+   "M_Bush_Leaf_Evergreen"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.04
+ },
+ "nat_bush_tumble": {
+  "id": "nat_bush_tumble",
+  "tris": 3806,
+  "verts": 2427,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 472,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.47,
+   -0.506,
+   0.0
+  ],
+  "bbox_max": [
+   0.504,
+   0.5,
+   0.891
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.44,
+    0.8
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.35,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Bush_Dry"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.04
+ },
+ "nat_cactus_saguaro_a": {
+  "id": "nat_cactus_saguaro_a",
+  "tris": 2480,
+  "verts": 2780,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 1856,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.497,
+   -1.005,
+   -0.107
+  ],
+  "bbox_max": [
+   0.486,
+   1.191,
+   4.811
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.5,
+    0.95
+   ]
+  ],
+  "materials": [
+   "M_Cactus",
+   "M_Cactus_Spine"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_cactus_saguaro_a_01": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.06
+ },
+ "nat_cactus_saguaro_b": {
+  "id": "nat_cactus_saguaro_b",
+  "tris": 3168,
+  "verts": 3533,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 2352,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.172,
+   -0.571,
+   -0.112
+  ],
+  "bbox_max": [
+   1.291,
+   0.852,
+   5.912
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.5,
+    0.95
+   ]
+  ],
+  "materials": [
+   "M_Cactus",
+   "M_Cactus_Spine"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_cactus_saguaro_b_01": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.02
+ },
+ "nat_cactus_barrel": {
+  "id": "nat_cactus_barrel",
+  "tris": 1092,
+  "verts": 1873,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 1610,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.374,
+   -0.364,
+   0.0
+  ],
+  "bbox_max": [
+   0.376,
+   0.376,
+   0.559
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.3
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.28,
+    0.95
+   ]
+  ],
+  "materials": [
+   "M_Cactus",
+   "M_Cactus_Spine",
+   "M_Cactus_Fruit",
+   "M_Flower_Center"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_cactus_barrel_01": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_cactus_pricklypear": {
+  "id": "nat_cactus_pricklypear",
+  "tris": 1640,
+  "verts": 1454,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 720,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.468,
+   -0.446,
+   -0.033
+  ],
+  "bbox_max": [
+   0.56,
+   0.646,
+   1.137
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.2
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.6,
+    0.95
+   ]
+  ],
+  "materials": [
+   "M_Cactus",
+   "M_Cactus_Spine",
+   "M_Cactus_Fruit"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_cactus_pricklypear_01": {
+    "verts": 18,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.02
+ },
+ "nat_grass_lush": {
+  "id": "nat_grass_lush",
+  "tris": 550,
+  "verts": 770,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 770,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.434,
+   -0.464,
+   -0.01
+  ],
+  "bbox_max": [
+   0.466,
+   0.463,
+   0.446
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.35,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Grass_Blade"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_grass_dry": {
+  "id": "nat_grass_dry",
+  "tris": 569,
+  "verts": 819,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 819,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.46,
+   -0.455,
+   -0.01
+  ],
+  "bbox_max": [
+   0.455,
+   0.473,
+   0.692
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.35,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Grass_Dry"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_grass_reeds_tall": {
+  "id": "nat_grass_reeds_tall",
+  "tris": 550,
+  "verts": 722,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 722,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.581,
+   -0.631,
+   -0.01
+  ],
+  "bbox_max": [
+   0.72,
+   0.618,
+   1.551
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.35,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Reed",
+   "M_Grass_Dry"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_flowers_a": {
+  "id": "nat_flowers_a",
+  "tris": 641,
+  "verts": 1030,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 1017,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.505,
+   -0.594,
+   -0.01
+  ],
+  "bbox_max": [
+   0.621,
+   0.529,
+   0.43
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.35,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Grass_Blade",
+   "M_Flower_Center",
+   "M_Flower"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_flowers_b": {
+  "id": "nat_flowers_b",
+  "tris": 479,
+  "verts": 730,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 719,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.547,
+   -0.498,
+   -0.01
+  ],
+  "bbox_max": [
+   0.638,
+   0.552,
+   0.513
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.35,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Grass_Blade",
+   "M_Flower_Center",
+   "M_Flower_B"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_reeds_a": {
+  "id": "nat_reeds_a",
+  "tris": 843,
+  "verts": 622,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 307,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.843,
+   -1.025,
+   -0.02
+  ],
+  "bbox_max": [
+   1.08,
+   0.897,
+   1.607
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.35,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Reed",
+   "M_Reed_Head"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_reeds_b": {
+  "id": "nat_reeds_b",
+  "tris": 564,
+  "verts": 582,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 468,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.177,
+   -0.801,
+   -0.02
+  ],
+  "bbox_max": [
+   1.031,
+   1.025,
+   1.675
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.35,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Reed",
+   "M_Reed_Head"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.0
+ },
+ "nat_crop_wheat_row": {
+  "id": "nat_crop_wheat_row",
+  "tris": 5088,
+  "verts": 4675,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 3060,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.392,
+   -0.673,
+   -0.016
+  ],
+  "bbox_max": [
+   4.245,
+   0.667,
+   1.137
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.4,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Crop_Soil",
+   "M_Crop",
+   "M_Crop_Ear"
+  ],
+  "mat_ok": true,
+  "ucx": {},
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.04
+ },
+ "nat_hay_round": {
+  "id": "nat_hay_round",
+  "tris": 1856,
+  "verts": 1058,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 256,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.86,
+   -0.607,
+   -0.03
+  ],
+  "bbox_max": [
+   0.86,
+   0.607,
+   1.69
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.5,
+    1.02
+   ]
+  ],
+  "materials": [
+   "M_Hay",
+   "M_Hay_Twine"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_hay_round_01": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 1,
+  "open_pieces": 4,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.02
+ },
+ "nat_hay_stack": {
+  "id": "nat_hay_stack",
+  "tris": 3792,
+  "verts": 2064,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.497,
+   -1.383,
+   -0.02
+  ],
+  "bbox_max": [
+   0.491,
+   1.385,
+   1.086
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.65,
+    0.8
+   ]
+  ],
+  "materials": [
+   "M_Hay",
+   "M_Hay_Twine"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_hay_stack_01": {
+    "verts": 20,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.03
+ },
+ "nat_logpile": {
+  "id": "nat_logpile",
+  "tris": 1120,
+  "verts": 588,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.888,
+   -1.121,
+   -0.005
+  ],
+  "bbox_max": [
+   0.924,
+   1.182,
+   1.333
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.79,
+    0.95
+   ]
+  ],
+  "materials": [
+   "M_Wood_Log",
+   "M_Wood_LogEnd"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_logpile_01": {
+    "verts": 18,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_log_fallen": {
+  "id": "nat_log_fallen",
+  "tris": 612,
+  "verts": 332,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 36,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.042,
+   -0.477,
+   -0.468
+  ],
+  "bbox_max": [
+   4.882,
+   0.784,
+   0.65
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    0.2
+   ],
+   [
+    0.7,
+    0.95
+   ]
+  ],
+  "materials": [
+   "M_Wood_Log",
+   "M_Wood_LogEnd"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_log_fallen_01": {
+    "verts": 19,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_log_fallen_02": {
+    "verts": 17,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_log_fallen_03": {
+    "verts": 18,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_stump": {
+  "id": "nat_stump",
+  "tris": 440,
+  "verts": 222,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.597,
+   -0.612,
+   -0.169
+  ],
+  "bbox_max": [
+   0.624,
+   0.603,
+   0.605
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.5,
+    1.05
+   ]
+  ],
+  "materials": [
+   "M_Wood_Log",
+   "M_Wood_LogEnd"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_stump_01": {
+    "verts": 17,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_beach_umbrella": {
+  "id": "nat_beach_umbrella",
+  "tris": 680,
+  "verts": 429,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 152,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.898,
+   -1.152,
+   -0.182
+  ],
+  "bbox_max": [
+   1.388,
+   1.151,
+   2.462
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.6
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.75,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Beach_Metal",
+   "M_Beach_Red",
+   "M_Beach_White"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_beach_umbrella_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_beach_lounger": {
+  "id": "nat_beach_lounger",
+  "tris": 336,
+  "verts": 224,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 0,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.814,
+   -0.355,
+   0.0
+  ],
+  "bbox_max": [
+   0.97,
+   0.355,
+   0.913
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.8,
+    0.9
+   ]
+  ],
+  "materials": [
+   "M_Wood_Plank",
+   "M_Beach_Blue"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_beach_lounger_01": {
+    "verts": 8,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_beach_lounger_02": {
+    "verts": 6,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_beach_bucket": {
+  "id": "nat_beach_bucket",
+  "tris": 952,
+  "verts": 518,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 32,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.6,
+   -0.211,
+   -0.014
+  ],
+  "bbox_max": [
+   0.351,
+   0.31,
+   0.344
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Beach_Blue",
+   "M_Sand",
+   "M_Beach_Metal",
+   "M_Beach_Red"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_beach_bucket_01": {
+    "verts": 22,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_nat_beach_bucket_02": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_beach_towel_ball": {
+  "id": "nat_beach_towel_ball",
+  "tris": 944,
+  "verts": 513,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 76,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.9,
+   -0.4,
+   0.0
+  ],
+  "bbox_max": [
+   1.5,
+   0.4,
+   0.4
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.42,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Beach_Red",
+   "M_Beach_White",
+   "M_Beach_Blue"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_beach_towel_ball_01": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.01
+ },
+ "nat_sign_arrow": {
+  "id": "nat_sign_arrow",
+  "tris": 85,
+  "verts": 58,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 11,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.06,
+   -0.46,
+   -0.1
+  ],
+  "bbox_max": [
+   0.11,
+   0.54,
+   2.06
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.7,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Wood_Plank",
+   "M_Sign_Paint",
+   "M_Metal_Galv"
+  ],
+  "mat_ok": true,
+  "ucx": {
+   "UCX_nat_sign_arrow_01": {
+    "verts": 8,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 0,
+  "open_pieces": -1,
+  "inverted_closed_pieces": 0,
+  "seconds": 0.0
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "rs_fence_wire_endpost",
+ "display_name": "Wire fence strainer end assembly (post, brace, diagonal)",
+ "category": "Roadside",
+ "group": "fence",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 1.92,
+  "y": 0.4565,
+  "z": 1.61
+ },
+ "bounds_min": [
+  -0.24,
+  -0.2283,
+  -0.2
+ ],
+ "bounds_max": [
+  1.68,
+  0.2283,
+  1.41
+ ],
+ "tri_counts": {
+  "lod0": 420,
+  "collision": {}
+ },
+ "material_slots": [
+  "M_RS_Wood",
+  "M_RS_Soil",
+  "M_RS_Wire"
+ ],
+ "material_slot_tris": {
+  "M_RS_Wood": 62,
+  "M_RS_Soil": 82,
+  "M_RS_Wire": 54
+ },
+ "collision": {
+  "type": "none",
+  "hulls": []
+ },
+ "biome_tags": [
+  "rural",
+  "farmland",
+  "savanna"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Corner / end strainer for the wire fence: strainer post on the origin, brace runs 1.5 m to +X. Rotate 180 deg to close the far end.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {},
+ "decal_faces": 0,
+ "fbx": "rs_fence_wire_endpost.fbx"
+}

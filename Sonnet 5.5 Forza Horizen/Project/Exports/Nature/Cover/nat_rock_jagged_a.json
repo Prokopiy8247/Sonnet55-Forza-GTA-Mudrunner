@@ -1,0 +1,71 @@
+{
+  "id": "nat_rock_jagged_a",
+  "display_name": "Mountain rock - tall spire",
+  "kit": "ground_cover",
+  "family": "rocks",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 2.411,
+    "y": 2.041,
+    "z": 3.8,
+    "height": 3.75
+  },
+  "bounds": {
+    "min": [
+      -1.008,
+      -0.989,
+      -0.05
+    ],
+    "max": [
+      1.403,
+      1.052,
+      3.75
+    ]
+  },
+  "tri_counts": {
+    "mesh": 5120,
+    "ucx": [
+      40
+    ]
+  },
+  "material_slots": [
+    "M_Rock_Slate"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_rock_jagged_a_01"
+    ],
+    "notes": "UCX_* convex hulls (<=32 verts). UE: Collision Complexity = Use Simple As Complex"
+  },
+  "biome_tags": [
+    "alpine",
+    "highland",
+    "mountain"
+  ],
+  "scale_range": [
+    0.7,
+    1.5
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 1,
+    "open_pieces": 0,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_rock_jagged_a.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 1201)"
+}

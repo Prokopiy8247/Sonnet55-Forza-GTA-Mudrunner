@@ -1,0 +1,88 @@
+{
+ "id": "rs_sign_direction_m",
+ "display_name": "Direction sign blue medium 1.8 x 0.65",
+ "category": "Roadside",
+ "group": "sign",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.1246,
+  "y": 1.8,
+  "z": 2.682
+ },
+ "bounds_min": [
+  -0.0476,
+  -0.9,
+  0.0
+ ],
+ "bounds_max": [
+  0.077,
+  0.9,
+  2.682
+ ],
+ "tri_counts": {
+  "lod0": 1074,
+  "collision": {
+   "UCX_rs_sign_direction_m_01": 28,
+   "UCX_rs_sign_direction_m_02": 28,
+   "UCX_rs_sign_direction_m_03": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_SignBlue",
+  "M_RS_SignBack",
+  "M_RS_SignWhite",
+  "M_RS_GalvSteel",
+  "M_RS_GalvDark",
+  "M_RS_SignBlack"
+ ],
+ "material_slot_tris": {
+  "M_RS_SignBlue": 1,
+  "M_RS_SignBack": 101,
+  "M_RS_SignWhite": 278,
+  "M_RS_GalvSteel": 24,
+  "M_RS_GalvDark": 148,
+  "M_RS_SignBlack": 2
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_sign_direction_m_01",
+   "UCX_rs_sign_direction_m_02",
+   "UCX_rs_sign_direction_m_03"
+  ]
+ },
+ "biome_tags": [
+  "sign",
+  "direction"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "panel_center": [
+   0.07,
+   0.0,
+   2.225
+  ]
+ },
+ "usage": "Medium direction sign on two posts. Face +X.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "panel_w": 1.8,
+  "panel_h": 0.65,
+  "panel_zc": 2.2249999999999996,
+  "post_height": 2.67
+ },
+ "decal_faces": 280,
+ "fbx": "rs_sign_direction_m.fbx"
+}

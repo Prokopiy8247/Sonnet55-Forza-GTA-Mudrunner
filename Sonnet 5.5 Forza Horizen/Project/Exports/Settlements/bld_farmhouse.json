@@ -1,0 +1,85 @@
+{
+ "id": "bld_farmhouse",
+ "display_name": "Farmhouse (9x11 m, two-storey, veranda)",
+ "category": "Settlements",
+ "group": "farm",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 10.3354,
+  "y": 11.6,
+  "z": 10.12
+ },
+ "bounds_min": [
+  -5.0354,
+  -5.8,
+  0.0
+ ],
+ "bounds_max": [
+  5.3,
+  5.8,
+  10.12
+ ],
+ "tri_counts": {
+  "lod0": 16088,
+  "collision": {
+   "UCX_bld_farmhouse_01": 12,
+   "UCX_bld_farmhouse_02": 8,
+   "UCX_bld_farmhouse_03": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_Plaster",
+  "M_Bld_Stone",
+  "M_Bld_Window",
+  "M_Bld_Wood",
+  "M_Bld_Metal",
+  "M_Bld_RoofTile"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Plaster": 392,
+  "M_Bld_Stone": 4636,
+  "M_Bld_Window": 126,
+  "M_Bld_Wood": 2760,
+  "M_Bld_Metal": 38,
+  "M_Bld_RoofTile": 927
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_farmhouse_01",
+   "UCX_bld_farmhouse_02",
+   "UCX_bld_farmhouse_03"
+  ]
+ },
+ "biome_tags": [
+  "farm",
+  "rural",
+  "temperate"
+ ],
+ "scale_range": [
+  0.9,
+  1.15
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Two-storey farmhouse with front veranda, door on +X, ridge along Y",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   9.0,
+   11.0
+  ],
+  "floors": 2,
+  "veranda": true
+ },
+ "decal_faces": 0,
+ "fbx": "bld_farmhouse.fbx"
+}

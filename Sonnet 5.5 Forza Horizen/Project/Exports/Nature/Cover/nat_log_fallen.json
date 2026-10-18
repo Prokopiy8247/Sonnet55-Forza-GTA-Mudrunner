@@ -1,0 +1,77 @@
+{
+  "id": "nat_log_fallen",
+  "display_name": "Fallen log with broken end",
+  "kit": "ground_cover",
+  "family": "misc",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 4.924,
+    "y": 1.261,
+    "z": 1.118,
+    "height": 0.65
+  },
+  "bounds": {
+    "min": [
+      -0.042,
+      -0.477,
+      -0.468
+    ],
+    "max": [
+      4.882,
+      0.784,
+      0.65
+    ]
+  },
+  "tri_counts": {
+    "mesh": 612,
+    "ucx": [
+      34,
+      30,
+      32
+    ]
+  },
+  "material_slots": [
+    "M_Wood_Log",
+    "M_Wood_LogEnd"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_log_fallen_01",
+      "UCX_nat_log_fallen_02",
+      "UCX_nat_log_fallen_03"
+    ],
+    "notes": "UCX_01..03 three hulls along the trunk (stubs ignored)"
+  },
+  "biome_tags": [
+    "forest",
+    "temperate",
+    "highland",
+    "wetland"
+  ],
+  "scale_range": [
+    0.7,
+    1.4
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 0,
+    "open_pieces": -1,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_log_fallen.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 5302)"
+}

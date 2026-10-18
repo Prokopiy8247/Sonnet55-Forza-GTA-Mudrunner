@@ -1,0 +1,230 @@
+{
+  "id": "car07_rally_ridge",
+  "display_name": "Ridge",
+  "units": "m",
+  "dimensions": {
+    "length": 4.2182,
+    "width": 1.877,
+    "height": 1.4906,
+    "width_with_mirrors": 1.9554
+  },
+  "wheelbase": 2.6,
+  "track_front": 1.54,
+  "track_rear": 1.54,
+  "ride_height": 0.22,
+  "wheels": {
+    "FL": {
+      "center": [
+        1.3,
+        0.77,
+        0.33
+      ],
+      "radius": 0.32922,
+      "width": 0.23044
+    },
+    "FR": {
+      "center": [
+        1.3,
+        -0.77,
+        0.33
+      ],
+      "radius": 0.32949,
+      "width": 0.23044
+    },
+    "RL": {
+      "center": [
+        -1.3,
+        0.77,
+        0.33
+      ],
+      "radius": 0.32942,
+      "width": 0.23044
+    },
+    "RR": {
+      "center": [
+        -1.3,
+        -0.77,
+        0.33
+      ],
+      "radius": 0.32966,
+      "width": 0.23044
+    }
+  },
+  "steering_wheel": {
+    "center": [
+      0.13,
+      0.36,
+      0.975
+    ],
+    "axis": [
+      -0.92718,
+      0.0,
+      0.37461
+    ]
+  },
+  "cameras": {
+    "hood": [
+      0.95,
+      0.0,
+      1.1
+    ],
+    "cockpit": [
+      -0.48,
+      0.36,
+      1.27
+    ],
+    "bumper": [
+      2.13,
+      0.0,
+      0.46
+    ]
+  },
+  "lights": {
+    "head_l": [
+      1.9236,
+      0.7117,
+      0.78
+    ],
+    "head_r": [
+      1.9236,
+      -0.7117,
+      0.78
+    ],
+    "tail_l": [
+      -2.018,
+      0.6161,
+      0.842
+    ],
+    "tail_r": [
+      -2.018,
+      -0.6161,
+      0.842
+    ],
+    "reverse": [
+      -2.0342,
+      0.5194,
+      0.815
+    ]
+  },
+  "exhaust": [
+    [
+      -2.00586,
+      0.44,
+      0.52
+    ],
+    [
+      -2.00586,
+      -0.44,
+      0.52
+    ]
+  ],
+  "exhaust_l": [
+    -2.00586,
+    0.44,
+    0.52
+  ],
+  "exhaust_r": [
+    -2.00586,
+    -0.44,
+    0.52
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Rubber",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Reverse",
+      "M_Indicator",
+      "M_Caliper",
+      "M_Plate",
+      "M_Underbody",
+      "M_Exhaust"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Caliper",
+      "M_Underbody",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim",
+      "M_IntCarpet"
+    ],
+    "SteeringWheel": [
+      "M_TrimGrey",
+      "M_IntDash"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ]
+  },
+  "tri_counts": {
+    "Body": 57311,
+    "Glass": 3422,
+    "Interior": 14622,
+    "SteeringWheel": 1784,
+    "Wheel_FL": 12404,
+    "Wheel_FR": 12448,
+    "Wheel_RL": 12496,
+    "Wheel_RR": 12432,
+    "UCX": 142,
+    "total_visual": 126919
+  },
+  "ucx": [
+    "UCX_car07_rally_ridge_Body_01",
+    "UCX_car07_rally_ridge_Body_02",
+    "UCX_car07_rally_ridge_Body_03"
+  ],
+  "files": {
+    "Body": "car07_rally_ridge_Body.fbx",
+    "Glass": "car07_rally_ridge_Glass.fbx",
+    "Interior": "car07_rally_ridge_Interior.fbx",
+    "SteeringWheel": "car07_rally_ridge_SteeringWheel.fbx",
+    "Wheel_FL": "car07_rally_ridge_Wheel_FL.fbx",
+    "Wheel_FR": "car07_rally_ridge_Wheel_FR.fbx",
+    "Wheel_RL": "car07_rally_ridge_Wheel_RL.fbx",
+    "Wheel_RR": "car07_rally_ridge_Wheel_RR.fbx"
+  }
+}

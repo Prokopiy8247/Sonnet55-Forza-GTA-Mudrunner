@@ -1,0 +1,71 @@
+{
+ "id": "bld_silo",
+ "display_name": "Grain silo (5.6 m dia, 15.4 m)",
+ "category": "Settlements",
+ "group": "farm",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 7.2888,
+  "y": 6.3,
+  "z": 16.1999
+ },
+ "bounds_min": [
+  -3.8188,
+  -3.15,
+  -0.1499
+ ],
+ "bounds_max": [
+  3.47,
+  3.15,
+  16.05
+ ],
+ "tri_counts": {
+  "lod0": 2976,
+  "collision": {
+   "UCX_bld_silo_01": 44,
+   "UCX_bld_silo_02": 22
+  }
+ },
+ "material_slots": [
+  "M_Bld_Stone",
+  "M_Bld_Metal"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Stone": 62,
+  "M_Bld_Metal": 1372
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_bld_silo_01",
+   "UCX_bld_silo_02"
+  ]
+ },
+ "biome_tags": [
+  "farm",
+  "rural",
+  "industrial"
+ ],
+ "scale_range": [
+  0.9,
+  1.2
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Corrugated grain silo with cone roof, ladder and fill pipe on +X",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "diameter": 5.6,
+  "height": 16.05
+ },
+ "decal_faces": 0,
+ "fbx": "bld_silo.fbx"
+}

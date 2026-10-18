@@ -1,0 +1,72 @@
+{
+ "id": "bld_boat_row",
+ "display_name": "Rowing boat (3.8 m, clinker)",
+ "category": "Settlements",
+ "group": "harbour",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 3.8568,
+  "y": 1.452,
+  "z": 0.7647
+ },
+ "bounds_min": [
+  -1.9154,
+  -0.726,
+  0.0
+ ],
+ "bounds_max": [
+  1.9414,
+  0.726,
+  0.7647
+ ],
+ "tri_counts": {
+  "lod0": 2376,
+  "collision": {
+   "UCX_bld_boat_row_01": 60
+  }
+ },
+ "material_slots": [
+  "M_Bld_PaintBlue",
+  "M_Bld_Wood",
+  "M_Bld_Metal"
+ ],
+ "material_slot_tris": {
+  "M_Bld_PaintBlue": 288,
+  "M_Bld_Wood": 878,
+  "M_Bld_Metal": 82
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_bld_boat_row_01"
+  ]
+ },
+ "biome_tags": [
+  "coast",
+  "lake",
+  "harbour"
+ ],
+ "scale_range": [
+  0.9,
+  1.2
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Clinker rowing boat, bow on +X, keel at z=0 (waterline ~ z=0.15)",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 3.8,
+  "beam": 1.42,
+  "waterline_z": 0.16
+ },
+ "decal_faces": 0,
+ "fbx": "bld_boat_row.fbx"
+}

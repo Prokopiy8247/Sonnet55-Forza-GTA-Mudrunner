@@ -1,0 +1,96 @@
+{
+ "id": "rs_gantry_lamp",
+ "display_name": "Highway gantry lamp 10 m (cantilever truss, 3 flood heads)",
+ "category": "Roadside",
+ "group": "lighting",
+ "units": "m",
+ "pivot": "ground_base",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.72,
+  "y": 6.085,
+  "z": 10.0
+ },
+ "bounds_min": [
+  -0.36,
+  -0.36,
+  0.0
+ ],
+ "bounds_max": [
+  0.36,
+  5.725,
+  10.0
+ ],
+ "tri_counts": {
+  "lod0": 1590,
+  "collision": {
+   "UCX_rs_gantry_lamp_01": 28,
+   "UCX_rs_gantry_lamp_02": 12,
+   "UCX_rs_gantry_lamp_03": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvDark",
+  "M_RS_GalvSteel",
+  "M_RS_PaintBlack",
+  "M_RS_PaintGrey",
+  "M_RS_LampLens"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvDark": 188,
+  "M_RS_GalvSteel": 371,
+  "M_RS_PaintBlack": 6,
+  "M_RS_PaintGrey": 156,
+  "M_RS_LampLens": 18
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_gantry_lamp_01",
+   "UCX_rs_gantry_lamp_02",
+   "UCX_rs_gantry_lamp_03"
+  ]
+ },
+ "biome_tags": [
+  "highway",
+  "interchange",
+  "tunnel_approach"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "light_1": [
+   0.0,
+   1.35,
+   8.5435
+  ],
+  "light_3": [
+   0.0,
+   3.25,
+   8.5944
+  ],
+  "light_5": [
+   0.0,
+   5.15,
+   8.6453
+  ]
+ },
+ "usage": "Highway interchanges / tunnel approaches. Truss boom reaches 5.7 m towards +Y over the carriageway; three flood heads face down (emissive M_RS_LampLens).",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "height": 10.0,
+  "boom_reach": 5.7,
+  "heads": 3
+ },
+ "decal_faces": 0,
+ "fbx": "rs_gantry_lamp.fbx"
+}

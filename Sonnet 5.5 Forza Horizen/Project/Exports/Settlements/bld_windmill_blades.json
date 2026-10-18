@@ -1,0 +1,65 @@
+{
+ "id": "bld_windmill_blades",
+ "display_name": "Windmill blades (4 lattice sails, pivot at hub)",
+ "category": "Settlements",
+ "group": "landmark",
+ "units": "m",
+ "pivot": "hub",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 1.24,
+  "y": 8.946,
+  "z": 8.946
+ },
+ "bounds_min": [
+  -0.62,
+  -4.473,
+  -4.473
+ ],
+ "bounds_max": [
+  0.62,
+  4.473,
+  4.473
+ ],
+ "tri_counts": {
+  "lod0": 1068,
+  "collision": {}
+ },
+ "material_slots": [
+  "M_Bld_Wood",
+  "M_Bld_Metal"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Wood": 502,
+  "M_Bld_Metal": 26
+ },
+ "collision": {
+  "type": "none",
+  "hulls": []
+ },
+ "biome_tags": [
+  "rural",
+  "landmark",
+  "rotor"
+ ],
+ "scale_range": [
+  0.85,
+  1.4
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Rotate about local X (rotor axis +X). Attach at windmill socket blades_hub = (2.8, 0, 8.15)",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "blades": 4,
+  "radius": 4.3
+ },
+ "decal_faces": 0,
+ "fbx": "bld_windmill_blades.fbx"
+}

@@ -1,0 +1,89 @@
+{
+ "id": "rs_sign_direction_l",
+ "display_name": "Direction sign blue large 2.8 x 1.15",
+ "category": "Roadside",
+ "group": "sign",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.1246,
+  "y": 2.8,
+  "z": 3.132
+ },
+ "bounds_min": [
+  -0.0476,
+  -1.4,
+  0.0
+ ],
+ "bounds_max": [
+  0.077,
+  1.4,
+  3.132
+ ],
+ "tri_counts": {
+  "lod0": 1293,
+  "collision": {
+   "UCX_rs_sign_direction_l_01": 28,
+   "UCX_rs_sign_direction_l_02": 28,
+   "UCX_rs_sign_direction_l_03": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_SignBlue",
+  "M_RS_SignBack",
+  "M_RS_SignWhite",
+  "M_RS_GalvSteel",
+  "M_RS_GalvDark",
+  "M_RS_SignBlack"
+ ],
+ "material_slot_tris": {
+  "M_RS_SignBlue": 1,
+  "M_RS_SignBack": 101,
+  "M_RS_SignWhite": 423,
+  "M_RS_GalvSteel": 24,
+  "M_RS_GalvDark": 148,
+  "M_RS_SignBlack": 38
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_sign_direction_l_01",
+   "UCX_rs_sign_direction_l_02",
+   "UCX_rs_sign_direction_l_03"
+  ]
+ },
+ "biome_tags": [
+  "sign",
+  "direction",
+  "highway"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "panel_center": [
+   0.07,
+   0.0,
+   2.425
+  ]
+ },
+ "usage": "Large direction sign on two posts for highways / major junctions. Face +X.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "panel_w": 2.8,
+  "panel_h": 1.15,
+  "panel_zc": 2.425,
+  "post_height": 3.12
+ },
+ "decal_faces": 461,
+ "fbx": "rs_sign_direction_l.fbx"
+}

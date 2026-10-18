@@ -1,0 +1,103 @@
+{
+  "id": "tree_birch_b",
+  "display_name": "Birch - multi-stem clump",
+  "kit": "trees",
+  "family": "broadleaf",
+  "units": "m",
+  "origin": "base centre of trunk on the ground (z=0); trunk/roots buried up to ~0.5 m; +Z up",
+  "dimensions": {
+    "x": 7.151,
+    "y": 5.329,
+    "z": 10.506,
+    "height": 10.219
+  },
+  "bounds": {
+    "min": [
+      -3.453,
+      -2.129,
+      -0.287
+    ],
+    "max": [
+      3.698,
+      3.2,
+      10.219
+    ]
+  },
+  "tri_counts": {
+    "mesh": 44091,
+    "far": 4,
+    "ucx": [
+      46,
+      44,
+      44
+    ]
+  },
+  "material_slots": [
+    "M_Tree_Bark_Birch",
+    "M_Tree_LeafLight",
+    "M_Tree_Bark_Dark",
+    "M_Tree_Bark"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_tree_birch_b_01",
+      "UCX_tree_birch_b_02",
+      "UCX_tree_birch_b_03"
+    ],
+    "trunk_only": true,
+    "hulls_per_stem": 3,
+    "notes": "UCX_* trunk capsule-like convex hulls (<=32 verts); one hull per stem on multi-stem trees (birch_b, olive_c), two stacked hulls on curved palm trunks; canopy/foliage has NO collision. UE: Collision Complexity = Use Simple As Complex"
+  },
+  "far_card": {
+    "mesh": "tree_birch_b_Far",
+    "fbx": "tree_birch_b_Far.fbx",
+    "texture": "Textures/T_tree_birch_b_Far.png",
+    "texture_px": [
+      512,
+      512
+    ],
+    "texture_pot": true,
+    "width_m": 7.396,
+    "height_m": 10.506,
+    "tris": 4,
+    "material": "M_Tree_Far_tree_birch_b",
+    "use": "swap in beyond ~120-200 m (or as impostor); alpha-masked (clip ~0.33), two-sided, 2 crossed quads; power-of-two texture atlas = [view along Y | view along X], each half maps to one quad (non-uniform texel aspect, UVs fill 0-1)"
+  },
+  "biome_tags": [
+    "temperate",
+    "boreal",
+    "meadow"
+  ],
+  "scale_range": [
+    0.8,
+    1.3
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "export_colors": "LINEAR (raw 0-1 masks, no sRGB conversion)",
+    "R": "branch flex 0 (trunk base) -> 1 (twig/leaf tips)",
+    "G": "leaf flutter 0 (wood) -> 1 (free leaf tips)",
+    "B": "baked ambient occlusion (ray cast, 1 = open sky)",
+    "hint": "WPO: sway = R^2 * low-freq wind; flutter = G * high-freq noise; multiply base colour by lerp(0.35,1,B)"
+  },
+  "lod": {
+    "nanite": "recommended (all opaque geometry, no alpha cards inside the mesh)",
+    "far_billboard": "tree_birch_b_Far",
+    "notes": "LOD0 = Nanite mesh; <id>_Far = distance impostor / HLOD card"
+  },
+  "nanite_ok": true,
+  "uv": "UVMap: trunk/branch U wraps once per ring, V = 0.25-0.5 per metre of length (tiling bark); leaf cards map 0-1 per card (planar)",
+  "quality": {
+    "closed_pieces": 87,
+    "open_pieces": 7630,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0,
+    "boundary_edges_note": "open edges belong to single-sided leaf/needle cards by design"
+  },
+  "files": {
+    "fbx": "Exports/Nature/Trees/tree_birch_b.fbx",
+    "far_fbx": "Exports/Nature/Trees/tree_birch_b_Far.fbx"
+  },
+  "generator": "Tools/blender/nature/trees.py (seed 302)"
+}

@@ -1,0 +1,1859 @@
+{
+ "tree_pine_c": {
+  "id": "tree_pine_c",
+  "tris": 39477,
+  "verts": 65573,
+  "faces": 36112,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 60863,
+  "loose_verts": 0,
+  "bbox_min": [
+   -4.922,
+   -3.42,
+   -0.355
+  ],
+  "bbox_max": [
+   4.202,
+   4.581,
+   15.24
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Needle"
+  ],
+  "ucx": {
+   "UCX_tree_pine_c_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 99.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 106,
+  "open_pieces": 15191,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_pine_c_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -4.922,
+     -4.922,
+     -0.1
+    ],
+    [
+     4.922,
+     4.922,
+     15.29
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_pine_c"
+   ]
+  },
+  "seconds": 5.0,
+  "build_s": 0.4,
+  "ao_s": 3.3,
+  "size": [
+   9.12,
+   15.24
+  ],
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_pine_c.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_pine_c_Far.fbx"
+  ]
+ },
+ "tree_birch_b": {
+  "id": "tree_birch_b",
+  "tris": 44091,
+  "verts": 53315,
+  "faces": 30723,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 46931,
+  "loose_verts": 0,
+  "bbox_min": [
+   -3.453,
+   -2.129,
+   -0.287
+  ],
+  "bbox_max": [
+   3.698,
+   3.2,
+   10.219
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark_Birch",
+   "M_Tree_LeafLight",
+   "M_Tree_Bark_Dark",
+   "M_Tree_Bark"
+  ],
+  "ucx": {
+   "UCX_tree_birch_b_01": {
+    "verts": 25,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_tree_birch_b_02": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_tree_birch_b_03": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 87,
+  "open_pieces": 7630,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_birch_b_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -3.698,
+     -3.698,
+     -0.1
+    ],
+    [
+     3.698,
+     3.698,
+     10.269
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_birch_b"
+   ]
+  },
+  "seconds": 5.5,
+  "build_s": 0.4,
+  "ao_s": 3.9,
+  "size": [
+   7.15,
+   10.22
+  ],
+  "clumps": 75,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_birch_b.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_birch_b_Far.fbx"
+  ]
+ },
+ "tree_birch_a": {
+  "id": "tree_birch_a",
+  "tris": 29906,
+  "verts": 37875,
+  "faces": 21184,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 34442,
+  "loose_verts": 0,
+  "bbox_min": [
+   -3.487,
+   -3.001,
+   -0.292
+  ],
+  "bbox_max": [
+   2.821,
+   3.607,
+   12.9
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark_Birch",
+   "M_Tree_LeafLight",
+   "M_Tree_Bark_Dark",
+   "M_Tree_Bark"
+  ],
+  "ucx": {
+   "UCX_tree_birch_a_01": {
+    "verts": 18,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 55,
+  "open_pieces": 5591,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_birch_a_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -3.607,
+     -3.607,
+     -0.1
+    ],
+    [
+     3.607,
+     3.607,
+     12.95
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_birch_a"
+   ]
+  },
+  "seconds": 4.0,
+  "build_s": 0.3,
+  "ao_s": 2.7,
+  "size": [
+   6.61,
+   12.9
+  ],
+  "clumps": 50,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_birch_a.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_birch_a_Far.fbx"
+  ]
+ },
+ "tree_oak_a": {
+  "id": "tree_oak_a",
+  "tris": 43180,
+  "verts": 53406,
+  "faces": 30642,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 47446,
+  "loose_verts": 0,
+  "bbox_min": [
+   -7.436,
+   -7.771,
+   -0.415
+  ],
+  "bbox_max": [
+   7.991,
+   8.401,
+   13.871
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Leaf"
+  ],
+  "ucx": {
+   "UCX_tree_oak_a_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 96.1,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 92,
+  "open_pieces": 7909,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_oak_a_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -8.401,
+     -8.401,
+     -0.1
+    ],
+    [
+     8.401,
+     8.401,
+     13.921
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_oak_a"
+   ]
+  },
+  "seconds": 5.0,
+  "build_s": 0.4,
+  "ao_s": 3.0,
+  "size": [
+   16.17,
+   13.87
+  ],
+  "clumps": 86,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_oak_a.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_oak_a_Far.fbx"
+  ]
+ },
+ "tree_oak_b": {
+  "id": "tree_oak_b",
+  "tris": 39441,
+  "verts": 46689,
+  "faces": 27533,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 40183,
+  "loose_verts": 0,
+  "bbox_min": [
+   -5.582,
+   -5.403,
+   -0.39
+  ],
+  "bbox_max": [
+   5.691,
+   6.302,
+   15.561
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Leaf"
+  ],
+  "ucx": {
+   "UCX_tree_oak_b_01": {
+    "verts": 18,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 95.8,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 89,
+  "open_pieces": 6699,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_oak_b_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -6.302,
+     -6.302,
+     -0.1
+    ],
+    [
+     6.302,
+     6.302,
+     15.611
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_oak_b"
+   ]
+  },
+  "seconds": 4.4,
+  "build_s": 0.4,
+  "ao_s": 1.9,
+  "size": [
+   11.7,
+   15.56
+  ],
+  "clumps": 81,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_oak_b.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_oak_b_Far.fbx"
+  ]
+ },
+ "tree_oak_c": {
+  "id": "tree_oak_c",
+  "tris": 45214,
+  "verts": 58390,
+  "faces": 32580,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 53416,
+  "loose_verts": 0,
+  "bbox_min": [
+   -7.01,
+   -6.004,
+   -0.462
+  ],
+  "bbox_max": [
+   9.351,
+   7.796,
+   10.899
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Leaf"
+  ],
+  "ucx": {
+   "UCX_tree_oak_c_01": {
+    "verts": 18,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 98.8,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 86,
+  "open_pieces": 8903,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_oak_c_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -9.351,
+     -9.351,
+     -0.1
+    ],
+    [
+     9.351,
+     9.351,
+     10.949
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_oak_c"
+   ]
+  },
+  "seconds": 7.0,
+  "build_s": 0.4,
+  "ao_s": 4.5,
+  "size": [
+   16.36,
+   10.9
+  ],
+  "clumps": 81,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_oak_c.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_oak_c_Far.fbx"
+  ]
+ },
+ "tree_birch_c": {
+  "id": "tree_birch_c",
+  "tris": 30659,
+  "verts": 36769,
+  "faces": 21222,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 32379,
+  "loose_verts": 0,
+  "bbox_min": [
+   -2.807,
+   -2.765,
+   -0.302
+  ],
+  "bbox_max": [
+   4.962,
+   3.442,
+   12.762
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark_Birch",
+   "M_Tree_LeafLight",
+   "M_Tree_Bark_Dark",
+   "M_Tree_Bark"
+  ],
+  "ucx": {
+   "UCX_tree_birch_c_01": {
+    "verts": 25,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 66,
+  "open_pieces": 5118,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_birch_c_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -4.962,
+     -4.962,
+     -0.1
+    ],
+    [
+     4.962,
+     4.962,
+     12.812
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_birch_c"
+   ]
+  },
+  "seconds": 6.2,
+  "build_s": 0.3,
+  "ao_s": 4.2,
+  "size": [
+   7.77,
+   12.76
+  ],
+  "clumps": 60,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_birch_c.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_birch_c_Far.fbx"
+  ]
+ },
+ "tree_palm_a": {
+  "id": "tree_palm_a",
+  "tris": 17831,
+  "verts": 15523,
+  "faces": 10694,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 10509,
+  "loose_verts": 0,
+  "bbox_min": [
+   -0.938,
+   -2.424,
+   -0.31
+  ],
+  "bbox_max": [
+   5.153,
+   4.191,
+   10.828
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Palm"
+  ],
+  "ucx": {
+   "UCX_tree_palm_a_01": {
+    "verts": 19,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_tree_palm_a_02": {
+    "verts": 26,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 10,
+  "open_pieces": 1333,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_palm_a_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -5.153,
+     -5.153,
+     -0.1
+    ],
+    [
+     5.153,
+     5.153,
+     10.878
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_palm_a"
+   ]
+  },
+  "seconds": 2.9,
+  "build_s": 0.2,
+  "ao_s": 1.9,
+  "size": [
+   6.62,
+   10.83
+  ],
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_palm_a.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_palm_a_Far.fbx"
+  ]
+ },
+ "tree_palm_b": {
+  "id": "tree_palm_b",
+  "tris": 17898,
+  "verts": 13993,
+  "faces": 10765,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 8330,
+  "loose_verts": 0,
+  "bbox_min": [
+   -3.264,
+   -3.599,
+   -0.33
+  ],
+  "bbox_max": [
+   3.899,
+   3.632,
+   11.819
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Palm",
+   "M_Tree_LeafDry"
+  ],
+  "ucx": {
+   "UCX_tree_palm_b_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_tree_palm_b_02": {
+    "verts": 26,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 1,
+  "open_pieces": 877,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_palm_b_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -3.899,
+     -3.899,
+     -0.1
+    ],
+    [
+     3.899,
+     3.899,
+     11.869
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_palm_b"
+   ]
+  },
+  "seconds": 1.0,
+  "build_s": 0.1,
+  "ao_s": 0.7,
+  "size": [
+   7.23,
+   11.82
+  ],
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_palm_b.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_palm_b_Far.fbx"
+  ]
+ },
+ "tree_palm_c": {
+  "id": "tree_palm_c",
+  "tris": 20233,
+  "verts": 18679,
+  "faces": 11993,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 13649,
+  "loose_verts": 0,
+  "bbox_min": [
+   -2.744,
+   -3.07,
+   -0.36
+  ],
+  "bbox_max": [
+   3.6,
+   3.11,
+   8.253
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Palm"
+  ],
+  "ucx": {
+   "UCX_tree_palm_c_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_tree_palm_c_02": {
+    "verts": 26,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 1,
+  "open_pieces": 1736,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_palm_c_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -3.6,
+     -3.6,
+     -0.1
+    ],
+    [
+     3.6,
+     3.6,
+     8.303
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_palm_c"
+   ]
+  },
+  "seconds": 2.7,
+  "build_s": 0.2,
+  "ao_s": 1.7,
+  "size": [
+   6.34,
+   8.25
+  ],
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_palm_c.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_palm_c_Far.fbx"
+  ]
+ },
+ "tree_dead_a": {
+  "id": "tree_dead_a",
+  "tris": 7991,
+  "verts": 4293,
+  "faces": 4270,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 411,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.487,
+   -1.426,
+   -0.325
+  ],
+  "bbox_max": [
+   1.642,
+   1.125,
+   4.691
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.82
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Dead"
+  ],
+  "ucx": {
+   "UCX_tree_dead_a_01": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 4,
+  "open_pieces": 84,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_dead_a_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -1.642,
+     -1.642,
+     -0.1
+    ],
+    [
+     1.642,
+     1.642,
+     4.741
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_dead_a"
+   ]
+  },
+  "seconds": 1.2,
+  "build_s": 0.1,
+  "ao_s": 0.9,
+  "size": [
+   3.13,
+   4.69
+  ],
+  "clumps": 0,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_dead_a.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_dead_a_Far.fbx"
+  ]
+ },
+ "tree_dead_b": {
+  "id": "tree_dead_b",
+  "tris": 11795,
+  "verts": 16712,
+  "faces": 9943,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 14325,
+  "loose_verts": 0,
+  "bbox_min": [
+   -3.221,
+   -3.716,
+   -0.305
+  ],
+  "bbox_max": [
+   2.406,
+   2.695,
+   4.76
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Dead",
+   "M_Tree_LeafDry"
+  ],
+  "ucx": {
+   "UCX_tree_dead_b_01": {
+    "verts": 19,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 41,
+  "open_pieces": 3570,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_dead_b_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -3.716,
+     -3.716,
+     -0.1
+    ],
+    [
+     3.716,
+     3.716,
+     4.81
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_dead_b"
+   ]
+  },
+  "seconds": 1.2,
+  "build_s": 0.1,
+  "ao_s": 0.8,
+  "size": [
+   6.41,
+   4.76
+  ],
+  "clumps": 36,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_dead_b.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_dead_b_Far.fbx"
+  ]
+ },
+ "tree_dead_c": {
+  "id": "tree_dead_c",
+  "tris": 6100,
+  "verts": 6699,
+  "faces": 4509,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 4834,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.427,
+   -1.399,
+   -0.3
+  ],
+  "bbox_max": [
+   2.982,
+   2.357,
+   3.672
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Dead",
+   "M_Tree_LeafDry"
+  ],
+  "ucx": {
+   "UCX_tree_dead_c_01": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 19,
+  "open_pieces": 1194,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_dead_c_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -2.982,
+     -2.982,
+     -0.1
+    ],
+    [
+     2.982,
+     2.982,
+     3.722
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_dead_c"
+   ]
+  },
+  "seconds": 1.3,
+  "build_s": 0.1,
+  "ao_s": 0.8,
+  "size": [
+   4.41,
+   3.67
+  ],
+  "clumps": 13,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_dead_c.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_dead_c_Far.fbx"
+  ]
+ },
+ "tree_poplar_a": {
+  "id": "tree_poplar_a",
+  "tris": 39294,
+  "verts": 56333,
+  "faces": 33386,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 48530,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.708,
+   -1.887,
+   -0.35
+  ],
+  "bbox_max": [
+   2.776,
+   2.823,
+   23.242
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Leaf"
+  ],
+  "ucx": {
+   "UCX_tree_poplar_a_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 159,
+  "open_pieces": 12103,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_poplar_a_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -2.823,
+     -2.823,
+     -0.1
+    ],
+    [
+     2.823,
+     2.823,
+     23.292
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_poplar_a"
+   ]
+  },
+  "seconds": 4.5,
+  "build_s": 0.4,
+  "ao_s": 3.0,
+  "size": [
+   4.71,
+   23.24
+  ],
+  "clumps": 111,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_poplar_a.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_poplar_a_Far.fbx"
+  ]
+ },
+ "tree_poplar_b": {
+  "id": "tree_poplar_b",
+  "tris": 40813,
+  "verts": 65273,
+  "faces": 36569,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 59513,
+  "loose_verts": 0,
+  "bbox_min": [
+   -1.631,
+   -1.398,
+   -0.325
+  ],
+  "bbox_max": [
+   1.595,
+   1.706,
+   17.679
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Needle"
+  ],
+  "ucx": {
+   "UCX_tree_poplar_b_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 128,
+  "open_pieces": 14854,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_poplar_b_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -1.706,
+     -1.706,
+     -0.1
+    ],
+    [
+     1.706,
+     1.706,
+     17.729
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_poplar_b"
+   ]
+  },
+  "seconds": 4.6,
+  "build_s": 0.3,
+  "ao_s": 3.1,
+  "size": [
+   3.23,
+   17.68
+  ],
+  "clumps": 88,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_poplar_b.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_poplar_b_Far.fbx"
+  ]
+ },
+ "tree_poplar_c": {
+  "id": "tree_poplar_c",
+  "tris": 45787,
+  "verts": 71736,
+  "faces": 40667,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 64765,
+  "loose_verts": 0,
+  "bbox_min": [
+   -2.665,
+   -2.82,
+   -0.345
+  ],
+  "bbox_max": [
+   2.927,
+   3.008,
+   20.224
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_LeafLight"
+  ],
+  "ucx": {
+   "UCX_tree_poplar_c_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 149,
+  "open_pieces": 16162,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_poplar_c_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -3.008,
+     -3.008,
+     -0.1
+    ],
+    [
+     3.008,
+     3.008,
+     20.274
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_poplar_c"
+   ]
+  },
+  "seconds": 5.4,
+  "build_s": 0.4,
+  "ao_s": 3.4,
+  "size": [
+   5.83,
+   20.22
+  ],
+  "clumps": 117,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_poplar_c.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_poplar_c_Far.fbx"
+  ]
+ },
+ "tree_olive_a": {
+  "id": "tree_olive_a",
+  "tris": 19023,
+  "verts": 28908,
+  "faces": 16683,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 25723,
+  "loose_verts": 0,
+  "bbox_min": [
+   -2.766,
+   -3.003,
+   -0.324
+  ],
+  "bbox_max": [
+   2.384,
+   2.838,
+   5.306
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_LeafDry"
+  ],
+  "ucx": {
+   "UCX_tree_olive_a_01": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 99.2,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 64,
+  "open_pieces": 6407,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_olive_a_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -3.003,
+     -3.003,
+     -0.1
+    ],
+    [
+     3.003,
+     3.003,
+     5.356
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_olive_a"
+   ]
+  },
+  "seconds": 2.0,
+  "build_s": 0.1,
+  "ao_s": 1.1,
+  "size": [
+   5.84,
+   5.31
+  ],
+  "clumps": 58,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_olive_a.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_olive_a_Far.fbx"
+  ]
+ },
+ "tree_olive_b": {
+  "id": "tree_olive_b",
+  "tris": 11216,
+  "verts": 15742,
+  "faces": 9518,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 13408,
+  "loose_verts": 0,
+  "bbox_min": [
+   -2.177,
+   -2.139,
+   -0.285
+  ],
+  "bbox_max": [
+   2.072,
+   1.959,
+   4.14
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_LeafDry"
+  ],
+  "ucx": {
+   "UCX_tree_olive_b_01": {
+    "verts": 21,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 49,
+  "open_pieces": 3332,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_olive_b_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -2.177,
+     -2.177,
+     -0.1
+    ],
+    [
+     2.177,
+     2.177,
+     4.19
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_olive_b"
+   ]
+  },
+  "seconds": 1.4,
+  "build_s": 0.1,
+  "ao_s": 1.0,
+  "size": [
+   4.25,
+   4.14
+  ],
+  "clumps": 43,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_olive_b.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_olive_b_Far.fbx"
+  ]
+ },
+ "tree_olive_c": {
+  "id": "tree_olive_c",
+  "tris": 22837,
+  "verts": 32360,
+  "faces": 19251,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 27759,
+  "loose_verts": 0,
+  "bbox_min": [
+   -2.969,
+   -2.55,
+   -0.313
+  ],
+  "bbox_max": [
+   3.062,
+   3.305,
+   5.92
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    0.9
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_LeafDry"
+  ],
+  "ucx": {
+   "UCX_tree_olive_c_01": {
+    "verts": 23,
+    "convex": true,
+    "manifold": true
+   },
+   "UCX_tree_olive_c_02": {
+    "verts": 24,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 100.0,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 76,
+  "open_pieces": 6910,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_olive_c_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -3.305,
+     -3.305,
+     -0.1
+    ],
+    [
+     3.305,
+     3.305,
+     5.97
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_olive_c"
+   ]
+  },
+  "seconds": 3.0,
+  "build_s": 0.3,
+  "ao_s": 1.9,
+  "size": [
+   6.03,
+   5.92
+  ],
+  "clumps": 68,
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_olive_c.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_olive_c_Far.fbx"
+  ]
+ },
+ "tree_pine_a": {
+  "id": "tree_pine_a",
+  "tris": 48181,
+  "verts": 65174,
+  "faces": 38479,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 55213,
+  "loose_verts": 0,
+  "bbox_min": [
+   -3.938,
+   -4.889,
+   -0.355
+  ],
+  "bbox_max": [
+   4.837,
+   4.194,
+   18.048
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Needle"
+  ],
+  "ucx": {
+   "UCX_tree_pine_a_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 94.9,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 1,
+  "open_pieces": 13475,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_pine_a_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -4.889,
+     -4.889,
+     -0.1
+    ],
+    [
+     4.889,
+     4.889,
+     18.098
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_pine_a"
+   ]
+  },
+  "seconds": 5.8,
+  "build_s": 0.4,
+  "ao_s": 4.0,
+  "size": [
+   9.08,
+   18.05
+  ],
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_pine_a.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_pine_a_Far.fbx"
+  ]
+ },
+ "tree_pine_b": {
+  "id": "tree_pine_b",
+  "tris": 56056,
+  "verts": 62216,
+  "faces": 40407,
+  "nonmanifold_edges": 0,
+  "boundary_edges": 46100,
+  "loose_verts": 0,
+  "bbox_min": [
+   -3.129,
+   -3.19,
+   -0.34
+  ],
+  "bbox_max": [
+   2.996,
+   2.784,
+   21.567
+  ],
+  "scale_ok": true,
+  "ground_ok": true,
+  "uv": [
+   "UVMap"
+  ],
+  "uv_finite": true,
+  "col_range": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.16,
+    1.0
+   ]
+  ],
+  "materials": [
+   "M_Tree_Bark",
+   "M_Tree_Needle"
+  ],
+  "ucx": {
+   "UCX_tree_pine_b_01": {
+    "verts": 16,
+    "convex": true,
+    "manifold": true
+   }
+  },
+  "ucx_cover_pct": 96.2,
+  "tri_ok": true,
+  "name_ok": true,
+  "closed_pieces": 1,
+  "open_pieces": 11136,
+  "inverted_closed_pieces": 0,
+  "far": {
+   "name": "tree_pine_b_Far",
+   "tris": 4,
+   "bbox": [
+    [
+     -3.19,
+     -3.19,
+     -0.1
+    ],
+    [
+     3.19,
+     3.19,
+     21.617
+    ]
+   ],
+   "materials": [
+    "M_Tree_Far_tree_pine_b"
+   ]
+  },
+  "seconds": 5.1,
+  "build_s": 0.3,
+  "ao_s": 3.2,
+  "size": [
+   6.12,
+   21.57
+  ],
+  "exported": [
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_pine_b.fbx",
+   "W:\\YouTube\\Claude Sonnet 5.5\\Forza Horizen\\Sonnet55Forza\\UnrealSonnet55Forza\\Exports\\Nature\\Trees\\tree_pine_b_Far.fbx"
+  ]
+ }
+}

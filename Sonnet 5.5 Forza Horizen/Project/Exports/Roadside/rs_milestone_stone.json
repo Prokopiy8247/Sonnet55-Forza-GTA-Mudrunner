@@ -1,0 +1,73 @@
+{
+ "id": "rs_milestone_stone",
+ "display_name": "Milestone (granite slab with painted number plate)",
+ "category": "Roadside",
+ "group": "mountain",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.48,
+  "y": 0.3,
+  "z": 0.82
+ },
+ "bounds_min": [
+  -0.24,
+  -0.15,
+  0.0
+ ],
+ "bounds_max": [
+  0.24,
+  0.15,
+  0.82
+ ],
+ "tri_counts": {
+  "lod0": 274,
+  "collision": {
+   "UCX_rs_milestone_stone_01": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_Stone",
+  "M_RS_PaintWhite",
+  "M_RS_PaintBlack",
+  "M_RS_PaintRed"
+ ],
+ "material_slot_tris": {
+  "M_RS_Stone": 89,
+  "M_RS_PaintWhite": 18,
+  "M_RS_PaintBlack": 34,
+  "M_RS_PaintRed": 6
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_milestone_stone_01"
+  ]
+ },
+ "biome_tags": [
+  "alpine",
+  "mountain_road",
+  "village",
+  "rural"
+ ],
+ "scale_range": [
+  0.9,
+  1.2
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Distance marker along mountain / rural roads; number plate faces +X.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "height": 0.8
+ },
+ "decal_faces": 34,
+ "fbx": "rs_milestone_stone.fbx"
+}

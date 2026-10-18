@@ -1,0 +1,72 @@
+{
+ "id": "rs_hay_bale_roadblock",
+ "display_name": "Hay bale roadblock (5 bales + warning board)",
+ "category": "Roadside",
+ "group": "trafficfurniture",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.6939,
+  "y": 3.0393,
+  "z": 1.0171
+ },
+ "bounds_min": [
+  -0.3539,
+  -1.5365,
+  -0.0171
+ ],
+ "bounds_max": [
+  0.34,
+  1.5028,
+  1.0
+ ],
+ "tri_counts": {
+  "lod0": 2644,
+  "collision": {
+   "UCX_rs_hay_bale_roadblock_01": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_Hay",
+  "M_RS_Rope",
+  "M_RS_Wood",
+  "M_RS_PaintWhite",
+  "M_RS_PaintRed"
+ ],
+ "material_slot_tris": {
+  "M_RS_Hay": 997,
+  "M_RS_Rope": 480,
+  "M_RS_Wood": 52,
+  "M_RS_PaintWhite": 6,
+  "M_RS_PaintRed": 83
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_hay_bale_roadblock_01"
+  ]
+ },
+ "biome_tags": [
+  "rural",
+  "race_event",
+  "farmland"
+ ],
+ "scale_range": [
+  0.9,
+  1.1
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Rally stage / closed-road barrier. Spans Y (2.8 m); front +X.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {},
+ "decal_faces": 0,
+ "fbx": "rs_hay_bale_roadblock.fbx"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "rs_parapet_mountain_3m",
+ "display_name": "Mountain parapet stone + timber rail 3.0 m",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 3.08,
+  "y": 0.72,
+  "z": 1.44
+ },
+ "bounds_min": [
+  -0.34,
+  -0.62,
+  0.0
+ ],
+ "bounds_max": [
+  2.74,
+  0.1,
+  1.44
+ ],
+ "tri_counts": {
+  "lod0": 1488,
+  "collision": {
+   "UCX_rs_parapet_mountain_3m_01": 12,
+   "UCX_rs_parapet_mountain_3m_02": 12,
+   "UCX_rs_parapet_mountain_3m_03": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_ConcreteDark",
+  "M_RS_Stone",
+  "M_RS_Wood",
+  "M_RS_GalvDark"
+ ],
+ "material_slot_tris": {
+  "M_RS_ConcreteDark": 12,
+  "M_RS_Stone": 654,
+  "M_RS_Wood": 78,
+  "M_RS_GalvDark": 36
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_parapet_mountain_3m_01",
+   "UCX_rs_parapet_mountain_3m_02",
+   "UCX_rs_parapet_mountain_3m_03"
+  ]
+ },
+ "biome_tags": [
+  "alpine",
+  "forest",
+  "mountain_road"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Hairpins and cliff-side verge in the alpine biome. Traffic face y=0, body extends to -Y (0.5 m). Stone pier at x=0; tile every 3.0 m and close the run with rs_parapet_mountain_end. Both faces are coursed stone.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 3.0,
+  "height": 1.26,
+  "run_role": "body",
+  "closes_with": "rs_parapet_mountain_end"
+ },
+ "decal_faces": 0,
+ "fbx": "rs_parapet_mountain_3m.fbx"
+}

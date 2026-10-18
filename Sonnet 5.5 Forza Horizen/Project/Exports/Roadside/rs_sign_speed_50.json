@@ -1,0 +1,86 @@
+{
+ "id": "rs_sign_speed_50",
+ "display_name": "Road sign speed limit 50",
+ "category": "Roadside",
+ "group": "sign",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.1206,
+  "y": 0.7,
+  "z": 2.732
+ },
+ "bounds_min": [
+  -0.0476,
+  -0.35,
+  0.0
+ ],
+ "bounds_max": [
+  0.073,
+  0.35,
+  2.732
+ ],
+ "tri_counts": {
+  "lod0": 898,
+  "collision": {
+   "UCX_rs_sign_speed_50_01": 28,
+   "UCX_rs_sign_speed_50_02": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvSteel",
+  "M_RS_GalvDark",
+  "M_RS_SignWhite",
+  "M_RS_SignBack",
+  "M_RS_SignRed",
+  "M_RS_SignBlack"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvSteel": 12,
+  "M_RS_GalvDark": 100,
+  "M_RS_SignWhite": 1,
+  "M_RS_SignBack": 201,
+  "M_RS_SignRed": 40,
+  "M_RS_SignBlack": 50
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_sign_speed_50_01",
+   "UCX_rs_sign_speed_50_02"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "sign"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "panel_center": [
+   0.066,
+   0.0,
+   2.25
+  ]
+ },
+ "usage": "Roadside regulatory sign, face +X, one galvanised post (2.75 m). Place 2-4 m from the road edge.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "panel_zc": 2.25,
+  "post_height": 2.72,
+  "panel_top": 2.6,
+  "panel_bottom": 1.9
+ },
+ "decal_faces": 90,
+ "fbx": "rs_sign_speed_50.fbx"
+}

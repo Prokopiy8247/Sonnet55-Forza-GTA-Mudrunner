@@ -1,0 +1,79 @@
+{
+ "id": "bld_pier_4m",
+ "display_name": "Pier segment (4 m, tileable along +X)",
+ "category": "Settlements",
+ "group": "harbour",
+ "units": "m",
+ "pivot": "water_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 4.0085,
+  "y": 2.64,
+  "z": 4.03
+ },
+ "bounds_min": [
+  -0.0042,
+  -1.32,
+  -1.8
+ ],
+ "bounds_max": [
+  4.0042,
+  1.32,
+  2.23
+ ],
+ "tri_counts": {
+  "lod0": 1812,
+  "collision": {
+   "UCX_bld_pier_4m_01": 20,
+   "UCX_bld_pier_4m_02": 20,
+   "UCX_bld_pier_4m_03": 20,
+   "UCX_bld_pier_4m_04": 20,
+   "UCX_bld_pier_4m_05": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_Wood",
+  "M_Bld_Metal"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Wood": 834,
+  "M_Bld_Metal": 96
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_pier_4m_01",
+   "UCX_bld_pier_4m_02",
+   "UCX_bld_pier_4m_03",
+   "UCX_bld_pier_4m_04",
+   "UCX_bld_pier_4m_05"
+  ]
+ },
+ "biome_tags": [
+  "coast",
+  "harbour",
+  "tileable"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Tileable pier segment: starts at x=0 on the centreline, runs 4 m along +X; z=0 = water surface, deck top at z=1.25",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 4.0,
+  "width": 2.4,
+  "deck_z": 1.25,
+  "water_z": 0.0
+ },
+ "decal_faces": 0,
+ "fbx": "bld_pier_4m.fbx"
+}

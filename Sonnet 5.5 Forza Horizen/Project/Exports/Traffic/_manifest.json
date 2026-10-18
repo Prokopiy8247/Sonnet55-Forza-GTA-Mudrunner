@@ -1,0 +1,152 @@
+{
+  "kit": "traffic",
+  "count": 6,
+  "vehicles": [
+    {
+      "id": "traffic01_compact",
+      "display_name": "City Compact",
+      "dimensions": {
+        "length": 3.6319,
+        "width": 1.62,
+        "height": 1.6211,
+        "width_with_mirrors": 1.8218
+      },
+      "wheelbase": 2.35,
+      "wheel_count": 4,
+      "tri_total": 21838,
+      "json": "traffic01_compact/traffic01_compact.json",
+      "parts": [
+        "traffic01_compact_Body.fbx",
+        "traffic01_compact_Glass.fbx",
+        "traffic01_compact_Interior.fbx",
+        "traffic01_compact_Wheel_FL.fbx",
+        "traffic01_compact_Wheel_FR.fbx",
+        "traffic01_compact_Wheel_RL.fbx",
+        "traffic01_compact_Wheel_RR.fbx"
+      ]
+    },
+    {
+      "id": "traffic02_van",
+      "display_name": "Panel Van",
+      "dimensions": {
+        "length": 5.4438,
+        "width": 2.0,
+        "height": 2.462,
+        "width_with_mirrors": 2.54
+      },
+      "wheelbase": 3.2,
+      "wheel_count": 4,
+      "tri_total": 24280,
+      "json": "traffic02_van/traffic02_van.json",
+      "parts": [
+        "traffic02_van_Body.fbx",
+        "traffic02_van_Glass.fbx",
+        "traffic02_van_Interior.fbx",
+        "traffic02_van_Wheel_FL.fbx",
+        "traffic02_van_Wheel_FR.fbx",
+        "traffic02_van_Wheel_RL.fbx",
+        "traffic02_van_Wheel_RR.fbx"
+      ]
+    },
+    {
+      "id": "traffic03_lorry",
+      "display_name": "Box Lorry",
+      "dimensions": {
+        "length": 8.528,
+        "width": 2.5,
+        "height": 3.61,
+        "width_with_mirrors": 3.09
+      },
+      "wheelbase": 5.2,
+      "wheel_count": 10,
+      "tri_total": 31188,
+      "json": "traffic03_lorry/traffic03_lorry.json",
+      "parts": [
+        "traffic03_lorry_Body.fbx",
+        "traffic03_lorry_Glass.fbx",
+        "traffic03_lorry_Interior.fbx",
+        "traffic03_lorry_Wheel_1.fbx",
+        "traffic03_lorry_Wheel_10.fbx",
+        "traffic03_lorry_Wheel_2.fbx",
+        "traffic03_lorry_Wheel_3.fbx",
+        "traffic03_lorry_Wheel_4.fbx",
+        "traffic03_lorry_Wheel_5.fbx",
+        "traffic03_lorry_Wheel_6.fbx",
+        "traffic03_lorry_Wheel_7.fbx",
+        "traffic03_lorry_Wheel_8.fbx",
+        "traffic03_lorry_Wheel_9.fbx"
+      ]
+    },
+    {
+      "id": "traffic04_bus",
+      "display_name": "Intercity Coach",
+      "dimensions": {
+        "length": 12.0394,
+        "width": 2.55,
+        "height": 3.615,
+        "width_with_mirrors": 3.125
+      },
+      "wheelbase": 6.1,
+      "wheel_count": 6,
+      "tri_total": 26350,
+      "json": "traffic04_bus/traffic04_bus.json",
+      "parts": [
+        "traffic04_bus_Body.fbx",
+        "traffic04_bus_Glass.fbx",
+        "traffic04_bus_Interior.fbx",
+        "traffic04_bus_Wheel_1.fbx",
+        "traffic04_bus_Wheel_2.fbx",
+        "traffic04_bus_Wheel_3.fbx",
+        "traffic04_bus_Wheel_4.fbx",
+        "traffic04_bus_Wheel_5.fbx",
+        "traffic04_bus_Wheel_6.fbx"
+      ]
+    },
+    {
+      "id": "traffic05_tractor",
+      "display_name": "Farm Tractor",
+      "dimensions": {
+        "length": 4.1925,
+        "width": 2.3,
+        "height": 2.8606,
+        "width_with_mirrors": 2.4
+      },
+      "wheelbase": 2.35,
+      "wheel_count": 4,
+      "tri_total": 17472,
+      "json": "traffic05_tractor/traffic05_tractor.json",
+      "parts": [
+        "traffic05_tractor_Body.fbx",
+        "traffic05_tractor_Glass.fbx",
+        "traffic05_tractor_Interior.fbx",
+        "traffic05_tractor_Wheel_FL.fbx",
+        "traffic05_tractor_Wheel_FR.fbx",
+        "traffic05_tractor_Wheel_RL.fbx",
+        "traffic05_tractor_Wheel_RR.fbx"
+      ]
+    },
+    {
+      "id": "traffic06_pickup",
+      "display_name": "Work Pickup",
+      "dimensions": {
+        "length": 5.055,
+        "width": 1.86,
+        "height": 2.045,
+        "width_with_mirrors": 2.26
+      },
+      "wheelbase": 3.1,
+      "wheel_count": 4,
+      "tri_total": 20674,
+      "json": "traffic06_pickup/traffic06_pickup.json",
+      "parts": [
+        "traffic06_pickup_Body.fbx",
+        "traffic06_pickup_Glass.fbx",
+        "traffic06_pickup_Interior.fbx",
+        "traffic06_pickup_Wheel_FL.fbx",
+        "traffic06_pickup_Wheel_FR.fbx",
+        "traffic06_pickup_Wheel_RL.fbx",
+        "traffic06_pickup_Wheel_RR.fbx"
+      ]
+    }
+  ]
+}

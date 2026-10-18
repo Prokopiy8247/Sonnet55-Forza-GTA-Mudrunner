@@ -1,0 +1,72 @@
+{
+  "id": "nat_rock_mesa_b",
+  "display_name": "Sandstone butte - caprock spire",
+  "kit": "ground_cover",
+  "family": "rocks",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 3.548,
+    "y": 2.95,
+    "z": 6.12,
+    "height": 6.12
+  },
+  "bounds": {
+    "min": [
+      -1.741,
+      -1.505,
+      0.0
+    ],
+    "max": [
+      1.807,
+      1.445,
+      6.12
+    ]
+  },
+  "tri_counts": {
+    "mesh": 2560,
+    "ucx": [
+      42
+    ]
+  },
+  "material_slots": [
+    "M_Rock_Sandstone",
+    "M_Rock_SandstoneDark"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_rock_mesa_b_01"
+    ],
+    "notes": "UCX_* convex hulls (<=32 verts). UE: Collision Complexity = Use Simple As Complex"
+  },
+  "biome_tags": [
+    "desert",
+    "canyon",
+    "badlands"
+  ],
+  "scale_range": [
+    0.8,
+    1.4
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 1,
+    "open_pieces": 0,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_rock_mesa_b.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 1302)"
+}

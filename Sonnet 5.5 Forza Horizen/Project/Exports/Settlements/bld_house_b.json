@@ -1,0 +1,84 @@
+{
+ "id": "bld_house_b",
+ "display_name": "Village house B (9x11 m, front gable + porch)",
+ "category": "Settlements",
+ "group": "houses",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 13.3643,
+  "y": 10.1647,
+  "z": 7.72
+ },
+ "bounds_min": [
+  -5.85,
+  -5.0823,
+  0.0
+ ],
+ "bounds_max": [
+  7.5143,
+  5.0823,
+  7.72
+ ],
+ "tri_counts": {
+  "lod0": 9464,
+  "collision": {
+   "UCX_bld_house_b_01": 12,
+   "UCX_bld_house_b_02": 8,
+   "UCX_bld_house_b_03": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_Plaster",
+  "M_Bld_Stone",
+  "M_Bld_Window",
+  "M_Bld_Wood",
+  "M_Bld_Metal",
+  "M_Bld_RoofTile"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Plaster": 278,
+  "M_Bld_Stone": 2396,
+  "M_Bld_Window": 72,
+  "M_Bld_Wood": 1516,
+  "M_Bld_Metal": 22,
+  "M_Bld_RoofTile": 939
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_house_b_01",
+   "UCX_bld_house_b_02",
+   "UCX_bld_house_b_03"
+  ]
+ },
+ "biome_tags": [
+  "village",
+  "temperate",
+  "greenvale"
+ ],
+ "scale_range": [
+  0.9,
+  1.15
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Larger village house, gable faces +X, porch over the door",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   11.0,
+   9.0
+  ],
+  "porch": true
+ },
+ "decal_faces": 0,
+ "fbx": "bld_house_b.fbx"
+}

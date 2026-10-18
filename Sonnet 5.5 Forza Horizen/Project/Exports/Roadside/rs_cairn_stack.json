@@ -1,0 +1,67 @@
+{
+ "id": "rs_cairn_stack",
+ "display_name": "Mountain cairn (stacked flat stones, 1.1 m)",
+ "category": "Roadside",
+ "group": "mountain",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 1.1546,
+  "y": 1.1536,
+  "z": 1.2449
+ },
+ "bounds_min": [
+  -0.5757,
+  -0.5209,
+  -0.0389
+ ],
+ "bounds_max": [
+  0.5788,
+  0.6326,
+  1.2059
+ ],
+ "tri_counts": {
+  "lod0": 660,
+  "collision": {
+   "UCX_rs_cairn_stack_01": 24
+  }
+ },
+ "material_slots": [
+  "M_RS_Stone"
+ ],
+ "material_slot_tris": {
+  "M_RS_Stone": 398
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_rs_cairn_stack_01"
+  ]
+ },
+ "biome_tags": [
+  "alpine",
+  "mountain_road",
+  "desert",
+  "scrub"
+ ],
+ "scale_range": [
+  0.7,
+  1.5
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Trail / pass marker on mountain roads. 8 balanced stones (angular slabs alternating with rounded river stones, per-stone colour) + angular chips; convex hull collision.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "height": 1.15
+ },
+ "decal_faces": 0,
+ "fbx": "rs_cairn_stack.fbx"
+}

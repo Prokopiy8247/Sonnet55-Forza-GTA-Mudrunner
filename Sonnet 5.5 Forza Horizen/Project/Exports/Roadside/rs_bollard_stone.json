@@ -1,0 +1,68 @@
+{
+ "id": "rs_bollard_stone",
+ "display_name": "Bollard stone (granite, painted band)",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.3676,
+  "y": 0.3676,
+  "z": 0.85
+ },
+ "bounds_min": [
+  -0.1838,
+  -0.1838,
+  0.0
+ ],
+ "bounds_max": [
+  0.1838,
+  0.1838,
+  0.85
+ ],
+ "tri_counts": {
+  "lod0": 510,
+  "collision": {
+   "UCX_rs_bollard_stone_01": 36
+  }
+ },
+ "material_slots": [
+  "M_RS_Stone",
+  "M_RS_PaintWhite",
+  "M_RS_ReflectorRed"
+ ],
+ "material_slot_tris": {
+  "M_RS_Stone": 181,
+  "M_RS_PaintWhite": 22,
+  "M_RS_ReflectorRed": 22
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_rs_bollard_stone_01"
+  ]
+ },
+ "biome_tags": [
+  "village",
+  "all_biomes",
+  "mountain"
+ ],
+ "scale_range": [
+  0.9,
+  1.15
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Village streets, parking edges, hairpin apexes.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {},
+ "decal_faces": 0,
+ "fbx": "rs_bollard_stone.fbx"
+}

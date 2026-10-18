@@ -1,0 +1,699 @@
+{
+ "kit": "settlements",
+ "version": 1,
+ "units": "m",
+ "blender": "5.2.2",
+ "staging": "y=100",
+ "axes": "Blender +X forward/+Z up (FBX recipe: axis_forward -Y, axis_up Z, apply_scale FBX_SCALE_ALL)",
+ "traffic_side": "+Y for rails/barriers/fences (road lies to the +Y side when walking +X)",
+ "assets": [
+  {
+   "id": "bld_house_a",
+   "fbx": "bld_house_a.fbx",
+   "group": "houses",
+   "dimensions": {
+    "x": 8.3339,
+    "y": 9.6,
+    "z": 6.62
+   },
+   "tris": 7132,
+   "materials": [
+    "M_Bld_Plaster",
+    "M_Bld_Stone",
+    "M_Bld_Window",
+    "M_Bld_Wood",
+    "M_Bld_Metal",
+    "M_Bld_RoofTile"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.15
+   ],
+   "nanite": true,
+   "tags": [
+    "village",
+    "temperate",
+    "greenvale"
+   ]
+  },
+  {
+   "id": "bld_house_b",
+   "fbx": "bld_house_b.fbx",
+   "group": "houses",
+   "dimensions": {
+    "x": 13.3643,
+    "y": 10.1647,
+    "z": 7.72
+   },
+   "tris": 9464,
+   "materials": [
+    "M_Bld_Plaster",
+    "M_Bld_Stone",
+    "M_Bld_Window",
+    "M_Bld_Wood",
+    "M_Bld_Metal",
+    "M_Bld_RoofTile"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.15
+   ],
+   "nanite": true,
+   "tags": [
+    "village",
+    "temperate",
+    "greenvale"
+   ]
+  },
+  {
+   "id": "bld_house_c",
+   "fbx": "bld_house_c.fbx",
+   "group": "houses",
+   "dimensions": {
+    "x": 7.2868,
+    "y": 8.6,
+    "z": 9.72
+   },
+   "tris": 12220,
+   "materials": [
+    "M_Bld_Brick",
+    "M_Bld_Stone",
+    "M_Bld_Wood",
+    "M_Bld_Metal",
+    "M_Bld_Window",
+    "M_Bld_RoofTile"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.15
+   ],
+   "nanite": true,
+   "tags": [
+    "village",
+    "town",
+    "temperate"
+   ]
+  },
+  {
+   "id": "bld_house_l",
+   "fbx": "bld_house_l.fbx",
+   "group": "houses",
+   "dimensions": {
+    "x": 11.3339,
+    "y": 11.88,
+    "z": 6.12
+   },
+   "tris": 10488,
+   "materials": [
+    "M_Bld_Plaster",
+    "M_Bld_Stone",
+    "M_Bld_Wood",
+    "M_Bld_Metal",
+    "M_Bld_Window",
+    "M_Bld_RoofTile"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.15
+   ],
+   "nanite": true,
+   "tags": [
+    "village",
+    "temperate",
+    "greenvale"
+   ]
+  },
+  {
+   "id": "bld_farmhouse",
+   "fbx": "bld_farmhouse.fbx",
+   "group": "farm",
+   "dimensions": {
+    "x": 10.3354,
+    "y": 11.6,
+    "z": 10.12
+   },
+   "tris": 16088,
+   "materials": [
+    "M_Bld_Plaster",
+    "M_Bld_Stone",
+    "M_Bld_Window",
+    "M_Bld_Wood",
+    "M_Bld_Metal",
+    "M_Bld_RoofTile"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.15
+   ],
+   "nanite": true,
+   "tags": [
+    "farm",
+    "rural",
+    "temperate"
+   ]
+  },
+  {
+   "id": "bld_barn",
+   "fbx": "bld_barn.fbx",
+   "group": "farm",
+   "dimensions": {
+    "x": 19.75,
+    "y": 12.5891,
+    "z": 9.7
+   },
+   "tris": 4486,
+   "materials": [
+    "M_Bld_PaintRed",
+    "M_Bld_Stone",
+    "M_Bld_PaintWhite",
+    "M_Bld_Window",
+    "M_Bld_Metal"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.85,
+    1.2
+   ],
+   "nanite": true,
+   "tags": [
+    "farm",
+    "rural",
+    "temperate"
+   ]
+  },
+  {
+   "id": "bld_silo",
+   "fbx": "bld_silo.fbx",
+   "group": "farm",
+   "dimensions": {
+    "x": 7.2888,
+    "y": 6.3,
+    "z": 16.1999
+   },
+   "tris": 2976,
+   "materials": [
+    "M_Bld_Stone",
+    "M_Bld_Metal"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.2
+   ],
+   "nanite": true,
+   "tags": [
+    "farm",
+    "rural",
+    "industrial"
+   ]
+  },
+  {
+   "id": "bld_church",
+   "fbx": "bld_church.fbx",
+   "group": "civic",
+   "dimensions": {
+    "x": 18.4754,
+    "y": 8.7,
+    "z": 19.4
+   },
+   "tris": 24600,
+   "materials": [
+    "M_Bld_Plaster",
+    "M_Bld_Stone",
+    "M_Bld_Window",
+    "M_Bld_RoofTile",
+    "M_Bld_Wood",
+    "M_Bld_Metal"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.2
+   ],
+   "nanite": true,
+   "tags": [
+    "village",
+    "temperate",
+    "landmark"
+   ]
+  },
+  {
+   "id": "bld_diner",
+   "fbx": "bld_diner.fbx",
+   "group": "roadside",
+   "dimensions": {
+    "x": 9.05,
+    "y": 16.9,
+    "z": 7.1
+   },
+   "tris": 5252,
+   "materials": [
+    "M_Bld_PaintWhite",
+    "M_Bld_Stone",
+    "M_Bld_Window",
+    "M_Bld_Metal",
+    "M_Bld_PaintRed",
+    "M_Bld_Neon"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.15
+   ],
+   "nanite": true,
+   "tags": [
+    "roadside",
+    "usa",
+    "town"
+   ]
+  },
+  {
+   "id": "bld_gas_station",
+   "fbx": "bld_gas_station.fbx",
+   "group": "roadside",
+   "dimensions": {
+    "x": 18.69,
+    "y": 16.57,
+    "z": 7.46
+   },
+   "tris": 6484,
+   "materials": [
+    "M_Bld_PaintWhite",
+    "M_Bld_Stone",
+    "M_Bld_Window",
+    "M_Bld_Metal",
+    "M_Bld_PaintRed",
+    "M_Bld_Neon"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.15
+   ],
+   "nanite": true,
+   "tags": [
+    "roadside",
+    "usa",
+    "highway"
+   ]
+  },
+  {
+   "id": "bld_chalet",
+   "fbx": "bld_chalet.fbx",
+   "group": "alpine",
+   "dimensions": {
+    "x": 13.2,
+    "y": 11.4817,
+    "z": 11.9178
+   },
+   "tris": 13440,
+   "materials": [
+    "M_Bld_Stone",
+    "M_Bld_Wood",
+    "M_Bld_Metal",
+    "M_Bld_Window",
+    "M_Bld_RoofTile"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.2
+   ],
+   "nanite": true,
+   "tags": [
+    "alpine",
+    "snow",
+    "mountain"
+   ]
+  },
+  {
+   "id": "bld_harbour_hut",
+   "fbx": "bld_harbour_hut.fbx",
+   "group": "harbour",
+   "dimensions": {
+    "x": 7.4374,
+    "y": 4.915,
+    "z": 4.6131
+   },
+   "tris": 3160,
+   "materials": [
+    "M_Bld_Wood",
+    "M_Bld_Stone",
+    "M_Bld_Window",
+    "M_Bld_PaintBlue",
+    "M_Bld_Metal"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.2
+   ],
+   "nanite": true,
+   "tags": [
+    "coast",
+    "harbour",
+    "fishing"
+   ]
+  },
+  {
+   "id": "bld_pier_4m",
+   "fbx": "bld_pier_4m.fbx",
+   "group": "harbour",
+   "dimensions": {
+    "x": 4.0085,
+    "y": 2.64,
+    "z": 4.03
+   },
+   "tris": 1812,
+   "materials": [
+    "M_Bld_Wood",
+    "M_Bld_Metal"
+   ],
+   "collision": "box",
+   "pivot": "water_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "coast",
+    "harbour",
+    "tileable"
+   ]
+  },
+  {
+   "id": "bld_boat_row",
+   "fbx": "bld_boat_row.fbx",
+   "group": "harbour",
+   "dimensions": {
+    "x": 3.8568,
+    "y": 1.452,
+    "z": 0.7647
+   },
+   "tris": 2376,
+   "materials": [
+    "M_Bld_PaintBlue",
+    "M_Bld_Wood",
+    "M_Bld_Metal"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.2
+   ],
+   "nanite": true,
+   "tags": [
+    "coast",
+    "lake",
+    "harbour"
+   ]
+  },
+  {
+   "id": "bld_boat_fishing_8m",
+   "fbx": "bld_boat_fishing_8m.fbx",
+   "group": "harbour",
+   "dimensions": {
+    "x": 8.36,
+    "y": 2.94,
+    "z": 6.786
+   },
+   "tris": 2466,
+   "materials": [
+    "M_Bld_PaintWhite",
+    "M_Bld_PaintRed",
+    "M_Bld_PaintBlue",
+    "M_Bld_Wood",
+    "M_Bld_Window",
+    "M_Bld_Metal"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.25
+   ],
+   "nanite": true,
+   "tags": [
+    "coast",
+    "harbour",
+    "fishing"
+   ]
+  },
+  {
+   "id": "bld_lighthouse",
+   "fbx": "bld_lighthouse.fbx",
+   "group": "landmark",
+   "dimensions": {
+    "x": 8.6,
+    "y": 8.6,
+    "z": 22.0
+   },
+   "tris": 3968,
+   "materials": [
+    "M_Bld_Stone",
+    "M_Bld_PaintWhite",
+    "M_Bld_PaintRed",
+    "M_Bld_Window",
+    "M_Bld_Wood",
+    "M_Bld_Metal"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.8,
+    1.6
+   ],
+   "nanite": true,
+   "tags": [
+    "coast",
+    "landmark",
+    "harbour"
+   ]
+  },
+  {
+   "id": "bld_windmill",
+   "fbx": "bld_windmill.fbx",
+   "group": "landmark",
+   "dimensions": {
+    "x": 8.6752,
+    "y": 7.9,
+    "z": 9.65
+   },
+   "tris": 4742,
+   "materials": [
+    "M_Bld_Stone",
+    "M_Bld_Wood",
+    "M_Bld_Metal",
+    "M_Bld_Window",
+    "M_Bld_RoofTile"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.85,
+    1.4
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "landmark",
+    "temperate"
+   ]
+  },
+  {
+   "id": "bld_windmill_blades",
+   "fbx": "bld_windmill_blades.fbx",
+   "group": "landmark",
+   "dimensions": {
+    "x": 1.24,
+    "y": 8.946,
+    "z": 8.946
+   },
+   "tris": 1068,
+   "materials": [
+    "M_Bld_Wood",
+    "M_Bld_Metal"
+   ],
+   "collision": "none",
+   "pivot": "hub",
+   "scale_range": [
+    0.85,
+    1.4
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "landmark",
+    "rotor"
+   ]
+  },
+  {
+   "id": "bld_wind_turbine",
+   "fbx": "bld_wind_turbine.fbx",
+   "group": "landmark",
+   "dimensions": {
+    "x": 12.0,
+    "y": 12.0,
+    "z": 64.83
+   },
+   "tris": 2020,
+   "materials": [
+    "M_Bld_Stone",
+    "M_Bld_Metal",
+    "M_Bld_PaintWhite",
+    "M_Bld_PaintRed"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.7,
+    1.4
+   ],
+   "nanite": true,
+   "tags": [
+    "energy",
+    "landmark",
+    "highland",
+    "coast"
+   ]
+  },
+  {
+   "id": "bld_wind_turbine_rotor",
+   "fbx": "bld_wind_turbine_rotor.fbx",
+   "group": "landmark",
+   "dimensions": {
+    "x": 4.5379,
+    "y": 63.4199,
+    "z": 54.9925
+   },
+   "tris": 1806,
+   "materials": [
+    "M_Bld_PaintWhite",
+    "M_Bld_PaintRed",
+    "M_Bld_Metal"
+   ],
+   "collision": "none",
+   "pivot": "hub",
+   "scale_range": [
+    0.7,
+    1.4
+   ],
+   "nanite": true,
+   "tags": [
+    "energy",
+    "landmark",
+    "rotor"
+   ]
+  },
+  {
+   "id": "bld_castle_wall_6m",
+   "fbx": "bld_castle_wall_6m.fbx",
+   "group": "ruins",
+   "dimensions": {
+    "x": 6.0,
+    "y": 3.2493,
+    "z": 4.5885
+   },
+   "tris": 1720,
+   "materials": [
+    "M_Bld_Stone"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    0.9,
+    1.2
+   ],
+   "nanite": true,
+   "tags": [
+    "ruin",
+    "castle",
+    "medieval"
+   ]
+  },
+  {
+   "id": "bld_castle_tower_ruin",
+   "fbx": "bld_castle_tower_ruin.fbx",
+   "group": "ruins",
+   "dimensions": {
+    "x": 10.2,
+    "y": 11.1618,
+    "z": 9.8886
+   },
+   "tris": 5188,
+   "materials": [
+    "M_Bld_Stone"
+   ],
+   "collision": "convex",
+   "pivot": "tower_centre",
+   "scale_range": [
+    0.9,
+    1.25
+   ],
+   "nanite": true,
+   "tags": [
+    "ruin",
+    "castle",
+    "medieval"
+   ]
+  },
+  {
+   "id": "bld_castle_arch",
+   "fbx": "bld_castle_arch.fbx",
+   "group": "ruins",
+   "dimensions": {
+    "x": 7.6,
+    "y": 4.793,
+    "z": 6.6832
+   },
+   "tris": 1380,
+   "materials": [
+    "M_Bld_Stone"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.3
+   ],
+   "nanite": true,
+   "tags": [
+    "ruin",
+    "castle",
+    "medieval"
+   ]
+  }
+ ],
+ "materials": [
+  "M_Bld_Brick",
+  "M_Bld_Metal",
+  "M_Bld_Neon",
+  "M_Bld_PaintBlue",
+  "M_Bld_PaintRed",
+  "M_Bld_PaintWhite",
+  "M_Bld_Plaster",
+  "M_Bld_RoofTile",
+  "M_Bld_Stone",
+  "M_Bld_Window",
+  "M_Bld_Wood"
+ ]
+}

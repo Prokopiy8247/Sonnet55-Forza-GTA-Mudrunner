@@ -1,0 +1,374 @@
+{
+  "id": "traffic04_bus",
+  "display_name": "Intercity Coach",
+  "category": "traffic",
+  "units": "m",
+  "dimensions": {
+    "length": 12.0394,
+    "width": 2.55,
+    "height": 3.615,
+    "width_with_mirrors": 3.125
+  },
+  "wheelbase": 6.1,
+  "track_front": 2.05,
+  "track_rear": 1.83,
+  "ride_height": 0.42,
+  "wheel_count": 6,
+  "wheels": [
+    {
+      "name": "traffic04_bus_Wheel_1",
+      "key": "1",
+      "center": [
+        3.05,
+        1.025,
+        0.52
+      ],
+      "radius": 0.52,
+      "width": 0.295,
+      "axle": 0,
+      "side": "L",
+      "steering": true,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic04_bus_Wheel_1.fbx"
+    },
+    {
+      "name": "traffic04_bus_Wheel_2",
+      "key": "2",
+      "center": [
+        3.05,
+        -1.025,
+        0.52
+      ],
+      "radius": 0.52,
+      "width": 0.295,
+      "axle": 0,
+      "side": "R",
+      "steering": true,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic04_bus_Wheel_2.fbx"
+    },
+    {
+      "name": "traffic04_bus_Wheel_3",
+      "key": "3",
+      "center": [
+        -3.05,
+        1.07,
+        0.52
+      ],
+      "radius": 0.52,
+      "width": 0.295,
+      "axle": 1,
+      "side": "L",
+      "steering": false,
+      "driven": true,
+      "dual_with": "traffic04_bus_Wheel_4",
+      "file": "traffic04_bus_Wheel_3.fbx"
+    },
+    {
+      "name": "traffic04_bus_Wheel_4",
+      "key": "4",
+      "center": [
+        -3.05,
+        0.76,
+        0.52
+      ],
+      "radius": 0.52,
+      "width": 0.295,
+      "axle": 1,
+      "side": "L",
+      "steering": false,
+      "driven": true,
+      "dual_with": "traffic04_bus_Wheel_3",
+      "file": "traffic04_bus_Wheel_4.fbx"
+    },
+    {
+      "name": "traffic04_bus_Wheel_5",
+      "key": "5",
+      "center": [
+        -3.05,
+        -1.07,
+        0.52
+      ],
+      "radius": 0.52,
+      "width": 0.295,
+      "axle": 1,
+      "side": "R",
+      "steering": false,
+      "driven": true,
+      "dual_with": "traffic04_bus_Wheel_6",
+      "file": "traffic04_bus_Wheel_5.fbx"
+    },
+    {
+      "name": "traffic04_bus_Wheel_6",
+      "key": "6",
+      "center": [
+        -3.05,
+        -0.76,
+        0.52
+      ],
+      "radius": 0.52,
+      "width": 0.295,
+      "axle": 1,
+      "side": "R",
+      "steering": false,
+      "driven": true,
+      "dual_with": "traffic04_bus_Wheel_5",
+      "file": "traffic04_bus_Wheel_6.fbx"
+    }
+  ],
+  "axles": [
+    {
+      "index": 0,
+      "x": 3.05,
+      "steering": true,
+      "driven": false,
+      "wheels": [
+        "traffic04_bus_Wheel_1",
+        "traffic04_bus_Wheel_2"
+      ]
+    },
+    {
+      "index": 1,
+      "x": -3.05,
+      "steering": false,
+      "driven": true,
+      "wheels": [
+        "traffic04_bus_Wheel_3",
+        "traffic04_bus_Wheel_4",
+        "traffic04_bus_Wheel_5",
+        "traffic04_bus_Wheel_6"
+      ]
+    }
+  ],
+  "cameras": {
+    "bumper": [
+      5.9,
+      0.0,
+      0.7
+    ],
+    "cockpit": [
+      5.0,
+      0.62,
+      2.2
+    ]
+  },
+  "lights": {
+    "head_l": [
+      5.7,
+      0.92,
+      0.95
+    ],
+    "head_r": [
+      5.7,
+      -0.92,
+      0.95
+    ],
+    "reverse": [
+      -6.0,
+      0.7,
+      0.8
+    ],
+    "tail_l": [
+      -6.0,
+      1.06,
+      1.2
+    ],
+    "tail_r": [
+      -6.0,
+      -1.06,
+      1.2
+    ]
+  },
+  "exhaust": [
+    [
+      -6.05,
+      -0.75,
+      0.48
+    ]
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Indicator",
+      "M_Plate"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_TrimBlack",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim"
+    ],
+    "Wheel_1": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_2": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_3": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_4": [
+      "M_Tyre",
+      "M_Rim"
+    ],
+    "Wheel_5": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_6": [
+      "M_Tyre",
+      "M_Rim"
+    ]
+  },
+  "tri_counts": {
+    "Body": 14958,
+    "Glass": 368,
+    "Interior": 1736,
+    "Wheel_1": 1790,
+    "Wheel_2": 1790,
+    "Wheel_3": 1790,
+    "Wheel_4": 1064,
+    "Wheel_5": 1790,
+    "Wheel_6": 1064,
+    "UCX": 44,
+    "total_visual": 26350
+  },
+  "ucx": [
+    "UCX_traffic04_bus_Body_01",
+    "UCX_traffic04_bus_Body_02",
+    "UCX_traffic04_bus_Body_03"
+  ],
+  "files": {
+    "Body": "traffic04_bus_Body.fbx",
+    "Glass": "traffic04_bus_Glass.fbx",
+    "Interior": "traffic04_bus_Interior.fbx",
+    "Wheel_1": "traffic04_bus_Wheel_1.fbx",
+    "Wheel_2": "traffic04_bus_Wheel_2.fbx",
+    "Wheel_3": "traffic04_bus_Wheel_3.fbx",
+    "Wheel_4": "traffic04_bus_Wheel_4.fbx",
+    "Wheel_5": "traffic04_bus_Wheel_5.fbx",
+    "Wheel_6": "traffic04_bus_Wheel_6.fbx"
+  },
+  "ue_import": {
+    "ue_x": "x*100",
+    "ue_y": "-y*100",
+    "ue_z": "z*100",
+    "forward": "+X",
+    "note": "one FBX per part, pivot = vehicle origin (Body/Glass/Interior) or axle centre (wheels)"
+  },
+  "paint_variants": [
+    {
+      "name": "Coach white",
+      "M_Paint": {
+        "srgb": "#ebecee",
+        "linear": [
+          0.8308,
+          0.8388,
+          0.855
+        ],
+        "metallic": 0.0,
+        "roughness": 0.3
+      },
+      "M_Paint2": {
+        "srgb": "#1c3d6e",
+        "linear": [
+          0.0116,
+          0.0467,
+          0.1559
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Express blue",
+      "M_Paint": {
+        "srgb": "#1d4f9c",
+        "linear": [
+          0.0123,
+          0.0782,
+          0.3325
+        ],
+        "metallic": 0.2,
+        "roughness": 0.28
+      },
+      "M_Paint2": {
+        "srgb": "#e9eaec",
+        "linear": [
+          0.8148,
+          0.8228,
+          0.8388
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Regional green",
+      "M_Paint": {
+        "srgb": "#26704a",
+        "linear": [
+          0.0194,
+          0.162,
+          0.0685
+        ],
+        "metallic": 0.15,
+        "roughness": 0.3
+      },
+      "M_Paint2": {
+        "srgb": "#e9eaec",
+        "linear": [
+          0.8148,
+          0.8228,
+          0.8388
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    }
+  ],
+  "paint_slots": {
+    "M_Paint": "lower body, roof, AC pods",
+    "M_Paint2": "dark window band, bumpers (accent)"
+  },
+  "traffic": {
+    "role": "intercity coach",
+    "cruise_speed_kmh": [
+      40,
+      100
+    ],
+    "mass_kg_hint": 14500,
+    "drivetrain": "rear axle driven",
+    "seats": 41,
+    "dual_wheels": "rear axle: outer+inner wheel mesh per side, JSON 'dual_with' links the pair"
+  },
+  "collision": {
+    "recommended": "UCX hulls in the Body FBX (3 convex hulls, each >= 0.7 m deep: nose wedge, passenger deck, tail wedge); wheels without collision",
+    "ucx_count": 3
+  },
+  "ue_scale_range": [
+    0.97,
+    1.03
+  ]
+}

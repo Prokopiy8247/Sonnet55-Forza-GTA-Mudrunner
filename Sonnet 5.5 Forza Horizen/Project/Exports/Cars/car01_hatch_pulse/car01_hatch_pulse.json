@@ -1,0 +1,229 @@
+{
+  "id": "car01_hatch_pulse",
+  "display_name": "Pulse",
+  "units": "m",
+  "dimensions": {
+    "length": 3.9429,
+    "width": 1.8009,
+    "height": 1.4024,
+    "width_with_mirrors": 1.9261
+  },
+  "wheelbase": 2.52,
+  "track_front": 1.52,
+  "track_rear": 1.5,
+  "ride_height": 0.14,
+  "wheels": {
+    "FL": {
+      "center": [
+        1.26,
+        0.76,
+        0.33
+      ],
+      "radius": 0.33,
+      "width": 0.2159
+    },
+    "FR": {
+      "center": [
+        1.26,
+        -0.76,
+        0.33
+      ],
+      "radius": 0.33,
+      "width": 0.2159
+    },
+    "RL": {
+      "center": [
+        -1.26,
+        0.75,
+        0.33
+      ],
+      "radius": 0.33,
+      "width": 0.2159
+    },
+    "RR": {
+      "center": [
+        -1.26,
+        -0.75,
+        0.33
+      ],
+      "radius": 0.33,
+      "width": 0.2159
+    }
+  },
+  "steering_wheel": {
+    "center": [
+      0.37,
+      0.36,
+      0.9
+    ],
+    "axis": [
+      -0.91355,
+      0.0,
+      0.40674
+    ]
+  },
+  "cameras": {
+    "hood": [
+      1.02,
+      0.0,
+      1.03
+    ],
+    "cockpit": [
+      -0.22,
+      0.36,
+      1.19
+    ],
+    "bumper": [
+      2.0,
+      0.0,
+      0.45
+    ]
+  },
+  "lights": {
+    "head_l": [
+      1.8311,
+      0.793,
+      0.7047
+    ],
+    "head_r": [
+      1.8311,
+      -0.793,
+      0.7047
+    ],
+    "tail_l": [
+      -1.9822,
+      0.6515,
+      0.808
+    ],
+    "tail_r": [
+      -1.9822,
+      -0.6515,
+      0.808
+    ],
+    "reverse": [
+      -1.9912,
+      0.4733,
+      0.7844
+    ]
+  },
+  "exhaust": [
+    [
+      -1.974,
+      0.52,
+      0.432
+    ],
+    [
+      -1.974,
+      -0.52,
+      0.432
+    ]
+  ],
+  "exhaust_l": [
+    -1.974,
+    0.52,
+    0.432
+  ],
+  "exhaust_r": [
+    -1.974,
+    -0.52,
+    0.432
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Reverse",
+      "M_Indicator",
+      "M_Rim",
+      "M_Plate",
+      "M_Underbody",
+      "M_Exhaust"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Caliper",
+      "M_Underbody",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim",
+      "M_IntCarpet"
+    ],
+    "SteeringWheel": [
+      "M_TrimGrey",
+      "M_IntDash"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ]
+  },
+  "tri_counts": {
+    "Body": 57036,
+    "Glass": 2918,
+    "Interior": 17858,
+    "SteeringWheel": 1784,
+    "Wheel_FL": 13992,
+    "Wheel_FR": 13992,
+    "Wheel_RL": 13992,
+    "Wheel_RR": 13992,
+    "UCX": 142,
+    "total_visual": 135564
+  },
+  "ucx": [
+    "UCX_car01_hatch_pulse_Body_01",
+    "UCX_car01_hatch_pulse_Body_02",
+    "UCX_car01_hatch_pulse_Body_03"
+  ],
+  "files": {
+    "Body": "car01_hatch_pulse_Body.fbx",
+    "Glass": "car01_hatch_pulse_Glass.fbx",
+    "Interior": "car01_hatch_pulse_Interior.fbx",
+    "SteeringWheel": "car01_hatch_pulse_SteeringWheel.fbx",
+    "Wheel_FL": "car01_hatch_pulse_Wheel_FL.fbx",
+    "Wheel_FR": "car01_hatch_pulse_Wheel_FR.fbx",
+    "Wheel_RL": "car01_hatch_pulse_Wheel_RL.fbx",
+    "Wheel_RR": "car01_hatch_pulse_Wheel_RR.fbx"
+  }
+}

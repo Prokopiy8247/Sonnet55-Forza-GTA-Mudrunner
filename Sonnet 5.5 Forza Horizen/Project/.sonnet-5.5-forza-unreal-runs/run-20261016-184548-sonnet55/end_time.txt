@@ -1,0 +1,7 @@
+﻿run_id=run-20261016-184548-sonnet55
+end_local_iso=2026-10-17T11:38:35.8943144+02:00
+end_utc=2026-10-17T09:38:35.8943144Z
+timezone=Central European Standard Time (UTC offset 02:00:00)
+elapsed_wall_clock=16:52:46 (1012.8 min) incl. pauses
+known_pause_1=2026-10-16T23:43:00+02:00 .. 2026-10-17T01:02:16+02:00 (usage limit) ~00:19:16+01:00:00 = 01:19:16
+elapsed_excluding_known_pause=15:33:30 (933.5 min)

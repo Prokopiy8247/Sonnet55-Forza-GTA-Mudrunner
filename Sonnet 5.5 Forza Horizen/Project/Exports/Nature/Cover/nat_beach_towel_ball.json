@@ -1,0 +1,72 @@
+{
+  "id": "nat_beach_towel_ball",
+  "display_name": "Beach towel and ball",
+  "kit": "ground_cover",
+  "family": "misc",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 2.4,
+    "y": 0.8,
+    "z": 0.4,
+    "height": 0.4
+  },
+  "bounds": {
+    "min": [
+      -0.9,
+      -0.4,
+      0.0
+    ],
+    "max": [
+      1.5,
+      0.4,
+      0.4
+    ]
+  },
+  "tri_counts": {
+    "mesh": 944,
+    "ucx": [
+      44
+    ]
+  },
+  "material_slots": [
+    "M_Beach_Red",
+    "M_Beach_White",
+    "M_Beach_Blue"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_beach_towel_ball_01"
+    ],
+    "notes": "UCX_01 ball only (towel is walkable decoration)"
+  },
+  "biome_tags": [
+    "coast",
+    "beach"
+  ],
+  "scale_range": [
+    0.9,
+    1.2
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 0,
+    "open_pieces": -1,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_beach_towel_ball.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 5403)"
+}

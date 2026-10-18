@@ -1,0 +1,227 @@
+{
+  "id": "car02_sedan_cadence",
+  "display_name": "Cadence",
+  "units": "m",
+  "dimensions": {
+    "length": 4.6896,
+    "width": 1.8367,
+    "height": 1.4542,
+    "width_with_mirrors": 1.8636
+  },
+  "wheelbase": 2.76,
+  "track_front": 1.55,
+  "track_rear": 1.54,
+  "ride_height": 0.14,
+  "wheels": {
+    "FL": {
+      "center": [
+        1.38,
+        0.775,
+        0.31
+      ],
+      "radius": 0.31,
+      "width": 0.19608
+    },
+    "FR": {
+      "center": [
+        1.38,
+        -0.775,
+        0.31
+      ],
+      "radius": 0.31,
+      "width": 0.19608
+    },
+    "RL": {
+      "center": [
+        -1.38,
+        0.77,
+        0.31
+      ],
+      "radius": 0.31,
+      "width": 0.19608
+    },
+    "RR": {
+      "center": [
+        -1.38,
+        -0.77,
+        0.31
+      ],
+      "radius": 0.31,
+      "width": 0.19608
+    }
+  },
+  "steering_wheel": {
+    "center": [
+      0.57,
+      0.36,
+      0.93
+    ],
+    "axis": [
+      -0.92718,
+      0.0,
+      0.37461
+    ]
+  },
+  "cameras": {
+    "hood": [
+      1.12,
+      0.0,
+      1.05
+    ],
+    "cockpit": [
+      -0.04,
+      0.36,
+      1.21
+    ],
+    "bumper": [
+      2.4,
+      0.0,
+      0.45
+    ]
+  },
+  "lights": {
+    "head_l": [
+      2.2276,
+      0.7505,
+      0.7519
+    ],
+    "head_r": [
+      2.2276,
+      -0.7505,
+      0.7519
+    ],
+    "tail_l": [
+      -2.2821,
+      0.7453,
+      0.8371
+    ],
+    "tail_r": [
+      -2.2821,
+      -0.7453,
+      0.8371
+    ],
+    "reverse": [
+      -2.3399,
+      0.5625,
+      0.818
+    ]
+  },
+  "exhaust": [
+    [
+      -2.31,
+      0.58,
+      0.4
+    ],
+    [
+      -2.31,
+      -0.58,
+      0.4
+    ]
+  ],
+  "exhaust_l": [
+    -2.31,
+    0.58,
+    0.4
+  ],
+  "exhaust_r": [
+    -2.31,
+    -0.58,
+    0.4
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Reverse",
+      "M_Indicator",
+      "M_Plate",
+      "M_Underbody",
+      "M_Exhaust"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Underbody",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim",
+      "M_IntCarpet"
+    ],
+    "SteeringWheel": [
+      "M_TrimGrey",
+      "M_IntDash"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ]
+  },
+  "tri_counts": {
+    "Body": 64892,
+    "Glass": 3286,
+    "Interior": 14042,
+    "SteeringWheel": 1784,
+    "Wheel_FL": 13872,
+    "Wheel_FR": 13872,
+    "Wheel_RL": 13872,
+    "Wheel_RR": 13872,
+    "UCX": 174,
+    "total_visual": 139492
+  },
+  "ucx": [
+    "UCX_car02_sedan_cadence_Body_01",
+    "UCX_car02_sedan_cadence_Body_02",
+    "UCX_car02_sedan_cadence_Body_03",
+    "UCX_car02_sedan_cadence_Body_04"
+  ],
+  "files": {
+    "Body": "car02_sedan_cadence_Body.fbx",
+    "Glass": "car02_sedan_cadence_Glass.fbx",
+    "Interior": "car02_sedan_cadence_Interior.fbx",
+    "SteeringWheel": "car02_sedan_cadence_SteeringWheel.fbx",
+    "Wheel_FL": "car02_sedan_cadence_Wheel_FL.fbx",
+    "Wheel_FR": "car02_sedan_cadence_Wheel_FR.fbx",
+    "Wheel_RL": "car02_sedan_cadence_Wheel_RL.fbx",
+    "Wheel_RR": "car02_sedan_cadence_Wheel_RR.fbx"
+  }
+}

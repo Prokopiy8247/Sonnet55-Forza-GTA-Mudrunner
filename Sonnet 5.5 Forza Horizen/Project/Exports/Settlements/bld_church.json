@@ -1,0 +1,88 @@
+{
+ "id": "bld_church",
+ "display_name": "Small church with bell tower",
+ "category": "Settlements",
+ "group": "civic",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 18.4754,
+  "y": 8.7,
+  "z": 19.4
+ },
+ "bounds_min": [
+  -8.8754,
+  -4.35,
+  0.0
+ ],
+ "bounds_max": [
+  9.6,
+  4.35,
+  19.4
+ ],
+ "tri_counts": {
+  "lod0": 24600,
+  "collision": {
+   "UCX_bld_church_01": 12,
+   "UCX_bld_church_02": 8,
+   "UCX_bld_church_03": 20,
+   "UCX_bld_church_04": 12,
+   "UCX_bld_church_05": 6
+  }
+ },
+ "material_slots": [
+  "M_Bld_Plaster",
+  "M_Bld_Stone",
+  "M_Bld_Window",
+  "M_Bld_RoofTile",
+  "M_Bld_Wood",
+  "M_Bld_Metal"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Plaster": 183,
+  "M_Bld_Stone": 11904,
+  "M_Bld_Window": 243,
+  "M_Bld_RoofTile": 835,
+  "M_Bld_Wood": 262,
+  "M_Bld_Metal": 426
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_church_01",
+   "UCX_bld_church_02",
+   "UCX_bld_church_03",
+   "UCX_bld_church_04",
+   "UCX_bld_church_05"
+  ]
+ },
+ "biome_tags": [
+  "village",
+  "temperate",
+  "landmark"
+ ],
+ "scale_range": [
+  0.9,
+  1.2
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Village church: nave along X, bell tower + door on +X, apse on -X",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   18.0,
+   7.5
+  ],
+  "tower_height": 19.4
+ },
+ "decal_faces": 0,
+ "fbx": "bld_church.fbx"
+}

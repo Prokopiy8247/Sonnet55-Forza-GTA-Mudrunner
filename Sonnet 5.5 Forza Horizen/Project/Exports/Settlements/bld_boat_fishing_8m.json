@@ -1,0 +1,80 @@
+{
+ "id": "bld_boat_fishing_8m",
+ "display_name": "Fishing boat (8 m)",
+ "category": "Settlements",
+ "group": "harbour",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 8.36,
+  "y": 2.94,
+  "z": 6.786
+ },
+ "bounds_min": [
+  -4.16,
+  -1.47,
+  0.0
+ ],
+ "bounds_max": [
+  4.2,
+  1.47,
+  6.786
+ ],
+ "tri_counts": {
+  "lod0": 2466,
+  "collision": {
+   "UCX_bld_boat_fishing_8m_01": 60,
+   "UCX_bld_boat_fishing_8m_02": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_PaintWhite",
+  "M_Bld_PaintRed",
+  "M_Bld_PaintBlue",
+  "M_Bld_Wood",
+  "M_Bld_Window",
+  "M_Bld_Metal"
+ ],
+ "material_slot_tris": {
+  "M_Bld_PaintWhite": 290,
+  "M_Bld_PaintRed": 202,
+  "M_Bld_PaintBlue": 230,
+  "M_Bld_Wood": 326,
+  "M_Bld_Window": 42,
+  "M_Bld_Metal": 123
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_bld_boat_fishing_8m_01",
+   "UCX_bld_boat_fishing_8m_02"
+  ]
+ },
+ "biome_tags": [
+  "coast",
+  "harbour",
+  "fishing"
+ ],
+ "scale_range": [
+  0.9,
+  1.25
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Small trawler, bow on +X, keel at z=0 (waterline ~ z=0.75)",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 8.2,
+  "beam": 2.9,
+  "waterline_z": 0.75
+ },
+ "decal_faces": 0,
+ "fbx": "bld_boat_fishing_8m.fbx"
+}

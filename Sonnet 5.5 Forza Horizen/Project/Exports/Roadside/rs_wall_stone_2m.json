@@ -1,0 +1,71 @@
+{
+ "id": "rs_wall_stone_2m",
+ "display_name": "Dry-stone farm wall segment 2.0 m",
+ "category": "Roadside",
+ "group": "fence",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 2.0477,
+  "y": 0.6297,
+  "z": 0.984
+ },
+ "bounds_min": [
+  -0.023,
+  -0.3145,
+  -0.0075
+ ],
+ "bounds_max": [
+  2.0247,
+  0.3152,
+  0.9765
+ ],
+ "tri_counts": {
+  "lod0": 976,
+  "collision": {
+   "UCX_rs_wall_stone_2m_01": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_Mortar",
+  "M_RS_Stone"
+ ],
+ "material_slot_tris": {
+  "M_RS_Mortar": 6,
+  "M_RS_Stone": 502
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_wall_stone_2m_01"
+  ]
+ },
+ "biome_tags": [
+  "rural",
+  "alpine",
+  "farmland",
+  "village"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Tile every 2.0 m along +X (alternate with rs_wall_stone_2m_b so the course pattern does not repeat); both faces are coursed rubble; centreline y=0 (0.55 m thick).",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 2.0,
+  "height": 0.95,
+  "thickness": 0.58
+ },
+ "decal_faces": 0,
+ "fbx": "rs_wall_stone_2m.fbx"
+}

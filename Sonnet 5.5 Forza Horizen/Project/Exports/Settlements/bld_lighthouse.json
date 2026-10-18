@@ -1,0 +1,80 @@
+{
+ "id": "bld_lighthouse",
+ "display_name": "Lighthouse (22 m, white/red, lantern room)",
+ "category": "Settlements",
+ "group": "landmark",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 8.6,
+  "y": 8.6,
+  "z": 22.0
+ },
+ "bounds_min": [
+  -4.3,
+  -4.3,
+  0.0
+ ],
+ "bounds_max": [
+  4.3,
+  4.3,
+  22.0
+ ],
+ "tri_counts": {
+  "lod0": 3968,
+  "collision": {
+   "UCX_bld_lighthouse_01": 44,
+   "UCX_bld_lighthouse_02": 46
+  }
+ },
+ "material_slots": [
+  "M_Bld_Stone",
+  "M_Bld_PaintWhite",
+  "M_Bld_PaintRed",
+  "M_Bld_Window",
+  "M_Bld_Wood",
+  "M_Bld_Metal"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Stone": 629,
+  "M_Bld_PaintWhite": 100,
+  "M_Bld_PaintRed": 199,
+  "M_Bld_Window": 54,
+  "M_Bld_Wood": 26,
+  "M_Bld_Metal": 722
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_bld_lighthouse_01",
+   "UCX_bld_lighthouse_02"
+  ]
+ },
+ "biome_tags": [
+  "coast",
+  "landmark",
+  "harbour"
+ ],
+ "scale_range": [
+  0.8,
+  1.6
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Coastal lighthouse; door on +X; lantern glass uses M_Bld_Window (emissive at night, rotate a light there)",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "height": 22.0,
+  "tower_radius": 3.4,
+  "lantern_z": 18.2
+ },
+ "decal_faces": 0,
+ "fbx": "bld_lighthouse.fbx"
+}

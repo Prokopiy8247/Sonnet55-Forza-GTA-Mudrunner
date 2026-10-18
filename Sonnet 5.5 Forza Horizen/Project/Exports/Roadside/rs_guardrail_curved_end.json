@@ -1,0 +1,88 @@
+{
+ "id": "rs_guardrail_curved_end",
+ "display_name": "Guard rail curved turned-down END 4.2 m",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 4.5617,
+  "y": 1.5701,
+  "z": 0.956
+ },
+ "bounds_min": [
+  -0.058,
+  -1.5701,
+  -0.15
+ ],
+ "bounds_max": [
+  4.5037,
+  0.0,
+  0.806
+ ],
+ "tri_counts": {
+  "lod0": 1400,
+  "collision": {
+   "UCX_rs_guardrail_curved_end_01": 12,
+   "UCX_rs_guardrail_curved_end_02": 12,
+   "UCX_rs_guardrail_curved_end_03": 12,
+   "UCX_rs_guardrail_curved_end_04": 18,
+   "UCX_rs_guardrail_curved_end_05": 30,
+   "UCX_rs_guardrail_curved_end_06": 24,
+   "UCX_rs_guardrail_curved_end_07": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvSteel",
+  "M_RS_PaintBlack",
+  "M_RS_GalvDark",
+  "M_RS_ReflectorWhite",
+  "M_RS_Concrete"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvSteel": 432,
+  "M_RS_PaintBlack": 18,
+  "M_RS_GalvDark": 172,
+  "M_RS_ReflectorWhite": 18,
+  "M_RS_Concrete": 26
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_guardrail_curved_end_01",
+   "UCX_rs_guardrail_curved_end_02",
+   "UCX_rs_guardrail_curved_end_03",
+   "UCX_rs_guardrail_curved_end_04",
+   "UCX_rs_guardrail_curved_end_05",
+   "UCX_rs_guardrail_curved_end_06",
+   "UCX_rs_guardrail_curved_end_07"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "road_verge"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "END of a run (walking +X, road on +Y): joins the previous rail at x=0 (own joint post + splice bolts), sweeps away from the road (-Y) and ground-anchors at x~4.2. For the START of a run use rs_guardrail_curved_end_R; for the opposite verge rotate 180 deg about Z.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 4.2,
+  "lateral_offset": 1.15,
+  "run_role": "end",
+  "joins_previous_at_x": 0.0
+ },
+ "decal_faces": 0,
+ "fbx": "rs_guardrail_curved_end.fbx"
+}

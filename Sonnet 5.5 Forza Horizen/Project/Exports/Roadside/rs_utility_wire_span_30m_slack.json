@@ -1,0 +1,86 @@
+{
+ "id": "rs_utility_wire_span_30m_slack",
+ "display_name": "Utility wire span 30 m, slack (1.05 m sag)",
+ "category": "Roadside",
+ "group": "utility",
+ "units": "m",
+ "pivot": "attach_point",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 30.0022,
+  "y": 1.8154,
+  "z": 1.6961
+ },
+ "bounds_min": [
+  -0.0011,
+  -0.9069,
+  -1.0581
+ ],
+ "bounds_max": [
+  30.0011,
+  0.9085,
+  0.638
+ ],
+ "tri_counts": {
+  "lod0": 918,
+  "collision": {}
+ },
+ "material_slots": [
+  "M_RS_Wire"
+ ],
+ "material_slot_tris": {
+  "M_RS_Wire": 456
+ },
+ "collision": {
+  "type": "none",
+  "hulls": []
+ },
+ "biome_tags": [
+  "rural",
+  "village",
+  "power_line"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "span_end": [
+   30.0,
+   0.0,
+   0.0
+  ]
+ },
+ "usage": "Origin = the pole centreline at crossarm-insulator-top height, i.e. spawn it at pole_base + (0, 0, 8.654) (sidecar extra.place_at_pole_base_offset); the conductors then start exactly on the insulator tops of rs_utility_pole_9m (y = -0.9 / +0.9 on the crossarm, y = 0 and +0.63 m on the pole-top insulator) and end 30 m along +X (next pole at +30 m, extra.next_pole_offset). Sag 1.05 m. Rotate about Z to follow the line; scale X 0.9-1.1 re-aims it (sag scales with it). No collision. Variant for warm / long spans.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 30.0,
+  "sag": 1.05,
+  "place_at_pole_base_offset": [
+   0.0,
+   0.0,
+   8.654
+  ],
+  "next_pole_offset": [
+   30.0,
+   0.0,
+   0.0
+  ],
+  "parent_pole": "rs_utility_pole_9m",
+  "conductors_y": [
+   -0.9,
+   0.0,
+   0.9
+  ],
+  "pole_top_conductor_dz": 0.63
+ },
+ "decal_faces": 0,
+ "fbx": "rs_utility_wire_span_30m_slack.fbx"
+}

@@ -1,0 +1,4 @@
+# Known pauses (usage-limit interruptions) - not working time
+pause_1_start_approx=2026-10-16T23:43:00+02:00  (all background agents failed with "You've hit your session limit - resets 1am (Europe/Warsaw)"; last workflow journal writes 23:42-23:43)
+pause_1_end=2026-10-17T01:02:16+02:00  (user reported the limit was reset; work resumed)
+pause_1_duration_approx=00:19:16 + 01:00:00 => ~1h19m

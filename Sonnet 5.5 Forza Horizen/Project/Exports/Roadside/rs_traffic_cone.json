@@ -1,0 +1,68 @@
+{
+ "id": "rs_traffic_cone",
+ "display_name": "Traffic cone 0.70 m (orange, reflective collars)",
+ "category": "Roadside",
+ "group": "trafficfurniture",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.38,
+  "y": 0.38,
+  "z": 0.705
+ },
+ "bounds_min": [
+  -0.19,
+  -0.19,
+  0.0
+ ],
+ "bounds_max": [
+  0.19,
+  0.19,
+  0.705
+ ],
+ "tri_counts": {
+  "lod0": 416,
+  "collision": {
+   "UCX_rs_traffic_cone_01": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_Rubber",
+  "M_RS_PlasticOrange",
+  "M_RS_ReflectorWhite"
+ ],
+ "material_slot_tris": {
+  "M_RS_Rubber": 75,
+  "M_RS_PlasticOrange": 81,
+  "M_RS_ReflectorWhite": 36
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_rs_traffic_cone_01"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "roadworks",
+  "race_event"
+ ],
+ "scale_range": [
+  0.9,
+  1.15
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Roadworks, event lanes, checkpoints. Dynamic physics prop candidate (convex hull).",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {},
+ "decal_faces": 0,
+ "fbx": "rs_traffic_cone.fbx"
+}

@@ -1,0 +1,231 @@
+{
+  "id": "car09_pickup_mule",
+  "display_name": "Mule",
+  "units": "m",
+  "dimensions": {
+    "length": 5.324,
+    "width": 1.98,
+    "height": 1.8826,
+    "width_with_mirrors": 2.2166
+  },
+  "wheelbase": 3.25,
+  "track_front": 1.65,
+  "track_rear": 1.65,
+  "ride_height": 0.3,
+  "wheels": {
+    "FL": {
+      "center": [
+        1.625,
+        0.825,
+        0.38
+      ],
+      "radius": 0.37962,
+      "width": 0.26596
+    },
+    "FR": {
+      "center": [
+        1.625,
+        -0.825,
+        0.38
+      ],
+      "radius": 0.37963,
+      "width": 0.26596
+    },
+    "RL": {
+      "center": [
+        -1.625,
+        0.825,
+        0.38
+      ],
+      "radius": 0.37941,
+      "width": 0.26596
+    },
+    "RR": {
+      "center": [
+        -1.625,
+        -0.825,
+        0.38
+      ],
+      "radius": 0.37974,
+      "width": 0.26596
+    }
+  },
+  "steering_wheel": {
+    "center": [
+      0.335,
+      0.4,
+      1.095
+    ],
+    "axis": [
+      -0.84805,
+      0.0,
+      0.52992
+    ]
+  },
+  "cameras": {
+    "hood": [
+      1.45,
+      0.0,
+      1.46
+    ],
+    "cockpit": [
+      -0.1,
+      0.4,
+      1.42
+    ],
+    "bumper": [
+      2.66,
+      0.0,
+      0.78
+    ]
+  },
+  "lights": {
+    "head_l": [
+      2.5271,
+      0.7266,
+      0.9899
+    ],
+    "head_r": [
+      2.5271,
+      -0.7266,
+      0.9899
+    ],
+    "tail_l": [
+      -2.5707,
+      0.8009,
+      1.0
+    ],
+    "tail_r": [
+      -2.5707,
+      -0.8009,
+      1.0
+    ],
+    "reverse": [
+      -2.5707,
+      0.8009,
+      0.88
+    ]
+  },
+  "exhaust": [
+    [
+      -2.595,
+      0.66,
+      0.46
+    ],
+    [
+      -2.595,
+      -0.66,
+      0.46
+    ]
+  ],
+  "exhaust_l": [
+    -2.595,
+    0.66,
+    0.46
+  ],
+  "exhaust_r": [
+    -2.595,
+    -0.66,
+    0.46
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Rubber",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Reverse",
+      "M_Indicator",
+      "M_Caliper",
+      "M_Plate",
+      "M_Underbody",
+      "M_Exhaust"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Caliper",
+      "M_Underbody",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim",
+      "M_IntCarpet"
+    ],
+    "SteeringWheel": [
+      "M_TrimGrey",
+      "M_IntDash"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ]
+  },
+  "tri_counts": {
+    "Body": 66304,
+    "Glass": 2276,
+    "Interior": 17140,
+    "SteeringWheel": 1784,
+    "Wheel_FL": 12144,
+    "Wheel_FR": 12168,
+    "Wheel_RL": 12144,
+    "Wheel_RR": 12144,
+    "UCX": 134,
+    "total_visual": 136104
+  },
+  "ucx": [
+    "UCX_car09_pickup_mule_Body_01",
+    "UCX_car09_pickup_mule_Body_02",
+    "UCX_car09_pickup_mule_Body_03",
+    "UCX_car09_pickup_mule_Body_04"
+  ],
+  "files": {
+    "Body": "car09_pickup_mule_Body.fbx",
+    "Glass": "car09_pickup_mule_Glass.fbx",
+    "Interior": "car09_pickup_mule_Interior.fbx",
+    "SteeringWheel": "car09_pickup_mule_SteeringWheel.fbx",
+    "Wheel_FL": "car09_pickup_mule_Wheel_FL.fbx",
+    "Wheel_FR": "car09_pickup_mule_Wheel_FR.fbx",
+    "Wheel_RL": "car09_pickup_mule_Wheel_RL.fbx",
+    "Wheel_RR": "car09_pickup_mule_Wheel_RR.fbx"
+  }
+}

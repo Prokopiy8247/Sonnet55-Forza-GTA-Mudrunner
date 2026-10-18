@@ -1,0 +1,87 @@
+{
+ "id": "rs_guardrail_end_terminal",
+ "display_name": "Guard rail end terminal START (flared, impact head) 4.0 m",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 4.0123,
+  "y": 0.5389,
+  "z": 0.998
+ },
+ "bounds_min": [
+  -0.0114,
+  -0.5389,
+  -0.15
+ ],
+ "bounds_max": [
+  4.0008,
+  0.0,
+  0.848
+ ],
+ "tri_counts": {
+  "lod0": 1252,
+  "collision": {
+   "UCX_rs_guardrail_end_terminal_01": 12,
+   "UCX_rs_guardrail_end_terminal_02": 20,
+   "UCX_rs_guardrail_end_terminal_03": 24,
+   "UCX_rs_guardrail_end_terminal_04": 12,
+   "UCX_rs_guardrail_end_terminal_05": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvSteel",
+  "M_RS_PaintBlack",
+  "M_RS_GalvDark",
+  "M_RS_ReflectorWhite",
+  "M_RS_PaintYellow",
+  "M_RS_ReflectorAmber"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvSteel": 402,
+  "M_RS_PaintBlack": 66,
+  "M_RS_GalvDark": 100,
+  "M_RS_ReflectorWhite": 6,
+  "M_RS_PaintYellow": 26,
+  "M_RS_ReflectorAmber": 6
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_guardrail_end_terminal_01",
+   "UCX_rs_guardrail_end_terminal_02",
+   "UCX_rs_guardrail_end_terminal_03",
+   "UCX_rs_guardrail_end_terminal_04",
+   "UCX_rs_guardrail_end_terminal_05"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "road_verge"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "START of a run (walking +X, road on +Y): free impact head at x=0 flared 0.32 m away from the road, bolts onto the first post of a normal rail at x=4.0. For the END of the same run use rs_guardrail_end_terminal_R; for the opposite verge rotate the run 180 deg about Z.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 4.0,
+  "flare": 0.32,
+  "traffic_side": "+Y",
+  "run_role": "start",
+  "joins_next_at_x": 4.0
+ },
+ "decal_faces": 0,
+ "fbx": "rs_guardrail_end_terminal.fbx"
+}

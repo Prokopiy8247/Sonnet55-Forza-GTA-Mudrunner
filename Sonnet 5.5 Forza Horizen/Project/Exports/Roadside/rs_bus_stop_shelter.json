@@ -1,0 +1,86 @@
+{
+ "id": "rs_bus_stop_shelter",
+ "display_name": "Bus stop shelter 3.2 x 1.5 m (steel, glass, bench, light box)",
+ "category": "Roadside",
+ "group": "village",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 2.25,
+  "y": 4.13,
+  "z": 3.2
+ },
+ "bounds_min": [
+  -0.95,
+  -1.8,
+  0.0
+ ],
+ "bounds_max": [
+  1.3,
+  2.33,
+  3.2
+ ],
+ "tri_counts": {
+  "lod0": 2018,
+  "collision": {
+   "UCX_rs_bus_stop_shelter_01": 12,
+   "UCX_rs_bus_stop_shelter_02": 12,
+   "UCX_rs_bus_stop_shelter_03": 12,
+   "UCX_rs_bus_stop_shelter_04": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_Concrete",
+  "M_RS_PaintGrey",
+  "M_RS_SignBlue",
+  "M_RS_LampLens",
+  "M_RS_Glass",
+  "M_RS_WoodPale",
+  "M_RS_SignWhite"
+ ],
+ "material_slot_tris": {
+  "M_RS_Concrete": 26,
+  "M_RS_PaintGrey": 614,
+  "M_RS_SignBlue": 45,
+  "M_RS_LampLens": 12,
+  "M_RS_Glass": 24,
+  "M_RS_WoodPale": 130,
+  "M_RS_SignWhite": 210
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_bus_stop_shelter_01",
+   "UCX_rs_bus_stop_shelter_02",
+   "UCX_rs_bus_stop_shelter_03",
+   "UCX_rs_bus_stop_shelter_04"
+  ]
+ },
+ "biome_tags": [
+  "village",
+  "town",
+  "highway_stop"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": false,
+ "lod_info": "translucent parts present: use standard LODs",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Village / town bus stop. Open side and bench front face +X (the road side). Glass is a separate material slot (M_RS_Glass) for a translucent UE material.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "width": 3.2,
+  "depth": 1.5,
+  "height": 3.2
+ },
+ "decal_faces": 0,
+ "fbx": "rs_bus_stop_shelter.fbx"
+}

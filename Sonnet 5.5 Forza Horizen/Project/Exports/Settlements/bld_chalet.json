@@ -1,0 +1,84 @@
+{
+ "id": "bld_chalet",
+ "display_name": "Mountain chalet / ski lodge (10x9 m, timber, steep roof)",
+ "category": "Settlements",
+ "group": "alpine",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 13.2,
+  "y": 11.4817,
+  "z": 11.9178
+ },
+ "bounds_min": [
+  -6.8,
+  -5.7409,
+  0.0
+ ],
+ "bounds_max": [
+  6.4,
+  5.7409,
+  11.9178
+ ],
+ "tri_counts": {
+  "lod0": 13440,
+  "collision": {
+   "UCX_bld_chalet_01": 12,
+   "UCX_bld_chalet_02": 12,
+   "UCX_bld_chalet_03": 8,
+   "UCX_bld_chalet_04": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_Stone",
+  "M_Bld_Wood",
+  "M_Bld_Metal",
+  "M_Bld_Window",
+  "M_Bld_RoofTile"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Stone": 762,
+  "M_Bld_Wood": 4962,
+  "M_Bld_Metal": 12,
+  "M_Bld_Window": 90,
+  "M_Bld_RoofTile": 1369
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_chalet_01",
+   "UCX_bld_chalet_02",
+   "UCX_bld_chalet_03",
+   "UCX_bld_chalet_04"
+  ]
+ },
+ "biome_tags": [
+  "alpine",
+  "snow",
+  "mountain"
+ ],
+ "scale_range": [
+  0.9,
+  1.2
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Timber chalet, gable and balcony face +X, stone ground floor",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   10.0,
+   9.0
+  ],
+  "balcony": true
+ },
+ "decal_faces": 0,
+ "fbx": "bld_chalet.fbx"
+}

@@ -1,0 +1,84 @@
+{
+ "id": "bld_diner",
+ "display_name": "Roadside diner (16x7 m, flat roof, neon sign)",
+ "category": "Settlements",
+ "group": "roadside",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 9.05,
+  "y": 16.9,
+  "z": 7.1
+ },
+ "bounds_min": [
+  -3.95,
+  -8.45,
+  0.0
+ ],
+ "bounds_max": [
+  5.1,
+  8.45,
+  7.1
+ ],
+ "tri_counts": {
+  "lod0": 5252,
+  "collision": {
+   "UCX_bld_diner_01": 12,
+   "UCX_bld_diner_02": 12,
+   "UCX_bld_diner_03": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_PaintWhite",
+  "M_Bld_Stone",
+  "M_Bld_Window",
+  "M_Bld_Metal",
+  "M_Bld_PaintRed",
+  "M_Bld_Neon"
+ ],
+ "material_slot_tris": {
+  "M_Bld_PaintWhite": 492,
+  "M_Bld_Stone": 32,
+  "M_Bld_Window": 782,
+  "M_Bld_Metal": 708,
+  "M_Bld_PaintRed": 420,
+  "M_Bld_Neon": 464
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_diner_01",
+   "UCX_bld_diner_02",
+   "UCX_bld_diner_03"
+  ]
+ },
+ "biome_tags": [
+  "roadside",
+  "usa",
+  "town"
+ ],
+ "scale_range": [
+  0.9,
+  1.15
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Roadside diner, glazed front on +X, rooftop neon sign board",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   7.0,
+   16.0
+  ],
+  "sign": "DINER / OPEN 24H (neon relief M_Bld_Neon)"
+ },
+ "decal_faces": 0,
+ "fbx": "bld_diner.fbx"
+}

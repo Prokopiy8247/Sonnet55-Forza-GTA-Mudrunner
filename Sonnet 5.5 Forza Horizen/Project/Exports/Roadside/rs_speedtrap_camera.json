@@ -1,0 +1,94 @@
+{
+ "id": "rs_speedtrap_camera",
+ "display_name": "Speed trap camera post (3.4 m pole, housing, cabinet)",
+ "category": "Roadside",
+ "group": "sign",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 1.555,
+  "y": 0.5,
+  "z": 3.36
+ },
+ "bounds_min": [
+  -0.575,
+  -0.25,
+  0.0
+ ],
+ "bounds_max": [
+  0.98,
+  0.25,
+  3.36
+ ],
+ "tri_counts": {
+  "lod0": 1178,
+  "collision": {
+   "UCX_rs_speedtrap_camera_01": 28,
+   "UCX_rs_speedtrap_camera_02": 12,
+   "UCX_rs_speedtrap_camera_03": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvDark",
+  "M_RS_PaintGrey",
+  "M_RS_PaintBlack",
+  "M_RS_ReflectorRed",
+  "M_RS_ReflectorWhite",
+  "M_RS_ReflectorAmber",
+  "M_RS_SignYellow"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvDark": 166,
+  "M_RS_PaintGrey": 139,
+  "M_RS_PaintBlack": 210,
+  "M_RS_ReflectorRed": 6,
+  "M_RS_ReflectorWhite": 16,
+  "M_RS_ReflectorAmber": 6,
+  "M_RS_SignYellow": 26
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_speedtrap_camera_01",
+   "UCX_rs_speedtrap_camera_02",
+   "UCX_rs_speedtrap_camera_03"
+  ]
+ },
+ "biome_tags": [
+  "enforcement",
+  "highway",
+  "all_biomes"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "camera_lens": [
+   0.912,
+   -0.07,
+   3.0
+  ],
+  "flash": [
+   0.907,
+   0.1,
+   3.0
+  ]
+ },
+ "usage": "Speed-trap gameplay prop: camera housing looks along +X (towards approaching traffic from the front). Flash lens sockets in JSON.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "height": 3.4,
+  "camera_height": 2.98
+ },
+ "decal_faces": 0,
+ "fbx": "rs_speedtrap_camera.fbx"
+}

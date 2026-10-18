@@ -1,0 +1,86 @@
+{
+ "id": "bld_house_l",
+ "display_name": "Village house L-shape (10x11 m)",
+ "category": "Settlements",
+ "group": "houses",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 11.3339,
+  "y": 11.88,
+  "z": 6.12
+ },
+ "bounds_min": [
+  -5.5839,
+  -6.08,
+  0.0
+ ],
+ "bounds_max": [
+  5.75,
+  5.8,
+  6.12
+ ],
+ "tri_counts": {
+  "lod0": 10488,
+  "collision": {
+   "UCX_bld_house_l_01": 12,
+   "UCX_bld_house_l_02": 8,
+   "UCX_bld_house_l_03": 12,
+   "UCX_bld_house_l_04": 8
+  }
+ },
+ "material_slots": [
+  "M_Bld_Plaster",
+  "M_Bld_Stone",
+  "M_Bld_Wood",
+  "M_Bld_Metal",
+  "M_Bld_Window",
+  "M_Bld_RoofTile"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Plaster": 313,
+  "M_Bld_Stone": 2892,
+  "M_Bld_Wood": 1578,
+  "M_Bld_Metal": 32,
+  "M_Bld_Window": 84,
+  "M_Bld_RoofTile": 906
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_house_l_01",
+   "UCX_bld_house_l_02",
+   "UCX_bld_house_l_03",
+   "UCX_bld_house_l_04"
+  ]
+ },
+ "biome_tags": [
+  "village",
+  "temperate",
+  "greenvale"
+ ],
+ "scale_range": [
+  0.9,
+  1.15
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "L-shaped farm/village house, front arm along +X, door on the arm",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   10.0,
+   11.0
+  ],
+  "shape": "L"
+ },
+ "decal_faces": 0,
+ "fbx": "bld_house_l.fbx"
+}

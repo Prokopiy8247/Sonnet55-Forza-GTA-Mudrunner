@@ -1,0 +1,86 @@
+{
+ "id": "rs_culvert_headwall_a",
+ "display_name": "Culvert head-wall A (round pipe, wing walls)",
+ "category": "Roadside",
+ "group": "drainage",
+ "units": "m",
+ "pivot": "ground_base",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 2.14,
+  "y": 5.0894,
+  "z": 1.895
+ },
+ "bounds_min": [
+  -0.44,
+  -2.5447,
+  -0.02
+ ],
+ "bounds_max": [
+  1.7,
+  2.5447,
+  1.875
+ ],
+ "tri_counts": {
+  "lod0": 2196,
+  "collision": {
+   "UCX_rs_culvert_headwall_a_01": 12,
+   "UCX_rs_culvert_headwall_a_02": 12,
+   "UCX_rs_culvert_headwall_a_03": 12,
+   "UCX_rs_culvert_headwall_a_04": 12,
+   "UCX_rs_culvert_headwall_a_05": 12,
+   "UCX_rs_culvert_headwall_a_06": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_Concrete",
+  "M_RS_PaintBlack",
+  "M_RS_ConcreteDark",
+  "M_RS_GalvSteel",
+  "M_RS_Rust"
+ ],
+ "material_slot_tris": {
+  "M_RS_Concrete": 204,
+  "M_RS_PaintBlack": 84,
+  "M_RS_ConcreteDark": 698,
+  "M_RS_GalvSteel": 18,
+  "M_RS_Rust": 80
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_culvert_headwall_a_01",
+   "UCX_rs_culvert_headwall_a_02",
+   "UCX_rs_culvert_headwall_a_03",
+   "UCX_rs_culvert_headwall_a_04",
+   "UCX_rs_culvert_headwall_a_05",
+   "UCX_rs_culvert_headwall_a_06"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "road_embankment",
+  "stream"
+ ],
+ "scale_range": [
+  0.9,
+  1.3
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Where a stream passes under an embankment. Opening faces +X; wing walls flare towards +X; body extends 0.4 m into -X. Collision: 4 hulls frame the open pipe mouth + one closed wedge hull per wing wall.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "opening": "round 1.24 m",
+  "width": 3.0,
+  "height": 1.8
+ },
+ "decal_faces": 50,
+ "fbx": "rs_culvert_headwall_a.fbx"
+}

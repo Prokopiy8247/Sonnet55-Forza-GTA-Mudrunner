@@ -1,0 +1,363 @@
+{
+  "id": "traffic05_tractor",
+  "display_name": "Farm Tractor",
+  "category": "traffic",
+  "units": "m",
+  "dimensions": {
+    "length": 4.1925,
+    "width": 2.3,
+    "height": 2.8606,
+    "width_with_mirrors": 2.4
+  },
+  "wheelbase": 2.35,
+  "track_front": 1.6,
+  "track_rear": 1.8,
+  "ride_height": 0.4,
+  "wheel_count": 4,
+  "wheels": [
+    {
+      "name": "traffic05_tractor_Wheel_FL",
+      "key": "FL",
+      "center": [
+        1.175,
+        0.8,
+        0.48
+      ],
+      "radius": 0.48002,
+      "width": 0.26,
+      "axle": 0,
+      "side": "L",
+      "steering": true,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic05_tractor_Wheel_FL.fbx"
+    },
+    {
+      "name": "traffic05_tractor_Wheel_FR",
+      "key": "FR",
+      "center": [
+        1.175,
+        -0.8,
+        0.48
+      ],
+      "radius": 0.48002,
+      "width": 0.26,
+      "axle": 0,
+      "side": "R",
+      "steering": true,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic05_tractor_Wheel_FR.fbx"
+    },
+    {
+      "name": "traffic05_tractor_Wheel_RL",
+      "key": "RL",
+      "center": [
+        -1.175,
+        0.9,
+        0.8
+      ],
+      "radius": 0.80345,
+      "width": 0.5,
+      "axle": 1,
+      "side": "L",
+      "steering": false,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic05_tractor_Wheel_RL.fbx"
+    },
+    {
+      "name": "traffic05_tractor_Wheel_RR",
+      "key": "RR",
+      "center": [
+        -1.175,
+        -0.9,
+        0.8
+      ],
+      "radius": 0.80345,
+      "width": 0.5,
+      "axle": 1,
+      "side": "R",
+      "steering": false,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic05_tractor_Wheel_RR.fbx"
+    }
+  ],
+  "axles": [
+    {
+      "index": 0,
+      "x": 1.175,
+      "steering": true,
+      "driven": true,
+      "wheels": [
+        "traffic05_tractor_Wheel_FL",
+        "traffic05_tractor_Wheel_FR"
+      ]
+    },
+    {
+      "index": 1,
+      "x": -1.175,
+      "steering": false,
+      "driven": true,
+      "wheels": [
+        "traffic05_tractor_Wheel_RL",
+        "traffic05_tractor_Wheel_RR"
+      ]
+    }
+  ],
+  "cameras": {
+    "bumper": [
+      2.0,
+      0.0,
+      0.75
+    ],
+    "cockpit": [
+      -0.8,
+      0.0,
+      2.1
+    ]
+  },
+  "lights": {
+    "head_l": [
+      1.96,
+      0.31,
+      1.2
+    ],
+    "head_r": [
+      1.96,
+      -0.31,
+      1.2
+    ],
+    "reverse": [
+      -1.6,
+      0.0,
+      2.69
+    ],
+    "tail_l": [
+      -1.6,
+      0.42,
+      2.69
+    ],
+    "tail_r": [
+      -1.6,
+      -0.42,
+      2.69
+    ]
+  },
+  "exhaust": [
+    [
+      0.4,
+      -0.3,
+      2.46
+    ]
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Rubber",
+      "M_Headlight",
+      "M_Indicator"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_TrimBlack",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim"
+    ],
+    "Wheel_FL": [
+      "M_Paint2",
+      "M_Chrome",
+      "M_Tyre",
+      "M_RimDark"
+    ],
+    "Wheel_FR": [
+      "M_Paint2",
+      "M_Chrome",
+      "M_Tyre",
+      "M_RimDark"
+    ],
+    "Wheel_RL": [
+      "M_Paint2",
+      "M_Chrome",
+      "M_Tyre",
+      "M_RimDark"
+    ],
+    "Wheel_RR": [
+      "M_Paint2",
+      "M_Chrome",
+      "M_Tyre",
+      "M_RimDark"
+    ]
+  },
+  "tri_counts": {
+    "Body": 7128,
+    "Glass": 96,
+    "Interior": 828,
+    "Wheel_FL": 2048,
+    "Wheel_FR": 2048,
+    "Wheel_RL": 2662,
+    "Wheel_RR": 2662,
+    "UCX": 160,
+    "total_visual": 17472
+  },
+  "ucx": [
+    "UCX_traffic05_tractor_Body_01",
+    "UCX_traffic05_tractor_Body_02",
+    "UCX_traffic05_tractor_Body_03",
+    "UCX_traffic05_tractor_Body_04",
+    "UCX_traffic05_tractor_Body_05"
+  ],
+  "files": {
+    "Body": "traffic05_tractor_Body.fbx",
+    "Glass": "traffic05_tractor_Glass.fbx",
+    "Interior": "traffic05_tractor_Interior.fbx",
+    "Wheel_FL": "traffic05_tractor_Wheel_FL.fbx",
+    "Wheel_FR": "traffic05_tractor_Wheel_FR.fbx",
+    "Wheel_RL": "traffic05_tractor_Wheel_RL.fbx",
+    "Wheel_RR": "traffic05_tractor_Wheel_RR.fbx"
+  },
+  "ue_import": {
+    "ue_x": "x*100",
+    "ue_y": "-y*100",
+    "ue_z": "z*100",
+    "forward": "+X",
+    "note": "one FBX per part, pivot = vehicle origin (Body/Glass/Interior) or axle centre (wheels)"
+  },
+  "wheel_map": {
+    "FL": {
+      "center": [
+        1.175,
+        0.8,
+        0.48
+      ],
+      "radius": 0.48002,
+      "width": 0.26
+    },
+    "FR": {
+      "center": [
+        1.175,
+        -0.8,
+        0.48
+      ],
+      "radius": 0.48002,
+      "width": 0.26
+    },
+    "RL": {
+      "center": [
+        -1.175,
+        0.9,
+        0.8
+      ],
+      "radius": 0.80345,
+      "width": 0.5
+    },
+    "RR": {
+      "center": [
+        -1.175,
+        -0.9,
+        0.8
+      ],
+      "radius": 0.80345,
+      "width": 0.5
+    }
+  },
+  "paint_variants": [
+    {
+      "name": "Field green",
+      "M_Paint": {
+        "srgb": "#2f7a35",
+        "linear": [
+          0.0284,
+          0.1946,
+          0.0356
+        ],
+        "metallic": 0.1,
+        "roughness": 0.34
+      },
+      "M_Paint2": {
+        "srgb": "#e0b61d",
+        "linear": [
+          0.7454,
+          0.4678,
+          0.0123
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Harvest red",
+      "M_Paint": {
+        "srgb": "#b02a1f",
+        "linear": [
+          0.4342,
+          0.0232,
+          0.0137
+        ],
+        "metallic": 0.1,
+        "roughness": 0.34
+      },
+      "M_Paint2": {
+        "srgb": "#d9d9d6",
+        "linear": [
+          0.6939,
+          0.6939,
+          0.6724
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Farm blue",
+      "M_Paint": {
+        "srgb": "#1f4f93",
+        "linear": [
+          0.0137,
+          0.0782,
+          0.2918
+        ],
+        "metallic": 0.1,
+        "roughness": 0.34
+      },
+      "M_Paint2": {
+        "srgb": "#d9d9d6",
+        "linear": [
+          0.6939,
+          0.6939,
+          0.6724
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    }
+  ],
+  "paint_slots": {
+    "M_Paint": "bonnet, fenders, cab roof band",
+    "M_Paint2": "cab frame, wheel rims (accent colour)"
+  },
+  "traffic": {
+    "role": "farm tractor (slow traffic on farm roads)",
+    "cruise_speed_kmh": [
+      12,
+      35
+    ],
+    "mass_kg_hint": 5200,
+    "drivetrain": "4WD"
+  },
+  "collision": {
+    "recommended": "UCX hulls in the Body FBX (5 convex hulls: bonnet, cab, chassis + hitch, left and right rear fender/tyre blocks); wheels without collision",
+    "ucx_count": 5
+  },
+  "ue_scale_range": [
+    0.97,
+    1.03
+  ]
+}

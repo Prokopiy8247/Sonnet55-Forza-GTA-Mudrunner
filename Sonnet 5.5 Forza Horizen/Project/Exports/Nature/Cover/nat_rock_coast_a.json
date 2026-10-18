@@ -1,0 +1,75 @@
+{
+  "id": "nat_rock_coast_a",
+  "display_name": "Coast rocks - pebble trio",
+  "kit": "ground_cover",
+  "family": "rocks",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 2.525,
+    "y": 1.527,
+    "z": 0.8,
+    "height": 0.77
+  },
+  "bounds": {
+    "min": [
+      -1.175,
+      -0.502,
+      -0.03
+    ],
+    "max": [
+      1.35,
+      1.025,
+      0.77
+    ]
+  },
+  "tri_counts": {
+    "mesh": 1920,
+    "ucx": [
+      40,
+      40,
+      42
+    ]
+  },
+  "material_slots": [
+    "M_Rock_Beach"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_rock_coast_a_01",
+      "UCX_nat_rock_coast_a_02",
+      "UCX_nat_rock_coast_a_03"
+    ],
+    "notes": "UCX_* convex hulls (<=32 verts). UE: Collision Complexity = Use Simple As Complex"
+  },
+  "biome_tags": [
+    "coast",
+    "beach",
+    "riverside"
+  ],
+  "scale_range": [
+    0.7,
+    1.6
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 3,
+    "open_pieces": 0,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_rock_coast_a.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 1401)"
+}

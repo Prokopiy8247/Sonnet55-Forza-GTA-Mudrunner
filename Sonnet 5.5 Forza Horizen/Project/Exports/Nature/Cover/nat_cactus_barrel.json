@@ -1,0 +1,75 @@
+{
+  "id": "nat_cactus_barrel",
+  "display_name": "Barrel cactus with crown flowers",
+  "kit": "ground_cover",
+  "family": "cacti",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 0.75,
+    "y": 0.74,
+    "z": 0.559,
+    "height": 0.559
+  },
+  "bounds": {
+    "min": [
+      -0.374,
+      -0.364,
+      0.0
+    ],
+    "max": [
+      0.376,
+      0.376,
+      0.559
+    ]
+  },
+  "tri_counts": {
+    "mesh": 1092,
+    "ucx": [
+      44
+    ]
+  },
+  "material_slots": [
+    "M_Cactus",
+    "M_Cactus_Spine",
+    "M_Cactus_Fruit",
+    "M_Flower_Center"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_cactus_barrel_01"
+    ],
+    "notes": "UCX_01 single hull"
+  },
+  "biome_tags": [
+    "desert",
+    "canyon",
+    "badlands",
+    "savanna"
+  ],
+  "scale_range": [
+    0.7,
+    1.6
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 0,
+    "open_pieces": -1,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_cactus_barrel.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 3201)"
+}

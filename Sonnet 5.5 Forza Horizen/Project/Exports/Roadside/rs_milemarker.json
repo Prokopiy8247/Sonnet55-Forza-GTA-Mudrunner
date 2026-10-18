@@ -1,0 +1,76 @@
+{
+ "id": "rs_milemarker",
+ "display_name": "Kilometre marker post (white, green plate)",
+ "category": "Roadside",
+ "group": "sign",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.24,
+  "y": 0.24,
+  "z": 1.0
+ },
+ "bounds_min": [
+  -0.12,
+  -0.12,
+  0.0
+ ],
+ "bounds_max": [
+  0.12,
+  0.12,
+  1.0
+ ],
+ "tri_counts": {
+  "lod0": 318,
+  "collision": {
+   "UCX_rs_milemarker_01": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_PlasticWhite",
+  "M_RS_SignGreen",
+  "M_RS_SignWhite",
+  "M_RS_PaintBlack",
+  "M_RS_ReflectorAmber",
+  "M_RS_Rubber"
+ ],
+ "material_slot_tris": {
+  "M_RS_PlasticWhite": 50,
+  "M_RS_SignGreen": 1,
+  "M_RS_SignWhite": 34,
+  "M_RS_PaintBlack": 1,
+  "M_RS_ReflectorAmber": 16,
+  "M_RS_Rubber": 49
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_milemarker_01"
+  ]
+ },
+ "biome_tags": [
+  "sign",
+  "highway",
+  "all_biomes"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Every 1 km along primary roads; plate faces +X.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "height": 1.0
+ },
+ "decal_faces": 36,
+ "fbx": "rs_milemarker.fbx"
+}

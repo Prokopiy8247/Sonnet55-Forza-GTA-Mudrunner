@@ -1,0 +1,72 @@
+{
+  "id": "nat_grass_dry",
+  "display_name": "Grass tuft - dry",
+  "kit": "ground_cover",
+  "family": "grass",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 0.915,
+    "y": 0.928,
+    "z": 0.702,
+    "height": 0.692
+  },
+  "bounds": {
+    "min": [
+      -0.46,
+      -0.455,
+      -0.01
+    ],
+    "max": [
+      0.455,
+      0.473,
+      0.692
+    ]
+  },
+  "tri_counts": {
+    "mesh": 569,
+    "ucx": []
+  },
+  "material_slots": [
+    "M_Grass_Dry"
+  ],
+  "collision": {
+    "type": "none",
+    "ucx_hulls": [],
+    "notes": "no collision (foliage / decoration)"
+  },
+  "biome_tags": [
+    "desert",
+    "steppe",
+    "savanna",
+    "badlands"
+  ],
+  "scale_range": [
+    0.7,
+    1.6
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "export_colors": "LINEAR (raw 0-1 masks)",
+    "R": "flex 0 (root) -> 1 (tip / outer shell)",
+    "G": "flutter 0 -> 1 (free tips)",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "A": "per-element random 0-1 (tint / phase variation)",
+    "hint": "WPO: sway = R^2 * low-freq wind; flutter = G * high-freq noise; multiply base colour by lerp(0.35,1,B); use A for per-leaf hue shift"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": true,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 0,
+    "open_pieces": -1,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_grass_dry.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 4102)"
+}

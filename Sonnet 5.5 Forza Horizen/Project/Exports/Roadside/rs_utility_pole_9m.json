@@ -1,0 +1,95 @@
+{
+ "id": "rs_utility_pole_9m",
+ "display_name": "Wooden utility pole 9 m with crossarm and insulators",
+ "category": "Roadside",
+ "group": "utility",
+ "units": "m",
+ "pivot": "ground_base",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.3658,
+  "y": 2.4,
+  "z": 9.284
+ },
+ "bounds_min": [
+  -0.1829,
+  -1.2,
+  0.0
+ ],
+ "bounds_max": [
+  0.1829,
+  1.2,
+  9.284
+ ],
+ "tri_counts": {
+  "lod0": 1780,
+  "collision": {
+   "UCX_rs_utility_pole_9m_01": 28,
+   "UCX_rs_utility_pole_9m_02": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_Wood",
+  "M_RS_PaintBlack",
+  "M_RS_GalvDark",
+  "M_RS_Insulator",
+  "M_RS_GalvSteel"
+ ],
+ "material_slot_tris": {
+  "M_RS_Wood": 331,
+  "M_RS_PaintBlack": 37,
+  "M_RS_GalvDark": 120,
+  "M_RS_Insulator": 363,
+  "M_RS_GalvSteel": 18
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_utility_pole_9m_01",
+   "UCX_rs_utility_pole_9m_02"
+  ]
+ },
+ "biome_tags": [
+  "rural",
+  "village",
+  "all_biomes",
+  "power_line"
+ ],
+ "scale_range": [
+  0.95,
+  1.1
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "wire_L": [
+   0.0,
+   -0.9,
+   8.654
+  ],
+  "wire_R": [
+   0.0,
+   0.9,
+   8.654
+  ],
+  "wire_top": [
+   0.0,
+   0.0,
+   9.284
+  ]
+ },
+ "usage": "Place every 30 m along rural roads; crossarm along Y, wires run along +-X. Attach rs_utility_wire_span_30m at the insulator tips listed in sockets.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "height": 9.3,
+  "crossarm_height": 8.4,
+  "span_to_next": 30.0
+ },
+ "decal_faces": 0,
+ "fbx": "rs_utility_pole_9m.fbx"
+}

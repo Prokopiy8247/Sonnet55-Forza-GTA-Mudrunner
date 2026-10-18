@@ -1,0 +1,79 @@
+{
+ "id": "rs_fence_wood_2_5m_b",
+ "display_name": "Wooden post-and-rail fence panel 2.5 m (variant B: three low rails)",
+ "category": "Roadside",
+ "group": "fence",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 2.682,
+  "y": 0.3614,
+  "z": 1.45
+ },
+ "bounds_min": [
+  -0.19,
+  -0.1807,
+  -0.15
+ ],
+ "bounds_max": [
+  2.492,
+  0.1807,
+  1.3
+ ],
+ "tri_counts": {
+  "lod0": 470,
+  "collision": {
+   "UCX_rs_fence_wood_2_5m_b_01": 12,
+   "UCX_rs_fence_wood_2_5m_b_02": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_Wood",
+  "M_RS_Soil",
+  "M_RS_GalvDark"
+ ],
+ "material_slot_tris": {
+  "M_RS_Wood": 188,
+  "M_RS_Soil": 41,
+  "M_RS_GalvDark": 36
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_fence_wood_2_5m_b_01",
+   "UCX_rs_fence_wood_2_5m_b_02"
+  ]
+ },
+ "biome_tags": [
+  "rural",
+  "farmland",
+  "forest",
+  "village"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Variant of rs_fence_wood_2_5m with the rails 8 cm lower (0.30 / 0.66 / 1.02 m): same post, tiles with the base panel.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 2.5,
+  "height": 1.3,
+  "rails": [
+   0.3,
+   0.66,
+   1.02
+  ]
+ },
+ "decal_faces": 0,
+ "fbx": "rs_fence_wood_2_5m_b.fbx"
+}

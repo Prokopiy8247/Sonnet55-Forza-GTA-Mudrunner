@@ -1,0 +1,93 @@
+{
+ "id": "bld_gas_station",
+ "display_name": "Gas station (canopy with 4 pump islands + shop)",
+ "category": "Settlements",
+ "group": "roadside",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 18.69,
+  "y": 16.57,
+  "z": 7.46
+ },
+ "bounds_min": [
+  -9.3,
+  -8.91,
+  0.0
+ ],
+ "bounds_max": [
+  9.39,
+  7.66,
+  7.46
+ ],
+ "tri_counts": {
+  "lod0": 6484,
+  "collision": {
+   "UCX_bld_gas_station_01": 28,
+   "UCX_bld_gas_station_02": 28,
+   "UCX_bld_gas_station_03": 28,
+   "UCX_bld_gas_station_04": 28,
+   "UCX_bld_gas_station_05": 12,
+   "UCX_bld_gas_station_06": 12,
+   "UCX_bld_gas_station_07": 28
+  }
+ },
+ "material_slots": [
+  "M_Bld_PaintWhite",
+  "M_Bld_Stone",
+  "M_Bld_Window",
+  "M_Bld_Metal",
+  "M_Bld_PaintRed",
+  "M_Bld_Neon"
+ ],
+ "material_slot_tris": {
+  "M_Bld_PaintWhite": 1182,
+  "M_Bld_Stone": 182,
+  "M_Bld_Window": 204,
+  "M_Bld_Metal": 932,
+  "M_Bld_PaintRed": 564,
+  "M_Bld_Neon": 344
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_gas_station_01",
+   "UCX_bld_gas_station_02",
+   "UCX_bld_gas_station_03",
+   "UCX_bld_gas_station_04",
+   "UCX_bld_gas_station_05",
+   "UCX_bld_gas_station_06",
+   "UCX_bld_gas_station_07"
+  ]
+ },
+ "biome_tags": [
+  "roadside",
+  "usa",
+  "highway"
+ ],
+ "scale_range": [
+  0.9,
+  1.15
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Canopy over 4 pump islands + small shop (back), price pole at the front-left",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   16.0,
+   14.4
+  ],
+  "pumps": 8,
+  "islands": 4
+ },
+ "decal_faces": 0,
+ "fbx": "bld_gas_station.fbx"
+}

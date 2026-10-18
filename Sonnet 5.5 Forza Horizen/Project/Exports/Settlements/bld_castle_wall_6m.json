@@ -1,0 +1,72 @@
+{
+ "id": "bld_castle_wall_6m",
+ "display_name": "Castle ruin wall segment (6 m)",
+ "category": "Settlements",
+ "group": "ruins",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 6.0,
+  "y": 3.2493,
+  "z": 4.5885
+ },
+ "bounds_min": [
+  0.0,
+  -1.4055,
+  -0.0685
+ ],
+ "bounds_max": [
+  6.0,
+  1.8438,
+  4.52
+ ],
+ "tri_counts": {
+  "lod0": 1720,
+  "collision": {
+   "UCX_bld_castle_wall_6m_01": 12,
+   "UCX_bld_castle_wall_6m_02": 12,
+   "UCX_bld_castle_wall_6m_03": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_Stone"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Stone": 875
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_castle_wall_6m_01",
+   "UCX_bld_castle_wall_6m_02",
+   "UCX_bld_castle_wall_6m_03"
+  ]
+ },
+ "biome_tags": [
+  "ruin",
+  "castle",
+  "medieval"
+ ],
+ "scale_range": [
+  0.9,
+  1.2
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Ruined curtain wall: starts at x=0 on the centreline, runs 6 m along +X, ends are full height (4.7 m) so segments chain",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 6.0,
+  "thickness": 1.2,
+  "max_height": 4.7
+ },
+ "decal_faces": 0,
+ "fbx": "bld_castle_wall_6m.fbx"
+}

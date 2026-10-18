@@ -1,0 +1,75 @@
+{
+  "id": "nat_sign_arrow",
+  "display_name": "Wooden arrow sign post 2 m",
+  "kit": "ground_cover",
+  "family": "misc",
+  "units": "m",
+  "origin": "post base centre at ground (post foot buried 0.1 m); sign face and arrow board toward +X, arrow points +Y",
+  "dimensions": {
+    "x": 0.17,
+    "y": 1.0,
+    "z": 2.16,
+    "height": 2.06
+  },
+  "bounds": {
+    "min": [
+      -0.06,
+      -0.46,
+      -0.1
+    ],
+    "max": [
+      0.11,
+      0.54,
+      2.06
+    ]
+  },
+  "tri_counts": {
+    "mesh": 85,
+    "ucx": [
+      12
+    ]
+  },
+  "material_slots": [
+    "M_Wood_Plank",
+    "M_Sign_Paint",
+    "M_Metal_Galv"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_sign_arrow_01"
+    ],
+    "notes": "UCX_01 post box (board has no collision)"
+  },
+  "biome_tags": [
+    "temperate",
+    "farmland",
+    "forest",
+    "highland",
+    "coast"
+  ],
+  "scale_range": [
+    0.8,
+    1.3
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 0,
+    "open_pieces": -1,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_sign_arrow.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 5601)"
+}

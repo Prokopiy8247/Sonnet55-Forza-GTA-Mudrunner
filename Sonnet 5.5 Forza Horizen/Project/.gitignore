@@ -1,0 +1,53 @@
+﻿# Unreal
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.sln.DotSettings.user
+# generated project files
+*.sln
+*.slnx
+*.vcxproj*
+# Blender
+*.blend1
+*.blend2
+Backups/
+# builds / caches
+Build/
+Packaged/
+*.log
+__pycache__/
+# per-run metadata of an aborted run by another model (not part of this project's measurement)
+.sonnet-5.5-forza-unreal-runs/run-*-opus55/
+# large raw exports are regenerated from the master .blend
+Tools/_scratch/
+
+# Blender exports are regenerated from the master .blend (JSON sidecars are kept)
+Exports/**/*.fbx
+Exports/**/*.png
+Exports/**/*.glb
+
+# procedural world pipeline (Tools/world/build_world.py regenerates all of this in ~2 min; small JSON products stay tracked)
+Content/Forza/World/Source/*.r16
+Content/Forza/World/Source/*.r8
+Tools/world/out/*.png
+Tools/world/out/previews/
+Tools/world/out/cache/
+Tools/world/__pycache__/
+
+# logs, scratch, regenerable texture sources
+Tools/Logs/
+Content/Forza/Textures/Source/**/*.png
+
+# agent worktrees (isolated checkouts), never tracked
+.claude/worktrees/
+
+# props placement generator raw output (Tools/ue/placement_gen.py regenerates it in seconds)
+Content/Forza/World/Placements/*.f32
+Content/Forza/World/Placements/*.png

@@ -1,0 +1,86 @@
+{
+ "id": "rs_guardrail_curved_end_R",
+ "display_name": "Guard rail curved turned-down START (mirror-built) 4.2 m",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 4.5037,
+  "y": 1.5701,
+  "z": 0.938
+ },
+ "bounds_min": [
+  -0.3037,
+  -1.5701,
+  -0.15
+ ],
+ "bounds_max": [
+  4.2,
+  0.0,
+  0.788
+ ],
+ "tri_counts": {
+  "lod0": 1172,
+  "collision": {
+   "UCX_rs_guardrail_curved_end_R_01": 12,
+   "UCX_rs_guardrail_curved_end_R_02": 12,
+   "UCX_rs_guardrail_curved_end_R_03": 18,
+   "UCX_rs_guardrail_curved_end_R_04": 30,
+   "UCX_rs_guardrail_curved_end_R_05": 24,
+   "UCX_rs_guardrail_curved_end_R_06": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvSteel",
+  "M_RS_PaintBlack",
+  "M_RS_GalvDark",
+  "M_RS_ReflectorWhite",
+  "M_RS_Concrete"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvSteel": 414,
+  "M_RS_PaintBlack": 12,
+  "M_RS_GalvDark": 106,
+  "M_RS_ReflectorWhite": 12,
+  "M_RS_Concrete": 26
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_guardrail_curved_end_R_01",
+   "UCX_rs_guardrail_curved_end_R_02",
+   "UCX_rs_guardrail_curved_end_R_03",
+   "UCX_rs_guardrail_curved_end_R_04",
+   "UCX_rs_guardrail_curved_end_R_05",
+   "UCX_rs_guardrail_curved_end_R_06"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "road_verge"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "START of a run (walking +X, road on +Y): ground anchor at x=0, rail rises and returns to the run line, joins the next rail (whose own post sits at x=4.2). Mirror-built, no negative scale.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 4.2,
+  "lateral_offset": 1.15,
+  "run_role": "start",
+  "joins_next_at_x": 4.2
+ },
+ "decal_faces": 0,
+ "fbx": "rs_guardrail_curved_end_R.fbx"
+}

@@ -1,0 +1,65 @@
+{
+ "id": "rs_delineator_post",
+ "display_name": "Delineator post white / red reflector",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.23,
+  "y": 0.2187,
+  "z": 1.0
+ },
+ "bounds_min": [
+  -0.115,
+  -0.1094,
+  0.0
+ ],
+ "bounds_max": [
+  0.115,
+  0.1094,
+  1.0
+ ],
+ "tri_counts": {
+  "lod0": 382,
+  "collision": {}
+ },
+ "material_slots": [
+  "M_RS_PlasticWhite",
+  "M_RS_PaintBlack",
+  "M_RS_ReflectorRed",
+  "M_RS_Rubber"
+ ],
+ "material_slot_tris": {
+  "M_RS_PlasticWhite": 66,
+  "M_RS_PaintBlack": 44,
+  "M_RS_ReflectorRed": 26,
+  "M_RS_Rubber": 41
+ },
+ "collision": {
+  "type": "none",
+  "hulls": []
+ },
+ "biome_tags": [
+  "all_biomes",
+  "road_verge"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Right-hand verge, spacing 25-50 m. Reflector faces +X.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {},
+ "decal_faces": 0,
+ "fbx": "rs_delineator_post.fbx"
+}

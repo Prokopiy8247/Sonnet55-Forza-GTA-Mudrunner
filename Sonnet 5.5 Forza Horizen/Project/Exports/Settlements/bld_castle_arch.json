@@ -1,0 +1,72 @@
+{
+ "id": "bld_castle_arch",
+ "display_name": "Castle ruin arch (7.6 m wide, 6.9 m high)",
+ "category": "Settlements",
+ "group": "ruins",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 7.6,
+  "y": 4.793,
+  "z": 6.6832
+ },
+ "bounds_min": [
+  -3.8,
+  -2.1845,
+  -0.0821
+ ],
+ "bounds_max": [
+  3.8,
+  2.6085,
+  6.6011
+ ],
+ "tri_counts": {
+  "lod0": 1380,
+  "collision": {
+   "UCX_bld_castle_arch_01": 12,
+   "UCX_bld_castle_arch_02": 12,
+   "UCX_bld_castle_arch_03": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_Stone"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Stone": 690
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_castle_arch_01",
+   "UCX_bld_castle_arch_02",
+   "UCX_bld_castle_arch_03"
+  ]
+ },
+ "biome_tags": [
+  "ruin",
+  "castle",
+  "medieval"
+ ],
+ "scale_range": [
+  0.9,
+  1.3
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Free-standing ruined arch; opening 4.4 m wide, passable; axis through the arch = Y",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "opening_width": 4.4,
+  "opening_height": 5.4,
+  "height": 6.9
+ },
+ "decal_faces": 0,
+ "fbx": "bld_castle_arch.fbx"
+}

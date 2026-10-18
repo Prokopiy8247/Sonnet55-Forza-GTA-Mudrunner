@@ -1,0 +1,73 @@
+{
+  "id": "nat_stump",
+  "display_name": "Tree stump with growth rings",
+  "kit": "ground_cover",
+  "family": "misc",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 1.221,
+    "y": 1.215,
+    "z": 0.774,
+    "height": 0.605
+  },
+  "bounds": {
+    "min": [
+      -0.597,
+      -0.612,
+      -0.169
+    ],
+    "max": [
+      0.624,
+      0.603,
+      0.605
+    ]
+  },
+  "tri_counts": {
+    "mesh": 440,
+    "ucx": [
+      30
+    ]
+  },
+  "material_slots": [
+    "M_Wood_Log",
+    "M_Wood_LogEnd"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_stump_01"
+    ],
+    "notes": "UCX_01 single hull"
+  },
+  "biome_tags": [
+    "forest",
+    "temperate",
+    "highland",
+    "farmland"
+  ],
+  "scale_range": [
+    0.7,
+    1.5
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 0,
+    "open_pieces": -1,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_stump.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 5303)"
+}

@@ -1,0 +1,81 @@
+{
+ "id": "rs_guardrail_4m",
+ "display_name": "Guard rail W-beam segment 4.0 m",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 4.058,
+  "y": 0.309,
+  "z": 0.956
+ },
+ "bounds_min": [
+  -0.058,
+  -0.309,
+  -0.15
+ ],
+ "bounds_max": [
+  4.0,
+  0.0,
+  0.806
+ ],
+ "tri_counts": {
+  "lod0": 524,
+  "collision": {
+   "UCX_rs_guardrail_4m_01": 12,
+   "UCX_rs_guardrail_4m_02": 12,
+   "UCX_rs_guardrail_4m_03": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvSteel",
+  "M_RS_PaintBlack",
+  "M_RS_GalvDark",
+  "M_RS_ReflectorWhite"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvSteel": 110,
+  "M_RS_PaintBlack": 12,
+  "M_RS_GalvDark": 100,
+  "M_RS_ReflectorWhite": 12
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_guardrail_4m_01",
+   "UCX_rs_guardrail_4m_02",
+   "UCX_rs_guardrail_4m_03"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "road_verge"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Tile every 4.0 m along +X on the verge (traffic face +Y). Start a run with rs_guardrail_end_terminal / rs_guardrail_curved_end_R, end it with rs_guardrail_end_terminal_R / rs_guardrail_curved_end.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 4.0,
+  "post_spacing": 2.0,
+  "beam_height_top": 0.75,
+  "post_top": 0.7999999999999999,
+  "traffic_side": "+Y",
+  "run_role": "body",
+  "next_piece_post_at": 4.0
+ },
+ "decal_faces": 0,
+ "fbx": "rs_guardrail_4m.fbx"
+}

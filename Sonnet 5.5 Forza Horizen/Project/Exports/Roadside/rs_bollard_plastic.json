@@ -1,0 +1,66 @@
+{
+ "id": "rs_bollard_plastic",
+ "display_name": "Bollard flexible plastic (white/orange, reflective bands)",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.26,
+  "y": 0.26,
+  "z": 0.96
+ },
+ "bounds_min": [
+  -0.13,
+  -0.13,
+  0.0
+ ],
+ "bounds_max": [
+  0.13,
+  0.13,
+  0.96
+ ],
+ "tri_counts": {
+  "lod0": 468,
+  "collision": {}
+ },
+ "material_slots": [
+  "M_RS_Rubber",
+  "M_RS_PlasticWhite",
+  "M_RS_PlasticOrange",
+  "M_RS_ReflectorWhite"
+ ],
+ "material_slot_tris": {
+  "M_RS_Rubber": 81,
+  "M_RS_PlasticWhite": 33,
+  "M_RS_PlasticOrange": 64,
+  "M_RS_ReflectorWhite": 36
+ },
+ "collision": {
+  "type": "none",
+  "hulls": []
+ },
+ "biome_tags": [
+  "all_biomes",
+  "roadworks",
+  "junction"
+ ],
+ "scale_range": [
+  0.9,
+  1.1
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Junction islands, lane splitters. Flexible; use no collision.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {},
+ "decal_faces": 0,
+ "fbx": "rs_bollard_plastic.fbx"
+}

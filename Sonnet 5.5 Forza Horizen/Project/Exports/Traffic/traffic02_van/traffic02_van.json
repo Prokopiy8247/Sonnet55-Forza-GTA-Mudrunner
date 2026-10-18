@@ -1,0 +1,370 @@
+{
+  "id": "traffic02_van",
+  "display_name": "Panel Van",
+  "category": "traffic",
+  "units": "m",
+  "dimensions": {
+    "length": 5.4438,
+    "width": 2.0,
+    "height": 2.462,
+    "width_with_mirrors": 2.54
+  },
+  "wheelbase": 3.2,
+  "track_front": 1.7,
+  "track_rear": 1.7,
+  "ride_height": 0.31,
+  "wheel_count": 4,
+  "wheels": [
+    {
+      "name": "traffic02_van_Wheel_FL",
+      "key": "FL",
+      "center": [
+        1.6,
+        0.85,
+        0.343
+      ],
+      "radius": 0.343,
+      "width": 0.223,
+      "axle": 0,
+      "side": "L",
+      "steering": true,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic02_van_Wheel_FL.fbx"
+    },
+    {
+      "name": "traffic02_van_Wheel_FR",
+      "key": "FR",
+      "center": [
+        1.6,
+        -0.85,
+        0.343
+      ],
+      "radius": 0.343,
+      "width": 0.223,
+      "axle": 0,
+      "side": "R",
+      "steering": true,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic02_van_Wheel_FR.fbx"
+    },
+    {
+      "name": "traffic02_van_Wheel_RL",
+      "key": "RL",
+      "center": [
+        -1.6,
+        0.85,
+        0.343
+      ],
+      "radius": 0.343,
+      "width": 0.223,
+      "axle": 1,
+      "side": "L",
+      "steering": false,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic02_van_Wheel_RL.fbx"
+    },
+    {
+      "name": "traffic02_van_Wheel_RR",
+      "key": "RR",
+      "center": [
+        -1.6,
+        -0.85,
+        0.343
+      ],
+      "radius": 0.343,
+      "width": 0.223,
+      "axle": 1,
+      "side": "R",
+      "steering": false,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic02_van_Wheel_RR.fbx"
+    }
+  ],
+  "axles": [
+    {
+      "index": 0,
+      "x": 1.6,
+      "steering": true,
+      "driven": true,
+      "wheels": [
+        "traffic02_van_Wheel_FL",
+        "traffic02_van_Wheel_FR"
+      ]
+    },
+    {
+      "index": 1,
+      "x": -1.6,
+      "steering": false,
+      "driven": false,
+      "wheels": [
+        "traffic02_van_Wheel_RL",
+        "traffic02_van_Wheel_RR"
+      ]
+    }
+  ],
+  "cameras": {
+    "bumper": [
+      2.58,
+      0.0,
+      0.55
+    ],
+    "cockpit": [
+      0.62,
+      0.46,
+      1.62
+    ]
+  },
+  "lights": {
+    "head_l": [
+      2.45,
+      0.6,
+      0.82
+    ],
+    "head_r": [
+      2.45,
+      -0.6,
+      0.82
+    ],
+    "reverse": [
+      -2.72,
+      0.0,
+      0.88
+    ],
+    "tail_l": [
+      -2.72,
+      0.78,
+      1.16
+    ],
+    "tail_r": [
+      -2.72,
+      -0.78,
+      1.16
+    ]
+  },
+  "exhaust": [
+    [
+      -2.88,
+      0.55,
+      0.36
+    ]
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Indicator",
+      "M_Plate"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_TrimBlack",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_TrimGrey",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_TrimGrey",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_TrimGrey",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_TrimGrey",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ]
+  },
+  "tri_counts": {
+    "Body": 13960,
+    "Glass": 48,
+    "Interior": 992,
+    "Wheel_FL": 2320,
+    "Wheel_FR": 2320,
+    "Wheel_RL": 2320,
+    "Wheel_RR": 2320,
+    "UCX": 40,
+    "total_visual": 24280
+  },
+  "ucx": [
+    "UCX_traffic02_van_Body_01",
+    "UCX_traffic02_van_Body_02",
+    "UCX_traffic02_van_Body_03"
+  ],
+  "files": {
+    "Body": "traffic02_van_Body.fbx",
+    "Glass": "traffic02_van_Glass.fbx",
+    "Interior": "traffic02_van_Interior.fbx",
+    "Wheel_FL": "traffic02_van_Wheel_FL.fbx",
+    "Wheel_FR": "traffic02_van_Wheel_FR.fbx",
+    "Wheel_RL": "traffic02_van_Wheel_RL.fbx",
+    "Wheel_RR": "traffic02_van_Wheel_RR.fbx"
+  },
+  "ue_import": {
+    "ue_x": "x*100",
+    "ue_y": "-y*100",
+    "ue_z": "z*100",
+    "forward": "+X",
+    "note": "one FBX per part, pivot = vehicle origin (Body/Glass/Interior) or axle centre (wheels)"
+  },
+  "wheel_map": {
+    "FL": {
+      "center": [
+        1.6,
+        0.85,
+        0.343
+      ],
+      "radius": 0.343,
+      "width": 0.223
+    },
+    "FR": {
+      "center": [
+        1.6,
+        -0.85,
+        0.343
+      ],
+      "radius": 0.343,
+      "width": 0.223
+    },
+    "RL": {
+      "center": [
+        -1.6,
+        0.85,
+        0.343
+      ],
+      "radius": 0.343,
+      "width": 0.223
+    },
+    "RR": {
+      "center": [
+        -1.6,
+        -0.85,
+        0.343
+      ],
+      "radius": 0.343,
+      "width": 0.223
+    }
+  },
+  "paint_variants": [
+    {
+      "name": "Delivery white",
+      "M_Paint": {
+        "srgb": "#e8e9ea",
+        "linear": [
+          0.807,
+          0.8148,
+          0.8228
+        ],
+        "metallic": 0.0,
+        "roughness": 0.3
+      },
+      "M_Paint2": {
+        "srgb": "#2a2d31",
+        "linear": [
+          0.0232,
+          0.0262,
+          0.0307
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Courier blue",
+      "M_Paint": {
+        "srgb": "#1f4f8f",
+        "linear": [
+          0.0137,
+          0.0782,
+          0.2747
+        ],
+        "metallic": 0.25,
+        "roughness": 0.28
+      },
+      "M_Paint2": {
+        "srgb": "#e8e9ea",
+        "linear": [
+          0.807,
+          0.8148,
+          0.8228
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Post yellow",
+      "M_Paint": {
+        "srgb": "#e0b21c",
+        "linear": [
+          0.7454,
+          0.4452,
+          0.0116
+        ],
+        "metallic": 0.0,
+        "roughness": 0.32
+      },
+      "M_Paint2": {
+        "srgb": "#202224",
+        "linear": [
+          0.0144,
+          0.016,
+          0.0176
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    }
+  ],
+  "paint_slots": {
+    "M_Paint": "body panels, doors, roof",
+    "M_Paint2": "bumpers (accent colour, satin black by default)"
+  },
+  "traffic": {
+    "role": "delivery van",
+    "cruise_speed_kmh": [
+      40,
+      90
+    ],
+    "mass_kg_hint": 2300,
+    "drivetrain": "FWD",
+    "sliding_door_side": "right (-Y in UE)",
+    "roof_rack": true
+  },
+  "collision": {
+    "recommended": "UCX hulls in the Body FBX (3 convex hulls); wheels without collision (vehicle physics)",
+    "ucx_count": 3
+  },
+  "ue_scale_range": [
+    0.97,
+    1.03
+  ],
+  "dimensions_note": "dimensions.height includes the roof rack; the cargo roof is 2.30 m (ROOT height_roof)",
+  "height_roof": 2.3
+}

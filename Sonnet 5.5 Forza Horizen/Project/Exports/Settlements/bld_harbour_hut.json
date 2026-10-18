@@ -1,0 +1,79 @@
+{
+ "id": "bld_harbour_hut",
+ "display_name": "Harbour fisherman hut (5x4 m)",
+ "category": "Settlements",
+ "group": "harbour",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 7.4374,
+  "y": 4.915,
+  "z": 4.6131
+ },
+ "bounds_min": [
+  -3.7724,
+  -2.35,
+  0.0
+ ],
+ "bounds_max": [
+  3.665,
+  2.565,
+  4.6131
+ ],
+ "tri_counts": {
+  "lod0": 3160,
+  "collision": {
+   "UCX_bld_harbour_hut_01": 12,
+   "UCX_bld_harbour_hut_02": 8
+  }
+ },
+ "material_slots": [
+  "M_Bld_Wood",
+  "M_Bld_Stone",
+  "M_Bld_Window",
+  "M_Bld_PaintBlue",
+  "M_Bld_Metal"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Wood": 694,
+  "M_Bld_Stone": 162,
+  "M_Bld_Window": 24,
+  "M_Bld_PaintBlue": 398,
+  "M_Bld_Metal": 307
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_harbour_hut_01",
+   "UCX_bld_harbour_hut_02"
+  ]
+ },
+ "biome_tags": [
+  "coast",
+  "harbour",
+  "fishing"
+ ],
+ "scale_range": [
+  0.9,
+  1.2
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Weathered timber hut with metal roof, door on +X; props (crates, barrels, rope) included",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   5.0,
+   4.0
+  ]
+ },
+ "decal_faces": 0,
+ "fbx": "bld_harbour_hut.fbx"
+}

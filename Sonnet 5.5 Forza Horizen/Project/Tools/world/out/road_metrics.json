@@ -1,0 +1,420 @@
+{
+ "total_length_km": 45.57,
+ "length_km_by_class": {
+  "DIRT": 8.126,
+  "HIGHWAY": 5.54,
+  "MOUNTAIN": 15.426,
+  "REGIONAL": 14.922,
+  "VILLAGE": 1.556
+ },
+ "loop_length_km": 23.074,
+ "loop_closed": true,
+ "loop_ge_22km": true,
+ "longest_uninterrupted_km": 5.54,
+ "longest_uninterrupted_road": "HWY_EAST",
+ "longest_uninterrupted_ge_5km": true,
+ "hwy_east_length_km": 5.54,
+ "grade_max_by_class": {
+  "DIRT": 0.1397,
+  "HIGHWAY": 0.0599,
+  "MOUNTAIN": 0.1198,
+  "REGIONAL": 0.0898,
+  "VILLAGE": 0.0998
+ },
+ "grade_p99_by_class": {
+  "DIRT": 0.1397,
+  "HIGHWAY": 0.0599,
+  "MOUNTAIN": 0.1198,
+  "REGIONAL": 0.0898,
+  "VILLAGE": 0.0998
+ },
+ "grade_limit_by_class": {
+  "DIRT": 0.14,
+  "HIGHWAY": 0.06,
+  "MOUNTAIN": 0.12,
+  "REGIONAL": 0.09,
+  "VILLAGE": 0.1
+ },
+ "grade_ok": true,
+ "min_radius_by_class": {
+  "DIRT": 27.1,
+  "HIGHWAY": 261.6,
+  "MOUNTAIN": 20.1,
+  "REGIONAL": 74.9,
+  "VILLAGE": 23.3
+ },
+ "min_radius_hairpin_by_class": {
+  "DIRT": 27.1,
+  "HIGHWAY": null,
+  "MOUNTAIN": 20.1,
+  "REGIONAL": null,
+  "VILLAGE": 23.3
+ },
+ "min_radius_nonhairpin_by_class": {
+  "DIRT": 28.3,
+  "HIGHWAY": 261.6,
+  "MOUNTAIN": 56.4,
+  "REGIONAL": 74.9,
+  "VILLAGE": 23.8
+ },
+ "min_radius_ok": true,
+ "network_components": 1,
+ "network_connected": true,
+ "junction_nodes": 57,
+ "road_samples": 22834,
+ "samples_outside_1990": 0,
+ "samples_terrain_below_0p5m_nonbridge": 0,
+ "bridge_count": 22,
+ "bridges": [
+  [
+   500.0,
+   "HWY_EAST"
+  ],
+  [
+   369.9,
+   "LOOP_DESC"
+  ],
+  [
+   346.0,
+   "LOOP_VALLEY"
+  ],
+  [
+   281.9,
+   "LOOP_DESC"
+  ],
+  [
+   231.8,
+   "BASIN_ROAD"
+  ],
+  [
+   173.8,
+   "ORCHARD_ROAD"
+  ],
+  [
+   162.0,
+   "LOOP_PASS"
+  ],
+  [
+   154.0,
+   "LOOP_DESC"
+  ],
+  [
+   138.0,
+   "LOOP_DESC"
+  ],
+  [
+   112.0,
+   "LOOP_VALLEY"
+  ],
+  [
+   106.0,
+   "LOOP_DESC"
+  ],
+  [
+   105.9,
+   "COAST_SPUR"
+  ],
+  [
+   98.0,
+   "LOOP_DESC"
+  ],
+  [
+   88.0,
+   "LOOP_VALLEY"
+  ],
+  [
+   87.9,
+   "ORCHARD_ROAD"
+  ],
+  [
+   87.9,
+   "CASTLE_ROAD"
+  ],
+  [
+   87.9,
+   "BASIN_ROAD"
+  ],
+  [
+   67.9,
+   "BASIN_ROAD"
+  ],
+  [
+   62.0,
+   "LOOP_SOUTH"
+  ],
+  [
+   48.0,
+   "BASIN_ROAD"
+  ],
+  [
+   40.0,
+   "LOOP_DESC"
+  ],
+  [
+   14.0,
+   "BASIN_LANE"
+  ]
+ ],
+ "bridges_ge_3": true,
+ "great_bay_bridge_length_m": 500.0,
+ "tunnel_count": 1,
+ "tunnels": [
+  [
+   297.9,
+   "LOOP_DESC"
+  ]
+ ],
+ "tunnel_120_400": true,
+ "hairpins_by_road": {
+  "LOOP_PASS": 9,
+  "LOOP_DESC": 9,
+  "PASS_SPUR": 9,
+  "DIRT_WASH": 6,
+  "DIRT_CLIFF": 3,
+  "DIRT_BEACH": 1,
+  "LOCAL_DINER": 1,
+  "LOCAL_TIDE_QUAY": 1
+ },
+ "hairpins_pass": 9,
+ "hairpins_pass_ge_8": true,
+ "carve_dev_junction_zones_max_m": 1.81,
+ "carve_dev_junction_zones_p99_m": 1.158,
+ "carve_dev_by_road_max_p99_n": {
+  "HWY_EAST": [
+   0.05,
+   0.01,
+   0,
+   []
+  ],
+  "LOOP_COAST": [
+   0.02,
+   0.01,
+   0,
+   []
+  ],
+  "LOOP_SOUTH": [
+   0.05,
+   0.02,
+   0,
+   []
+  ],
+  "LOOP_VALLEY": [
+   0.08,
+   0.02,
+   0,
+   []
+  ],
+  "CASTLE_ROAD": [
+   0.07,
+   0.02,
+   0,
+   []
+  ],
+  "LOOP_PASS": [
+   0.12,
+   0.04,
+   0,
+   []
+  ],
+  "LOOP_DESC": [
+   0.17,
+   0.05,
+   0,
+   []
+  ],
+  "PASS_SPUR": [
+   0.09,
+   0.03,
+   0,
+   []
+  ],
+  "COAST_SPUR": [
+   0.03,
+   0.01,
+   0,
+   []
+  ],
+  "BASIN_ROAD": [
+   0.03,
+   0.01,
+   0,
+   []
+  ],
+  "RIVER_ROAD": [
+   0.01,
+   0.01,
+   0,
+   []
+  ],
+  "DIRT_WASH": [
+   0.46,
+   0.03,
+   5,
+   [
+    [
+     212.0,
+     26.0,
+     205.0,
+     0.46
+    ]
+   ]
+  ],
+  "DIRT_LOG": [
+   0.05,
+   0.02,
+   0,
+   []
+  ],
+  "DIRT_FARM": [
+   0.05,
+   0.02,
+   0,
+   []
+  ],
+  "DIRT_CLIFF": [
+   0.05,
+   0.02,
+   0,
+   []
+  ],
+  "DIRT_WIND": [
+   0.01,
+   0.01,
+   0,
+   []
+  ],
+  "DIRT_BEACH": [
+   0.05,
+   0.03,
+   0,
+   []
+  ],
+  "DIRT_DUST": [
+   0.05,
+   0.02,
+   0,
+   []
+  ],
+  "BASIN_LANE": [
+   0.03,
+   0.02,
+   0,
+   []
+  ],
+  "ORCHARD_ROAD": [
+   0.09,
+   0.02,
+   0,
+   []
+  ],
+  "LOCAL_MILL_MAIN": [
+   0.02,
+   0.02,
+   0,
+   []
+  ],
+  "LOCAL_MILL_WEST": [
+   0.03,
+   0.03,
+   0,
+   []
+  ],
+  "LOCAL_MILL_RING": [
+   0.04,
+   0.03,
+   0,
+   []
+  ],
+  "LOCAL_FARM_A": [
+   0.02,
+   0.02,
+   0,
+   []
+  ],
+  "LOCAL_FARM_B": [
+   0.05,
+   0.04,
+   0,
+   []
+  ],
+  "LOCAL_FARM_C": [
+   0.03,
+   0.02,
+   0,
+   []
+  ],
+  "LOCAL_GAS_X": [
+   0.02,
+   0.02,
+   0,
+   []
+  ],
+  "LOCAL_DINER": [
+   1.08,
+   0.95,
+   10,
+   [
+    [
+     78.0,
+     17.0,
+     204.0,
+     1.08
+    ]
+   ]
+  ],
+  "LOCAL_PGAS": [
+   0.01,
+   0.01,
+   0,
+   []
+  ],
+  "LOCAL_HGAS": [
+   0.01,
+   0.01,
+   0,
+   []
+  ],
+  "LOCAL_TIDE_QUAY": [
+   0.03,
+   0.03,
+   0,
+   []
+  ],
+  "LOCAL_TIDE_HIGH": [
+   0.01,
+   0.01,
+   0,
+   []
+  ],
+  "LOCAL_FROST": [
+   0.01,
+   0.01,
+   0,
+   []
+  ]
+ },
+ "carve_dev_max_m": 1.083,
+ "carve_dev_p99_m": 0.028,
+ "carve_dev_p999_m": 0.123,
+ "carve_samples_over_0p2m": 15,
+ "carve_fraction_within_0p2m": 0.99921,
+ "carve_consistent": true,
+ "embankment_samples_steeper_than_1_to_1p2": 16,
+ "heightmap_min_m": -51.84,
+ "heightmap_max_m": 757.01,
+ "heightmap_range_ok": true,
+ "gradient_near_roads_max": 43.35,
+ "gradient_near_roads_p999": 4.152,
+ "gradient_near_roads_p99": 1.72,
+ "gradient_max": 144.04,
+ "gradient_p9999": 55.25,
+ "region_land_fraction": {
+  "Greenvale": 0.1455,
+  "Highcrest": 0.1526,
+  "Plateau": 0.1313,
+  "Coast": 0.3151,
+  "Basin": 0.2554
+ },
+ "regions_visible": true,
+ "build_seconds_so_far": 108.8
+}

@@ -1,0 +1,1841 @@
+{
+ "kit": "roadside",
+ "version": 1,
+ "units": "m",
+ "blender": "5.2.2",
+ "staging": "y=80",
+ "axes": "Blender +X forward/+Z up (FBX recipe: axis_forward -Y, axis_up Z, apply_scale FBX_SCALE_ALL)",
+ "traffic_side": "+Y for rails/barriers/fences (road lies to the +Y side when walking +X)",
+ "assets": [
+  {
+   "id": "rs_guardrail_4m",
+   "fbx": "rs_guardrail_4m.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 4.058,
+    "y": 0.309,
+    "z": 0.956
+   },
+   "tris": 524,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_PaintBlack",
+    "M_RS_GalvDark",
+    "M_RS_ReflectorWhite"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_verge"
+   ]
+  },
+  {
+   "id": "rs_guardrail_end_terminal",
+   "fbx": "rs_guardrail_end_terminal.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 4.0123,
+    "y": 0.5389,
+    "z": 0.998
+   },
+   "tris": 1252,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_PaintBlack",
+    "M_RS_GalvDark",
+    "M_RS_ReflectorWhite",
+    "M_RS_PaintYellow",
+    "M_RS_ReflectorAmber"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_verge"
+   ]
+  },
+  {
+   "id": "rs_guardrail_end_terminal_R",
+   "fbx": "rs_guardrail_end_terminal_R.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 4.0694,
+    "y": 0.5389,
+    "z": 0.998
+   },
+   "tris": 1480,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_PaintBlack",
+    "M_RS_GalvDark",
+    "M_RS_ReflectorWhite",
+    "M_RS_PaintYellow",
+    "M_RS_ReflectorAmber"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_verge"
+   ]
+  },
+  {
+   "id": "rs_guardrail_curved_end",
+   "fbx": "rs_guardrail_curved_end.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 4.5617,
+    "y": 1.5701,
+    "z": 0.956
+   },
+   "tris": 1400,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_PaintBlack",
+    "M_RS_GalvDark",
+    "M_RS_ReflectorWhite",
+    "M_RS_Concrete"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_verge"
+   ]
+  },
+  {
+   "id": "rs_guardrail_curved_end_R",
+   "fbx": "rs_guardrail_curved_end_R.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 4.5037,
+    "y": 1.5701,
+    "z": 0.938
+   },
+   "tris": 1172,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_PaintBlack",
+    "M_RS_GalvDark",
+    "M_RS_ReflectorWhite",
+    "M_RS_Concrete"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_verge"
+   ]
+  },
+  {
+   "id": "rs_parapet_mountain_3m",
+   "fbx": "rs_parapet_mountain_3m.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 3.08,
+    "y": 0.72,
+    "z": 1.44
+   },
+   "tris": 1488,
+   "materials": [
+    "M_RS_ConcreteDark",
+    "M_RS_Stone",
+    "M_RS_Wood",
+    "M_RS_GalvDark"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "alpine",
+    "forest",
+    "mountain_road"
+   ]
+  },
+  {
+   "id": "rs_parapet_mountain_end",
+   "fbx": "rs_parapet_mountain_end.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 1.685,
+    "y": 0.72,
+    "z": 1.44
+   },
+   "tris": 1004,
+   "materials": [
+    "M_RS_ConcreteDark",
+    "M_RS_Stone"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "alpine",
+    "forest",
+    "mountain_road"
+   ]
+  },
+  {
+   "id": "rs_barrier_jersey_3m",
+   "fbx": "rs_barrier_jersey_3m.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 3.03,
+    "y": 0.618,
+    "z": 0.829
+   },
+   "tris": 500,
+   "materials": [
+    "M_RS_Concrete",
+    "M_RS_GalvDark",
+    "M_RS_ReflectorAmber",
+    "M_RS_ConcreteDark"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "highway",
+    "roadworks"
+   ]
+  },
+  {
+   "id": "rs_bridge_rail_2m",
+   "fbx": "rs_bridge_rail_2m.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 2.11,
+    "y": 0.22,
+    "z": 1.1148
+   },
+   "tris": 666,
+   "materials": [
+    "M_RS_GalvDark",
+    "M_RS_PaintGrey",
+    "M_RS_GalvSteel"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "bridge",
+    "all_biomes"
+   ]
+  },
+  {
+   "id": "rs_delineator_post",
+   "fbx": "rs_delineator_post.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 0.23,
+    "y": 0.2187,
+    "z": 1.0
+   },
+   "tris": 382,
+   "materials": [
+    "M_RS_PlasticWhite",
+    "M_RS_PaintBlack",
+    "M_RS_ReflectorRed",
+    "M_RS_Rubber"
+   ],
+   "collision": "none",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_verge"
+   ]
+  },
+  {
+   "id": "rs_delineator_post_white",
+   "fbx": "rs_delineator_post_white.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 0.23,
+    "y": 0.2187,
+    "z": 1.0
+   },
+   "tris": 382,
+   "materials": [
+    "M_RS_PlasticWhite",
+    "M_RS_PaintBlack",
+    "M_RS_ReflectorWhite",
+    "M_RS_Rubber"
+   ],
+   "collision": "none",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_verge"
+   ]
+  },
+  {
+   "id": "rs_delineator_post_amber",
+   "fbx": "rs_delineator_post_amber.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 0.23,
+    "y": 0.2187,
+    "z": 1.0
+   },
+   "tris": 382,
+   "materials": [
+    "M_RS_PlasticWhite",
+    "M_RS_PaintBlack",
+    "M_RS_ReflectorAmber",
+    "M_RS_Rubber"
+   ],
+   "collision": "none",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "tunnel",
+    "roadworks"
+   ]
+  },
+  {
+   "id": "rs_bollard_stone",
+   "fbx": "rs_bollard_stone.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 0.3676,
+    "y": 0.3676,
+    "z": 0.85
+   },
+   "tris": 510,
+   "materials": [
+    "M_RS_Stone",
+    "M_RS_PaintWhite",
+    "M_RS_ReflectorRed"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.15
+   ],
+   "nanite": true,
+   "tags": [
+    "village",
+    "all_biomes",
+    "mountain"
+   ]
+  },
+  {
+   "id": "rs_bollard_plastic",
+   "fbx": "rs_bollard_plastic.fbx",
+   "group": "barrier",
+   "dimensions": {
+    "x": 0.26,
+    "y": 0.26,
+    "z": 0.96
+   },
+   "tris": 468,
+   "materials": [
+    "M_RS_Rubber",
+    "M_RS_PlasticWhite",
+    "M_RS_PlasticOrange",
+    "M_RS_ReflectorWhite"
+   ],
+   "collision": "none",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.1
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "roadworks",
+    "junction"
+   ]
+  },
+  {
+   "id": "rs_traffic_cone",
+   "fbx": "rs_traffic_cone.fbx",
+   "group": "trafficfurniture",
+   "dimensions": {
+    "x": 0.38,
+    "y": 0.38,
+    "z": 0.705
+   },
+   "tris": 416,
+   "materials": [
+    "M_RS_Rubber",
+    "M_RS_PlasticOrange",
+    "M_RS_ReflectorWhite"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.15
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "roadworks",
+    "race_event"
+   ]
+  },
+  {
+   "id": "rs_traffic_barrel",
+   "fbx": "rs_traffic_barrel.fbx",
+   "group": "trafficfurniture",
+   "dimensions": {
+    "x": 0.58,
+    "y": 0.58,
+    "z": 0.945
+   },
+   "tris": 894,
+   "materials": [
+    "M_RS_PlasticOrange",
+    "M_RS_ReflectorWhite"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.1
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "roadworks",
+    "race_event"
+   ]
+  },
+  {
+   "id": "rs_tyre_stack",
+   "fbx": "rs_tyre_stack.fbx",
+   "group": "trafficfurniture",
+   "dimensions": {
+    "x": 0.6306,
+    "y": 0.629,
+    "z": 0.7984
+   },
+   "tris": 5064,
+   "materials": [
+    "M_RS_TyreRubber",
+    "M_RS_TyrePaint",
+    "M_RS_PlasticOrange",
+    "M_RS_GalvDark",
+    "M_RS_GalvSteel"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.1
+   ],
+   "nanite": true,
+   "tags": [
+    "race_event",
+    "all_biomes",
+    "track_side"
+   ]
+  },
+  {
+   "id": "rs_hay_bale_roadblock",
+   "fbx": "rs_hay_bale_roadblock.fbx",
+   "group": "trafficfurniture",
+   "dimensions": {
+    "x": 0.6939,
+    "y": 3.0393,
+    "z": 1.0171
+   },
+   "tris": 2644,
+   "materials": [
+    "M_RS_Hay",
+    "M_RS_Rope",
+    "M_RS_Wood",
+    "M_RS_PaintWhite",
+    "M_RS_PaintRed"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.1
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "race_event",
+    "farmland"
+   ]
+  },
+  {
+   "id": "rs_sign_speed_30",
+   "fbx": "rs_sign_speed_30.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.7,
+    "z": 2.732
+   },
+   "tris": 914,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "sign"
+   ]
+  },
+  {
+   "id": "rs_sign_speed_50",
+   "fbx": "rs_sign_speed_50.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.7,
+    "z": 2.732
+   },
+   "tris": 898,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "sign"
+   ]
+  },
+  {
+   "id": "rs_sign_speed_70",
+   "fbx": "rs_sign_speed_70.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.7,
+    "z": 2.732
+   },
+   "tris": 872,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "sign"
+   ]
+  },
+  {
+   "id": "rs_sign_speed_90",
+   "fbx": "rs_sign_speed_90.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.7,
+    "z": 2.732
+   },
+   "tris": 924,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "sign"
+   ]
+  },
+  {
+   "id": "rs_sign_speed_110",
+   "fbx": "rs_sign_speed_110.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.7,
+    "z": 2.732
+   },
+   "tris": 876,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "sign"
+   ]
+  },
+  {
+   "id": "rs_sign_curve_left",
+   "fbx": "rs_sign_curve_left.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8468,
+    "z": 2.863
+   },
+   "tris": 497,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning"
+   ]
+  },
+  {
+   "id": "rs_sign_curve_right",
+   "fbx": "rs_sign_curve_right.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8468,
+    "z": 2.863
+   },
+   "tris": 497,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning"
+   ]
+  },
+  {
+   "id": "rs_sign_hairpin",
+   "fbx": "rs_sign_hairpin.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8468,
+    "z": 2.863
+   },
+   "tris": 497,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning",
+    "mountain"
+   ]
+  },
+  {
+   "id": "rs_sign_steep_descent",
+   "fbx": "rs_sign_steep_descent.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8468,
+    "z": 2.863
+   },
+   "tris": 555,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning",
+    "mountain"
+   ]
+  },
+  {
+   "id": "rs_sign_tunnel",
+   "fbx": "rs_sign_tunnel.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8468,
+    "z": 2.863
+   },
+   "tris": 486,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning",
+    "tunnel"
+   ]
+  },
+  {
+   "id": "rs_sign_bridge",
+   "fbx": "rs_sign_bridge.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8468,
+    "z": 2.863
+   },
+   "tris": 500,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning",
+    "bridge"
+   ]
+  },
+  {
+   "id": "rs_sign_junction",
+   "fbx": "rs_sign_junction.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8468,
+    "z": 2.863
+   },
+   "tris": 479,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning",
+    "junction"
+   ]
+  },
+  {
+   "id": "rs_sign_give_way",
+   "fbx": "rs_sign_give_way.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8468,
+    "z": 2.598
+   },
+   "tris": 474,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignRed"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "junction"
+   ]
+  },
+  {
+   "id": "rs_sign_stop",
+   "fbx": "rs_sign_stop.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.78,
+    "z": 2.722
+   },
+   "tris": 950,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignRed",
+    "M_RS_SignBack",
+    "M_RS_SignWhite"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "junction"
+   ]
+  },
+  {
+   "id": "rs_sign_direction_s",
+   "fbx": "rs_sign_direction_s.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1246,
+    "y": 1.2,
+    "z": 2.582
+   },
+   "tris": 747,
+   "materials": [
+    "M_RS_SignBlue",
+    "M_RS_SignBack",
+    "M_RS_SignWhite",
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "direction"
+   ]
+  },
+  {
+   "id": "rs_sign_direction_m",
+   "fbx": "rs_sign_direction_m.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1246,
+    "y": 1.8,
+    "z": 2.682
+   },
+   "tris": 1074,
+   "materials": [
+    "M_RS_SignBlue",
+    "M_RS_SignBack",
+    "M_RS_SignWhite",
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "direction"
+   ]
+  },
+  {
+   "id": "rs_sign_direction_l",
+   "fbx": "rs_sign_direction_l.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1246,
+    "y": 2.8,
+    "z": 3.132
+   },
+   "tris": 1293,
+   "materials": [
+    "M_RS_SignBlue",
+    "M_RS_SignBack",
+    "M_RS_SignWhite",
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "direction",
+    "highway"
+   ]
+  },
+  {
+   "id": "rs_sign_village",
+   "fbx": "rs_sign_village.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1246,
+    "y": 1.5,
+    "z": 1.937
+   },
+   "tris": 978,
+   "materials": [
+    "M_RS_SignWhite",
+    "M_RS_SignBack",
+    "M_RS_SignBlack",
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "village"
+   ]
+  },
+  {
+   "id": "rs_milemarker",
+   "fbx": "rs_milemarker.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.24,
+    "y": 0.24,
+    "z": 1.0
+   },
+   "tris": 318,
+   "materials": [
+    "M_RS_PlasticWhite",
+    "M_RS_SignGreen",
+    "M_RS_SignWhite",
+    "M_RS_PaintBlack",
+    "M_RS_ReflectorAmber",
+    "M_RS_Rubber"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "highway",
+    "all_biomes"
+   ]
+  },
+  {
+   "id": "rs_sign_chevron_right",
+   "fbx": "rs_sign_chevron_right.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8,
+    "z": 2.482
+   },
+   "tris": 548,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignYellow",
+    "M_RS_SignBack",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning",
+    "mountain"
+   ]
+  },
+  {
+   "id": "rs_sign_chevron_left",
+   "fbx": "rs_sign_chevron_left.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8,
+    "z": 2.482
+   },
+   "tris": 548,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignYellow",
+    "M_RS_SignBack",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning",
+    "mountain"
+   ]
+  },
+  {
+   "id": "rs_sign_jump",
+   "fbx": "rs_sign_jump.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 0.1206,
+    "y": 0.8827,
+    "z": 2.842
+   },
+   "tris": 1008,
+   "materials": [
+    "M_RS_GalvSteel",
+    "M_RS_GalvDark",
+    "M_RS_SignYellow",
+    "M_RS_SignBack",
+    "M_RS_SignBlack"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "sign",
+    "warning",
+    "stunt"
+   ]
+  },
+  {
+   "id": "rs_speedtrap_camera",
+   "fbx": "rs_speedtrap_camera.fbx",
+   "group": "sign",
+   "dimensions": {
+    "x": 1.555,
+    "y": 0.5,
+    "z": 3.36
+   },
+   "tris": 1178,
+   "materials": [
+    "M_RS_GalvDark",
+    "M_RS_PaintGrey",
+    "M_RS_PaintBlack",
+    "M_RS_ReflectorRed",
+    "M_RS_ReflectorWhite",
+    "M_RS_ReflectorAmber",
+    "M_RS_SignYellow"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "enforcement",
+    "highway",
+    "all_biomes"
+   ]
+  },
+  {
+   "id": "rs_streetlamp_8m",
+   "fbx": "rs_streetlamp_8m.fbx",
+   "group": "lighting",
+   "dimensions": {
+    "x": 0.52,
+    "y": 2.7825,
+    "z": 8.1564
+   },
+   "tris": 1850,
+   "materials": [
+    "M_RS_Concrete",
+    "M_RS_GalvDark",
+    "M_RS_GalvSteel",
+    "M_RS_PaintBlack",
+    "M_RS_PaintGrey",
+    "M_RS_LampLens"
+   ],
+   "collision": "box",
+   "pivot": "ground_base",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_verge",
+    "village",
+    "highway"
+   ]
+  },
+  {
+   "id": "rs_gantry_lamp",
+   "fbx": "rs_gantry_lamp.fbx",
+   "group": "lighting",
+   "dimensions": {
+    "x": 0.72,
+    "y": 6.085,
+    "z": 10.0
+   },
+   "tris": 1590,
+   "materials": [
+    "M_RS_GalvDark",
+    "M_RS_GalvSteel",
+    "M_RS_PaintBlack",
+    "M_RS_PaintGrey",
+    "M_RS_LampLens"
+   ],
+   "collision": "box",
+   "pivot": "ground_base",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "highway",
+    "interchange",
+    "tunnel_approach"
+   ]
+  },
+  {
+   "id": "rs_utility_pole_9m",
+   "fbx": "rs_utility_pole_9m.fbx",
+   "group": "utility",
+   "dimensions": {
+    "x": 0.3658,
+    "y": 2.4,
+    "z": 9.284
+   },
+   "tris": 1780,
+   "materials": [
+    "M_RS_Wood",
+    "M_RS_PaintBlack",
+    "M_RS_GalvDark",
+    "M_RS_Insulator",
+    "M_RS_GalvSteel"
+   ],
+   "collision": "box",
+   "pivot": "ground_base",
+   "scale_range": [
+    0.95,
+    1.1
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "village",
+    "all_biomes",
+    "power_line"
+   ]
+  },
+  {
+   "id": "rs_utility_wire_span_30m",
+   "fbx": "rs_utility_wire_span_30m.fbx",
+   "group": "utility",
+   "dimensions": {
+    "x": 30.0015,
+    "y": 1.8154,
+    "z": 1.3461
+   },
+   "tris": 918,
+   "materials": [
+    "M_RS_Wire"
+   ],
+   "collision": "none",
+   "pivot": "attach_point",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "village",
+    "power_line"
+   ]
+  },
+  {
+   "id": "rs_utility_wire_span_30m_taut",
+   "fbx": "rs_utility_wire_span_30m_taut.fbx",
+   "group": "utility",
+   "dimensions": {
+    "x": 30.0008,
+    "y": 1.8154,
+    "z": 1.0462
+   },
+   "tris": 918,
+   "materials": [
+    "M_RS_Wire"
+   ],
+   "collision": "none",
+   "pivot": "attach_point",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "village",
+    "power_line"
+   ]
+  },
+  {
+   "id": "rs_utility_wire_span_30m_slack",
+   "fbx": "rs_utility_wire_span_30m_slack.fbx",
+   "group": "utility",
+   "dimensions": {
+    "x": 30.0022,
+    "y": 1.8154,
+    "z": 1.6961
+   },
+   "tris": 918,
+   "materials": [
+    "M_RS_Wire"
+   ],
+   "collision": "none",
+   "pivot": "attach_point",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "village",
+    "power_line"
+   ]
+  },
+  {
+   "id": "rs_fence_wood_2_5m",
+   "fbx": "rs_fence_wood_2_5m.fbx",
+   "group": "fence",
+   "dimensions": {
+    "x": 2.682,
+    "y": 0.3614,
+    "z": 1.45
+   },
+   "tris": 470,
+   "materials": [
+    "M_RS_Wood",
+    "M_RS_Soil",
+    "M_RS_GalvDark"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "farmland",
+    "forest",
+    "village"
+   ]
+  },
+  {
+   "id": "rs_fence_wood_2_5m_b",
+   "fbx": "rs_fence_wood_2_5m_b.fbx",
+   "group": "fence",
+   "dimensions": {
+    "x": 2.682,
+    "y": 0.3614,
+    "z": 1.45
+   },
+   "tris": 470,
+   "materials": [
+    "M_RS_Wood",
+    "M_RS_Soil",
+    "M_RS_GalvDark"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "farmland",
+    "forest",
+    "village"
+   ]
+  },
+  {
+   "id": "rs_fence_wood_2_5m_c",
+   "fbx": "rs_fence_wood_2_5m_c.fbx",
+   "group": "fence",
+   "dimensions": {
+    "x": 2.682,
+    "y": 0.3614,
+    "z": 1.45
+   },
+   "tris": 358,
+   "materials": [
+    "M_RS_Wood",
+    "M_RS_Soil",
+    "M_RS_GalvDark"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "farmland",
+    "forest",
+    "village"
+   ]
+  },
+  {
+   "id": "rs_fence_wood_endpost",
+   "fbx": "rs_fence_wood_endpost.fbx",
+   "group": "fence",
+   "dimensions": {
+    "x": 0.44,
+    "y": 0.3614,
+    "z": 1.45
+   },
+   "tris": 266,
+   "materials": [
+    "M_RS_Wood",
+    "M_RS_Soil"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "farmland",
+    "forest",
+    "village"
+   ]
+  },
+  {
+   "id": "rs_fence_wire_3m",
+   "fbx": "rs_fence_wire_3m.fbx",
+   "group": "fence",
+   "dimensions": {
+    "x": 3.1701,
+    "y": 0.3234,
+    "z": 1.44
+   },
+   "tris": 854,
+   "materials": [
+    "M_RS_Wood",
+    "M_RS_Soil",
+    "M_RS_GalvDark",
+    "M_RS_Wire"
+   ],
+   "collision": "none",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "farmland",
+    "savanna"
+   ]
+  },
+  {
+   "id": "rs_fence_wire_endpost",
+   "fbx": "rs_fence_wire_endpost.fbx",
+   "group": "fence",
+   "dimensions": {
+    "x": 1.92,
+    "y": 0.4565,
+    "z": 1.61
+   },
+   "tris": 420,
+   "materials": [
+    "M_RS_Wood",
+    "M_RS_Soil",
+    "M_RS_Wire"
+   ],
+   "collision": "none",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "farmland",
+    "savanna"
+   ]
+  },
+  {
+   "id": "rs_wall_stone_2m",
+   "fbx": "rs_wall_stone_2m.fbx",
+   "group": "fence",
+   "dimensions": {
+    "x": 2.0477,
+    "y": 0.6297,
+    "z": 0.984
+   },
+   "tris": 976,
+   "materials": [
+    "M_RS_Mortar",
+    "M_RS_Stone"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "alpine",
+    "farmland",
+    "village"
+   ]
+  },
+  {
+   "id": "rs_wall_stone_2m_b",
+   "fbx": "rs_wall_stone_2m_b.fbx",
+   "group": "fence",
+   "dimensions": {
+    "x": 2.0624,
+    "y": 0.6388,
+    "z": 0.9661
+   },
+   "tris": 1036,
+   "materials": [
+    "M_RS_Mortar",
+    "M_RS_Stone"
+   ],
+   "collision": "box",
+   "pivot": "segment_start",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": true,
+   "tags": [
+    "rural",
+    "alpine",
+    "farmland",
+    "village"
+   ]
+  },
+  {
+   "id": "rs_bus_stop_shelter",
+   "fbx": "rs_bus_stop_shelter.fbx",
+   "group": "village",
+   "dimensions": {
+    "x": 2.25,
+    "y": 4.13,
+    "z": 3.2
+   },
+   "tris": 2018,
+   "materials": [
+    "M_RS_Concrete",
+    "M_RS_PaintGrey",
+    "M_RS_SignBlue",
+    "M_RS_LampLens",
+    "M_RS_Glass",
+    "M_RS_WoodPale",
+    "M_RS_SignWhite"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    1.0,
+    1.0
+   ],
+   "nanite": false,
+   "tags": [
+    "village",
+    "town",
+    "highway_stop"
+   ]
+  },
+  {
+   "id": "rs_billboard_roadside",
+   "fbx": "rs_billboard_roadside.fbx",
+   "group": "advert",
+   "dimensions": {
+    "x": 1.8319,
+    "y": 6.34,
+    "z": 8.0856
+   },
+   "tris": 2016,
+   "materials": [
+    "M_RS_GalvDark",
+    "M_RS_GalvSteel",
+    "M_RS_BillboardFace",
+    "M_RS_Grating",
+    "M_RS_PaintGrey",
+    "M_RS_LampLens"
+   ],
+   "collision": "box",
+   "pivot": "ground_base",
+   "scale_range": [
+    0.9,
+    1.4
+   ],
+   "nanite": true,
+   "tags": [
+    "highway",
+    "town",
+    "all_biomes"
+   ]
+  },
+  {
+   "id": "rs_culvert_headwall_a",
+   "fbx": "rs_culvert_headwall_a.fbx",
+   "group": "drainage",
+   "dimensions": {
+    "x": 2.14,
+    "y": 5.0894,
+    "z": 1.895
+   },
+   "tris": 2196,
+   "materials": [
+    "M_RS_Concrete",
+    "M_RS_PaintBlack",
+    "M_RS_ConcreteDark",
+    "M_RS_GalvSteel",
+    "M_RS_Rust"
+   ],
+   "collision": "box",
+   "pivot": "ground_base",
+   "scale_range": [
+    0.9,
+    1.3
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_embankment",
+    "stream"
+   ]
+  },
+  {
+   "id": "rs_culvert_headwall_b",
+   "fbx": "rs_culvert_headwall_b.fbx",
+   "group": "drainage",
+   "dimensions": {
+    "x": 2.5207,
+    "y": 5.1251,
+    "z": 2.64
+   },
+   "tris": 1344,
+   "materials": [
+    "M_RS_Concrete",
+    "M_RS_PaintBlack",
+    "M_RS_ConcreteDark",
+    "M_RS_GalvSteel",
+    "M_RS_Rust"
+   ],
+   "collision": "box",
+   "pivot": "ground_base",
+   "scale_range": [
+    0.9,
+    1.3
+   ],
+   "nanite": true,
+   "tags": [
+    "all_biomes",
+    "road_embankment",
+    "stream",
+    "town"
+   ]
+  },
+  {
+   "id": "rs_cairn_stack",
+   "fbx": "rs_cairn_stack.fbx",
+   "group": "mountain",
+   "dimensions": {
+    "x": 1.1546,
+    "y": 1.1536,
+    "z": 1.2449
+   },
+   "tris": 660,
+   "materials": [
+    "M_RS_Stone"
+   ],
+   "collision": "convex",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.7,
+    1.5
+   ],
+   "nanite": true,
+   "tags": [
+    "alpine",
+    "mountain_road",
+    "desert",
+    "scrub"
+   ]
+  },
+  {
+   "id": "rs_milestone_stone",
+   "fbx": "rs_milestone_stone.fbx",
+   "group": "mountain",
+   "dimensions": {
+    "x": 0.48,
+    "y": 0.3,
+    "z": 0.82
+   },
+   "tris": 274,
+   "materials": [
+    "M_RS_Stone",
+    "M_RS_PaintWhite",
+    "M_RS_PaintBlack",
+    "M_RS_PaintRed"
+   ],
+   "collision": "box",
+   "pivot": "ground_centre",
+   "scale_range": [
+    0.9,
+    1.2
+   ],
+   "nanite": true,
+   "tags": [
+    "alpine",
+    "mountain_road",
+    "village",
+    "rural"
+   ]
+  }
+ ],
+ "materials": [
+  "M_RS_BillboardFace",
+  "M_RS_Concrete",
+  "M_RS_ConcreteDark",
+  "M_RS_GalvDark",
+  "M_RS_GalvSteel",
+  "M_RS_Glass",
+  "M_RS_Grating",
+  "M_RS_Hay",
+  "M_RS_Insulator",
+  "M_RS_LampLens",
+  "M_RS_Mortar",
+  "M_RS_PaintBlack",
+  "M_RS_PaintGrey",
+  "M_RS_PaintRed",
+  "M_RS_PaintWhite",
+  "M_RS_PaintYellow",
+  "M_RS_PlasticOrange",
+  "M_RS_PlasticWhite",
+  "M_RS_ReflectorAmber",
+  "M_RS_ReflectorRed",
+  "M_RS_ReflectorWhite",
+  "M_RS_Rope",
+  "M_RS_Rubber",
+  "M_RS_Rust",
+  "M_RS_SignBack",
+  "M_RS_SignBlack",
+  "M_RS_SignBlue",
+  "M_RS_SignGreen",
+  "M_RS_SignRed",
+  "M_RS_SignWhite",
+  "M_RS_SignYellow",
+  "M_RS_Soil",
+  "M_RS_Stone",
+  "M_RS_TyrePaint",
+  "M_RS_TyreRubber",
+  "M_RS_Wire",
+  "M_RS_Wood",
+  "M_RS_WoodPale"
+ ]
+}

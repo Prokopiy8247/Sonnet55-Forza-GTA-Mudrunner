@@ -1,0 +1,228 @@
+{
+  "id": "car03_muscle_thunderline",
+  "display_name": "Thunderline",
+  "units": "m",
+  "dimensions": {
+    "length": 4.8508,
+    "width": 1.9382,
+    "height": 1.3174,
+    "width_with_mirrors": 1.9382
+  },
+  "wheelbase": 2.75,
+  "track_front": 1.6,
+  "track_rear": 1.58,
+  "ride_height": 0.13,
+  "wheels": {
+    "FL": {
+      "center": [
+        1.375,
+        0.8,
+        0.33
+      ],
+      "radius": 0.33,
+      "width": 0.25235
+    },
+    "FR": {
+      "center": [
+        1.375,
+        -0.8,
+        0.33
+      ],
+      "radius": 0.33,
+      "width": 0.25235
+    },
+    "RL": {
+      "center": [
+        -1.375,
+        0.79,
+        0.35
+      ],
+      "radius": 0.35,
+      "width": 0.29355
+    },
+    "RR": {
+      "center": [
+        -1.375,
+        -0.79,
+        0.35
+      ],
+      "radius": 0.35,
+      "width": 0.29355
+    }
+  },
+  "steering_wheel": {
+    "center": [
+      0.33,
+      0.38,
+      0.915
+    ],
+    "axis": [
+      -0.95106,
+      0.0,
+      0.30902
+    ]
+  },
+  "cameras": {
+    "hood": [
+      0.95,
+      0.0,
+      1.05
+    ],
+    "cockpit": [
+      -0.24,
+      0.38,
+      1.13
+    ],
+    "bumper": [
+      2.46,
+      0.0,
+      0.45
+    ]
+  },
+  "lights": {
+    "head_l": [
+      2.46,
+      0.575,
+      0.7
+    ],
+    "head_r": [
+      2.46,
+      -0.575,
+      0.7
+    ],
+    "tail_l": [
+      -2.43,
+      0.55,
+      0.805
+    ],
+    "tail_r": [
+      -2.43,
+      -0.55,
+      0.805
+    ],
+    "reverse": [
+      -2.43,
+      0.7,
+      0.82
+    ]
+  },
+  "exhaust": [
+    [
+      -2.385,
+      0.46,
+      0.37
+    ],
+    [
+      -2.385,
+      -0.46,
+      0.37
+    ]
+  ],
+  "exhaust_l": [
+    -2.385,
+    0.46,
+    0.37
+  ],
+  "exhaust_r": [
+    -2.385,
+    -0.46,
+    0.37
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Reverse",
+      "M_Indicator",
+      "M_Plate",
+      "M_Underbody",
+      "M_Exhaust"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Underbody",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim",
+      "M_IntCarpet"
+    ],
+    "SteeringWheel": [
+      "M_TrimGrey",
+      "M_IntDash"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ]
+  },
+  "tri_counts": {
+    "Body": 62600,
+    "Glass": 3712,
+    "Interior": 15776,
+    "SteeringWheel": 1784,
+    "Wheel_FL": 13412,
+    "Wheel_FR": 13412,
+    "Wheel_RL": 13412,
+    "Wheel_RR": 13412,
+    "UCX": 176,
+    "total_visual": 137520
+  },
+  "ucx": [
+    "UCX_car03_muscle_thunderline_Body_01",
+    "UCX_car03_muscle_thunderline_Body_02",
+    "UCX_car03_muscle_thunderline_Body_03",
+    "UCX_car03_muscle_thunderline_Body_04"
+  ],
+  "files": {
+    "Body": "car03_muscle_thunderline_Body.fbx",
+    "Glass": "car03_muscle_thunderline_Glass.fbx",
+    "Interior": "car03_muscle_thunderline_Interior.fbx",
+    "SteeringWheel": "car03_muscle_thunderline_SteeringWheel.fbx",
+    "Wheel_FL": "car03_muscle_thunderline_Wheel_FL.fbx",
+    "Wheel_FR": "car03_muscle_thunderline_Wheel_FR.fbx",
+    "Wheel_RL": "car03_muscle_thunderline_Wheel_RL.fbx",
+    "Wheel_RR": "car03_muscle_thunderline_Wheel_RR.fbx"
+  }
+}

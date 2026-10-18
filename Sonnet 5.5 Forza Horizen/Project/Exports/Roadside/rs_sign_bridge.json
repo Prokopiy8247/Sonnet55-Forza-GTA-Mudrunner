@@ -1,0 +1,87 @@
+{
+ "id": "rs_sign_bridge",
+ "display_name": "Warning sign bridge / narrow bridge",
+ "category": "Roadside",
+ "group": "sign",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.1206,
+  "y": 0.8468,
+  "z": 2.863
+ },
+ "bounds_min": [
+  -0.0476,
+  -0.4234,
+  0.0
+ ],
+ "bounds_max": [
+  0.073,
+  0.4234,
+  2.863
+ ],
+ "tri_counts": {
+  "lod0": 500,
+  "collision": {
+   "UCX_rs_sign_bridge_01": 28,
+   "UCX_rs_sign_bridge_02": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvSteel",
+  "M_RS_GalvDark",
+  "M_RS_SignWhite",
+  "M_RS_SignBack",
+  "M_RS_SignRed",
+  "M_RS_SignBlack"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvSteel": 12,
+  "M_RS_GalvDark": 100,
+  "M_RS_SignWhite": 1,
+  "M_RS_SignBack": 76,
+  "M_RS_SignRed": 15,
+  "M_RS_SignBlack": 22
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_sign_bridge_01",
+   "UCX_rs_sign_bridge_02"
+  ]
+ },
+ "biome_tags": [
+  "sign",
+  "warning",
+  "bridge"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "panel_center": [
+   0.066,
+   0.0,
+   2.2
+  ]
+ },
+ "usage": "Before bridges; face +X.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "panel_zc": 2.2,
+  "post_height": 2.8510000000000004,
+  "panel_top": 2.7310000000000003,
+  "panel_bottom": 1.9340000000000002
+ },
+ "decal_faces": 37,
+ "fbx": "rs_sign_bridge.fbx"
+}

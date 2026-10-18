@@ -1,0 +1,80 @@
+{
+ "id": "bld_barn",
+ "display_name": "Barn (18x12 m, gambrel roof, red boards)",
+ "category": "Settlements",
+ "group": "farm",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 19.75,
+  "y": 12.5891,
+  "z": 9.7
+ },
+ "bounds_min": [
+  -9.35,
+  -6.2946,
+  0.0
+ ],
+ "bounds_max": [
+  10.4,
+  6.2946,
+  9.7
+ ],
+ "tri_counts": {
+  "lod0": 4486,
+  "collision": {
+   "UCX_bld_barn_01": 12,
+   "UCX_bld_barn_02": 16
+  }
+ },
+ "material_slots": [
+  "M_Bld_PaintRed",
+  "M_Bld_Stone",
+  "M_Bld_PaintWhite",
+  "M_Bld_Window",
+  "M_Bld_Metal"
+ ],
+ "material_slot_tris": {
+  "M_Bld_PaintRed": 566,
+  "M_Bld_Stone": 214,
+  "M_Bld_PaintWhite": 566,
+  "M_Bld_Window": 144,
+  "M_Bld_Metal": 858
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_barn_01",
+   "UCX_bld_barn_02"
+  ]
+ },
+ "biome_tags": [
+  "farm",
+  "rural",
+  "temperate"
+ ],
+ "scale_range": [
+  0.85,
+  1.2
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Gambrel barn; sliding doors on the +X gable end; ridge along X",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   18.0,
+   12.0
+  ],
+  "roof": "gambrel"
+ },
+ "decal_faces": 0,
+ "fbx": "bld_barn.fbx"
+}

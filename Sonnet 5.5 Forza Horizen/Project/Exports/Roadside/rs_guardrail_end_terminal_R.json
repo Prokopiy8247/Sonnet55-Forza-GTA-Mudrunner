@@ -1,0 +1,89 @@
+{
+ "id": "rs_guardrail_end_terminal_R",
+ "display_name": "Guard rail end terminal END (mirror-built, flared, impact head) 4.0 m",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 4.0694,
+  "y": 0.5389,
+  "z": 0.998
+ },
+ "bounds_min": [
+  -0.058,
+  -0.5389,
+  -0.15
+ ],
+ "bounds_max": [
+  4.0114,
+  0.0,
+  0.848
+ ],
+ "tri_counts": {
+  "lod0": 1480,
+  "collision": {
+   "UCX_rs_guardrail_end_terminal_R_01": 12,
+   "UCX_rs_guardrail_end_terminal_R_02": 20,
+   "UCX_rs_guardrail_end_terminal_R_03": 24,
+   "UCX_rs_guardrail_end_terminal_R_04": 12,
+   "UCX_rs_guardrail_end_terminal_R_05": 12,
+   "UCX_rs_guardrail_end_terminal_R_06": 12
+  }
+ },
+ "material_slots": [
+  "M_RS_GalvSteel",
+  "M_RS_PaintBlack",
+  "M_RS_GalvDark",
+  "M_RS_ReflectorWhite",
+  "M_RS_PaintYellow",
+  "M_RS_ReflectorAmber"
+ ],
+ "material_slot_tris": {
+  "M_RS_GalvSteel": 420,
+  "M_RS_PaintBlack": 72,
+  "M_RS_GalvDark": 166,
+  "M_RS_ReflectorWhite": 12,
+  "M_RS_PaintYellow": 26,
+  "M_RS_ReflectorAmber": 6
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_guardrail_end_terminal_R_01",
+   "UCX_rs_guardrail_end_terminal_R_02",
+   "UCX_rs_guardrail_end_terminal_R_03",
+   "UCX_rs_guardrail_end_terminal_R_04",
+   "UCX_rs_guardrail_end_terminal_R_05",
+   "UCX_rs_guardrail_end_terminal_R_06"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "road_verge"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "END of a run (walking +X, road on +Y): bolts onto the far end of the previous rail at x=0 (brings its own joint post + splice bolts) and finishes with the flared impact head at x=4.0. Mirror-built (X mirror, winding fixed), no negative scale.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 4.0,
+  "flare": 0.32,
+  "traffic_side": "+Y",
+  "run_role": "end",
+  "joins_previous_at_x": 0.0
+ },
+ "decal_faces": 0,
+ "fbx": "rs_guardrail_end_terminal_R.fbx"
+}

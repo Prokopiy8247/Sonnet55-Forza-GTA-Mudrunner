@@ -1,0 +1,227 @@
+{
+  "id": "car05_gt_meridian",
+  "display_name": "Meridian GT",
+  "units": "m",
+  "dimensions": {
+    "length": 4.7951,
+    "width": 1.9668,
+    "height": 1.3309,
+    "width_with_mirrors": 2.1335
+  },
+  "wheelbase": 2.88,
+  "track_front": 1.62,
+  "track_rear": 1.6,
+  "ride_height": 0.12,
+  "wheels": {
+    "FL": {
+      "center": [
+        1.44,
+        0.81,
+        0.35
+      ],
+      "radius": 0.35,
+      "width": 0.24542
+    },
+    "FR": {
+      "center": [
+        1.44,
+        -0.81,
+        0.35
+      ],
+      "radius": 0.35,
+      "width": 0.24542
+    },
+    "RL": {
+      "center": [
+        -1.44,
+        0.8,
+        0.36
+      ],
+      "radius": 0.36,
+      "width": 0.28528
+    },
+    "RR": {
+      "center": [
+        -1.44,
+        -0.8,
+        0.36
+      ],
+      "radius": 0.36,
+      "width": 0.28528
+    }
+  },
+  "steering_wheel": {
+    "center": [
+      -0.37,
+      0.36,
+      0.865
+    ],
+    "axis": [
+      -0.91355,
+      0.0,
+      0.40674
+    ]
+  },
+  "cameras": {
+    "hood": [
+      0.95,
+      0.0,
+      0.95
+    ],
+    "cockpit": [
+      -0.94,
+      0.36,
+      1.17
+    ],
+    "bumper": [
+      2.42,
+      0.0,
+      0.4
+    ]
+  },
+  "lights": {
+    "head_l": [
+      2.2871,
+      0.735,
+      0.6555
+    ],
+    "head_r": [
+      2.2871,
+      -0.735,
+      0.6555
+    ],
+    "tail_l": [
+      -2.3489,
+      0.7006,
+      0.851
+    ],
+    "tail_r": [
+      -2.3489,
+      -0.7006,
+      0.851
+    ],
+    "reverse": [
+      -2.3943,
+      0.5906,
+      0.8294
+    ]
+  },
+  "exhaust": [
+    [
+      -2.37099,
+      0.6,
+      0.4
+    ],
+    [
+      -2.37099,
+      -0.6,
+      0.4
+    ]
+  ],
+  "exhaust_l": [
+    -2.37099,
+    0.6,
+    0.4
+  ],
+  "exhaust_r": [
+    -2.37099,
+    -0.6,
+    0.4
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Reverse",
+      "M_Indicator",
+      "M_Plate",
+      "M_Underbody",
+      "M_Exhaust"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Underbody",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim",
+      "M_IntCarpet"
+    ],
+    "SteeringWheel": [
+      "M_TrimGrey",
+      "M_IntDash"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ]
+  },
+  "tri_counts": {
+    "Body": 52406,
+    "Glass": 2392,
+    "Interior": 15199,
+    "SteeringWheel": 1784,
+    "Wheel_FL": 15080,
+    "Wheel_FR": 15080,
+    "Wheel_RL": 15080,
+    "Wheel_RR": 15080,
+    "UCX": 130,
+    "total_visual": 132101
+  },
+  "ucx": [
+    "UCX_car05_gt_meridian_Body_01",
+    "UCX_car05_gt_meridian_Body_02",
+    "UCX_car05_gt_meridian_Body_03"
+  ],
+  "files": {
+    "Body": "car05_gt_meridian_Body.fbx",
+    "Glass": "car05_gt_meridian_Glass.fbx",
+    "Interior": "car05_gt_meridian_Interior.fbx",
+    "SteeringWheel": "car05_gt_meridian_SteeringWheel.fbx",
+    "Wheel_FL": "car05_gt_meridian_Wheel_FL.fbx",
+    "Wheel_FR": "car05_gt_meridian_Wheel_FR.fbx",
+    "Wheel_RL": "car05_gt_meridian_Wheel_RL.fbx",
+    "Wheel_RR": "car05_gt_meridian_Wheel_RR.fbx"
+  }
+}

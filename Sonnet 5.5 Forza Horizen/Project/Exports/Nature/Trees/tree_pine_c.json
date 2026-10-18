@@ -1,0 +1,97 @@
+{
+  "id": "tree_pine_c",
+  "display_name": "Scots pine - layered plates, wind swept",
+  "kit": "trees",
+  "family": "conifer",
+  "units": "m",
+  "origin": "base centre of trunk on the ground (z=0); trunk/roots buried up to ~0.5 m; +Z up",
+  "dimensions": {
+    "x": 9.124,
+    "y": 8.001,
+    "z": 15.595,
+    "height": 15.24
+  },
+  "bounds": {
+    "min": [
+      -4.922,
+      -3.42,
+      -0.355
+    ],
+    "max": [
+      4.202,
+      4.581,
+      15.24
+    ]
+  },
+  "tri_counts": {
+    "mesh": 39477,
+    "far": 4,
+    "ucx": [
+      28
+    ]
+  },
+  "material_slots": [
+    "M_Tree_Bark",
+    "M_Tree_Needle"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_tree_pine_c_01"
+    ],
+    "trunk_only": true,
+    "hulls_per_stem": 1,
+    "notes": "UCX_* trunk capsule-like convex hulls (<=32 verts); one hull per stem on multi-stem trees (birch_b, olive_c), two stacked hulls on curved palm trunks; canopy/foliage has NO collision. UE: Collision Complexity = Use Simple As Complex"
+  },
+  "far_card": {
+    "mesh": "tree_pine_c_Far",
+    "fbx": "tree_pine_c_Far.fbx",
+    "texture": "Textures/T_tree_pine_c_Far.png",
+    "texture_px": [
+      512,
+      512
+    ],
+    "texture_pot": true,
+    "width_m": 9.844,
+    "height_m": 15.595,
+    "tris": 4,
+    "material": "M_Tree_Far_tree_pine_c",
+    "use": "swap in beyond ~120-200 m (or as impostor); alpha-masked (clip ~0.33), two-sided, 2 crossed quads; power-of-two texture atlas = [view along Y | view along X], each half maps to one quad (non-uniform texel aspect, UVs fill 0-1)"
+  },
+  "biome_tags": [
+    "alpine",
+    "highland",
+    "forest"
+  ],
+  "scale_range": [
+    0.8,
+    1.3
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "export_colors": "LINEAR (raw 0-1 masks, no sRGB conversion)",
+    "R": "branch flex 0 (trunk base) -> 1 (twig/leaf tips)",
+    "G": "leaf flutter 0 (wood) -> 1 (free leaf tips)",
+    "B": "baked ambient occlusion (ray cast, 1 = open sky)",
+    "hint": "WPO: sway = R^2 * low-freq wind; flutter = G * high-freq noise; multiply base colour by lerp(0.35,1,B)"
+  },
+  "lod": {
+    "nanite": "recommended (all opaque geometry, no alpha cards inside the mesh)",
+    "far_billboard": "tree_pine_c_Far",
+    "notes": "LOD0 = Nanite mesh; <id>_Far = distance impostor / HLOD card"
+  },
+  "nanite_ok": true,
+  "uv": "UVMap: trunk/branch U wraps once per ring, V = 0.25-0.5 per metre of length (tiling bark); leaf cards map 0-1 per card (planar)",
+  "quality": {
+    "closed_pieces": 106,
+    "open_pieces": 15191,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0,
+    "boundary_edges_note": "open edges belong to single-sided leaf/needle cards by design"
+  },
+  "files": {
+    "fbx": "Exports/Nature/Trees/tree_pine_c.fbx",
+    "far_fbx": "Exports/Nature/Trees/tree_pine_c_Far.fbx"
+  },
+  "generator": "Tools/blender/nature/trees.py (seed 103)"
+}

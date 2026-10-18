@@ -1,0 +1,361 @@
+{
+  "id": "traffic01_compact",
+  "display_name": "City Compact",
+  "category": "traffic",
+  "units": "m",
+  "dimensions": {
+    "length": 3.6319,
+    "width": 1.62,
+    "height": 1.6211,
+    "width_with_mirrors": 1.8218
+  },
+  "wheelbase": 2.35,
+  "track_front": 1.4,
+  "track_rear": 1.38,
+  "ride_height": 0.15,
+  "wheel_count": 4,
+  "wheels": [
+    {
+      "name": "traffic01_compact_Wheel_FL",
+      "key": "FL",
+      "center": [
+        1.175,
+        0.7,
+        0.295
+      ],
+      "radius": 0.295,
+      "width": 0.183,
+      "axle": 0,
+      "side": "L",
+      "steering": true,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic01_compact_Wheel_FL.fbx"
+    },
+    {
+      "name": "traffic01_compact_Wheel_FR",
+      "key": "FR",
+      "center": [
+        1.175,
+        -0.7,
+        0.295
+      ],
+      "radius": 0.295,
+      "width": 0.183,
+      "axle": 0,
+      "side": "R",
+      "steering": true,
+      "driven": true,
+      "dual_with": "",
+      "file": "traffic01_compact_Wheel_FR.fbx"
+    },
+    {
+      "name": "traffic01_compact_Wheel_RL",
+      "key": "RL",
+      "center": [
+        -1.175,
+        0.69,
+        0.295
+      ],
+      "radius": 0.295,
+      "width": 0.183,
+      "axle": 1,
+      "side": "L",
+      "steering": false,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic01_compact_Wheel_RL.fbx"
+    },
+    {
+      "name": "traffic01_compact_Wheel_RR",
+      "key": "RR",
+      "center": [
+        -1.175,
+        -0.69,
+        0.295
+      ],
+      "radius": 0.295,
+      "width": 0.183,
+      "axle": 1,
+      "side": "R",
+      "steering": false,
+      "driven": false,
+      "dual_with": "",
+      "file": "traffic01_compact_Wheel_RR.fbx"
+    }
+  ],
+  "axles": [
+    {
+      "index": 0,
+      "x": 1.175,
+      "steering": true,
+      "driven": true,
+      "wheels": [
+        "traffic01_compact_Wheel_FL",
+        "traffic01_compact_Wheel_FR"
+      ]
+    },
+    {
+      "index": 1,
+      "x": -1.175,
+      "steering": false,
+      "driven": false,
+      "wheels": [
+        "traffic01_compact_Wheel_RL",
+        "traffic01_compact_Wheel_RR"
+      ]
+    }
+  ],
+  "cameras": {
+    "bumper": [
+      1.9,
+      0.0,
+      0.45
+    ],
+    "cockpit": [
+      0.4,
+      0.36,
+      1.18
+    ]
+  },
+  "lights": {
+    "head_l": [
+      1.84,
+      0.5,
+      0.65
+    ],
+    "head_r": [
+      1.84,
+      -0.5,
+      0.65
+    ],
+    "reverse": [
+      -1.84,
+      0.0,
+      0.62
+    ],
+    "tail_l": [
+      -1.84,
+      0.6,
+      0.74
+    ],
+    "tail_r": [
+      -1.84,
+      -0.6,
+      0.74
+    ]
+  },
+  "exhaust": [
+    [
+      -1.94,
+      0.45,
+      0.3
+    ]
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Indicator",
+      "M_Plate"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_TrimBlack",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark"
+    ]
+  },
+  "tri_counts": {
+    "Body": 12378,
+    "Glass": 104,
+    "Interior": 1124,
+    "Wheel_FL": 2058,
+    "Wheel_FR": 2058,
+    "Wheel_RL": 2058,
+    "Wheel_RR": 2058,
+    "UCX": 36,
+    "total_visual": 21838
+  },
+  "ucx": [
+    "UCX_traffic01_compact_Body_01",
+    "UCX_traffic01_compact_Body_02"
+  ],
+  "files": {
+    "Body": "traffic01_compact_Body.fbx",
+    "Glass": "traffic01_compact_Glass.fbx",
+    "Interior": "traffic01_compact_Interior.fbx",
+    "Wheel_FL": "traffic01_compact_Wheel_FL.fbx",
+    "Wheel_FR": "traffic01_compact_Wheel_FR.fbx",
+    "Wheel_RL": "traffic01_compact_Wheel_RL.fbx",
+    "Wheel_RR": "traffic01_compact_Wheel_RR.fbx"
+  },
+  "ue_import": {
+    "ue_x": "x*100",
+    "ue_y": "-y*100",
+    "ue_z": "z*100",
+    "forward": "+X",
+    "note": "one FBX per part, pivot = vehicle origin (Body/Glass/Interior) or axle centre (wheels)"
+  },
+  "wheel_map": {
+    "FL": {
+      "center": [
+        1.175,
+        0.7,
+        0.295
+      ],
+      "radius": 0.295,
+      "width": 0.183
+    },
+    "FR": {
+      "center": [
+        1.175,
+        -0.7,
+        0.295
+      ],
+      "radius": 0.295,
+      "width": 0.183
+    },
+    "RL": {
+      "center": [
+        -1.175,
+        0.69,
+        0.295
+      ],
+      "radius": 0.295,
+      "width": 0.183
+    },
+    "RR": {
+      "center": [
+        -1.175,
+        -0.69,
+        0.295
+      ],
+      "radius": 0.295,
+      "width": 0.183
+    }
+  },
+  "paint_variants": [
+    {
+      "name": "Citrus yellow",
+      "M_Paint": {
+        "srgb": "#e6c21b",
+        "linear": [
+          0.7913,
+          0.5395,
+          0.011
+        ],
+        "metallic": 0.0,
+        "roughness": 0.26
+      },
+      "M_Paint2": {
+        "srgb": "#1c1d1f",
+        "linear": [
+          0.0116,
+          0.0123,
+          0.0137
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Teal",
+      "M_Paint": {
+        "srgb": "#1f7a78",
+        "linear": [
+          0.0137,
+          0.1946,
+          0.1878
+        ],
+        "metallic": 0.3,
+        "roughness": 0.25
+      },
+      "M_Paint2": {
+        "srgb": "#e8e8e8",
+        "linear": [
+          0.807,
+          0.807,
+          0.807
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    },
+    {
+      "name": "Cherry red",
+      "M_Paint": {
+        "srgb": "#a8141e",
+        "linear": [
+          0.3916,
+          0.007,
+          0.013
+        ],
+        "metallic": 0.35,
+        "roughness": 0.22
+      },
+      "M_Paint2": {
+        "srgb": "#1c1d1f",
+        "linear": [
+          0.0116,
+          0.0123,
+          0.0137
+        ],
+        "metallic": 0.0,
+        "roughness": 0.55
+      }
+    }
+  ],
+  "paint_slots": {
+    "M_Paint": "body panels, doors, roof",
+    "M_Paint2": "bumper bands + mirror caps (accent, satin black by default)"
+  },
+  "traffic": {
+    "role": "city car",
+    "cruise_speed_kmh": [
+      30,
+      80
+    ],
+    "mass_kg_hint": 950,
+    "drivetrain": "FWD"
+  },
+  "collision": {
+    "recommended": "UCX hulls in the Body FBX (2 convex hulls); wheels without collision (vehicle physics)",
+    "ucx_count": 2
+  },
+  "ue_scale_range": [
+    0.96,
+    1.04
+  ]
+}

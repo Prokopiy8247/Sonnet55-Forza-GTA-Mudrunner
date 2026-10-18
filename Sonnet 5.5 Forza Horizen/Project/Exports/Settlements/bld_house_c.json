@@ -1,0 +1,82 @@
+{
+ "id": "bld_house_c",
+ "display_name": "Village house C (6x8 m two-storey, brick)",
+ "category": "Settlements",
+ "group": "houses",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 7.2868,
+  "y": 8.6,
+  "z": 9.72
+ },
+ "bounds_min": [
+  -3.5368,
+  -4.3,
+  0.0
+ ],
+ "bounds_max": [
+  3.75,
+  4.3,
+  9.72
+ ],
+ "tri_counts": {
+  "lod0": 12220,
+  "collision": {
+   "UCX_bld_house_c_01": 12,
+   "UCX_bld_house_c_02": 8
+  }
+ },
+ "material_slots": [
+  "M_Bld_Brick",
+  "M_Bld_Stone",
+  "M_Bld_Wood",
+  "M_Bld_Metal",
+  "M_Bld_Window",
+  "M_Bld_RoofTile"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Brick": 464,
+  "M_Bld_Stone": 4156,
+  "M_Bld_Wood": 1642,
+  "M_Bld_Metal": 28,
+  "M_Bld_Window": 78,
+  "M_Bld_RoofTile": 481
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_bld_house_c_01",
+   "UCX_bld_house_c_02"
+  ]
+ },
+ "biome_tags": [
+  "village",
+  "town",
+  "temperate"
+ ],
+ "scale_range": [
+  0.9,
+  1.15
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Narrow two-storey brick town house, ridge along Y",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "footprint": [
+   6.0,
+   8.0
+  ],
+  "floors": 2
+ },
+ "decal_faces": 0,
+ "fbx": "bld_house_c.fbx"
+}

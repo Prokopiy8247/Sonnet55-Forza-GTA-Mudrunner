@@ -1,0 +1,88 @@
+{
+ "id": "bld_wind_turbine",
+ "display_name": "Wind turbine tower + nacelle (60 m tower, rotor separate)",
+ "category": "Settlements",
+ "group": "landmark",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 12.0,
+  "y": 12.0,
+  "z": 64.83
+ },
+ "bounds_min": [
+  -6.0,
+  -6.0,
+  0.0
+ ],
+ "bounds_max": [
+  6.0,
+  6.0,
+  64.83
+ ],
+ "tri_counts": {
+  "lod0": 2020,
+  "collision": {
+   "UCX_bld_wind_turbine_01": 44,
+   "UCX_bld_wind_turbine_02": 12
+  }
+ },
+ "material_slots": [
+  "M_Bld_Stone",
+  "M_Bld_Metal",
+  "M_Bld_PaintWhite",
+  "M_Bld_PaintRed"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Stone": 30,
+  "M_Bld_Metal": 510,
+  "M_Bld_PaintWhite": 266,
+  "M_Bld_PaintRed": 10
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_bld_wind_turbine_01",
+   "UCX_bld_wind_turbine_02"
+  ]
+ },
+ "biome_tags": [
+  "energy",
+  "landmark",
+  "highland",
+  "coast"
+ ],
+ "scale_range": [
+  0.7,
+  1.4
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "rotor_hub": [
+   5.6,
+   0.0,
+   61.85
+  ]
+ },
+ "usage": "Tower 60 m + nacelle; rotor is bld_wind_turbine_rotor (pivot at hub; rotate about X); socket rotor_hub",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "tower_height": 60.0,
+  "hub_height": 61.85,
+  "hub": [
+   5.6,
+   0.0,
+   61.85
+  ],
+  "rotor_diameter": 73.0
+ },
+ "decal_faces": 0,
+ "fbx": "bld_wind_turbine.fbx"
+}

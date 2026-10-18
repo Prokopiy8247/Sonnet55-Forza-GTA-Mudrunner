@@ -1,0 +1,66 @@
+{
+ "id": "rs_traffic_barrel",
+ "display_name": "Channelizer drum 0.95 m (orange/white)",
+ "category": "Roadside",
+ "group": "trafficfurniture",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 0.58,
+  "y": 0.58,
+  "z": 0.945
+ },
+ "bounds_min": [
+  -0.29,
+  -0.29,
+  0.0
+ ],
+ "bounds_max": [
+  0.29,
+  0.29,
+  0.945
+ ],
+ "tri_counts": {
+  "lod0": 894,
+  "collision": {
+   "UCX_rs_traffic_barrel_01": 36
+  }
+ },
+ "material_slots": [
+  "M_RS_PlasticOrange",
+  "M_RS_ReflectorWhite"
+ ],
+ "material_slot_tris": {
+  "M_RS_PlasticOrange": 321,
+  "M_RS_ReflectorWhite": 120
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_rs_traffic_barrel_01"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "roadworks",
+  "race_event"
+ ],
+ "scale_range": [
+  0.9,
+  1.1
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Roadworks lane drum / race barrier. Convex hull collision.",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {},
+ "decal_faces": 0,
+ "fbx": "rs_traffic_barrel.fbx"
+}

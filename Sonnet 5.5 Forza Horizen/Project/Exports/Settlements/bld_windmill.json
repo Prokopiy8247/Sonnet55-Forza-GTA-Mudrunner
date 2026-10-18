@@ -1,0 +1,88 @@
+{
+ "id": "bld_windmill",
+ "display_name": "Windmill (stone tower + cap, blades separate)",
+ "category": "Settlements",
+ "group": "landmark",
+ "units": "m",
+ "pivot": "ground_centre",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 8.6752,
+  "y": 7.9,
+  "z": 9.65
+ },
+ "bounds_min": [
+  -4.6946,
+  -3.95,
+  0.0
+ ],
+ "bounds_max": [
+  3.9806,
+  3.95,
+  9.65
+ ],
+ "tri_counts": {
+  "lod0": 4742,
+  "collision": {
+   "UCX_bld_windmill_01": 44,
+   "UCX_bld_windmill_02": 22
+  }
+ },
+ "material_slots": [
+  "M_Bld_Stone",
+  "M_Bld_Wood",
+  "M_Bld_Metal",
+  "M_Bld_Window",
+  "M_Bld_RoofTile"
+ ],
+ "material_slot_tris": {
+  "M_Bld_Stone": 1362,
+  "M_Bld_Wood": 784,
+  "M_Bld_Metal": 18,
+  "M_Bld_Window": 30,
+  "M_Bld_RoofTile": 97
+ },
+ "collision": {
+  "type": "convex",
+  "hulls": [
+   "UCX_bld_windmill_01",
+   "UCX_bld_windmill_02"
+  ]
+ },
+ "biome_tags": [
+  "rural",
+  "landmark",
+  "temperate"
+ ],
+ "scale_range": [
+  0.85,
+  1.4
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {
+  "blades_hub": [
+   2.8,
+   0.0,
+   8.15
+  ]
+ },
+ "usage": "Stone tower windmill; blades are bld_windmill_blades (pivot at hub, rotate about X); socket blades_hub",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "height": 9.65,
+  "hub": [
+   2.8,
+   0.0,
+   8.15
+  ],
+  "blade_radius": 4.2
+ },
+ "decal_faces": 0,
+ "fbx": "bld_windmill.fbx"
+}

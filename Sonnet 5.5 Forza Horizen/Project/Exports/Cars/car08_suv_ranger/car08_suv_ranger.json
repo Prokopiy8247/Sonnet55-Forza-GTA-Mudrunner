@@ -1,0 +1,233 @@
+{
+  "id": "car08_suv_ranger",
+  "display_name": "Ranger",
+  "units": "m",
+  "dimensions": {
+    "length": 4.6174,
+    "width": 1.9422,
+    "height": 1.93,
+    "width_with_mirrors": 1.9797
+  },
+  "wheelbase": 2.78,
+  "track_front": 1.64,
+  "track_rear": 1.64,
+  "ride_height": 0.3,
+  "wheels": {
+    "FL": {
+      "center": [
+        1.39,
+        0.82,
+        0.4
+      ],
+      "radius": 0.39941,
+      "width": 0.27588
+    },
+    "FR": {
+      "center": [
+        1.39,
+        -0.82,
+        0.4
+      ],
+      "radius": 0.3994,
+      "width": 0.27588
+    },
+    "RL": {
+      "center": [
+        -1.39,
+        0.82,
+        0.4
+      ],
+      "radius": 0.39966,
+      "width": 0.27588
+    },
+    "RR": {
+      "center": [
+        -1.39,
+        -0.82,
+        0.4
+      ],
+      "radius": 0.39945,
+      "width": 0.27588
+    }
+  },
+  "steering_wheel": {
+    "center": [
+      0.255,
+      0.38,
+      1.03
+    ],
+    "axis": [
+      -0.86603,
+      0.0,
+      0.5
+    ]
+  },
+  "cameras": {
+    "hood": [
+      1.3,
+      0.0,
+      1.24
+    ],
+    "cockpit": [
+      -0.14,
+      0.38,
+      1.3
+    ],
+    "bumper": [
+      2.34,
+      0.0,
+      0.62
+    ]
+  },
+  "lights": {
+    "head_l": [
+      2.1964,
+      0.6464,
+      0.901
+    ],
+    "head_r": [
+      2.1964,
+      -0.6464,
+      0.901
+    ],
+    "tail_l": [
+      -2.0246,
+      0.8147,
+      1.0204
+    ],
+    "tail_r": [
+      -2.0246,
+      -0.8147,
+      1.0204
+    ],
+    "reverse": [
+      -2.0246,
+      0.8147,
+      0.8704
+    ]
+  },
+  "exhaust": [
+    [
+      -2.01,
+      0.64,
+      0.4
+    ],
+    [
+      -2.01,
+      -0.64,
+      0.4
+    ]
+  ],
+  "exhaust_l": [
+    -2.01,
+    0.64,
+    0.4
+  ],
+  "exhaust_r": [
+    -2.01,
+    -0.64,
+    0.4
+  ],
+  "material_slots": {
+    "Body": [
+      "M_Paint",
+      "M_Paint2",
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Rubber",
+      "M_Headlight",
+      "M_Taillight",
+      "M_Reverse",
+      "M_Indicator",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_Caliper",
+      "M_Plate",
+      "M_Underbody",
+      "M_Exhaust"
+    ],
+    "Glass": [
+      "M_Glass"
+    ],
+    "Interior": [
+      "M_Chrome",
+      "M_TrimBlack",
+      "M_TrimGrey",
+      "M_Caliper",
+      "M_Underbody",
+      "M_IntDash",
+      "M_IntSeat",
+      "M_IntTrim",
+      "M_IntCarpet"
+    ],
+    "SteeringWheel": [
+      "M_TrimGrey",
+      "M_IntDash"
+    ],
+    "Wheel_FL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_FR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RL": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ],
+    "Wheel_RR": [
+      "M_Chrome",
+      "M_Tyre",
+      "M_Rim",
+      "M_RimDark",
+      "M_BrakeDisc",
+      "M_Caliper",
+      "M_Underbody"
+    ]
+  },
+  "tri_counts": {
+    "Body": 71644,
+    "Glass": 2990,
+    "Interior": 21850,
+    "SteeringWheel": 1784,
+    "Wheel_FL": 11396,
+    "Wheel_FR": 11372,
+    "Wheel_RL": 11348,
+    "Wheel_RR": 11372,
+    "UCX": 112,
+    "total_visual": 143756
+  },
+  "ucx": [
+    "UCX_car08_suv_ranger_Body_01",
+    "UCX_car08_suv_ranger_Body_02",
+    "UCX_car08_suv_ranger_Body_03"
+  ],
+  "files": {
+    "Body": "car08_suv_ranger_Body.fbx",
+    "Glass": "car08_suv_ranger_Glass.fbx",
+    "Interior": "car08_suv_ranger_Interior.fbx",
+    "SteeringWheel": "car08_suv_ranger_SteeringWheel.fbx",
+    "Wheel_FL": "car08_suv_ranger_Wheel_FL.fbx",
+    "Wheel_FR": "car08_suv_ranger_Wheel_FR.fbx",
+    "Wheel_RL": "car08_suv_ranger_Wheel_RL.fbx",
+    "Wheel_RR": "car08_suv_ranger_Wheel_RR.fbx"
+  }
+}

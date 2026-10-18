@@ -1,0 +1,74 @@
+{
+  "id": "nat_rock_granite_c",
+  "display_name": "Granite slab - flat topped",
+  "kit": "ground_cover",
+  "family": "rocks",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 3.87,
+    "y": 2.864,
+    "z": 1.1,
+    "height": 1.06
+  },
+  "bounds": {
+    "min": [
+      -1.52,
+      -1.7,
+      -0.04
+    ],
+    "max": [
+      2.35,
+      1.164,
+      1.06
+    ]
+  },
+  "tri_counts": {
+    "mesh": 1600,
+    "ucx": [
+      40,
+      38
+    ]
+  },
+  "material_slots": [
+    "M_Rock"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_rock_granite_c_01",
+      "UCX_nat_rock_granite_c_02"
+    ],
+    "notes": "UCX_* convex hulls (<=32 verts). UE: Collision Complexity = Use Simple As Complex"
+  },
+  "biome_tags": [
+    "temperate",
+    "highland",
+    "meadow",
+    "coast"
+  ],
+  "scale_range": [
+    0.7,
+    1.5
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 2,
+    "open_pieces": 0,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_rock_granite_c.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 1103)"
+}

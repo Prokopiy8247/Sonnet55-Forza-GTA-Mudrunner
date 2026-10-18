@@ -1,0 +1,74 @@
+{
+ "id": "rs_barrier_jersey_3m",
+ "display_name": "Concrete jersey barrier 3.0 m",
+ "category": "Roadside",
+ "group": "barrier",
+ "units": "m",
+ "pivot": "segment_start",
+ "axes": {
+  "forward": "+X",
+  "up": "+Z",
+  "note": "Blender axes; FBX recipe maps +Y(left) -> UE -Y"
+ },
+ "dimensions": {
+  "x": 3.03,
+  "y": 0.618,
+  "z": 0.829
+ },
+ "bounds_min": [
+  -0.015,
+  -0.309,
+  0.0
+ ],
+ "bounds_max": [
+  3.015,
+  0.309,
+  0.829
+ ],
+ "tri_counts": {
+  "lod0": 500,
+  "collision": {
+   "UCX_rs_barrier_jersey_3m_01": 20
+  }
+ },
+ "material_slots": [
+  "M_RS_Concrete",
+  "M_RS_GalvDark",
+  "M_RS_ReflectorAmber",
+  "M_RS_ConcreteDark"
+ ],
+ "material_slot_tris": {
+  "M_RS_Concrete": 106,
+  "M_RS_GalvDark": 112,
+  "M_RS_ReflectorAmber": 12,
+  "M_RS_ConcreteDark": 24
+ },
+ "collision": {
+  "type": "box",
+  "hulls": [
+   "UCX_rs_barrier_jersey_3m_01"
+  ]
+ },
+ "biome_tags": [
+  "all_biomes",
+  "highway",
+  "roadworks"
+ ],
+ "scale_range": [
+  1.0,
+  1.0
+ ],
+ "nanite": true,
+ "lod_info": "Nanite-ready opaque mesh; no manual LODs (UE auto)",
+ "wind": "none",
+ "sockets": {},
+ "usage": "Median / bridge-edge barrier, 0.78 m profile (0.82 m with lifting loops). Centreline y=0 (symmetric profile), runs +X, tile every 3.0 m (gap 0.02 m already modelled as end chamfer).",
+ "uv": "UVMap = metric box projection (1 UV unit = 1 m) for tiling materials; vertex colour Col = per-part tint (white default)",
+ "extra": {
+  "length": 3.0,
+  "height": 0.781,
+  "height_with_loops": 0.82
+ },
+ "decal_faces": 0,
+ "fbx": "rs_barrier_jersey_3m.fbx"
+}

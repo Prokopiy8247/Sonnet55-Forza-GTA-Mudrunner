@@ -1,0 +1,72 @@
+{
+  "id": "nat_beach_umbrella",
+  "display_name": "Beach umbrella (striped, tilted)",
+  "kit": "ground_cover",
+  "family": "misc",
+  "units": "m",
+  "origin": "base centre on the ground (z=0); +Z up; +X = front",
+  "dimensions": {
+    "x": 2.286,
+    "y": 2.303,
+    "z": 2.644,
+    "height": 2.462
+  },
+  "bounds": {
+    "min": [
+      -0.898,
+      -1.152,
+      -0.182
+    ],
+    "max": [
+      1.388,
+      1.151,
+      2.462
+    ]
+  },
+  "tri_counts": {
+    "mesh": 680,
+    "ucx": [
+      28
+    ]
+  },
+  "material_slots": [
+    "M_Beach_Metal",
+    "M_Beach_Red",
+    "M_Beach_White"
+  ],
+  "collision": {
+    "type": "convex",
+    "ucx_hulls": [
+      "UCX_nat_beach_umbrella_01"
+    ],
+    "notes": "UCX_01 pole only (canopy has no collision)"
+  },
+  "biome_tags": [
+    "coast",
+    "beach"
+  ],
+  "scale_range": [
+    0.9,
+    1.2
+  ],
+  "wind": {
+    "vertex_color": "Col",
+    "B": "baked AO-ish occlusion (1 = open)",
+    "note": "static, no wind"
+  },
+  "lod": {
+    "nanite": "recommended (opaque modelled geometry, no alpha cards)"
+  },
+  "two_sided_material": false,
+  "uv": "UVMap box-projected, tiling at 2 m per UV unit (rocks) / per-element 0-1 (foliage cards)",
+  "quality": {
+    "closed_pieces": 0,
+    "open_pieces": -1,
+    "inverted_closed_pieces": 0,
+    "nonmanifold_edges": 0
+  },
+  "files": {
+    "fbx": "Exports/Nature/Cover/nat_beach_umbrella.fbx"
+  },
+  "generator": "Tools/blender/nature/ground_cover.py (seed 5401)"
+}
